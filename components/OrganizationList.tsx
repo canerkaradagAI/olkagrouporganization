@@ -289,7 +289,7 @@ export default function OrganizationList({ employees }: OrganizationListProps) {
                         </div>
                       </div>
                       {employee.isManager && (
-                        <CrownIcon className="h-5 w-5 text-yellow-500" title="Yönetici" />
+                        <CrownIcon className="h-5 w-5 text-yellow-500" aria-label="Yönetici" />
                       )}
                     </div>
                     
