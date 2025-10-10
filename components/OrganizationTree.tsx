@@ -375,7 +375,7 @@ export default function OrganizationTree({ employees, highlightId, levelColors =
     
     const svg = d3.select(svgRef.current)
     svg.selectAll("*").remove()
-    svgSelRef.current = svg
+    svgSelRef.current = svg as any
 
     const width = 2400
     const height = 1600
