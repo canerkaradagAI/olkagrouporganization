@@ -1,0 +1,1289 @@
+﻿CurrAccCode;NameSurname;LocationName;PositionId;LocationId;IsBlocked;IsManager;ManagerId;BrandId;LevelName
+1;Yasin Kavşak;MERKEZ;P001;100;False;True;Null;1;Yönetim Kurulu
+104;Nurullah Keleş;MERKEZ;P198;100;False;True;1-8-3025;1;Kıdemli Yönetici
+105;Safa Güneyli;MERKEZ;P277;100;False;False;1-8-4808;1;Destek
+109;Volkan Tozkoparan;IST OPTIMUM;P222;140;False;False;115;1;Müdür Yardımcısı
+114;Erkan Durgun;IST SASKINBAKKAL;P223;142;False;True;1-8-4072;1;Müdür
+115;Serdar Kobal;IST OPTIMUM;P223;140;False;True;1-8-4072;1;Müdür
+124;Eylül Belde Baknalı;MERKEZ;P230;100;False;True;1-8-4529;1;Müdür
+13;Hüseyin Çimen;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+142;Metin Özcan;MERKEZ;P168;100;False;True;1-8-1924;1;Kıdemli Müdür
+1-8-1002;Suat Şirin;MERKEZ;P178;100;False;False;1-8-3127;1;Kıdemli Uzman
+1-8-1005;Ali Aydın;MERKEZ;P178;100;False;False;1-8-3127;1;Kıdemli Uzman
+1-8-1024;Sedat Gani Ülker;SAMSUN PIAZZA;P222;162;False;False;1-8-2640;1;Müdür Yardımcısı
+1-8-1025;Merve Demir;SAMSUN PIAZZA;P261;162;False;False;1-8-2640;1;Danışman
+1-8-1026;Muzaffer Demirkurt;SAMSUN PIAZZA;P287;162;False;False;1-8-2640;1;Uzman Danışman
+1-8-1052;Ömer Karakoç;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-1058;Muharrem Karakaş;IST MARMARAPARK;P222;136;False;False;1-8-695;1;Müdür Yardımcısı
+1-8-1097;Çağatay Kürek;SAMSUN PIAZZA;P261;162;False;False;1-8-2640;1;Danışman
+1-8-1124;Ahmet Yazgan;ANK OPTIMUM;P287;108;False;False;1-8-441;1;Uzman Danışman
+1-8-1131;Adem Gökhan Kolutek;MERKEZ;P282;100;False;True;1-8-1462;1;Direktör
+1-8-1159;Ali Durgut;MERKEZ;P106;100;False;False;1-8-1666;1;Uzman
+1-8-1162;Muhammed Öztürk;IST OLIVIUM;P287;139;False;False;1-8-4243;1;Uzman Danışman
+1-8-126;Emre Can Sarı;VIAPORT MARINA MARLIN;P287;207;False;False;1-8-300175;2;Uzman Danışman
+1-8-1277;Yücel Günenç;MERKEZ;P306;100;False;True;1-8-1131;1;Müdür
+1-8-1290;Erhan Ülker;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-1291;Cansu Akçin;IST AKASYA;P261;122;False;False;1-8-5280;1;Danışman
+1-8-1304;Özkan Karakaya;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1309;Hilal Yılmaz;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-1316;Kenan Kantarcı;IST GRANDPERA;P223;129;False;True;1-8-4244;1;Müdür
+1-8-1318;Tuğçe Kalaycı;IST GALATAPORT;P222;128;False;False;1-8-2679;1;Müdür Yardımcısı
+1-8-1322;Batuhan Kafadar;MERKEZ;P262;100;False;False;1-8-5287;1;Yönetici
+1-8-1339;Sümeyye Teke;MERKEZ;P150;100;False;True;1-8-5488;1;Yönetici
+1-8-1361;Hamza Kömür;MERKEZ;P180;100;False;False;1-8-4088;1;Kıdemli Uzman
+1-8-1374;Kağan Peker;BURSA MARKA;P261;117;False;False;1-8-2396;1;Danışman
+1-8-1376;Şakir Can;ADANA M1;P223;101;False;True;71;1;Müdür
+1-8-1381;Seda Şahin;ADANA M1;P287;101;False;False;1-8-1376;1;Uzman Danışman
+1-8-1382;İbrahim Yücekal;ADANA OPTIMUM;P223;102;False;True;71;1;Müdür
+1-8-1383;Kübra Dündar;MERKEZ;P163;100;False;False;1-8-4812;1;Uzman Danışman
+1-8-1399;Şura Tunç;MERKEZ;P261;100;False;False;1-8-2088;1;Danışman
+1-8-1401;Furkan Cengiz;IST CEVAHIR;P222;125;False;False;187;1;Müdür Yardımcısı
+1-8-1402;Reyhan Şengül;IST ISTIKLAL;P287;131;False;False;1-8-3706;1;Uzman Danışman
+1-8-1405;Emrullah Arslan;IST SASKINBAKKAL;P222;142;False;False;114;1;Müdür Yardımcısı
+1-8-1426;Nalan Ekmen Pekalp;MERKEZ;P209;100;False;True;1-8-4529;1;Kıdemli Müdür
+1-8-143;Hasan Özer;ANKARA FORUM MARLIN;P222;201;False;False;1-8-300101;2;Müdür Yardımcısı
+1-8-1431;Ebru Savur;MERKEZ;P141;100;False;True;1-8-1462;1;Direktör
+1-8-1444;Ece Kervan;MERKEZ;P156;100;False;False;1-8-1426;1;Uzman
+1-8-1458;Halise Mengü;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-1462;Ali Mertol Coşkun;MERKEZ;P146;100;False;True;1;1;Genel Müdür
+1-8-1466;Efe Ethem Gözener;MERKEZ;P203;100;False;True;1-8-1924;1;Kıdemli Müdür
+1-8-1467;Nuray Efil;MERKEZ;P296;100;False;False;192;1;Yönetici
+1-8-1475;Mehmet Can Özdemir;MERKEZ;P180;100;False;False;1-8-4088;1;Kıdemli Uzman
+1-8-1484;Hatice Gül;MERKEZ;P265;100;False;False;1-8-1494;1;Mavi Yaka
+1-8-1488;Canan Gökpınar;PALM CITY;P222;161;False;False;1-8-3774;1;Müdür Yardımcısı
+1-8-1489;Ahmet Mesut Yılmaz;MERKEZ;P183;100;False;False;1-8-2671;1;Kıdemli Uzman
+1-8-1494;Naim Işık;MERKEZ;P121;100;False;True;1-8-3104;1;Yönetici
+1-8-1495;Oktay Genç;MERKEZ;P122;100;False;True;1-8-1494;1;Mavi Yaka
+1-8-1505;Deniz Kurtdemir;MERKEZ;P122;100;False;True;1-8-3105;1;Mavi Yaka
+1-8-1506;Mustafa Alptekin;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-1507;Adil Çelik;MERKEZ;P286;100;False;False;1-8-1513;1;Mavi Yaka
+1-8-1510;Hayati Çeçen;MERKEZ;P286;100;False;False;1-8-1513;1;Mavi Yaka
+1-8-1511;Erkan Toprak;MERKEZ;P121;100;False;True;1-8-3104;1;Yönetici
+1-8-1513;Muhammet Ali Ateş;MERKEZ;P122;100;False;True;1-8-1494;1;Mavi Yaka
+1-8-1518;Gönül Erol;MERKEZ;P265;100;False;False;1-8-1494;1;Mavi Yaka
+1-8-1524;Hatice Dağ;MERKEZ;P265;100;False;False;1-8-1494;1;Mavi Yaka
+1-8-1539;Mehtap Urkan Akpınar;MERKEZ;P286;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-1541;Ferdi Kuyçu;MERKEZ;P186;100;False;False;1-8-2108;1;Kıdemli Uzman
+1-8-1543;Seniha Göksu Köksal;MERKEZ;P184;100;False;True;1;1;Kıdemli Müdür
+1-8-1546;Savaş Özdemir;TRABZON FORUM;P223;163;False;True;1-8-2640;1;Müdür
+1-8-1552;Gökhan Bozkurt;TRABZON FORUM;P287;163;False;False;1-8-1546;1;Uzman Danışman
+1-8-1584;Zelal Çevik;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-1591;Uğur İrhan;TRABZON FORUM;P222;163;False;False;1-8-1546;1;Müdür Yardımcısı
+1-8-1613;Mahmut Turgut;MERKEZ;P286;100;False;False;1-8-1513;1;Mavi Yaka
+1-8-1616;Ayhan Yeşilova;BURSA MARKA;P287;117;False;False;1-8-2396;1;Uzman Danışman
+1-8-1617;İrem Eren;MERKEZ;P221;100;False;False;1-8-2129;1;Yönetici
+1-8-1632;Murat Çelik;IZMIT 41 BURDA;P223;155;False;True;1-8-4072;1;Müdür
+1-8-1637;Mehmet Tiryaki;MERKEZ;P215;100;False;False;1-8-283;1;Kıdemli Uzman
+1-8-1650;Hakan Karaman;IST SASKINBAKKAL;P119;142;False;False;114;1;Danışman
+1-8-1655;Veli Bozkurt;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1656;İbrahim Şirin;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1657;Gökhan Keskinkılıç;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-166;Feride Baş;ANKARA FORUM MARLIN;P164;201;False;False;1-8-300101;2;Danışman
+1-8-1666;Serdar Yakupoğlu;MERKEZ;P280;100;False;True;1-8-5224;1;Müdür
+1-8-1667;Süleyman Coşkun;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1668;Tunay Hacımusaoğlu;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-167;Volkan Coşkun;ANKARA FORUM MARLIN;P261;201;False;False;1-8-300101;2;Danışman
+1-8-1672;Yunus Bayraktar;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1673;Sezgin Taşkesen;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1674;Emre Dursunoğlu;MERKEZ;P212;100;False;False;1-8-4075;1;Kıdemli Uzman
+1-8-1677;Tolga Pekbaş;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1687;Cansu Gürhan;MERKEZ;P122;100;False;True;1-8-2393;1;Mavi Yaka
+1-8-1693;Hasret Yıldız;MERKEZ;P261;100;False;False;1-8-1718;1;Danışman
+1-8-1696;Sedap Koç;MERKEZ;P268;100;False;False;1-8-2393;1;Mavi Yaka
+1-8-1700;Nadidenur Sözbir Biçeroğlu;MERKEZ;P192;100;False;True;1-8-4147;1;Kıdemli Müdür
+1-8-1717;Sadettin Kocaadam;IST CEVAHIR;P261;125;False;False;187;1;Danışman
+1-8-1718;Onur Usta;MERKEZ;P223;100;False;True;1-8-4072;1;Müdür
+1-8-1741;Sertan Özbilgin;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-1752;Oğuzhan Küçük;IST BUYAKA;P261;123;False;False;1-8-3338;1;Danışman
+1-8-1758;Uğur Can Kurtuluş;BURSA KORUPARK;P261;116;False;False;1-8-361;1;Danışman
+1-8-1760;Cemal Günebakan;IST HILLTOWN;P287;130;False;False;1-8-3527;1;Uzman Danışman
+1-8-1762;Cem Alemdağ;MERKEZ;P261;100;False;False;1-8-4306;1;Danışman
+1-8-1764;Ahmet Dağlı;IST MOI;P222;138;False;False;1-8-4177;1;Müdür Yardımcısı
+1-8-1773;Emrah Zehir;MERKEZ;P274;100;False;True;1-8-2129;1;Yönetici
+1-8-1778;Erdal Çifçi;MERKEZ;P222;100;False;False;1-8-2088;1;Müdür Yardımcısı
+1-8-1786;Halit Akkul;MERKEZ;P274;100;False;True;1-8-2129;1;Yönetici
+1-8-1793;İbrahim Keloğlu;MERKEZ;P303;100;False;True;142;1;Yönetici
+1-8-180;Ali Berke Yarahmet;ANKARA FORUM MARLIN;P287;201;False;False;1-8-300101;2;Uzman Danışman
+1-8-1808;Ayşenur Işık;IST ISTINYEPARK;P222;132;False;False;1-8-3968;1;Müdür Yardımcısı
+1-8-1809;Furkan Çakmak;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1827;Gamze Paket;MERKEZ;P278;100;False;False;1-8-1462;1;Yönetici
+1-8-1833;Nurullah Bayram;IST VIAPORT;P119;146;False;False;1-8-203;1;Danışman
+1-8-1846;Caner Karadağ;MERKEZ;P202;100;False;False;1-8-1466;1;Kıdemli Yönetici
+1-8-1857;Cansu Coşkun;MERKEZ;P122;100;False;True;1-8-3105;1;Mavi Yaka
+1-8-1858;Seda Maytalman;MERKEZ;P171;100;False;False;1-8-1666;1;Kıdemli Uzman
+1-8-1862;Saadettin Cınğıl;MERKEZ;P291;100;False;False;1-8-4075;1;Uzman Yardımcısı
+1-8-1866;Esra Dursun;IST BUYAKA KIDS;P222;124;False;False;1-8-586;1;Müdür Yardımcısı
+1-8-1876;Arslan Berk Kaya;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-1884;Arif Ağyıldız;IST ISTIKLAL;P287;131;False;False;1-8-3706;1;Uzman Danışman
+1-8-1896;Burak Turgut;MERKEZ;P287;100;False;False;1-8-4306;1;Uzman Danışman
+1-8-1902;Onur Özboyraz;FORUM KAYSERİ;P287;120;False;False;1-8-4456;1;Uzman Danışman
+1-8-1913;Belgin Eroğlu;MERKEZ;P188;100;False;False;124;1;Kıdemli Uzman
+1-8-1924;Sedat Çakırca;MERKEZ;P110;100;False;True;1;1;C Level
+1-8-1932;Melike Yılmaz;IST FORUM;P287;126;False;False;1-8-888;1;Uzman Danışman
+1-8-1933;Kıymet Nur Güneş;MERSIN FORUM;P287;160;False;False;1-8-3492;1;Uzman Danışman
+1-8-1951;Musa Taş;IZMIR OPTIMUM;P261;153;False;False;1-8-2733;1;Danışman
+1-8-1953;Mert Öztürk;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-1959;Gizem Öncel;MERKEZ;P104;100;False;False;1-8-2147;1;Kıdemli Uzman
+1-8-196;Beyzanur Kamçı;ANKARA FORUM MARLIN;P164;201;False;False;1-8-300101;2;Danışman
+1-8-197;Aslıhan Dündar;VIAPORT MARLIN OUTLET;P164;208;False;False;1-8-300406;2;Danışman
+1-8-1971;Kübra Tomaç;MERKEZ;P228;100;False;False;1-8-2653;1;Uzman
+1-8-1978;İbrahim Becerikli;MERKEZ;P123;100;False;False;1-8-4812;1;Uzman Danışman
+1-8-1983;Göktürk Yöndem;IZMIT OUTLET;P287;156;False;False;1-8-2293;1;Uzman Danışman
+1-8-1997;Tolga Bıyık;TRABZON FORUM;P261;163;False;False;1-8-1546;1;Danışman
+1-8-1998;Ümit Ötgen;IZM ISTINYE PARK;P261;149;False;False;1-8-3341;1;Danışman
+1-8-2015;Öykü Gürbulak;IST SASKINBAKKAL;P234;142;False;False;114;1;Danışman
+1-8-2016;Buse Güngör;IST GALATAPORT;P287;128;False;False;1-8-2679;1;Uzman Danışman
+1-8-203;Murat Güner;IST VIAPORT;P223;146;False;True;1-8-4072;1;Müdür
+1-8-2032;Nurceren Kurt;GAZIANTEP SANKOPARK;P261;121;False;False;1-8-4214;1;Danışman
+1-8-2045;Selcan Kaya;GAZIANTEP SANKOPARK;P261;121;False;False;1-8-4214;1;Danışman
+1-8-2046;Armağan Can Karaaslan;MERKEZ;P207;100;False;False;142;1;Kıdemli Uzman
+1-8-2052;Büşra Usta;MERKEZ;P287;100;False;False;1-8-5129;1;Uzman Danışman
+1-8-2061;Buket Özgül;MERKEZ;P162;100;False;False;1-8-2147;1;Kıdemli Uzman
+1-8-2081;Fatih Ekinci;IST KADIKOY;P223;133;False;True;1-8-4072;1;Müdür
+1-8-2084;Ahmet Şimşek;IST SASKINBAKKAL;P287;142;False;False;114;1;Uzman Danışman
+1-8-2088;Mesut Volkan Kahraman;MERKEZ;P223;100;False;True;1-8-4072;1;Müdür
+1-8-2094;Emre Yıldız;MERKEZ;P266;100;False;False;1-8-283;1;Uzman
+1-8-2097;Şükran Murat;MERKEZ;P200;100;False;False;1-8-3025;1;Kıdemli Uzman
+1-8-2103;Kadir Varol;MERKEZ;P287;100;False;False;1-8-4812;1;Uzman Danışman
+1-8-2104;Tuğba Ezik;IST PIAZZA;P223;141;False;True;1-8-4072;1;Müdür
+1-8-2106;Niyazi Tunç;MERKEZ;P198;100;False;False;1-8-3025;1;Kıdemli Yönetici
+1-8-2107;Selma Gelen;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-2108;Ediz Çakmak;MERKEZ;P187;100;False;True;1-8-4529;1;Kıdemli Yönetici
+1-8-2112;Aslan Güler;MERKEZ;P122;100;False;True;1-8-2393;1;Mavi Yaka
+1-8-2123;Berke Demir;IZMIT 41 BURDA;P287;155;False;False;1-8-1632;1;Uzman Danışman
+1-8-2129;Artur Sackmann;MERKEZ;P208;100;False;True;1-8-1924;1;Kıdemli Müdür
+1-8-2131;Enes Çoban;MERKEZ;P261;100;False;False;1-8-1718;1;Danışman
+1-8-2139;Mert Öner;ANK METROMALL;P261;106;False;False;1-8-3350;1;Danışman
+1-8-2142;Muhammet Şan Özer;MERKEZ;P286;100;False;False;1-8-2112;1;Mavi Yaka
+1-8-2147;Hatice Kurt Kaman;MERKEZ;P118;100;False;True;1-8-2653;1;Yönetici
+1-8-2149;Recep Kacemer;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-2153;Mithat Müftüoğlu;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-2172;Ozan Yılmaz;ANK KENTPARK;P261;105;False;False;1-8-2872;1;Danışman
+1-8-2177;Özge Ateş;MERKEZ;P173;100;False;False;1-8-2147;1;Kıdemli Uzman
+1-8-2178;Okay Günay;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-2191;İsmail Kökçınar;MERKEZ;P222;100;False;False;1-8-945;1;Müdür Yardımcısı
+1-8-2215;Narin Alağaş;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-2223;Ezgi Erciyes Nur;IZMIR OPTIMUM;P261;153;False;False;1-8-2733;1;Danışman
+1-8-2226;Muhammed Danışman;MERKEZ;P286;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-2231;Senem Defne Minare;MERKEZ;P155;100;False;False;1-8-5180;1;Uzman Yardımcısı
+1-8-2236;Yunus Aksoy;MERKEZ;P204;100;False;False;1-8-3108;1;Kıdemli Yönetici
+1-8-2242;Muhammed Altuntabak;MERKEZ;P104;100;False;False;1-8-2147;1;Kıdemli Uzman
+1-8-2244;Bünyamin Koçyiğit;ANK KENTPARK;P261;105;False;False;1-8-2872;1;Danışman
+1-8-2246;İremnur Bayramusta;MERKEZ;P228;100;False;False;1-8-2653;1;Uzman
+1-8-2248;Baran Gül;IZMIR HILLTOWN;P287;151;False;False;1-8-4649;1;Uzman Danışman
+1-8-2254;Bora Karadaş;IST FORUM;P261;126;False;False;1-8-888;1;Danışman
+1-8-2256;Gökhan Sözbir;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-2258;Müjdat Çırak;IST VENEZIA;P261;145;False;False;1-8-899;1;Danışman
+1-8-2262;Nur Sayan Akgün;MERKEZ;P214;100;False;True;25;1;Kıdemli Müdür
+1-8-2264;Sadık Hamisoğlu;GAZIANTEP SANKOPARK;P222;121;False;False;1-8-4214;1;Müdür Yardımcısı
+1-8-2276;Ömer Kamacı;KONYA KENT PLAZA;P222;158;False;False;1-8-2278;1;Müdür Yardımcısı
+1-8-2278;Kenan Kündem;KONYA KENT PLAZA;P223;158;False;True;1-8-2640;1;Müdür
+1-8-2289;Gökhan Bayazit;BURSA KORUPARK;P287;116;False;False;1-8-361;1;Uzman Danışman
+1-8-2292;Kubilay Yılmaz;MERKEZ;P152;100;False;False;1-8-1543;1;Yönetici
+1-8-2293;Hasan Akçiçek;IZMIT OUTLET;P223;156;False;True;1-8-4072;1;Müdür
+1-8-2294;Dicle Olut;MERKEZ;P210;100;False;True;25;1;Kıdemli Uzman
+1-8-2299;Gamze Şenözlüler;IZMIR AGORA;P261;150;False;False;1-8-3107;1;Danışman
+1-8-2300;Buse Sönmez;MERKEZ;P248;100;False;False;192;1;Yönetici
+1-8-2374;Emre Aksu;MERKEZ;P261;100;False;False;1-8-958;1;Danışman
+1-8-2392;Bahar Yalçın;MERKEZ;P117;100;False;False;1-8-2147;1;Uzman
+1-8-2393;Bilal Özdemir;MERKEZ;P121;100;False;True;1-8-3104;1;Yönetici
+1-8-2395;Burak Öz;MERSIN FORUM;P261;160;False;False;1-8-3492;1;Danışman
+1-8-2396;Uğur Yılmaz;BURSA MARKA;P223;117;False;True;1-8-3107;1;Müdür
+1-8-2397;Özkan Çetin;BURSA MARKA;P261;117;False;False;1-8-2396;1;Danışman
+1-8-2414;Etem Can Yıldız;TRABZON FORUM;P261;163;False;False;1-8-1546;1;Danışman
+1-8-2422;Gökçe Gaykan;MERKEZ;P117;100;False;False;1-8-2147;1;Uzman
+1-8-2423;Nihal Gürbüz;MERKEZ;P114;100;False;True;1-8-5224;1;Müdür
+1-8-2424;Elif Ceren Berk;MERKEZ;P221;100;False;True;1-8-2129;1;Yönetici
+1-8-2425;İrem Gözde Aydın;KONYA KENT PLAZA;P261;158;False;False;1-8-2278;1;Danışman
+1-8-2426;Ulaş Tolak;KONYA KENT PLAZA;P287;158;False;False;1-8-2278;1;Uzman Danışman
+1-8-2432;İbrahim Hakan Keçeci;IST CEVAHIR;P261;125;False;False;187;1;Danışman
+1-8-2442;Ahmet Emirhan Coşkun;IST OLIVIUM;P261;139;False;False;1-8-4243;1;Danışman
+1-8-2444;Emrah Deregözü;IST ISTIKLAL;P261;131;False;False;1-8-3706;1;Danışman
+1-8-2450;Kerim Sağlam;MERKEZ;P196;100;False;False;104;1;Kıdemli Uzman
+1-8-2454;Şevval İrem Akgün;IST CEVAHIR;P287;125;False;False;187;1;Uzman Danışman
+1-8-2457;Barış Eracar;IST VENEZIA;P261;145;False;False;1-8-899;1;Danışman
+1-8-2458;Sercan Seven;IZMIR OPTIMUM;P287;153;False;False;1-8-2733;1;Uzman Danışman
+1-8-2464;Emre Tosun;ANK CEPA;P261;104;False;False;1-8-4904;1;Danışman
+1-8-2466;Gül Karaaslan;MERKEZ;P268;100;False;False;1-8-2393;1;Mavi Yaka
+1-8-2468;Alikemal Korkmaz;IST GRANDPERA;P222;129;False;False;1-8-1316;1;Müdür Yardımcısı
+1-8-2473;Mehmet Ulusal;IST ISTIKLAL;P119;131;False;False;1-8-3706;1;Danışman
+1-8-2476;Atanur Zeren;MERKEZ;P292;100;False;False;1-8-4075;1;Uzman
+1-8-2489;Furkan Biriş;IST FORUM;P261;126;False;False;1-8-888;1;Danışman
+1-8-2508;Yunus Emre Bilici;MERKEZ;P261;100;False;False;1-8-4303;1;Danışman
+1-8-2516;Melisa Toker;BURSA DOWNTOWN;P287;115;False;False;1-8-5589;1;Uzman Danışman
+1-8-2519;Kinyas İşnas;MERKEZ;P286;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-2526;Handan Orhan;FORUM KAYSERİ;P261;120;False;False;1-8-4456;1;Danışman
+1-8-2538;Hatice Kurt;MERKEZ;P224;100;False;False;1-8-5488;1;Yönetici
+1-8-2542;Gülden Ermurat;MERKEZ;P196;100;False;False;104;1;Kıdemli Uzman
+1-8-2545;Suat Daş;MERKEZ;P180;100;False;False;1-8-3127;1;Kıdemli Uzman
+1-8-2546;Enes Sezer;SAMSUN PIAZZA;P261;162;False;False;1-8-2640;1;Danışman
+1-8-2547;Didem Özdemir;TRABZON FORUM;P234;163;False;False;1-8-1546;1;Danışman
+1-8-2553;Cuma Eker;MERKEZ;P286;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-2567;Mehmet Can Taş;IST GRANDPERA;P119;129;False;False;1-8-1316;1;Danışman
+1-8-2570;Evin Acar;IST FORUM KİDS;P287;127;False;False;1-8-2893;1;Uzman Danışman
+1-8-2572;Betül Çifçi;IST HILLTOWN;P261;130;False;False;1-8-3527;1;Danışman
+1-8-2593;Suzan Bingör;MERKEZ;P286;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-2605;Muhammet Güntepe;IZMIT OUTLET;P261;156;False;False;1-8-2293;1;Danışman
+1-8-261;Erdal Türkmen;MERKEZ;P245;100;False;False;1-8-3016;1;Yönetici
+1-8-2612;Kadir Eroğlu;MERKEZ;P286;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-2616;Şevket Ceyhun Tolungüç;MERKEZ;P108;100;False;True;1;1;C Level
+1-8-2620;Seyit Eriş;IST METROPOL;P261;137;False;False;1-8-4459;1;Danışman
+1-8-2628;Zeynep Dilara Uçak;MERKEZ;P117;100;False;False;1-8-2147;1;Uzman
+1-8-2640;Osman Gökhan Erkol;MERKEZ;P107;100;False;True;1-8-5287;1;Yönetici
+1-8-2644;Hasan Can Ceylan;MERKEZ;P287;100;False;False;1-8-945;1;Uzman Danışman
+1-8-2650;Merve Mercan;IZMIR OPTIMUM;P261;153;False;False;1-8-2733;1;Danışman
+1-8-2652;Anıl Toptaş;MERKEZ;P102;100;False;True;142;1;Yönetici
+1-8-2653;Zeynep Güler;MERKEZ;P199;100;False;True;1-8-2423;1;Kıdemli Yönetici
+1-8-266;Ahmet Atala;IST BUYAKA;P222;123;False;False;1-8-3338;1;Müdür Yardımcısı
+1-8-2666;Yeşim Bilgin;MERKEZ;P191;100;False;True;142;1;Kıdemli Yönetici
+1-8-2668;Neriman Hazal Çelebi;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-2669;Mert Mustafa Kubal;MERKEZ;P222;100;False;False;1-8-958;1;Müdür Yardımcısı
+1-8-2671;Vural Dumanlı;MERKEZ;P169;100;False;True;142;1;Kıdemli Yönetici
+1-8-2676;Gizem Aksoy;IZM FORUM BORNOVA;P223;148;False;True;1-8-3107;1;Müdür
+1-8-2679;Yasin Akbulut;IST GALATAPORT;P223;128;False;True;1-8-4244;1;Müdür
+1-8-2681;Mine Işık;IST MOI;P261;138;False;False;1-8-4177;1;Danışman
+1-8-2687;Onur Kaplan;ADANA OPTIMUM;P261;102;False;False;1-8-1382;1;Danışman
+1-8-2694;Sedanur Sözlü;MERKEZ;P127;100;False;False;1-8-3109;1;Uzman
+1-8-2702;İbrahim Batuhan Yazı;ANK OPTIMUM;P261;108;False;False;1-8-441;1;Danışman
+1-8-2705;Berkay Kaplan;ANK KENTPARK;P287;105;False;False;1-8-2872;1;Uzman Danışman
+1-8-2711;Fatih Oral;ANK CEPA;P261;104;False;False;1-8-4904;1;Danışman
+1-8-2712;Kayra Kaya;IZMIR MAVIBAHCE;P287;152;False;False;1-8-2912;1;Uzman Danışman
+1-8-2714;Emircan Karaduman;MERKEZ;P105;100;False;False;1-8-4808;1;Destek
+1-8-2716;Gökan Kuru;IST ISTIKLAL;P222;131;False;False;1-8-3706;1;Müdür Yardımcısı
+1-8-2733;Sercan Kamalıoğlu;IZMIR OPTIMUM;P223;153;False;True;1-8-3107;1;Müdür
+1-8-2742;Fatma Nur Kan;KONYA KENT PLAZA;P261;158;False;False;1-8-2278;1;Danışman
+1-8-2744;Hakan Özdemir;KONYA KENT PLAZA;P261;158;False;False;1-8-2278;1;Danışman
+1-8-2748;Emre Arslan;IST ZORLU;P261;147;False;False;1-8-5523;1;Danışman
+1-8-2750;Selman Dinç;MERKEZ;P261;100;False;False;1-8-4303;1;Danışman
+1-8-2751;Muhammet Sergen Katlan;IST AKASYA;P287;122;False;False;1-8-5280;1;Uzman Danışman
+1-8-2766;Tara Derhan Arşık;MERKEZ;P179;100;False;False;1-8-4984;1;Kıdemli Uzman
+1-8-2769;Üzeyir Torun;ANT TERRACITY;P261;113;False;False;1-8-309;1;Danışman
+1-8-2785;Enes Işıktaş;IST KADIKOY;P222;133;False;False;1-8-2081;1;Müdür Yardımcısı
+1-8-2786;Yağmur Yanık;SAMSUN PIAZZA;P261;162;False;False;1-8-2640;1;Danışman
+1-8-2793;Yeliz Korkmaz;IST ZORLU;P222;147;False;False;1-8-5523;1;Müdür Yardımcısı
+1-8-2797;Mehmet Metin Çayırlı;MERSIN FORUM;P261;160;False;False;1-8-3492;1;Danışman
+1-8-2804;Tunahan Durmaz;IST KADIKOY;P261;133;False;False;1-8-2081;1;Danışman
+1-8-2812;Yeliz Ebru Köroğlu;GAZIANTEP SANKOPARK;P261;121;False;False;1-8-4214;1;Danışman
+1-8-2813;Erol Demir;IZMIR OPTIMUM;P261;153;False;False;1-8-2733;1;Danışman
+1-8-2815;Tolgay Aktaş;IST BUYAKA;P261;123;False;False;1-8-3338;1;Danışman
+1-8-2820;Dilhan Bakın;MERKEZ;P129;100;False;False;1-8-1431;1;Müdür
+1-8-2822;Yunus Emre Özdemir;MERKEZ;P303;100;False;False;142;1;Yönetici
+1-8-2828;Mahsum Alış;BURSA KORUPARK;P287;116;False;False;1-8-361;1;Uzman Danışman
+1-8-283;Esra Özpi;MERKEZ;P294;100;False;True;25;1;Müdür
+1-8-2831;Nazan Özhan;MERKEZ;P200;100;False;False;1-8-3025;1;Kıdemli Uzman
+1-8-2835;Münevver Mine Toksöz;ADANA M1;P164;101;False;False;1-8-1376;1;Danışman
+1-8-2838;Burçin Özbey Sarı;MERKEZ;P128;100;False;False;1-8-3109;1;Yönetici
+1-8-2842;Alper Kurnaz;SAMSUN PIAZZA;P119;162;False;False;1-8-2640;1;Danışman
+1-8-2856;Yakup Taşdemir;IST GRANDPERA;P123;129;False;False;1-8-1316;1;Uzman Danışman
+1-8-2860;Derya Ağamolla;MERKEZ;P286;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-2872;Emre Özal Güzelses;ANK KENTPARK;P223;105;False;True;1-8-2640;1;Müdür
+1-8-2877;Mert Araz;MERKEZ;P122;100;False;True;1-8-1511;1;Mavi Yaka
+1-8-2878;Hüseyin Tenik;ADANA M1;P222;101;False;False;1-8-1376;1;Müdür Yardımcısı
+1-8-2879;Mehmet Aydın;IZMIR WESTPARK;P261;154;False;False;1-8-3107;1;Danışman
+1-8-2893;Bahtiyar Aktaş;IST FORUM KİDS;P223;127;False;True;1-8-586;1;Müdür
+1-8-2896;Serkan Yalçın;MERKEZ;P286;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-2898;Sema İnan;MERKEZ;P261;100;False;False;1-8-945;1;Danışman
+1-8-2902;Sevinç Bozkurt;FORUM KAYSERİ;P261;120;False;False;1-8-4456;1;Danışman
+1-8-2904;Selin Dönmez;MERKEZ;P198;100;False;True;1-8-3025;1;Kıdemli Yönetici
+1-8-2912;Sezer Reka;IZMIR MAVIBAHCE;P223;152;False;True;1-8-3107;1;Müdür
+1-8-2913;Batuhan Sayıl;MERKEZ;P256;100;False;False;1-8-1277;1;Yönetici
+1-8-2930;Ahmet Serçe;IST MARMARA FORUM;P287;134;False;False;1-8-4638;1;Uzman Danışman
+1-8-2935;Kübra Kaşka;TRABZON FORUM;P261;163;False;False;1-8-1546;1;Danışman
+1-8-2948;Emirhan Özkan;MERKEZ;P193;100;False;False;1-8-3104;1;Kıdemli Uzman
+1-8-2951;Tolga Can Yüce;IST ISTINYEPARK;P287;132;False;False;1-8-3968;1;Uzman Danışman
+1-8-2954;Eda Köroğlu;ANT LAND OF LEGENDS;P261;110;False;False;1-8-383;1;Danışman
+1-8-2960;Merve Çakar;MERKEZ;P182;100;False;False;1-8-1339;1;Kıdemli Uzman
+1-8-2973;Yücel Aslan;IST VIAPORT;P222;146;False;False;1-8-203;1;Müdür Yardımcısı
+1-8-2975;İbrahim Halil Aslancan;GAZIANTEP SANKOPARK;P287;121;False;False;1-8-4214;1;Uzman Danışman
+1-8-2978;İbrahim Dumlu;FORUM KAYSERİ;P261;120;False;False;1-8-4456;1;Danışman
+1-8-2979;Turhan Zümret;IZMIR WESTPARK;P287;154;False;False;1-8-3107;1;Uzman Danışman
+1-8-300007;Sabri Baysal;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300056;Kübra Arıkan;MERKEZ;P264;200;False;True;1-8-300068;2;Yönetici
+1-8-300064;Aziz Yiğit Gökalp;MERKEZ;P166;200;False;True;1-8-300354;2;Kıdemli Müdür
+1-8-300068;Nazif Kaygısız;MERKEZ;P167;200;False;True;1-8-300354;2;Kıdemli Müdür
+1-8-300076;Gürkan Koçoğlu;ANKARA FORUM MARLIN;P261;201;False;False;1-8-300101;2;Danışman
+1-8-300087;Sibel Çumak;ANKARA FORUM MARLIN;P261;201;False;False;1-8-300101;2;Danışman
+1-8-300091;Berat Aktaş;VIAPORT MARLIN OUTLET;P261;208;False;False;1-8-300406;2;Danışman
+1-8-300096;Koray Yılmaz;ANKARA FORUM MARLIN;P119;201;False;False;1-8-300101;2;Danışman
+1-8-300101;Demiray Dikmen;ANKARA FORUM MARLIN;P223;201;False;True;1-8-300235;2;Müdür
+1-8-300103;İbrahim Salman;IZMIR ISTINYE ASICS;P261;204;False;False;1-8-300314;2;Danışman
+1-8-300107;Canan Karaağaç;VIAPORT MARINA MARLIN;P222;207;False;False;1-8-300175;2;Müdür Yardımcısı
+1-8-300108;Mustafa Can Arslan;STARCITY OUTLET MARLIN;P261;206;False;False;1-8-300398;2;Danışman
+1-8-300126;Mustafa Atmaca;ANKARA FORUM MARLIN;P119;201;False;False;1-8-300101;2;Danışman
+1-8-300140;Murat Acar;IZMIR ISTINYE ASICS;P261;204;False;False;1-8-300314;2;Danışman
+1-8-300144;Gül Arslan;VIAPORT MARINA MARLIN;P261;207;False;False;1-8-300175;2;Danışman
+1-8-300147;Tuana Çömlekçi;MERKEZ;P238;200;False;False;1-8-300064;2;Uzman Yardımcısı
+1-8-300159;Betül Çoban;ANKARA FORUM MARLIN;P234;201;False;False;1-8-300101;2;Danışman
+1-8-300165;Erdem Can Tanrısevergil;ZORLU ASICS;P261;209;False;False;1-8-300270;2;Danışman
+1-8-300168;Hakan Civelek;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300174;Mehmet Deniz Altay;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300175;Şener Çakır;VIAPORT MARINA MARLIN;P223;207;False;True;1-8-300235;2;Müdür
+1-8-300177;Muhammed Oğuzhan Karaağaç;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300185;Hasan Buğra Yılmaz;MERKEZ;P103;200;False;True;1-8-300354;2;Kıdemli Müdür
+1-8-300193;Mustafa Tarakçı;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300202;Ezgi Atik;ZORLU ASICS;P261;209;False;False;1-8-300270;2;Danışman
+1-8-300204;Cihan Avcı;IZMIR ISTINYE ASICS;P261;204;False;False;1-8-300314;2;Danışman
+1-8-300206;Sudenaz Akagündüz;STARCITY OUTLET MARLIN;P287;206;False;False;1-8-300398;2;Uzman Danışman
+1-8-300207;Şakir Kayhan Çetinkaya;MERKEZ;P251;200;False;False;1-8-300354;2;Yönetici
+1-8-300210;Tayfun Çayırlı;ZORLU ASICS;P119;209;False;False;1-8-300270;2;Danışman
+1-8-300213;Mert Yavuz;ZORLU ASICS;P261;209;False;False;1-8-300270;2;Danışman
+1-8-300216;Dilara Acar;ANKARA FORUM MARLIN;P234;201;False;False;1-8-300101;2;Danışman
+1-8-300220;Şevval Irmak;STARCITY OUTLET MARLIN;P234;206;False;False;1-8-300398;2;Danışman
+1-8-300222;Muharrem Emirhan Didin;ZORLU ASICS;P287;209;False;False;1-8-300270;2;Uzman Danışman
+1-8-300225;Erdi Yılmaz;ZORLU ASICS;P287;209;False;False;1-8-300270;2;Uzman Danışman
+1-8-300227;Burak Ateş;IST MOI ASICS;P261;203;False;False;1-8-300456;2;Danışman
+1-8-300229;Harun Yahya Çelebi;ZORLU ASICS;P234;209;False;False;1-8-300270;2;Danışman
+1-8-300230;Dilan Mehmetoğlu;MERKEZ;P206;200;False;False;1-8-300068;2;Kıdemli Uzman
+1-8-300235;Gökhan Akbaba;MERKEZ;P246;200;False;True;1-8-300354;2;Yönetici
+1-8-300239;Can Yılmaz;ANKARA FORUM MARLIN;P222;201;False;False;1-8-300101;2;Müdür Yardımcısı
+1-8-300247;Fadime Türk;ANKARA FORUM MARLIN;P261;201;False;False;1-8-300101;2;Danışman
+1-8-300254;Ecem Örnek;ZORLU ASICS;P234;209;False;False;1-8-300270;2;Danışman
+1-8-300256;Kıvanç Erbiz;MERKEZ;P259;200;False;False;1-8-300068;2;Yönetici
+1-8-300260;İrem Türköz Demirdöven;MERKEZ;P149;200;False;False;1-8-300064;2;Uzman
+1-8-300262;Çiğdem Var;ANKARA FORUM MARLIN;P261;201;False;False;1-8-300101;2;Danışman
+1-8-300264;Ferhat Güder;IST HILLTOWN ASICS;P287;202;False;False;1-8-300327;2;Uzman Danışman
+1-8-300268;Ali Cevat Ünsal;MERKEZ;P290;200;False;False;1-8-300185;2;Yönetici
+1-8-300270;Kadir Tiryaki;ZORLU ASICS;P223;209;False;True;1-8-300235;2;Müdür
+1-8-300278;Elif Ergül;VIAPORT MARLIN OUTLET;P234;208;False;False;1-8-300406;2;Danışman
+1-8-300280;Mert Ali Yuvacı;STARCITY OUTLET MARLIN;P261;206;False;False;1-8-300398;2;Danışman
+1-8-300281;Mina Nur Kayam;ZORLU ASICS;P234;209;False;False;1-8-300270;2;Danışman
+1-8-300286;Ahmet Can Kılıç;VIAPORT MARINA MARLIN;P261;207;False;False;1-8-300175;2;Danışman
+1-8-300288;Doğa Esra Öztürk;STARCITY OUTLET MARLIN;P261;206;False;False;1-8-300398;2;Danışman
+1-8-300290;Nazlı Bargin;STARCITY OUTLET MARLIN;P234;206;False;False;1-8-300398;2;Danışman
+1-8-300298;Göktürk Yılmaz;IST MOI ASICS;P261;203;False;False;1-8-300456;2;Danışman
+1-8-300299;Sibel Yıldız;IST MOI ASICS;P223;203;False;False;1-8-300235;2;Müdür
+1-8-3003;Ahmet Aytaç Erol;IST MARMARA FORUM;P261;134;False;False;1-8-4638;1;Danışman
+1-8-300301;Samet Özdemir;IST MOI ASICS;P261;203;False;False;1-8-300456;2;Danışman
+1-8-300304;Eren Gezer;IST MOI ASICS;P234;203;False;False;1-8-300456;2;Danışman
+1-8-300306;Emir Cihan Gözkonan;ANKARA FORUM MARLIN;P234;201;False;False;1-8-300101;2;Danışman
+1-8-300313;Bensu Güner;IZMIR ISTINYE ASICS;P234;204;False;False;1-8-300314;2;Danışman
+1-8-300314;Kaan Sevgilican;IZMIR ISTINYE ASICS;P223;204;False;True;1-8-300235;2;Müdür
+1-8-300315;Mert Oğuzhan Karabulut;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300316;İbrahim Ören;ANKARA FORUM MARLIN;P261;201;False;False;1-8-300101;2;Danışman
+1-8-300322;Gizem Kavak;IZMIR ISTINYE ASICS;P261;204;False;False;1-8-300314;2;Danışman
+1-8-300323;Fatih Gümüş;KARŞIYAKA HILLTOWN ASICS;P222;205;False;False;1-8-300314;2;Müdür Yardımcısı
+1-8-300325;Esra Ayvaz;MERKEZ;P153;200;False;False;1-8-300354;2;Destek
+1-8-300327;İzzet Şahin;IST HILLTOWN ASICS;P223;202;False;True;1-8-300235;2;Müdür
+1-8-300330;Çağatay Çalcalı;IST HILLTOWN ASICS;P261;202;False;False;1-8-300327;2;Danışman
+1-8-300331;Kaan Akkaya;IST HILLTOWN ASICS;P261;202;False;False;1-8-300327;2;Danışman
+1-8-300336;Adem Civelek;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300341;Özümcan Kösali;MERKEZ;P139;200;False;False;1-8-300342;2;Uzman
+1-8-300342;Gizem Yağlı;MERKEZ;P136;200;False;True;1-8-300354;2;Müdür
+1-8-300344;Alper Özgül;MERKEZ;P270;200;False;True;1-8-300064;2;Yönetici
+1-8-300345;Rabia Kuru;VIAPORT MARLIN OUTLET;P222;208;False;False;1-8-300406;2;Müdür Yardımcısı
+1-8-300347;İbrahim Tosun;ANKARA FORUM MARLIN;P261;201;False;False;1-8-300101;2;Danışman
+1-8-300352;Abdulkadir Yaman;IST HILLTOWN ASICS;P261;202;False;False;1-8-300327;2;Danışman
+1-8-300354;Umut Arat;MERKEZ;P145;200;False;True;1;2;Genel Müdür
+1-8-300358;Ceylin Arıkan;KARŞIYAKA HILLTOWN ASICS;P261;205;False;False;1-8-300372;2;Danışman
+1-8-300359;Cansu Akdoğan;ZORLU ASICS;P234;209;False;False;1-8-300270;2;Danışman
+1-8-300368;Ceyda Cebeci;IST MOI ASICS;P234;203;False;False;1-8-300456;2;Danışman
+1-8-300369;Şahin Karaman;MERKEZ;P261;200;False;False;1-8-300056;2;Danışman
+1-8-300372;Uğur Güngören;KARŞIYAKA HILLTOWN ASICS;P223;205;False;True;1-8-300235;2;Müdür
+1-8-300374;Perihan Altuntaş;KARŞIYAKA HILLTOWN ASICS;P222;205;False;False;1-8-300372;2;Müdür Yardımcısı
+1-8-300375;Ayla Ayana;ANKARA FORUM MARLIN;P234;201;False;False;1-8-300101;2;Danışman
+1-8-300378;Çağrı Dinçer;KARŞIYAKA HILLTOWN ASICS;P261;205;False;False;1-8-300372;2;Danışman
+1-8-300380;Furkan Baykara;ZORLU ASICS;P261;209;False;False;1-8-300270;2;Danışman
+1-8-300382;Dicle Akgündüz;IZMIR ISTINYE ASICS;P234;204;False;False;1-8-300314;2;Danışman
+1-8-300392;Batuhan Yılmaz;ZORLU ASICS;P234;209;False;False;1-8-300270;2;Danışman
+1-8-300393;Buket Tütüncü;KARŞIYAKA HILLTOWN ASICS;P261;205;False;False;1-8-300372;2;Danışman
+1-8-300395;Eren Görkem Gürel;ZORLU ASICS;P234;209;False;False;1-8-300270;2;Danışman
+1-8-300396;Cansu Korkmaz Güney;MERKEZ;P249;200;False;False;1-8-300342;2;Yönetici
+1-8-300398;Arif Tekir;STARCITY OUTLET MARLIN;P223;206;False;True;1-8-300235;2;Müdür
+1-8-300399;Eren Bolukoç;VIAPORT MARINA MARLIN;P261;207;False;False;1-8-300175;2;Danışman
+1-8-300406;Muhammed Ali Özkan;VIAPORT MARLIN OUTLET;P223;208;False;True;1-8-300235;2;Müdür
+1-8-300407;Selin Kaya;MERKEZ;P271;200;False;False;1-8-300344;2;Stajyer
+1-8-300410;Gaye Aytekin;IST HILLTOWN ASICS;P234;202;False;False;1-8-300327;2;Danışman
+1-8-300411;Beyza Bingöl;IST HILLTOWN ASICS;P261;202;False;False;1-8-300327;2;Danışman
+1-8-300412;Muhammet Maşa;VIAPORT MARINA MARLIN;P119;207;False;False;1-8-300175;2;Danışman
+1-8-300413;Büşra Tat;ANKARA FORUM MARLIN;P234;201;False;False;1-8-300101;2;Danışman
+1-8-300414;Esma Yılmaz;ANKARA FORUM MARLIN;P234;201;False;False;1-8-300101;2;Danışman
+1-8-300415;Furkan Akbulut;ANKARA FORUM MARLIN;P234;201;False;False;1-8-300101;2;Danışman
+1-8-300416;Aleyna Yancıoğlu;STARCITY OUTLET MARLIN;P261;206;False;False;1-8-300398;2;Danışman
+1-8-300417;İsmet Kalaycı;MERKEZ;P216;200;False;False;1-8-300185;2;Kıdemli Uzman
+1-8-300418;Emrullah Acar;IST MOI ASICS;P261;203;False;False;1-8-300456;2;Danışman
+1-8-300420;Mert Samet Ardıç;IST MOI ASICS;P234;203;False;False;1-8-300456;2;Danışman
+1-8-300421;Hasan Yürek;STARCITY OUTLET MARLIN;P261;206;False;False;1-8-300398;2;Danışman
+1-8-300423;Aslıhan Akuç;MERKEZ;P239;200;False;False;1-8-300064;2;Uzman
+1-8-300424;Seher Argın;IST MOI ASICS;P261;203;False;False;1-8-300456;2;Danışman
+1-8-300427;Murat Kayıkçı;ZORLU ASICS;P222;209;False;False;1-8-300270;2;Müdür Yardımcısı
+1-8-300429;Tufan Torus;MERKEZ;P217;200;False;False;1-8-300185;2;Kıdemli Yönetici
+1-8-300430;Mahmut Emin Bekiri;STARCITY OUTLET MARLIN;P261;206;False;False;1-8-300398;2;Danışman
+1-8-300433;Emre Duygun;IST MOI ASICS;P222;203;False;False;1-8-300456;2;Müdür Yardımcısı
+1-8-300434;Sinem Demirtaş;VIAPORT MARLIN OUTLET;P261;208;False;False;1-8-300406;2;Danışman
+1-8-300435;Kerem Girgin;KARŞIYAKA HILLTOWN ASICS;P234;205;False;False;1-8-300372;2;Danışman
+1-8-300436;Elif Bergamalı;KARŞIYAKA HILLTOWN ASICS;P234;205;False;False;1-8-300372;2;Danışman
+1-8-300437;İrem Gilgiler;KARŞIYAKA HILLTOWN ASICS;P234;205;False;False;1-8-300372;2;Danışman
+1-8-300438;Emre Hastürk;KARŞIYAKA HILLTOWN ASICS;P261;205;False;False;1-8-300372;2;Danışman
+1-8-300439;Seyfi Yalçın;KARŞIYAKA HILLTOWN ASICS;P124;205;False;False;1-8-300372;2;Destek
+1-8-300440;Zeynep Yapar;MERKEZ;P297;200;False;False;1-8-300354;2;Uzman Yardımcısı
+1-8-300441;Emirhan Erdil;STARCITY OUTLET MARLIN;P234;206;False;False;1-8-300398;2;Danışman
+1-8-300443;Melisa Göze;VIAPORT MARINA MARLIN;P164;207;False;False;1-8-300372;2;Danışman
+1-8-300445;Hilmi İnan;IZMIR ISTINYE ASICS;P124;204;False;False;1-8-300314;2;Destek
+1-8-300449;Ali Murat Güçlü;VIAPORT MARINA MARLIN;P261;207;False;False;1-8-300175;2;Danışman
+1-8-300451;Hüseyin Özgürler;IZMIR ISTINYE ASICS;P124;204;False;False;1-8-300314;2;Destek
+1-8-300452;Özlem Yıldırım;IZMIR ISTINYE ASICS;P124;204;False;False;1-8-300314;2;Destek
+1-8-300453;Umut Ören;ZORLU ASICS;P261;209;False;False;1-8-300270;2;Danışman
+1-8-300454;Murat Yaman;VIAPORT MARLIN OUTLET;P234;208;False;False;1-8-300406;2;Danışman
+1-8-300455;Yaren Gül;VIAPORT MARLIN OUTLET;P234;208;False;False;1-8-300406;2;Danışman
+1-8-300456;Samet Uygun;IST MOI ASICS;P223;203;False;True;1-8-300235;2;Müdür
+1-8-300457;Umutcan Deniz;IST MOI ASICS;P234;203;False;False;1-8-300456;2;Danışman
+1-8-300458;Emrecan Gülveren;IZMIR ISTINYE ASICS;P261;204;False;False;1-8-300314;2;Danışman
+1-8-300459;Fehimegül Gökhan;IZMIR ISTINYE ASICS;P261;204;False;False;1-8-300314;2;Danışman
+1-8-300460;Emre Gebeşoğlu;IST MOI ASICS;P261;203;False;False;1-8-300456;2;Danışman
+1-8-3010;Ebru Sünnetcioğlu;MERKEZ;P261;100;False;False;1-8-4812;1;Danışman
+1-8-3016;Aydın İbrahim Nalbant;MERKEZ;P244;100;False;True;1-8-4147;1;Kıdemli Yönetici
+1-8-3019;Ömer Barlak;ANK ANKAMALL;P261;103;False;False;1-8-5493;1;Danışman
+1-8-3025;Temel Eren Çanakçı;MERKEZ;P197;100;False;True;1-8-2616;1;Kıdemli Müdür
+1-8-3030;Melisa Şahin;ANK KENTPARK;P261;105;False;False;1-8-2872;1;Danışman
+1-8-3043;Eren Şimşek;IST VENEZIA;P234;145;False;False;1-8-899;1;Danışman
+1-8-3047;Hasan Aydın;MERKEZ;P170;100;False;False;1-8-1426;1;Kıdemli Uzman
+1-8-3048;Ahmet Faruk Durmuş;IST TEMA;P261;144;False;False;1-8-5347;1;Danışman
+1-8-3052;Özge Yalçınkaya;MERKEZ;P152;100;False;False;1-8-1543;1;Yönetici
+1-8-3055;Muhammet Emin Baysal;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-3057;Hilal Bağış;MERKEZ;P219;100;False;False;1-8-3104;1;Uzman
+1-8-3059;İpek Değirmenci;MERKEZ;P220;100;False;False;1-8-2424;1;Uzman
+1-8-3061;Arya Subaşı;MERKEZ;P238;100;False;False;1-8-5488;1;Uzman Yardımcısı
+1-8-3062;Gayenur Çelenk;IST VIAPORT;P163;146;False;False;1-8-203;1;Uzman Danışman
+1-8-3070;Çağrı Akbaba;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-3071;Seren Dural;MERKEZ;P214;100;False;True;25;1;Kıdemli Müdür
+1-8-3081;Dilan Gültekin;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-3086;Emre Karakaya;MERKEZ;P200;100;False;False;1-8-3025;1;Kıdemli Uzman
+1-8-309;Volkan Aydoğan;ANT TERRACITY;P223;113;False;True;71;1;Müdür
+1-8-3090;Mustafa Ökdem;MERKEZ;P222;100;False;False;1-8-1718;1;Müdür Yardımcısı
+1-8-3096;Serhat Tokataş;MERSIN FORUM;P123;160;False;False;1-8-3492;1;Uzman Danışman
+1-8-3103;Adnan Gümüşdağ;MERKEZ;P121;100;False;True;1-8-3104;1;Yönetici
+1-8-3104;Mert Tatalır;MERKEZ;P120;100;False;True;1-8-2129;1;Müdür
+1-8-3105;Vural Akçakavak;MERKEZ;P121;100;False;True;1-8-3104;1;Yönetici
+1-8-3107;Timur Babaoğlu;MERKEZ;P107;100;False;True;1-8-5287;1;Yönetici
+1-8-3108;Ahmet Yusuf Ergül;MERKEZ;P254;100;False;True;1-8-1131;1;Kıdemli Müdür
+1-8-3109;Alper Dönmez;MERKEZ;P174;100;False;True;1-8-1924;1;Kıdemli Müdür
+1-8-3110;Burak Erdoğan;MERKEZ;P283;100;False;False;1-8-1131;1;Kıdemli Yönetici
+1-8-3111;Fadime Köse;MERKEZ;P253;100;False;False;1-8-4808;1;Destek
+1-8-3112;Gülhanım Taş;MERKEZ;P153;100;False;False;1-8-4808;1;Destek
+1-8-3119;Aleyna Doğan;IZM FORUM BORNOVA;P261;148;False;False;1-8-2676;1;Danışman
+1-8-3120;İskender Aydın Ömür;MERKEZ;P255;100;False;False;1-8-3108;1;Kıdemli Yönetici
+1-8-3122;Nuriye Turhan;MERKEZ;P195;100;False;False;1-8-2616;1;Kıdemli Müdür
+1-8-3124;Tamer Yurttaş;MERKEZ;P181;100;False;True;1-8-2616;1;Kıdemli Müdür
+1-8-3127;Suat Türkyılmaz;MERKEZ;P132;100;False;True;1-8-1431;1;Müdür
+1-8-3129;Esra Kayar;IST FORUM;P163;126;False;False;1-8-888;1;Uzman Danışman
+1-8-3145;Aleyna Bulut;TRABZON FORUM;P261;163;False;False;1-8-1546;1;Danışman
+1-8-3150;Tanya Taşyan;MERKEZ;P149;100;False;False;1-8-4984;1;Uzman
+1-8-3153;Yusuf Özbay;IST MARMARA FORUM;P261;134;False;False;1-8-4638;1;Danışman
+1-8-3157;Besra Türkdoğan;MERKEZ;P153;100;False;False;1-8-2108;1;Destek
+1-8-3160;Şahin Koçaş;KONYA KENT PLAZA;P261;158;False;False;1-8-2278;1;Danışman
+1-8-3170;Buse Karataş;ANK ANKAMALL;P261;103;False;False;1-8-5493;1;Danışman
+1-8-3171;Zafer Küyük;ANK CEPA;P287;104;False;False;1-8-4904;1;Uzman Danışman
+1-8-3190;Damla Gülsüm Öztürk;ANT ALANYA;P261;109;False;False;1-8-5584;1;Danışman
+1-8-3191;Beyza Arslan;ANT ALANYA;P261;109;False;False;1-8-5584;1;Danışman
+1-8-3198;Fatmagül Başpınar;MERKEZ;P131;100;False;False;1-8-5057;1;Uzman Yardımcısı
+1-8-3200;Necati Erlus;MERKEZ;P302;100;False;False;1-8-1793;1;Uzman
+1-8-3206;Alper Tosun;BURSA KORUPARK;P234;116;False;False;1-8-361;1;Danışman
+1-8-3209;Hasene Nur Çelikli;IZMIT OUTLET;P261;156;False;False;1-8-2293;1;Danışman
+1-8-3214;Birol Hamit Aytürk;IZM FORUM BORNOVA;P261;148;False;False;1-8-2676;1;Danışman
+1-8-3239;Emre Boz;ANT ALANYA;P261;109;False;False;1-8-5584;1;Danışman
+1-8-324;Şenol Baş;BURSA KORUPARK;P222;116;False;False;1-8-361;1;Müdür Yardımcısı
+1-8-3241;Kamil Reçber;ADANA OPTIMUM;P261;102;False;False;1-8-1382;1;Danışman
+1-8-3246;Duygu Kulak;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-3256;Mehmet Nizam;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-3263;Yusuf Ergun;SAMSUN PIAZZA;P261;162;False;False;1-8-2640;1;Danışman
+1-8-3272;Eren Doğanay;MERKEZ;P178;100;False;False;1-8-3127;1;Kıdemli Uzman
+1-8-3282;Umut Erdem;IST MOI;P258;138;False;False;1-8-3016;1;Danışman
+1-8-3307;Damla Yalçın;MERKEZ;P194;100;False;False;1-8-1700;1;Kıdemli Yönetici
+1-8-3311;Gamze Sıla Arslaner;IST AKASYA;P261;122;False;False;1-8-5280;1;Danışman
+1-8-3325;Azizcan Güveyi;IST GALATAPORT;P119;128;False;False;1-8-2679;1;Danışman
+1-8-3326;Afife Karaman Öncü;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-3334;Muhammet Emir Baş;IST BUYAKA;P261;123;False;False;1-8-3338;1;Danışman
+1-8-3338;Hüseyin Tulunay;IST BUYAKA;P223;123;False;True;1-8-586;1;Müdür
+1-8-3341;Serkan Bulut;IZM ISTINYE PARK;P223;149;False;True;1-8-3107;1;Müdür
+1-8-3346;Anıl Ulaş Durna;IST SIRKECI;P222;143;False;False;1-8-5060;1;Müdür Yardımcısı
+1-8-3350;Emre Altınışık;ANK METROMALL;P223;106;False;True;1-8-2640;1;Müdür
+1-8-3354;Sercan Baran;MERKEZ;P177;100;False;True;142;1;Kıdemli Yönetici
+1-8-3358;Ali Karakaya;ANK NATAVEGA;P287;107;False;False;1-8-4576;1;Uzman Danışman
+1-8-3361;Kübra Ünlü;MERKEZ;P261;100;False;False;1-8-4812;1;Danışman
+1-8-3362;Mert Çakır;SAMSUN PIAZZA;P261;162;False;False;1-8-2640;1;Danışman
+1-8-3363;Volkan Özçelik;ANK NATAVEGA;P261;107;False;False;1-8-4576;1;Danışman
+1-8-3374;Fatma Kurttekin;MERKEZ;P286;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-3381;Cengiz Cansın Polat;MERKEZ;P113;100;False;True;1-8-2423;1;Yönetici
+1-8-3392;Mustafa Can Çiçek;IST GRANDPERA;P261;129;False;False;1-8-1316;1;Danışman
+1-8-3416;Selman Akyüz;IST OLIVIUM;P261;139;False;False;1-8-4243;1;Danışman
+1-8-3419;Özge Şahin;MERKEZ;P226;100;False;False;104;1;Uzman Yardımcısı
+1-8-3424;Onur Türkön;MERKEZ;P243;100;False;False;1-8-3016;1;Kıdemli Uzman
+1-8-3425;Aylin Ocak;MERKEZ;P261;100;False;False;1-8-4303;1;Danışman
+1-8-3427;Muhammed Kayra Aksoy;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-3454;Hilal Çakmak;IST MARMARA FORUM;P234;134;False;False;1-8-4638;1;Danışman
+1-8-3466;Ebru Kübra Yanbul;MERKEZ;P299;100;False;False;1-8-2262;1;Yönetici
+1-8-3467;Aycan Türedi;IST ZORLU;P261;147;False;False;1-8-5523;1;Danışman
+1-8-3470;Sude Ertekin;MERKEZ;P155;100;False;False;1-8-5180;1;Uzman Yardımcısı
+1-8-3472;Emre Kılıç;PALM CITY;P261;161;False;False;1-8-3774;1;Danışman
+1-8-3486;Zehra Örs;MERKEZ;P117;100;False;False;1-8-2147;1;Uzman
+1-8-3492;Hıdır Yavuz;MERSIN FORUM;P223;160;False;True;71;1;Müdür
+1-8-3493;Denizhan Taşçı;MERKEZ;P159;100;False;False;1-8-1466;1;Uzman
+1-8-3498;Mehriban Al;BURSA KORUPARK;P234;116;False;False;1-8-361;1;Danışman
+1-8-350;Deniz Hıdır;IZMIR AGORA;P222;150;False;False;1-8-3107;1;Müdür Yardımcısı
+1-8-3503;Yunus Emre Dönmez;MERKEZ;P183;100;False;False;1-8-2671;1;Kıdemli Uzman
+1-8-3514;Hatice Demirkol;ADANA M1;P222;101;False;False;1-8-1376;1;Müdür Yardımcısı
+1-8-3516;Eda Nur Nacar;ADANA OPTIMUM;P261;102;False;False;1-8-1382;1;Danışman
+1-8-3517;Naci Yenier;ADANA OPTIMUM;P261;102;False;False;1-8-1382;1;Danışman
+1-8-3518;Sergen Tayırcık;ADANA OPTIMUM;P261;102;False;False;1-8-1382;1;Danışman
+1-8-3520;Abdulkadir Turan;ADANA OPTIMUM;P222;102;False;False;1-8-1382;1;Müdür Yardımcısı
+1-8-3521;Soner Pehlivan;ADANA OPTIMUM;P287;102;False;False;1-8-1382;1;Uzman Danışman
+1-8-3523;Hisamettin Erpolat;MERKEZ;P119;100;False;False;1-8-4303;1;Danışman
+1-8-3527;Mehmet Akif Zengin;IST HILLTOWN;P223;130;False;True;1-8-4072;1;Müdür
+1-8-3533;Mehmet Tunahan Tunç;IST MARMARA FORUM;P261;134;False;False;1-8-4638;1;Danışman
+1-8-3535;Doğukan Şahin;ANT LAND OF LEGENDS;P261;110;False;False;1-8-383;1;Danışman
+1-8-3543;Metin Berk Akbaş;IZM ISTINYE PARK;P261;149;False;False;1-8-3341;1;Danışman
+1-8-3544;Murat Karakaş;MERKEZ;P185;100;False;False;1-8-1543;1;Kıdemli Uzman
+1-8-3546;Mesut Sağlam;IST ISTIKLAL;P222;131;False;False;1-8-3706;1;Müdür Yardımcısı
+1-8-3548;Serdar Aldan;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-3566;Berk Aydın;IZM FORUM BORNOVA;P119;148;False;False;1-8-2676;1;Danışman
+1-8-3568;Betül Beyhatun;MERKEZ;P157;100;False;False;1-8-1466;1;Yönetici
+1-8-3572;Sebile Döngel;TRABZON FORUM;P261;163;False;False;1-8-1546;1;Danışman
+1-8-3573;Buğra Yağız Yazılı;IST BUYAKA;P261;123;False;False;1-8-3338;1;Danışman
+1-8-3580;Erdem Enuysal;MERKEZ;P275;100;False;True;1-8-1131;1;Yönetici
+1-8-3586;Emre Uğuzyerli;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-3592;Gaye Kayaoğlu;IST GALATAPORT;P261;128;False;False;1-8-2679;1;Danışman
+1-8-3596;Yasemin Yılmaz;MERKEZ;P106;100;False;False;1-8-1666;1;Uzman
+1-8-3601;Oğuzhan Tokmak;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-3603;Mustafa Aysu;MERKEZ;P286;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-361;Sevcan Durmuş;BURSA KORUPARK;P223;116;False;True;1-8-3107;1;Müdür
+1-8-3619;Elif Ağhan;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-3628;Özge Aslan;MERKEZ;P158;100;False;False;1-8-1466;1;Uzman Yardımcısı
+1-8-363;Ahmet Mesut Sağkol;MERKEZ;P222;100;False;False;1-8-4812;1;Müdür Yardımcısı
+1-8-3630;Aykut Dinçer;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-365;Gökay Yeniçeri;MERKEZ;P245;100;False;False;1-8-3016;1;Yönetici
+1-8-3706;Ertuğrul Özen;IST ISTIKLAL;P223;131;False;True;1-8-4244;1;Müdür
+1-8-3707;Şeymanur Ergün;BURSA KORUPARK;P261;116;False;False;1-8-361;1;Danışman
+1-8-3716;Tuncer Toprak;IST MARMARAPARK;P222;136;False;False;1-8-695;1;Müdür Yardımcısı
+1-8-3719;Ömer Canlı;IST GALATAPORT;P261;128;False;False;1-8-2679;1;Danışman
+1-8-3726;Şevval Şimşek;IZMIT OUTLET;P261;156;False;False;1-8-2293;1;Danışman
+1-8-3732;İlayda Gürlek;KONYA KENT PLAZA;P234;158;False;False;1-8-2278;1;Danışman
+1-8-3735;Melike Hilal Başarır;BURSA MARKA;P261;117;False;False;1-8-2396;1;Danışman
+1-8-3738;Aslı Sultan Aksarı;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-3740;Bedirhan Kekeç;MERKEZ;P261;100;False;False;1-8-4303;1;Danışman
+1-8-3747;Ece Gezen;ANT TERRACITY;P261;113;False;False;1-8-309;1;Danışman
+1-8-3749;Ebru Yıldırım;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-3750;Emir Talha Savaş;IST ISTINYEPARK;P234;132;False;False;1-8-3968;1;Danışman
+1-8-3754;Yunus Sayın;ANT TERRACITY;P261;113;False;False;1-8-309;1;Danışman
+1-8-3755;Halil İbrahim Odabaşoğlu;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-3756;Murat Burak Baştürk;IST VENEZIA;P119;145;False;False;1-8-899;1;Danışman
+1-8-3762;Tarık Özçelik;IST MARMARAPARK;P258;136;False;False;1-8-3016;1;Danışman
+1-8-3765;Aksel Deniz;MERKEZ;P126;100;False;False;1-8-3109;1;Uzman Yardımcısı
+1-8-3773;Onur Osmanalemdaroğlu;IST BUYAKA;P287;123;False;False;1-8-3338;1;Uzman Danışman
+1-8-3774;Orçun Uysal;PALM CITY;P223;161;False;True;71;1;Müdür
+1-8-3784;Burcu Sezer;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3785;Bünyamin Yılmaz;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3786;Emine Sayın;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3787;Engin Duru;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3788;Ergin İçten;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3789;Gülbahar Kumaş;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3790;Nedret Eren;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3791;Nurdanur Işık;MERKEZ;P124;100;False;False;1-8-1426;1;Destek
+1-8-3803;Seydi Ahmet Alıntaş;SAMSUN PIAZZA;P261;162;False;False;1-8-2640;1;Danışman
+1-8-3808;Ruveyda Cebe;IST MARMARAPARK;P164;136;False;False;1-8-695;1;Danışman
+1-8-3809;Deniz Nikbay;IST MARMARAPARK;P119;136;False;False;1-8-695;1;Danışman
+1-8-3815;Batuhan Oğuz;IST AKASYA;P261;122;False;False;1-8-5280;1;Danışman
+1-8-3817;Enes Öztürk;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-3819;Duygu Özkan;IZMIR AGORA;P287;150;False;False;1-8-3107;1;Uzman Danışman
+1-8-3822;Murat Bideratan;ADANA M1;P119;101;False;False;1-8-1376;1;Danışman
+1-8-3829;Nisanur Balgiz;ADANA OPTIMUM;P261;102;False;False;1-8-1382;1;Danışman
+1-8-383;Bahar Acar;ANT LAND OF LEGENDS;P223;110;False;True;71;1;Müdür
+1-8-3858;Berk Paslı;ANK ANKAMALL;P287;103;False;False;1-8-5493;1;Uzman Danışman
+1-8-3863;Onur Kartal;IST FORUM;P119;126;False;False;1-8-888;1;Danışman
+1-8-3875;Ömer Akyüz;KONYA KENT PLAZA;P234;158;False;False;1-8-2278;1;Danışman
+1-8-3888;Bahar Anık;IST OPTIMUM;P234;140;False;False;115;1;Danışman
+1-8-3901;Büşra Alkan;MERKEZ;P196;100;False;False;1-8-2904;1;Kıdemli Uzman
+1-8-3911;Samet Cesur;IST MARMARA FORUM;P164;134;False;False;1-8-4638;1;Danışman
+1-8-3914;Aleyna Aslan;ANK CEPA;P261;104;False;False;1-8-4904;1;Danışman
+1-8-3917;Mahir Kordu;MERKEZ;P286;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-3920;Ahmet Beşli;MERSIN FORUM;P222;160;False;False;1-8-3492;1;Müdür Yardımcısı
+1-8-3921;Hüseyin Kum;IST ZORLU;P123;147;False;False;1-8-5523;1;Uzman Danışman
+1-8-3927;Sara Benyaro;MERKEZ;P137;100;False;False;1-8-4290;1;Uzman Yardımcısı
+1-8-3928;Emel Çalış;IST TEMA;P222;144;False;False;1-8-5347;1;Müdür Yardımcısı
+1-8-3929;Ayhan Mutlu;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-3933;Songül Şin;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-3947;Melike Zeynep Turhan;MERKEZ;P261;100;False;False;1-8-945;1;Danışman
+1-8-3948;Kadir Çerdik;MERKEZ;P277;100;False;False;1-8-2108;1;Uzman
+1-8-3950;Uğur Bıçakçı;MERKEZ;P286;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-3953;Kader Bayrak;MERKEZ;P286;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-3954;Cansu Selman;MERKEZ;P178;100;False;False;1-8-3127;1;Kıdemli Uzman
+1-8-3959;Gökhan Dalbudak;GAZIANTEP SANKOPARK;P261;121;False;False;1-8-4214;1;Danışman
+1-8-3962;İbrahim Yılmaz;ANK OPTIMUM;P234;108;False;False;1-8-441;1;Danışman
+1-8-3968;Hakan Karayel;IST ISTINYEPARK;P223;132;False;True;1-8-4244;1;Müdür
+1-8-3969;Muhtalip Güler;IST ISTIKLAL;P119;131;False;False;1-8-3706;1;Danışman
+1-8-3970;Ersin Satıç;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-3976;Mustafa Mert Aykanat;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-3991;Yıldırım Karakaya;IST MARMARAPARK;P123;136;False;False;1-8-695;1;Uzman Danışman
+1-8-3994;Buket Kocaoğlu;MERKEZ;P260;100;False;True;1-8-2616;1;Müdür
+1-8-3997;Muhammet Serhat Şimşek;MERKEZ;P222;100;False;False;1-8-4303;1;Müdür Yardımcısı
+1-8-3998;Metin Taşar;MERKEZ;P286;100;False;False;1-8-1505;1;Mavi Yaka
+1-8-4000;Mustafa Sönmez;IST BUYAKA;P261;123;False;False;1-8-3338;1;Danışman
+1-8-400005;Taylan Akhan;MALTEPE PIAZZA KLAUD;P222;302;False;False;1-8-4072;3;Müdür Yardımcısı
+1-8-400011;Ömer Menekşe;MALTEPE PIAZZA KLAUD;P261;302;False;False;1-8-400038;3;Danışman
+1-8-400017;Oktay Sandıkçı;MALTEPE PIAZZA KLAUD;P261;302;False;False;1-8-400033;3;Danışman
+1-8-400025;Sefa Battal;IST MOI KLAUD;P261;301;False;False;1-8-400033;3;Danışman
+1-8-400027;Esra Koçak;IST MOI KLAUD;P261;301;False;False;1-8-400033;3;Danışman
+1-8-400031;Kutay Ediz Yılmaz;MALTEPE PIAZZA KLAUD;P234;302;False;False;1-8-400038;3;Danışman
+1-8-400033;Kaan Kaçarlar;IST MOI KLAUD;P223;301;False;True;1-8-586;3;Müdür
+1-8-400035;Merve Yıldız;IST MOI KLAUD;P222;301;False;False;1-8-400033;3;Müdür Yardımcısı
+1-8-400037;Meryem Sude Yarluğkal;MALTEPE PIAZZA KLAUD;P261;302;False;False;1-8-400038;3;Danışman
+1-8-400038;Hakan Öğüt;MALTEPE PIAZZA KLAUD;P223;302;False;True;1-8-4072;3;Müdür
+1-8-4002;Emir Çamcı;BURSA MARKA;P261;117;False;False;1-8-2396;1;Danışman
+1-8-4007;Tuğrul Can Karaca;MERKEZ;P286;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4012;Zeynep Çay;ANK NATAVEGA;P261;107;False;False;1-8-4576;1;Danışman
+1-8-4013;Merve Çalışkan;MERKEZ;P156;100;False;False;124;1;Uzman
+1-8-4014;Kezban Abalay;MERKEZ;P286;100;False;False;1-8-1513;1;Mavi Yaka
+1-8-4030;Abdullah İşler;MERKEZ;P287;100;False;False;1-8-1718;1;Uzman Danışman
+1-8-4031;Sare Büyükçapar;KAHRAMANMARAŞ;P261;157;False;False;1-8-4449;1;Danışman
+1-8-4035;Okan Erdemir;KAHRAMANMARAŞ;P261;157;False;False;1-8-4449;1;Danışman
+1-8-4038;Mustafa Doğukan Kaplan;KAHRAMANMARAŞ;P222;157;False;False;1-8-4449;1;Müdür Yardımcısı
+1-8-4049;Cemre Kaya;IZMIR MAVIBAHCE;P261;152;False;False;1-8-2912;1;Danışman
+1-8-4058;İlker Demirkan;MERKEZ;P286;100;False;False;1-8-1513;1;Mavi Yaka
+1-8-4062;İrem Şeyma Arslan;IST HILLTOWN;P261;130;False;False;1-8-3527;1;Danışman
+1-8-4063;Akın Çölbekler;ANT LAND OF LEGENDS;P261;110;False;False;1-8-383;1;Danışman
+1-8-4068;Ufuk Güler;MERKEZ;P165;100;False;False;1-8-1543;1;Uzman
+1-8-4070;Ümit Burak Özorhan;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4071;İbrahim Halil Kıran;MERKEZ;P286;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4072;Fethi Canbulat;MERKEZ;P172;100;False;True;1-8-5287;1;Kıdemli Yönetici
+1-8-4074;Doğan Ağırcan;MERKEZ;P189;100;False;False;1-8-1426;1;Kıdemli Yönetici
+1-8-4075;Levent Özarslan;MERKEZ;P213;100;False;True;1-8-2129;1;Kıdemli Yönetici
+1-8-4076;Mesut Yalçın;MERKEZ;P122;100;False;True;1-8-2393;1;Mavi Yaka
+1-8-4085;Adem Palabıyık;MERKEZ;P286;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-4088;Zanyar Serhat Üstebay;MERKEZ;P133;100;False;True;1-8-1431;1;Müdür
+1-8-4092;Görkem Deniz Babayiğit;BURSA DOWNTOWN;P261;115;False;False;1-8-5589;1;Danışman
+1-8-4095;Ayşe Nur Bozdağ;FORUM KAYSERİ;P261;120;False;False;1-8-4456;1;Danışman
+1-8-4096;Burak Yasin Güneş;IST SIRKECI;P261;143;False;False;1-8-5060;1;Danışman
+1-8-410;İnan Eser;ANK METROMALL;P287;106;False;False;1-8-3350;1;Uzman Danışman
+1-8-4111;Gülcan Öztaş;IZM FORUM BORNOVA;P261;148;False;False;1-8-2676;1;Danışman
+1-8-4118;Esra Nur Karacan;IZM ISTINYE PARK;P261;149;False;False;1-8-3341;1;Danışman
+1-8-4119;Nuri Furkan Tozkoparan;MERKEZ;P263;100;False;False;1-8-1131;1;Uzman
+1-8-4127;Galip Gürkan Kuş;IST MOI;P261;138;False;False;1-8-4177;1;Danışman
+1-8-4129;Aleyna Türk;BURSA DOWNTOWN;P222;115;False;False;1-8-5589;1;Müdür Yardımcısı
+1-8-4147;Ali Karakuş;MERKEZ;P241;100;False;True;1-8-1462;1;Direktör
+1-8-4148;Ebru Özer;IST MOI;P261;138;False;False;1-8-4177;1;Danışman
+1-8-4149;Seda Açıkgöz;MERKEZ;P275;100;False;False;1-8-1131;1;Yönetici
+1-8-4161;Zeynep Yalçın;IST MARMARA FORUM KIDS;P261;135;False;False;1-8-5331;1;Danışman
+1-8-4168;Enes Demir;IST FORUM;P261;126;False;False;1-8-888;1;Danışman
+1-8-4169;Barış Baydemir;MERKEZ;P261;100;False;False;1-8-5129;1;Danışman
+1-8-4177;Ömer Yetgin;IST MOI;P223;138;False;True;1-8-586;1;Müdür
+1-8-4180;Emin Metehan Kılıçlı;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-4185;Abdülsamet Turgut;IST CEVAHIR;P119;125;False;False;187;1;Danışman
+1-8-4186;Soner Çömelekoğlu;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-4188;Ezgi Çelik;MERKEZ;P116;100;False;False;1-8-2147;1;Uzman Yardımcısı
+1-8-4198;Esra Yiğit;MERKEZ;P134;100;False;False;1-8-3354;1;Uzman
+1-8-4202;Fatih Aydın;IST SASKINBAKKAL;P261;142;False;False;114;1;Danışman
+1-8-4205;Sevgi Çetinkaya;KAHRAMANMARAŞ;P261;157;False;False;1-8-4449;1;Danışman
+1-8-4206;Ahmet Toraman;IST GALATAPORT;P261;128;False;False;1-8-2679;1;Danışman
+1-8-4214;Murat Samet Demirhan;GAZIANTEP SANKOPARK;P223;121;False;True;71;1;Müdür
+1-8-4220;Yusuf Can Kele;IZM ISTINYE PARK;P234;149;False;False;1-8-3341;1;Danışman
+1-8-4221;Enes Anlı;MERKEZ;P229;100;False;False;1-8-4808;1;Destek
+1-8-4229;Selen Karaman;MERKEZ;P189;100;False;False;124;1;Kıdemli Yönetici
+1-8-4232;Enes Furkan Şentürk;MERKEZ;P272;100;False;False;1-8-1786;1;Uzman Yardımcısı
+1-8-4235;Ali Hamza Öz;IST PIAZZA;P119;141;False;False;1-8-2104;1;Danışman
+1-8-4240;Dilek Yavuz;BURSA MARKA;P222;117;False;False;1-8-2396;1;Müdür Yardımcısı
+1-8-4242;Kübra Esentekin;ANT LAND OF LEGENDS;P261;110;False;False;1-8-383;1;Danışman
+1-8-4243;Fatih Pınarlı;IST OLIVIUM;P223;139;False;True;1-8-4244;1;Müdür
+1-8-4244;Ozan Doğanay;MERKEZ;P172;100;False;True;1-8-5287;1;Kıdemli Yönetici
+1-8-4245;Deniz Selimoğlu;MERKEZ;P225;100;False;False;1-8-5488;1;Yönetici
+1-8-4247;Şeyda Çıkrıkoğlu;MERKEZ;P127;100;False;False;1-8-3109;1;Uzman
+1-8-4250;Mert İlhan;IST PIAZZA;P261;141;False;False;1-8-2104;1;Danışman
+1-8-4254;Oğuzhan Bayar;ANK CEPA;P261;104;False;False;1-8-4904;1;Danışman
+1-8-4256;Burak Daka;IST MARMARAPARK;P234;136;False;False;1-8-695;1;Danışman
+1-8-4266;Esmanur Çetin;IST OLIVIUM;P234;139;False;False;1-8-4243;1;Danışman
+1-8-4268;Aleyna Esin Güneş;IZMIT OUTLET;P222;156;False;False;1-8-2293;1;Müdür Yardımcısı
+1-8-4273;Fazlı Başhasanoğlu;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-4274;Taha Fırat Akol;IST OPTIMUM;P287;140;False;False;115;1;Uzman Danışman
+1-8-4277;Alperen Şahin;TRABZON FORUM;P119;163;False;False;1-8-1546;1;Danışman
+1-8-4279;Kerim Can Çelik;MERKEZ;P234;100;False;False;1-8-2088;1;Danışman
+1-8-4281;İlker Karaduran;MERKEZ;P205;100;False;False;1-8-3994;1;Kıdemli Uzman
+1-8-4283;Halenur Yılmaz;IST OLIVIUM;P234;139;False;False;1-8-4243;1;Danışman
+1-8-429;Semih Balkan;IST OLIVIUM;P222;139;False;False;1-8-4243;1;Müdür Yardımcısı
+1-8-4290;Pınar Demiralp;MERKEZ;P140;100;False;True;1-8-1431;1;Yönetici
+1-8-4292;Zafer Pelvan;IZMIT OUTLET;P232;156;False;False;1-8-2293;1;Danışman
+1-8-4296;Celal Turan Kom;IST PIAZZA;P261;141;False;False;1-8-2104;1;Danışman
+1-8-4298;Miray Vahide Elikılıç;IZMIT OUTLET;P261;156;False;False;1-8-2293;1;Danışman
+1-8-4303;Tayfun Karataş;MERKEZ;P223;100;False;True;15-8-10001;1;Müdür
+1-8-4306;Dilek Tuz;MERKEZ;P223;100;False;True;15-8-10001;1;Müdür
+1-8-4315;Murat Can Temel;FORUM KAYSERİ;P234;120;False;False;1-8-4456;1;Danışman
+1-8-4316;Cihan Palavan;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4319;Yaşar Kütük;IST MOI;P119;138;False;False;1-8-4177;1;Danışman
+1-8-4327;Mehmet Güneş;KAHRAMANMARAŞ;P261;157;False;False;1-8-4449;1;Danışman
+1-8-4328;Ali Kurt;IST VENEZIA;P234;145;False;False;1-8-899;1;Danışman
+1-8-4329;Volkan Öğüt;ANT MARKA;P223;111;False;True;71;1;Müdür
+1-8-4344;Emiray Tuncel;SAMSUN PIAZZA;P234;162;False;False;1-8-2640;1;Danışman
+1-8-4345;Selçuk Topçu;MERKEZ;P303;100;False;False;142;1;Yönetici
+1-8-4346;İsa Yaslı;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4348;Hatice Şevval Kocabıyık;IST ISTINYEPARK;P234;132;False;False;1-8-3968;1;Danışman
+1-8-4349;Aleyna Çeçen;IST MARMARA FORUM;P261;134;False;False;1-8-4638;1;Danışman
+1-8-4394;Yakup Selcik;TRABZON FORUM;P261;163;False;False;1-8-1546;1;Danışman
+1-8-4396;Adem Keklik;IZMIR WESTPARK;P261;154;False;False;1-8-3107;1;Danışman
+1-8-4399;Osman Aydoğan;MERKEZ;P148;100;False;False;1-8-4842;1;Uzman
+1-8-4408;Batuhan Türkyılmaz;IST ISTIKLAL;P261;131;False;False;1-8-3706;1;Danışman
+1-8-441;Sedat Keçeci;ANK OPTIMUM;P223;108;False;True;1-8-2640;1;Müdür
+1-8-4415;Zehra Vural;MERKEZ;P261;100;False;False;1-8-958;1;Danışman
+1-8-4417;Kemal Günay;MERKEZ;P252;100;False;False;1-8-3104;1;Mavi Yaka
+1-8-4421;Murat Aydın;IST GRANDPERA;P261;129;False;False;1-8-1316;1;Danışman
+1-8-4423;Samet İncirkuş;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-4424;Mehlika Arslan;IST FORUM;P234;126;False;False;1-8-888;1;Danışman
+1-8-4428;Umut Karabulut;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4433;Fatma Akdağ;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-4435;Zehra Taşkın;IST MARMARA FORUM KIDS;P261;135;False;False;1-8-5331;1;Danışman
+1-8-4436;Damla Altuntaş;ANT MARKA;P234;111;False;False;1-8-4329;1;Danışman
+1-8-4437;Sude Nur Özdemir;MERKEZ;P261;100;False;False;1-8-958;1;Danışman
+1-8-4438;Emircan Gündoğdu;IST GALATAPORT;P119;128;False;False;1-8-2679;1;Danışman
+1-8-4442;Vedat Kaplan;IST MARMARAPARK;P119;136;False;False;1-8-695;1;Danışman
+1-8-4449;Ali Evrim Tuncel;KAHRAMANMARAŞ;P223;157;False;True;71;1;Müdür
+1-8-4452;Hasan Şahin;IZMIR OPTIMUM;P119;153;False;False;1-8-2733;1;Danışman
+1-8-4453;Yaren Armağan Usburak;MERKEZ;P155;100;False;False;1-8-1426;1;Uzman Yardımcısı
+1-8-4454;Osman Atakan Ocakoğlu;MERKEZ;P281;100;False;False;1-8-1462;1;Müdür
+1-8-4456;Hakan Necati Gökşen;FORUM KAYSERİ;P223;120;False;True;1-8-2640;1;Müdür
+1-8-4457;Aycan Doğru;MERKEZ;P275;100;False;False;1-8-1131;1;Yönetici
+1-8-4458;Tuğçe Çamur;MERKEZ;P106;100;False;False;1-8-1666;1;Uzman
+1-8-4459;Ebru Aydemir Hekimoğlu;IST METROPOL;P223;137;False;True;1-8-4072;1;Müdür
+1-8-4462;Ali Saraç;ANK NATAVEGA;P261;107;False;False;1-8-4576;1;Danışman
+1-8-4464;Mehmet Akif Atlı;IST MARMARA FORUM;P119;134;False;False;1-8-4638;1;Danışman
+1-8-4468;Muhammed Samet Zehilli;IST FORUM;P222;126;False;False;1-8-888;1;Müdür Yardımcısı
+1-8-4469;Mustafa Murat Macit;IST FORUM KİDS;P261;127;False;False;1-8-2893;1;Danışman
+1-8-4472;Emine Gülcan Havutcu;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-4476;Yağmur Gelen;MERKEZ;P119;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-4484;Melisa Yonat Yeniçeri;IST GRANDPERA;P164;129;False;False;1-8-1316;1;Danışman
+1-8-4485;Ferhat Aslan;ANK ANKAMALL;P222;103;False;False;1-8-5493;1;Müdür Yardımcısı
+1-8-4487;Ali Uğur Üstenci;ANT TERRACITY;P261;113;False;False;1-8-309;1;Danışman
+1-8-4488;İrem Özgüven;MERKEZ;P111;100;False;False;1-8-3381;1;Uzman Yardımcısı
+1-8-4489;Halil Sarıbaş;MERKEZ;P205;100;False;False;1-8-3994;1;Kıdemli Uzman
+1-8-4490;Özgür Uğurel;ANT LAND OF LEGENDS;P261;110;False;False;1-8-383;1;Danışman
+1-8-4491;Serkan Aydın;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-4493;Tuncay Aktürk;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-4495;Muhammet Ali Özmen;ANK ANKAMALL;P222;103;False;False;1-8-5493;1;Müdür Yardımcısı
+1-8-4500;Fırat Kırmızı;ANT MOA;P223;112;False;True;71;1;Müdür
+1-8-4502;Sezer Kaya;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-4503;Kerim Can Işık;IST HILLTOWN;P261;130;False;False;1-8-3527;1;Danışman
+1-8-4507;Berk Orhan;IST MOI;P261;138;False;False;1-8-4177;1;Danışman
+1-8-4516;Sadullah Lider;IST MOI;P261;138;False;False;1-8-4177;1;Danışman
+1-8-4519;Şule Erkan;MERKEZ;P156;100;False;False;124;1;Uzman
+1-8-4522;Görkem Alkoç;IST SIRKECI;P119;143;False;False;1-8-5060;1;Danışman
+1-8-4523;Şerife Durmuş;FORUM KAYSERİ;P234;120;False;False;1-8-4456;1;Danışman
+1-8-4526;Evenur Demir;MERSIN FORUM;P234;160;False;False;1-8-3492;1;Danışman
+1-8-4527;Eylül Deniz Atalar;MERKEZ;P142;100;False;False;1-8-587;1;Uzman Yardımcısı
+1-8-4529;Emek Yurdanur;MERKEZ;P109;100;False;True;1;1;C Level
+1-8-4530;Berivan Yalçı;MERSIN FORUM;P164;160;False;False;1-8-3492;1;Danışman
+1-8-4534;Serkan Evren;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4535;Onur Tabanlı;IST BUYAKA KIDS;P261;124;False;False;1-8-586;1;Danışman
+1-8-4536;Muhammedin Emin Kökrem;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-4543;Şeydanur Şen;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-4547;Ezgi Kotan;MERKEZ;P126;100;False;False;1-8-3109;1;Uzman Yardımcısı
+1-8-4552;Bedri Öztürk;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4553;Furkan Bircan;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4554;Ramazan Karakurt;MERKEZ;P286;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-4556;Simay Somuncu;BURSA KORUPARK;P261;116;False;False;1-8-361;1;Danışman
+1-8-4559;Büşra Sarı Ortaç;IST MARMARAPARK;P164;136;False;False;1-8-695;1;Danışman
+1-8-4566;Sinem Tuyan;IZMIR OPTIMUM;P234;153;False;False;1-8-2733;1;Danışman
+1-8-4572;Yusuf Karaca;IST VENEZIA;P234;145;False;False;1-8-899;1;Danışman
+1-8-4573;Doğancan Yılmaz;MERKEZ;P227;100;False;False;1-8-3025;1;Yönetici
+1-8-4576;Özge Ergül;ANK NATAVEGA;P223;107;False;True;1-8-2640;1;Müdür
+1-8-4577;Ahmet Vardar;IZMIR MAVIBAHCE;P261;152;False;False;1-8-2912;1;Danışman
+1-8-4579;Oğuzcan Gabel;IZMIR HILLTOWN;P164;151;False;False;1-8-4649;1;Danışman
+1-8-4580;Ahmet Can Ünlüöz;IZMIR MAVIBAHCE;P261;152;False;False;1-8-2912;1;Danışman
+1-8-4584;Yusuf Güney;MERKEZ;P240;100;False;False;1-8-4984;1;Yönetici
+1-8-4585;Yasemin Yeniçeri;MERKEZ;P247;100;False;False;192;1;Uzman
+1-8-4586;Egemen Çuracı;IZMIR AGORA;P261;150;False;False;1-8-3107;1;Danışman
+1-8-4587;Fevzi Kırımşelioğlu;IZM ISTINYE PARK;P261;149;False;False;1-8-3341;1;Danışman
+1-8-4589;Serhat Korkmaz;IZMIR HILLTOWN;P119;151;False;False;1-8-4649;1;Danışman
+1-8-4590;Mehmet Nurettin Ayhan;IZMIR HILLTOWN;P261;151;False;False;1-8-4649;1;Danışman
+1-8-4591;Melisa Yıldırım;IZMIR HILLTOWN;P261;151;False;False;1-8-4649;1;Danışman
+1-8-4592;Tolga Biricik;IZMIR AGORA;P261;150;False;False;1-8-3107;1;Danışman
+1-8-4593;Büşra Özbaş;IZM ISTINYE PARK;P164;149;False;False;1-8-3341;1;Danışman
+1-8-4594;Eser Samur;IZMIR HILLTOWN;P261;151;False;False;1-8-4649;1;Danışman
+1-8-4595;Murat Arı;IZM ISTINYE PARK;P261;149;False;False;1-8-3341;1;Danışman
+1-8-4598;Seren Takıcak;IST TEMA;P261;144;False;False;1-8-5347;1;Danışman
+1-8-4601;Pınar Çiloğlan;BODRUM MIDTOWN;P223;114;False;True;1-8-3107;1;Müdür
+1-8-4603;Özer Akkuş;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4607;Barış Duzalan;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4609;Şenay Arslan;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4620;Şevval Peker;IST PIAZZA;P261;141;False;False;1-8-2104;1;Danışman
+1-8-4621;Kerim Nas;IZMIR OPTIMUM;P234;153;False;False;1-8-2733;1;Danışman
+1-8-4623;Erhan Korukcu;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4626;Burçin Doğan;ANK KENTPARK;P222;105;False;False;1-8-2872;1;Müdür Yardımcısı
+1-8-4627;Mehmet Erkan Kalyoncu;ÇAN 17 BURDA;P223;118;False;True;1-8-4244;1;Müdür
+1-8-4628;Mehmet Boşnakoğlu;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-4635;Yusuf Ceran;FORUM KAYSERİ;P222;120;False;False;1-8-4456;1;Müdür Yardımcısı
+1-8-4638;Onur Yardımcı;IST MARMARA FORUM;P223;134;False;True;1-8-586;1;Müdür
+1-8-4640;Serhat Özdemir;IZMIR HILLTOWN;P261;151;False;False;1-8-4649;1;Danışman
+1-8-4643;Fatma Nur Yıldırım;ÇAN 17 BURDA;P261;118;False;False;1-8-4627;1;Danışman
+1-8-4645;Reha Ağa;ÇAN 17 BURDA;P261;118;False;False;1-8-4627;1;Danışman
+1-8-4648;Onur Aktaş;IZM FORUM BORNOVA;P261;148;False;False;1-8-2676;1;Danışman
+1-8-4649;Koray Koçyiğit;IZMIR HILLTOWN;P223;151;False;True;1-8-3107;1;Müdür
+1-8-4651;Samim Kılıç;MERKEZ;P160;100;False;False;1-8-1466;1;Yönetici
+1-8-4652;Mehmet Alperen Pınarbaşı;MERKEZ;P101;100;False;False;1-8-2652;1;Uzman
+1-8-4653;Özgür Tekiner;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-4655;Kevser Usta Kaya;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4656;Uğur Özdemir;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4659;Mustafa Sargın;MERKEZ;P119;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-4662;Furkan Yılmaz;IZMIR HILLTOWN;P261;151;False;False;1-8-4649;1;Danışman
+1-8-4664;Mustafa Tan;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4665;Rozelin Çelik;IZM ISTINYE PARK;P234;149;False;False;1-8-3341;1;Danışman
+1-8-4667;Sinem Buket Uğur;IZMIR HILLTOWN;P222;151;False;False;1-8-4649;1;Müdür Yardımcısı
+1-8-4668;Batuhan Çavdı;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-4671;Fazlı Özkan;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-4675;Beratcan Karakaş;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-4680;Ömer Gezme;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-4686;Sevde Cingöz;IST ISTINYEPARK;P261;132;False;False;1-8-3968;1;Danışman
+1-8-4696;Betül Sarı;IZMIR OPTIMUM;P234;153;False;False;1-8-2733;1;Danışman
+1-8-4697;Duygu Aksoy;IST MOI;P164;138;False;False;1-8-4177;1;Danışman
+1-8-470;Emre Yıldırım;MERKEZ;P269;100;False;True;1-8-5224;1;Müdür
+1-8-4700;Nedime Kalıntaş;MERKEZ;P261;100;False;False;1-8-945;1;Danışman
+1-8-4701;Dilara Karakuş Pektaş;MERKEZ;P117;100;False;False;1-8-2147;1;Uzman
+1-8-4704;Ferhat İnam;MERKEZ;P289;100;False;False;1-8-2294;1;Uzman Yardımcısı
+1-8-4709;Mert Akbulut;ADANA M1;P234;101;False;False;1-8-1376;1;Danışman
+1-8-4719;Cemre Kadriye Lider;MERKEZ;P222;100;False;False;1-8-4306;1;Müdür Yardımcısı
+1-8-4721;Kardelen Gırcal;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-4722;Sabri Sevdin;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4727;Ceylan Ölçen;PALM CITY;P234;161;False;False;1-8-3774;1;Danışman
+1-8-4728;Sümeyye Kaymaz;IZMIR OPTIMUM;P233;153;False;False;1-8-2733;1;Danışman
+1-8-4731;Gürkan Eryolcu;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4732;Gözde Nehir Aydoğan;IZMIR MAVIBAHCE;P261;152;False;False;1-8-2912;1;Danışman
+1-8-4735;Murat Aydın;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4736;Mustafa Temel;IST METROPOL;P119;137;False;False;1-8-4459;1;Danışman
+1-8-4739;Gülüzar Coşar;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-4741;Arif Doğan;IST GRANDPERA;P261;129;False;False;1-8-1316;1;Danışman
+1-8-4743;Gülsüm Kahraman;IST HILLTOWN;P234;130;False;False;1-8-3527;1;Danışman
+1-8-4748;Olcay Alış;MERKEZ;P252;100;False;False;1-8-3104;1;Mavi Yaka
+1-8-4750;Elif Salduz;IST MARMARAPARK;P233;136;False;False;1-8-695;1;Danışman
+1-8-4751;Kübra İnan;IST PIAZZA;P261;141;False;False;1-8-2104;1;Danışman
+1-8-4757;Şevval Haskırış;IST OLIVIUM;P234;139;False;False;1-8-4243;1;Danışman
+1-8-4758;Mehmet Aksu;IST MOI;P234;138;False;False;1-8-4177;1;Danışman
+1-8-4760;Furkan Kara;IZM FORUM BORNOVA;P261;148;False;False;1-8-2676;1;Danışman
+1-8-4766;Ayhan Parlar;MERKEZ;P119;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-4769;Senanur Aktaş;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-4776;Eren Erçelik;MERKEZ;P234;100;False;False;1-8-4812;1;Danışman
+1-8-4777;Furkan Öztürk;IST SIRKECI;P261;143;False;False;1-8-5060;1;Danışman
+1-8-4778;Burcu İldeş;IZMIR MAVIBAHCE;P222;152;False;False;1-8-2912;1;Müdür Yardımcısı
+1-8-4782;Ümit Çeşit;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-4783;İlayda Çetinbaş;MERKEZ;P295;100;False;False;1-8-283;1;Uzman Yardımcısı
+1-8-4785;Berivan Sezgin;MERSIN FORUM;P261;160;False;False;1-8-3492;1;Danışman
+1-8-4789;Sude Pelşin Kesen;MERKEZ;P234;100;False;False;1-8-4306;1;Danışman
+1-8-4793;Doğukan Sağlam;MERKEZ;P119;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-4798;Sinan Minsin;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4799;Ali Kemal Şadman;BURSA DOWNTOWN;P261;115;False;False;1-8-5589;1;Danışman
+1-8-4804;Ceyda Özalp;IZM FORUM BORNOVA;P234;148;False;False;1-8-2676;1;Danışman
+1-8-4805;Merve Berber;IZMIR HILLTOWN;P261;151;False;False;1-8-4649;1;Danışman
+1-8-4808;Hande Akatlı;MERKEZ;P154;100;False;True;1-8-4529;1;Yönetici
+1-8-4809;Zeki Alper Kesim;MERKEZ;P130;100;False;False;1-8-4529;1;Yönetici
+1-8-4812;Uğur Ömer Tartıcı;MERKEZ;P223;100;False;True;15-8-10001;1;Müdür
+1-8-4814;Fatma Nur Genç;ANT MARKA;P234;111;False;False;1-8-4329;1;Danışman
+1-8-4817;Yusuf Utku Uykucu;IST METROPOL;P261;137;False;False;1-8-4459;1;Danışman
+1-8-4821;Ahmethan Kazan;IST ISTIKLAL;P234;131;False;False;1-8-3706;1;Danışman
+1-8-4829;Gamze Gülşah Elmalı;BODRUM MIDTOWN;P222;114;False;False;1-8-4601;1;Müdür Yardımcısı
+1-8-4832;Umut Kaya;IST MOI;P234;138;False;False;1-8-4177;1;Danışman
+1-8-4833;Hilal Alagözoğlu;MERKEZ;P234;100;False;False;1-8-4812;1;Danışman
+1-8-4834;Sera Topaloğlu;ÇAN 17 BURDA;P261;118;False;False;1-8-4627;1;Danışman
+1-8-4835;Yasin Özsoy;TRABZON FORUM;P234;163;False;False;1-8-1546;1;Danışman
+1-8-4842;Cora Monigue Mc Dougle;MERKEZ;P147;100;False;True;1-8-1462;1;Yönetici
+1-8-4847;Mahmut Yağız;MERKEZ;P119;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-4853;Zuhal Demir;MERKEZ;P234;100;False;False;1-8-2088;1;Danışman
+1-8-4857;Atilla Avar;MERKEZ;P268;100;False;False;1-8-3103;1;Mavi Yaka
+1-8-4859;Muhammet Aktaş;IST BUYAKA;P234;123;False;False;1-8-3338;1;Danışman
+1-8-4860;Beyza Nur Topal;ANK KENTPARK;P234;105;False;False;1-8-2872;1;Danışman
+1-8-4862;Murat Cemal Gülsoy;MERKEZ;P307;100;False;False;1-8-1277;1;Yönetici
+1-8-4868;Emir Arda Can Yalçın;MERKEZ;P261;100;False;False;1-8-958;1;Danışman
+1-8-4870;Rabia Bostan;IST GRANDPERA;P222;129;False;False;1-8-1316;1;Müdür Yardımcısı
+1-8-4872;İlayda Menge;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-4876;Irmak Koç;IST GALATAPORT;P261;128;False;False;1-8-2679;1;Danışman
+1-8-4879;Erdinç Acar;MERKEZ;P286;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-4883;Dursun Dinler;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4884;Mustafa Darıga;ANT LAND OF LEGENDS;P222;110;False;False;1-8-383;1;Müdür Yardımcısı
+1-8-4886;Eyüp Alp;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4890;Zeynep Turgut;MERKEZ;P119;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-4891;Rümeysa Kıvrak;MERKEZ;P119;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-4894;Şule Çakmak;MERKEZ;P106;100;False;False;1-8-1666;1;Uzman
+1-8-4901;Serkan Özmen;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-4904;Kaan Kırnıç;ANK CEPA;P223;104;False;True;1-8-2640;1;Müdür
+1-8-4909;Emre Yegen;ANT TERRACITY;P222;113;False;False;1-8-309;1;Müdür Yardımcısı
+1-8-4910;Eren Akçay;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-4914;Tuana Sarıaydın;MERKEZ;P231;100;False;False;1-8-2616;1;Uzman
+1-8-4915;Ceren Durmuş;IST FORUM KİDS;P261;127;False;False;1-8-2893;1;Danışman
+1-8-4917;Güney Kutlu;PALM CITY;P261;161;False;False;1-8-3774;1;Danışman
+1-8-4920;Batuhan Küçük;IST FORUM;P261;126;False;False;1-8-888;1;Danışman
+1-8-4923;Emine Kurcan;ÇAN 17 BURDA;P222;118;False;False;1-8-4627;1;Müdür Yardımcısı
+1-8-4925;Ediz Mayın;IST FORUM;P261;126;False;False;1-8-888;1;Danışman
+1-8-4928;Ayşegül Başaran;ADANA M1;P234;101;False;False;1-8-1376;1;Danışman
+1-8-493;Duygu Karaoğlan;MERKEZ;P144;100;False;True;1-8-3124;1;Yönetici
+1-8-4930;Cennet İrem Ünal;MERSIN FORUM;P261;160;False;False;1-8-3492;1;Danışman
+1-8-4931;Ali Erdem Uçarkuş;IST FORUM;P234;126;False;False;1-8-888;1;Danışman
+1-8-4932;Mehmet Erdil Kul;MERKEZ;P291;100;False;False;1-8-4075;1;Uzman Yardımcısı
+1-8-4933;Esma Alagöz;MERKEZ;P164;100;False;False;1-8-4303;1;Danışman
+1-8-4938;Kadir Kaan Zopcuk;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-4939;İrem Nur Çalış;IST VENEZIA;P222;145;False;False;1-8-899;1;Müdür Yardımcısı
+1-8-4940;Yasin Lök;IZM ISTINYE PARK;P119;149;False;False;1-8-3341;1;Danışman
+1-8-4942;Doğan Yılmaz;IST MARMARA FORUM;P261;134;False;False;1-8-4638;1;Danışman
+1-8-4943;Mehmet Nuri Sarı;ÇAN 17 BURDA;P261;118;False;False;1-8-4627;1;Danışman
+1-8-4945;Halil İbrahim Dağ;KAHRAMANMARAŞ;P234;157;False;False;1-8-4449;1;Danışman
+1-8-4954;Tuğberk Ünalmış;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-4956;Gökçenur Kart;IST FORUM;P234;126;False;False;1-8-888;1;Danışman
+1-8-4962;Sude Sena Özkan;IZM ISTINYE PARK;P222;149;False;False;1-8-3341;1;Müdür Yardımcısı
+1-8-4963;Özkan Güzel;ANK KENTPARK;P261;105;False;False;1-8-2872;1;Danışman
+1-8-4964;Abdullah Selvi;IST BUYAKA KIDS;P261;124;False;False;1-8-586;1;Danışman
+1-8-4966;Özge Bostancı;MERKEZ;P305;100;False;True;1-8-4529;1;Yönetici
+1-8-4967;Merve Borazan;ADANA M1;P261;101;False;False;1-8-1376;1;Danışman
+1-8-4968;Sümeyye Zenger;IST SIRKECI;P261;143;False;False;1-8-5060;1;Danışman
+1-8-4970;Mehmet Ali Çaylık;IST HILLTOWN;P119;130;False;False;1-8-3527;1;Danışman
+1-8-4972;Kadir Coşkun;MERKEZ;P122;100;False;True;1-8-3103;1;Mavi Yaka
+1-8-4974;Görkem Bar;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-4975;Burak Kaan Doğramacıoğlu;IST MARMARA FORUM KIDS;P261;135;False;False;1-8-5331;1;Danışman
+1-8-4977;Busenur Çuhadaroğlu;BURSA MARKA;P234;117;False;False;1-8-2396;1;Danışman
+1-8-4978;Muhammet Göktuğ Eşki;IST MARMARAPARK;P234;136;False;False;1-8-695;1;Danışman
+1-8-4981;Gizem Meydan;MERKEZ;P119;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-4982;Türkan Hür Özüm;MERKEZ;P119;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-4984;Şeyda Yavuz;MERKEZ;P138;100;False;True;1-8-1431;1;Müdür
+1-8-4985;Atalay Bozuklu;IST ISTIKLAL;P261;131;False;False;1-8-3706;1;Danışman
+1-8-4986;Emir Furkan Ercan;MERKEZ;P261;100;False;False;1-8-4303;1;Danışman
+1-8-4987;Zeynep Sude Kalelioğlu;BURSA KORUPARK;P234;116;False;False;1-8-361;1;Danışman
+1-8-4989;Yusuf Ünlü;IST FORUM;P261;126;False;False;1-8-888;1;Danışman
+1-8-4991;Uğur Yöret;IST METROPOL;P222;137;False;False;1-8-4459;1;Müdür Yardımcısı
+1-8-4992;Esma Yerlikaya;BURSA KORUPARK;P234;116;False;False;1-8-361;1;Danışman
+1-8-4993;Emirhan Gelişken;BURSA KORUPARK;P119;116;False;False;1-8-361;1;Danışman
+1-8-4995;Behlül Can Adar;IST SASKINBAKKAL;P261;142;False;False;114;1;Danışman
+1-8-5002;Selim Can Güneş;IST FORUM;P119;126;False;False;1-8-888;1;Danışman
+1-8-5010;Abdulsamet Atbaş;IST MOI;P261;138;False;False;1-8-4177;1;Danışman
+1-8-5012;Merve Doğan;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-5013;Efe Zipak;ÇAN 17 BURDA;P234;118;False;False;1-8-4627;1;Danışman
+1-8-5015;Fatma Şahin;IST SASKINBAKKAL;P261;142;False;False;114;1;Danışman
+1-8-5018;Sena Yatmaz;IST MARMARA FORUM;P222;134;False;False;1-8-4638;1;Müdür Yardımcısı
+1-8-5019;Salih Yumurtacı;IST GRANDPERA;P261;129;False;False;1-8-1316;1;Danışman
+1-8-5020;Emre Köse;IST ISTINYEPARK;P261;132;False;False;1-8-3968;1;Danışman
+1-8-5021;Yıldıray Korkmaz;MERKEZ;P276;100;False;False;1-8-4966;1;Uzman
+1-8-5023;Ziya Arslan;IST METROPOL;P261;137;False;False;1-8-4459;1;Danışman
+1-8-5024;Bahar Demirarslan;IST CEVAHIR;P261;125;False;False;187;1;Danışman
+1-8-5029;Sinem Ezgün;IST ISTINYEPARK;P164;132;False;False;1-8-3968;1;Danışman
+1-8-5030;Tolunay Tekin;MERKEZ;P304;100;False;False;1-8-1793;1;Uzman
+1-8-5031;Serhad Mehmet Özdemir;MERKEZ;P301;100;False;False;142;1;Yönetici
+1-8-5034;Zehra Özkaradeniz;MERKEZ;P119;100;False;False;1-8-1687;1;Mavi Yaka
+1-8-5038;Bahadır Kovar;IZMIT 41 BURDA;P261;155;False;False;1-8-1632;1;Danışman
+1-8-5039;Dilara Tatlıdil;IZMIT 41 BURDA;P261;155;False;False;1-8-1632;1;Danışman
+1-8-5040;Sultan Durmuş;IZMIT 41 BURDA;P261;155;False;False;1-8-1632;1;Danışman
+1-8-5047;Sevda Akçiçek;BODRUM MIDTOWN;P261;114;False;False;1-8-4601;1;Danışman
+1-8-5056;Göksal Kaya;ANT MOA;P119;112;False;False;1-8-4500;1;Danışman
+1-8-5057;Meltem Gürbüz;MERKEZ;P151;100;False;True;1-8-1431;1;Müdür
+1-8-5059;Dilan Doğan;IST MARMARA FORUM KIDS;P261;135;False;False;1-8-5331;1;Danışman
+1-8-5060;Gökhan Özdemir;IST SIRKECI;P223;143;False;True;1-8-4244;1;Müdür
+1-8-5062;Bektaşcan Gündüz;IST TEMA;P261;144;False;False;1-8-5347;1;Danışman
+1-8-5064;Mesut Yol;IST KADIKOY;P261;133;False;False;1-8-2081;1;Danışman
+1-8-5070;Erkut Özler;MERKEZ;P227;100;False;False;1-8-3025;1;Yönetici
+1-8-5071;Emrecan Demir;MERKEZ;P119;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-5073;Dilek Kurt;MERKEZ;P250;100;False;False;1-8-5488;1;Yönetici
+1-8-5074;Furkan Kara;PALM CITY;P261;161;False;False;1-8-3774;1;Danışman
+1-8-5117;Yaren Ertuğrul;IST BUYAKA KIDS;P261;124;False;False;1-8-586;1;Danışman
+1-8-5118;Sahra Karahan;MERKEZ;P298;100;False;False;1-8-2262;1;Uzman
+1-8-5120;Elif Yüksekdağ;IZM ISTINYE PARK;P234;149;False;False;1-8-3341;1;Danışman
+1-8-5126;Ali Cemal Teber;IST VIAPORT;P287;146;False;False;1-8-203;1;Uzman Danışman
+1-8-5129;Senanur Özdemir;MERKEZ;P223;100;False;True;1-8-586;1;Müdür
+1-8-5130;Tuğçe Taner;MERKEZ;P299;100;False;False;1-8-3108;1;Yönetici
+1-8-5133;Zafer Avşar;MERKEZ;P286;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-5135;Ebru Karaağaç;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-5136;Hakan Budak;MERKEZ;P273;100;False;False;1-8-1773;1;Uzman
+1-8-5137;Doğan Akçay;IST SIRKECI;P287;143;False;False;1-8-5060;1;Uzman Danışman
+1-8-5139;Mehmet Emin Karadağ;MERKEZ;P279;100;False;False;1-8-1666;1;Uzman
+1-8-5140;Kenan Çelik;IST SIRKECI;P261;143;False;False;1-8-5060;1;Danışman
+1-8-5143;Mürşide Kozan;ADANA OPTIMUM;P234;102;False;False;1-8-1382;1;Danışman
+1-8-5144;Uğurcan Onuk;MERKEZ;P119;100;False;False;1-8-5129;1;Danışman
+1-8-5149;Hasan Ayman;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-515;Songül Yıldız;IST OPTIMUM;P164;140;False;False;115;1;Danışman
+1-8-5151;Edanur Baysa;MERKEZ;P261;100;False;False;1-8-5129;1;Danışman
+1-8-5153;Oğuzhan Batıgün;MERKEZ;P267;100;False;False;1-8-2671;1;Uzman
+1-8-5160;İhsan Küçükbaş;IST OPTIMUM;P234;140;False;False;115;1;Danışman
+1-8-5161;Ece Nur Akıncı;IST GRANDPERA;P261;129;False;False;1-8-1316;1;Danışman
+1-8-5164;Zeynep Demirkıran;MERKEZ;P261;100;False;False;1-8-2088;1;Danışman
+1-8-5165;Tarık Harman;MERKEZ;P261;100;False;False;1-8-2088;1;Danışman
+1-8-5171;Erdoğan Sever;MERKEZ;P122;100;False;False;1-8-3103;1;Mavi Yaka
+1-8-5173;Halil İbrahim Saygılı;GAZIANTEP SANKOPARK;P261;121;False;False;1-8-4214;1;Danışman
+1-8-5180;Esin Yıldız;MERKEZ;P257;100;False;True;1-8-4529;1;Müdür
+1-8-5182;Volkan Kaçaner;MERKEZ;P285;100;False;False;1-8-1462;1;Müdür
+1-8-5184;Mustafa Uğur İlter;IST PIAZZA;P261;141;False;False;1-8-2104;1;Danışman
+1-8-5186;İbrahim Korkusuz;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-5187;Fırat Betus;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-5188;Oktay Çimen;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-5189;Ayşe Zorlu;IZMIR WESTPARK;P222;154;False;False;1-8-3107;1;Müdür Yardımcısı
+1-8-5190;Aygül Ak;IST ZORLU;P234;147;False;False;1-8-5523;1;Danışman
+1-8-5193;Elmas Dernek;ANK METROMALL;P261;106;False;False;1-8-3350;1;Danışman
+1-8-5194;Esma Sude Yürük;ANK METROMALL;P261;106;False;False;1-8-3350;1;Danışman
+1-8-5195;Emircan Atangüç;MERKEZ;P261;100;False;False;1-8-4306;1;Danışman
+1-8-5196;Can Sakarya;IST SASKINBAKKAL;P261;142;False;False;114;1;Danışman
+1-8-5200;Hakan Boyacı;IZMIR OPTIMUM;P261;153;False;False;1-8-2733;1;Danışman
+1-8-5201;Murat Parıltı;MERKEZ;P234;100;False;False;1-8-4306;1;Danışman
+1-8-5202;Sezgin Kadir Doğan;IST HILLTOWN;P261;130;False;False;1-8-3527;1;Danışman
+1-8-5216;İsmail Gizli;IST MOI;P222;138;False;False;1-8-4177;1;Müdür Yardımcısı
+1-8-5217;Onurcan Budancil;MERKEZ;P234;100;False;False;1-8-4303;1;Danışman
+1-8-5224;Efe Çapar;MERKEZ;P235;100;False;True;1-8-1462;1;Direktör
+1-8-5226;Ömer Faruk Koçak;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-5229;Suat Bediroğlu;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-5231;Umut Uysal;IZMIR AGORA;P234;150;False;False;1-8-3107;1;Danışman
+1-8-5234;Oğuz Can Çelik;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-5235;Emre Divar;IZM FORUM BORNOVA;P261;148;False;False;1-8-2676;1;Danışman
+1-8-5238;Birtan İyi;IST MARMARAPARK;P234;136;False;False;1-8-695;1;Danışman
+1-8-5250;Abdullah Tarhan;IST MOI;P261;138;False;False;1-8-4177;1;Danışman
+1-8-5255;Furkan Genç;IZMIR AGORA;P234;150;False;False;1-8-3107;1;Danışman
+1-8-5257;Şitaberk Karali;MERKEZ;P135;100;False;False;1-8-4088;1;Uzman
+1-8-5258;Kemal Öztürk;MERKEZ;P286;100;False;False;1-8-1857;1;Mavi Yaka
+1-8-5263;Gizem Alkan;MERKEZ;P182;100;False;False;1-8-1339;1;Kıdemli Uzman
+1-8-5272;Alper Oğuz Gökçek;MERKEZ;P261;100;False;False;1-8-2088;1;Danışman
+1-8-5275;Duygu Kömürcü;ÇAN 17 BURDA;P234;118;False;False;1-8-4627;1;Danışman
+1-8-5276;Mustafa Hayati Demirbaş;ANK CEPA;P261;104;False;False;1-8-4904;1;Danışman
+1-8-5280;Özcan Kala;IST AKASYA;P223;122;False;True;1-8-4072;1;Müdür
+1-8-5284;Vural Derdiyok;MERKEZ;P112;100;False;False;1-8-3381;1;Uzman
+1-8-5285;Ensar Can;MERKEZ;P161;100;False;False;1-8-2666;1;Uzman Yardımcısı
+1-8-5287;İbrahim Kaan Ökcesiz;MERKEZ;P242;100;False;True;1-8-4147;1;Müdür
+1-8-5289;Doğukan Yıldırım;ANK CEPA;P119;104;False;False;1-8-4904;1;Danışman
+1-8-5291;Ezginur Beygirci;MERKEZ;P295;100;False;False;1-8-283;1;Uzman Yardımcısı
+1-8-5299;Yiğit Genan;MERKEZ;P234;100;False;False;1-8-958;1;Danışman
+1-8-5301;Eda Nur Eren;IST CEVAHIR;P261;125;False;False;187;1;Danışman
+1-8-5302;Onur Ceren Korkmaz;MERKEZ;P176;100;False;False;142;1;Kıdemli Yönetici
+1-8-5303;Berra Ağıç;MERKEZ;P271;100;False;False;1-8-3109;1;Stajyer
+1-8-5304;İlyas Polat;IST VENEZIA;P261;145;False;False;1-8-899;1;Danışman
+1-8-5306;Enes Özkan;IST VENEZIA;P261;145;False;False;1-8-899;1;Danışman
+1-8-5309;Mevlüt Hüseyin Çakır;IST ZORLU;P234;147;False;False;1-8-5523;1;Danışman
+1-8-5310;Kübra Türkyılmaz;MERKEZ;P286;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-5311;Esra Cancı;IZMIT 41 BURDA;P261;155;False;False;1-8-1632;1;Danışman
+1-8-5314;Barışcan Okur;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-5315;Yunus Erdem Akpınar;IST MARMARAPARK;P261;136;False;False;1-8-695;1;Danışman
+1-8-5317;Tolga Aydoğdu;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-5319;Yaren Takıcak;IST MARMARA FORUM KIDS;P261;135;False;False;1-8-5331;1;Danışman
+1-8-5320;Büşra Oğuz;IST HILLTOWN;P234;130;False;False;1-8-3527;1;Danışman
+1-8-5321;Tugay Babayım;BODRUM MIDTOWN;P261;114;False;False;1-8-4601;1;Danışman
+1-8-5322;Eren Bulut;MERKEZ;P261;100;False;False;1-8-5129;1;Danışman
+1-8-5324;Özge Şahin Yücetaş;MERKEZ;P156;100;False;False;1-8-5180;1;Uzman
+1-8-5326;Ümmü Gülsüm Tezcan;IZMIR MAVIBAHCE;P234;152;False;False;1-8-2912;1;Danışman
+1-8-5327;Şevval Karagöz;BURSA MARKA;P234;117;False;False;1-8-2396;1;Danışman
+1-8-5329;Mehmet Tunç;BODRUM MIDTOWN;P261;114;False;False;1-8-4601;1;Danışman
+1-8-5331;Handan Tanrıverdi;IST MARMARA FORUM KIDS;P223;135;False;True;1-8-586;1;Müdür
+1-8-5333;Gökhan Karayel;IZMIT 41 BURDA;P222;155;False;False;1-8-1632;1;Müdür Yardımcısı
+1-8-5334;Sümeyye Koçer;IST BUYAKA KIDS;P261;124;False;False;1-8-586;1;Danışman
+1-8-5340;İrem Aksu;IZMIT 41 BURDA;P261;155;False;False;1-8-1632;1;Danışman
+1-8-5342;Tarık Karan;IZMIR WESTPARK;P261;154;False;False;1-8-3107;1;Danışman
+1-8-5343;Anıl Can Görentaş;ANT MOA;P261;112;False;False;1-8-4500;1;Danışman
+1-8-5346;Mehmet Kartal;MERKEZ;P234;100;False;False;1-8-4303;1;Danışman
+1-8-5347;Turgay Arslan;IST TEMA;P223;144;False;True;1-8-586;1;Müdür
+1-8-5355;Ayberk Bayraktar;BURSA MARKA;P119;117;False;False;1-8-2396;1;Danışman
+1-8-5358;Seçkin Yüksektepe;MERKEZ;P300;100;False;False;1-8-3071;1;Yönetici
+1-8-536;Ali Osman Bayram;BURSA MARKA;P261;117;False;False;1-8-2396;1;Danışman
+1-8-5362;Oktay Vural;ANT ALANYA;P261;109;False;False;1-8-5584;1;Danışman
+1-8-5366;Berfin Aytek;IST MARMARA FORUM;P234;134;False;False;1-8-4638;1;Danışman
+1-8-5373;Hafize Yaşar;ANK OPTIMUM;P261;108;False;False;1-8-441;1;Danışman
+1-8-5374;Esmanur Fındık;IST FORUM;P164;126;False;False;1-8-888;1;Danışman
+1-8-5376;Emre Can Şahin;IST MARMARAPARK;P234;136;False;False;1-8-695;1;Danışman
+1-8-5377;Bahattin Çetintaş;MERKEZ;P190;100;False;False;1-8-1700;1;Kıdemli Yönetici
+1-8-5378;Burcu İnal;IST MARMARA FORUM;P164;134;False;False;1-8-4638;1;Danışman
+1-8-5379;Büşeyra Eroğlu;TRABZON FORUM;P234;163;False;False;1-8-1546;1;Danışman
+1-8-5380;Ahmet Atlas;ANT ALANYA;P261;109;False;False;1-8-5584;1;Danışman
+1-8-5382;Feyzanur Samur;IST AKASYA;P234;122;False;False;1-8-5280;1;Danışman
+1-8-5385;Tolga Akpunar;IST AKASYA;P261;122;False;False;1-8-5280;1;Danışman
+1-8-5386;Sahra Bavık;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-5389;Bora Küçüktunca;IST OPTIMUM;P261;140;False;False;115;1;Danışman
+1-8-5390;Miray Deniz Arslan;IST PIAZZA;P234;141;False;False;1-8-2104;1;Danışman
+1-8-5393;Ayçanur Tatlı;KAHRAMANMARAŞ;P234;157;False;False;1-8-4449;1;Danışman
+1-8-5394;Berke Can Kalay;BODRUM MIDTOWN;P261;114;False;False;1-8-4601;1;Danışman
+1-8-5395;Adnan Kocadağ;ANT MARKA;P261;111;False;False;1-8-4329;1;Danışman
+1-8-5396;Seda Nigar Arslan;ANT ALANYA;P261;109;False;False;1-8-5584;1;Danışman
+1-8-5397;Oğuz Kuruca;ANT MARKA;P222;111;False;False;1-8-4329;1;Müdür Yardımcısı
+1-8-5398;Abdulkerim Şahin;IST MOI;P119;138;False;False;1-8-4177;1;Danışman
+1-8-5399;Gülçin Birge;MERKEZ;P220;100;False;False;1-8-2129;1;Uzman
+1-8-5401;Batuhan Göksoy;ADANA OPTIMUM;P232;102;False;False;1-8-1382;1;Danışman
+1-8-5403;Mahmut Kerem Ayan;IST KADIKOY;P261;133;False;False;1-8-2081;1;Danışman
+1-8-5407;Deniz Sena Nalbantoğlu;IZMIR WESTPARK;P234;154;False;False;1-8-3107;1;Danışman
+1-8-5410;Suğra Gülseren;MERKEZ;P261;100;False;False;1-8-1718;1;Danışman
+1-8-5412;Mustafa Özcan;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-5413;Semanur Akdoğan;PALM CITY;P234;161;False;False;1-8-3774;1;Danışman
+1-8-5414;Ömer Kum;IST GALATAPORT;P119;128;False;False;1-8-2679;1;Danışman
+1-8-5417;Ayşegül Erbay;BODRUM MIDTOWN;P261;114;False;False;1-8-4601;1;Danışman
+1-8-5418;Yaren Ceren Kaplan;IST TEMA;P234;144;False;False;1-8-5347;1;Danışman
+1-8-5419;Emel Şencan;MERKEZ;P119;100;False;False;1-8-1857;1;Mavi Yaka
+1-8-5421;Emir Yılmaz;BURSA KORUPARK;P234;116;False;False;1-8-361;1;Danışman
+1-8-5422;Gözde Korkmaz;IST BUYAKA;P234;123;False;False;1-8-3338;1;Danışman
+1-8-5424;Selin Kınış;MERKEZ;P249;100;False;False;1-8-5057;1;Yönetici
+1-8-5425;Gamze Nur Tekeli;MERKEZ;P218;100;False;False;1-8-1700;1;Uzman
+1-8-5427;Hüseyin Şahin;MERKEZ;P119;100;False;False;1-8-1513;1;Mavi Yaka
+1-8-5428;Mehdi Özkaner;MERKEZ;P119;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-5431;Mert Mutlu;ANT TERRACITY;P261;113;False;False;1-8-309;1;Danışman
+1-8-5432;Sude Demirağ;MERKEZ;P234;100;False;False;1-8-4306;1;Danışman
+1-8-5433;Cansu Soğukpınar;IST CEVAHIR;P261;125;False;False;187;1;Danışman
+1-8-5434;Selim Yiğit;IST ISTIKLAL;P261;131;False;False;1-8-3706;1;Danışman
+1-8-5437;Mehmet Aktaş;ANT ALANYA;P261;109;False;False;1-8-5584;1;Danışman
+1-8-5438;Şeyma Nur Efilti;FORUM KAYSERİ;P234;120;False;False;1-8-4456;1;Danışman
+1-8-5439;Taha Ceyhan;IST GRANDPERA;P234;129;False;False;1-8-1316;1;Danışman
+1-8-5440;Cemil Samet Çakır;IST VIAPORT;P261;146;False;False;1-8-203;1;Danışman
+1-8-5441;Batuhan Özdemir;IST FORUM KİDS;P261;127;False;False;1-8-2893;1;Danışman
+1-8-5442;Muhammed Nurullah Bağırkan;IST GRANDPERA;P261;129;False;False;1-8-1316;1;Danışman
+1-8-5445;Irmak Dağ;IST MARMARAPARK;P233;136;False;False;1-8-695;1;Danışman
+1-8-5447;Serkan Necip Öncü;ANK METROMALL;P222;106;False;False;1-8-3350;1;Müdür Yardımcısı
+1-8-5449;Harun Çetin;ANT TERRACITY;P119;113;False;False;1-8-309;1;Danışman
+1-8-5451;Burak Hıyamlıoğlu;MERKEZ;P119;100;False;False;1-8-4306;1;Danışman
+1-8-5455;Ender Murat Önür;ANT TERRACITY;P261;113;False;False;1-8-309;1;Danışman
+1-8-5456;Deniz Ören;IST ZORLU;P287;147;False;False;1-8-5523;1;Uzman Danışman
+1-8-5457;Şeval Irmak Coşkun;MERKEZ;P261;100;False;False;1-8-5129;1;Danışman
+1-8-5458;Hüseyin Tunç;MERKEZ;P115;100;False;False;1-8-2423;1;Yönetici
+1-8-5459;Fatma Nur Dilbaz;FORUM KAYSERİ;P234;120;False;False;1-8-4456;1;Danışman
+1-8-5463;Zeynep Burcu Topçu Güleryüz;MERKEZ;P211;100;False;False;1-8-4088;1;Kıdemli Uzman
+1-8-5465;Hasan Can Yılmaz;IST HILLTOWN;P261;130;False;False;1-8-3527;1;Danışman
+1-8-5467;Mehmet Çağlar Kubilay;ANK ANKAMALL;P261;103;False;False;1-8-5493;1;Danışman
+1-8-5469;Abdullah Oğulberk Şimşek;ANK ANKAMALL;P261;103;False;False;1-8-5493;1;Danışman
+1-8-5470;Hayat Sunğar;MERKEZ;P271;100;False;False;1-8-2653;1;Stajyer
+1-8-5471;Kemal Emre Demir;MERKEZ;P137;100;False;False;1-8-4984;1;Uzman Yardımcısı
+1-8-5472;Sadık Ortatepe;MERKEZ;P125;100;False;False;1-8-3109;1;Yönetici
+1-8-5473;Ayberk Türkmen;MERKEZ;P261;100;False;False;1-8-945;1;Danışman
+1-8-5474;Onur Tatlı;IST FORUM;P261;126;False;False;1-8-888;1;Danışman
+1-8-5475;Merve Yıldırım;MERKEZ;P182;100;False;False;1-8-1339;1;Kıdemli Uzman
+1-8-5476;Yasin Şahin;IST METROPOL;P261;137;False;False;1-8-4459;1;Danışman
+1-8-5477;İslam Özerdoğan;IST KADIKOY;P261;133;False;False;1-8-2081;1;Danışman
+1-8-5478;Deniz Yılmaz;IZMIT OUTLET;P261;156;False;False;1-8-2293;1;Danışman
+1-8-5480;Nejla Buse Ünal;ANK ANKAMALL;P164;103;False;False;1-8-5493;1;Danışman
+1-8-5481;Aleyna Tekinaslan;ANK ANKAMALL;P164;103;False;False;1-8-5493;1;Danışman
+1-8-5482;Serhat Ercan;IZMIT OUTLET;P261;156;False;False;1-8-2293;1;Danışman
+1-8-5483;Tuğçe Alptekin;IZM FORUM BORNOVA;P234;148;False;False;1-8-2676;1;Danışman
+1-8-5486;İsmail Şipal;MERKEZ;P119;100;False;False;1-8-3105;1;Mavi Yaka
+1-8-5488;Çağla Atalay Dayı;MERKEZ;P237;100;False;True;1-8-5224;1;Müdür
+1-8-5490;Figen Dikmen;BODRUM MIDTOWN;P261;114;False;False;1-8-4601;1;Danışman
+1-8-5491;Mustafa Umuralp Yücel;ANK ANKAMALL;P261;103;False;False;1-8-5493;1;Danışman
+1-8-5492;Sena Boğaz;MERKEZ;P234;100;False;False;1-8-2088;1;Danışman
+1-8-5493;Yusuf Ünaydın;ANK ANKAMALL;P223;103;False;True;1-8-2640;1;Müdür
+1-8-5494;Ebrar Kapaklıkaya;ESK ESPARK;P261;119;False;False;1-8-5504;1;Danışman
+1-8-5497;Yavuz Dirlik;ESK ESPARK;P261;119;False;False;1-8-5504;1;Danışman
+1-8-5498;Serkan Balcı;IST CEVAHIR;P261;125;False;False;187;1;Danışman
+1-8-5499;Emine Nur Şaşmaz;ESK ESPARK;P164;119;False;False;1-8-5504;1;Danışman
+1-8-5501;Yusuf Karataş;ESK ESPARK;P261;119;False;False;1-8-5504;1;Danışman
+1-8-5503;Cemal Kaşka;IST CEVAHIR;P234;125;False;False;187;1;Danışman
+1-8-5504;Nevriye Ulusoy;ESK ESPARK;P223;119;False;True;1-8-2640;1;Müdür
+1-8-5505;Umut Demir;ANK ANKAMALL;P119;103;False;False;1-8-5493;1;Danışman
+1-8-5510;Hilal Altuntaş;ANK CEPA;P261;104;False;False;1-8-4904;1;Danışman
+1-8-5513;Umut Baha Çetin;IZM ISTINYE PARK;P234;149;False;False;1-8-3341;1;Danışman
+1-8-5514;Müslüm Karacı;IST ISTIKLAL;P261;131;False;False;1-8-3706;1;Danışman
+1-8-5516;Kazım Aydın;ANK ANKAMALL;P261;103;False;False;1-8-5493;1;Danışman
+1-8-5517;Esma Beliren;IST AKASYA;P234;122;False;False;1-8-5280;1;Danışman
+1-8-5520;Yusuf Yakan;ESK ESPARK;P261;119;False;False;1-8-5504;1;Danışman
+1-8-5521;Yasin Gürsoy;IST ISTINYEPARK;P261;132;False;False;1-8-3968;1;Danışman
+1-8-5522;Şeyma Biçer;IST CEVAHIR;P233;125;False;False;187;1;Danışman
+1-8-5523;Nurcan Selam;IST ZORLU;P223;147;False;True;1-8-4244;1;Müdür
+1-8-5524;Cengizhan Şahin;ANK METROMALL;P234;106;False;False;1-8-3350;1;Danışman
+1-8-5525;İrfan Mert Tanal;ANK KENTPARK;P232;105;False;False;1-8-2872;1;Danışman
+1-8-5526;Zeliha Arınmış;ANK METROMALL;P234;106;False;False;1-8-3350;1;Danışman
+1-8-5527;İsmail Şahin;ESK ESPARK;P222;119;False;False;1-8-5504;1;Müdür Yardımcısı
+1-8-5529;Yusuf Arslan;MERKEZ;P229;100;False;False;1-8-4808;1;Destek
+1-8-5530;Beyza Doğan;ESK ESPARK;P234;119;False;False;1-8-5504;1;Danışman
+1-8-5531;Muhammet Karakaş;ANK ANKAMALL;P234;103;False;False;1-8-5493;1;Danışman
+1-8-5532;Rüya Bolat;ESK ESPARK;P234;119;False;False;1-8-5504;1;Danışman
+1-8-5533;Dursun Murat Duman;IST AKASYA;P119;122;False;False;1-8-4636;1;Danışman
+1-8-5534;Serkan Kaya;MERKEZ;P119;100;False;False;1-8-2877;1;Mavi Yaka
+1-8-5535;Eren Karagöz;ANK CEPA;P234;104;False;False;1-8-4904;1;Danışman
+1-8-5536;Simanur Kaya;ANK OPTIMUM;P234;108;False;False;1-8-441;1;Danışman
+1-8-5538;Fatmanur Aydın;ESK ESPARK;P234;119;False;False;1-8-5504;1;Danışman
+1-8-5539;Kerem Özmen;IST SASKINBAKKAL;P234;142;False;False;114;1;Danışman
+1-8-5541;Havin Gencer;IST MARMARAPARK;P233;136;False;False;1-8-695;1;Danışman
+1-8-5542;Berfin Abasız;MERKEZ;P196;100;False;False;1-8-3025;1;Kıdemli Uzman
+1-8-5543;Mehlika Arslan;MERKEZ;P271;100;False;False;1-8-2129;1;Stajyer
+1-8-5544;Selenay Karaman;IST ISTINYEPARK;P261;132;False;False;1-8-3968;1;Danışman
+1-8-5545;Asram Erdal;IST MOI;P164;138;False;False;1-8-4177;1;Danışman
+1-8-5546;Önder Özer;MERKEZ;P196;100;False;False;1-8-3025;1;Kıdemli Uzman
+1-8-5550;Yıldız Özkan;IST ISTINYEPARK;P261;132;False;False;1-8-3968;1;Danışman
+1-8-5551;Emre Şenyüz;ANK OPTIMUM;P222;108;False;False;1-8-441;1;Müdür Yardımcısı
+1-8-5552;Kerimcan Kaya;IST KADIKOY;P119;133;False;False;1-8-2081;1;Danışman
+1-8-5553;Mustafa Kemal Mustafa;IST ISTIKLAL;P119;131;False;False;1-8-3706;1;Danışman
+1-8-5554;Özkan Beyler;ANK CEPA;P222;104;False;False;1-8-4904;1;Müdür Yardımcısı
+1-8-5555;Çağrı Gül;IST ZORLU;P261;147;False;False;1-8-5523;1;Danışman
+1-8-5556;Emrecan Yıldırım;MERKEZ;P261;100;False;False;1-8-1718;1;Danışman
+1-8-5558;Eralp Avcı;MERKEZ;P261;100;False;False;1-8-1718;1;Danışman
+1-8-5560;Zeynep Üner;MERKEZ;P271;100;False;False;1-8-5488;1;Stajyer
+1-8-5562;Devin Karaşal;ANK ANKAMALL;P261;103;False;False;1-8-5493;1;Danışman
+1-8-5563;Fahri Küçükarslan;IST TEMA;P119;144;False;False;1-8-5347;1;Danışman
+1-8-5564;Tacettin Öztürk;IST BUYAKA;P119;123;False;False;1-8-3338;1;Danışman
+1-8-5565;Celal Can Tepe;IST METROPOL;P261;137;False;False;1-8-4459;1;Danışman
+1-8-5567;Rabia Balcı;MERKEZ;P164;100;False;False;1-8-958;1;Danışman
+1-8-5568;Ceren Sevil;BURSA DOWNTOWN;P234;115;False;False;1-8-5589;1;Danışman
+1-8-5569;Deniz Ceylan;ANK NATAVEGA;P234;107;False;False;1-8-4576;1;Danışman
+1-8-5570;Mehmet Aynacı;IST SASKINBAKKAL;P261;142;False;False;114;1;Danışman
+1-8-5571;Deniz Ulaş Lalegül;ANK CEPA;P234;104;False;False;1-8-4904;1;Danışman
+1-8-5572;Hasan Arslan;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-5574;Ali Arı;BURSA DOWNTOWN;P234;115;False;False;1-8-5589;1;Danışman
+1-8-5575;Muhsin Alördek;MERKEZ;P119;100;False;False;1-8-4972;1;Mavi Yaka
+1-8-5576;Doğan Pulat;MERKEZ;P119;100;False;False;1-8-1495;1;Mavi Yaka
+1-8-5577;İrem Selin Şarman;MERKEZ;P175;100;False;False;1-8-4529;1;Kıdemli Müdür
+1-8-5578;Emel Murat;ANK CEPA;P164;104;False;False;1-8-4904;1;Danışman
+1-8-5579;Mustafa Okur;ANK ANKAMALL;P119;103;False;False;1-8-5493;1;Danışman
+1-8-5580;Halil Arslanpınar;KONYA KENT PLAZA;P232;158;False;False;1-8-2278;1;Danışman
+1-8-5582;Burak Yücel;MERKEZ;P307;100;False;False;1-8-1277;1;Yönetici
+1-8-5584;Mehmet Emin Terlemez;ANT ALANYA;P223;109;False;True;71;1;Müdür
+1-8-5585;Sema Pekkan;MERKEZ;P119;100;False;False;1-8-1857;1;Mavi Yaka
+1-8-5586;İbrahim Kılıç;ANK NATAVEGA;P222;107;False;False;1-8-4576;1;Müdür Yardımcısı
+1-8-5587;Ceren Guguk;MERKEZ;P143;100;False;False;42;1;Uzman
+1-8-5588;Medine Nur Gün;IST FORUM KİDS;P234;127;False;False;1-8-2893;1;Danışman
+1-8-5589;Çağlar Sarıçiçek;BURSA DOWNTOWN;P223;115;False;True;1-8-3107;1;Müdür
+1-8-5590;Yağmur Cebeci;IZM ISTINYE PARK;P234;149;False;False;1-8-3341;1;Danışman
+1-8-5591;Helin Ulutaş;IZM ISTINYE PARK;P234;149;False;False;1-8-3341;1;Danışman
+1-8-5592;Doğukan Yılmaz;BODRUM MIDTOWN;P119;114;False;False;1-8-4601;1;Danışman
+1-8-5593;Sinan Erman Başaran;IZMIR OPTIMUM;P222;153;False;False;1-8-2733;1;Müdür Yardımcısı
+1-8-5595;Hasan Eskimiş;MERKEZ;P261;100;False;False;1-8-4812;1;Danışman
+1-8-5596;Eyal Benefrahim;MERKEZ;P271;100;False;False;1-8-470;1;Stajyer
+1-8-5597;Hüsnü Can Çetin;IST GRANDPERA;P261;129;False;False;1-8-1316;1;Danışman
+1-8-5598;Berke Buğra Dönmez;ANK CEPA;P234;104;False;False;1-8-4904;1;Danışman
+1-8-5599;Ezgi Ergül Güler;MERKEZ;P143;100;False;False;1-8-493;1;Uzman
+1-8-5600;Aleyna Koşucu;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-5601;Yeliz Yılmaz;MERKEZ;P119;100;False;False;1-8-4076;1;Mavi Yaka
+1-8-5602;Mina Nur Yılmaz;MERKEZ;P234;100;False;False;1-8-4303;1;Danışman
+1-8-5603;Muhammed Yasin Cansev;ANK OPTIMUM;P261;108;False;False;1-8-441;1;Danışman
+1-8-5604;Bulut Kaan Başol;ANK NATAVEGA;P234;107;False;False;1-8-4576;1;Danışman
+1-8-5605;Nehir Kaya;IST METROPOL;P271;137;False;False;1-8-4459;1;Stajyer
+1-8-5606;Gizem İnan;IST BUYAKA;P271;123;False;False;1-8-3338;1;Stajyer
+1-8-5607;Rovshen Atayev;MERKEZ;P271;100;False;False;1-8-945;1;Stajyer
+1-8-5608;Belinay Yıldız;MERKEZ;P271;100;False;False;1-8-2088;1;Stajyer
+1-8-5609;Damla Soncul;IST BUYAKA KIDS;P271;124;False;False;1-8-586;1;Stajyer
+1-8-5610;Rümeysa Acar;IST PIAZZA;P261;141;False;False;1-8-2104;1;Danışman
+1-8-5611;Medine Avdatek;IST MARMARAPARK;P271;136;False;False;1-8-695;1;Stajyer
+1-8-5612;Kübra Kardaş;IST MARMARAPARK;P271;136;False;False;1-8-695;1;Stajyer
+1-8-5613;Zehra Çoltu;IST MARMARAPARK;P271;136;False;False;1-8-695;1;Stajyer
+1-8-5614;Minesu Demirel;IST FORUM;P234;126;False;False;1-8-888;1;Danışman
+1-8-5615;Musab Yanar;IST FORUM;P234;126;False;False;1-8-888;1;Danışman
+1-8-5616;Mehmet Karaman;ANK CEPA;P222;104;False;False;1-8-4904;1;Müdür Yardımcısı
+1-8-5617;Deniz Özden Kurteş;MERKEZ;P234;100;False;False;1-8-958;1;Danışman
+1-8-5618;Kadir Cihan Tüfekci;MERKEZ;P152;100;False;False;1-8-1543;1;Yönetici
+1-8-5619;Irmak Sekman;MERKEZ;P271;100;False;False;1-8-1431;1;Stajyer
+1-8-5620;Arda Kaygısız;MERKEZ;P271;100;False;False;1-8-1462;1;Stajyer
+1-8-5621;Selim Tuna Kılıç;IST MOI;P234;138;False;False;1-8-4177;1;Danışman
+1-8-5622;Yağmur Günyel;IST MOI;P234;138;False;False;1-8-4177;1;Danışman
+1-8-5623;Mehmet Tuncer;MALATYA PARK AVM;P261;159;False;False;1-8-2640;1;Danışman
+1-8-5624;İbrahim Batuhan Çiçek;MALATYA PARK AVM;P261;159;False;False;1-8-2640;1;Danışman
+1-8-5625;Batuhan Yıldırım;MALATYA PARK AVM;P261;159;False;False;1-8-2640;1;Danışman
+1-8-5626;Selma Öz;MALATYA PARK AVM;P261;159;False;False;1-8-2640;1;Danışman
+1-8-5627;Duygu Karakaş;MALATYA PARK AVM;P261;159;False;False;1-8-2640;1;Danışman
+1-8-5628;Elanur Ciğerci;MALATYA PARK AVM;P261;159;False;False;1-8-2640;1;Danışman
+1-8-5629;Aslıhan Bozkurt;IST VENEZIA;P261;145;False;False;1-8-899;1;Danışman
+1-8-5630;Emre Ergin;MERKEZ;P119;100;False;False;1-8-3104;1;Mavi Yaka
+1-8-5631;Aytaç Türkbay;IZMIR AGORA;P223;150;False;False;1-8-3107;1;Müdür
+1-8-5632;Serhat Kaynar;MALATYA PARK AVM;P223;159;False;False;1-8-2640;1;Müdür
+1-8-5633;Burhan Çırak;SAMSUN PIAZZA;P223;162;False;False;1-8-2640;1;Müdür
+1-8-5634;Muhammet Eren Saldıran;MERKEZ;P119;100;False;False;1-8-958;1;Danışman
+1-8-566;Ömer Yiğitoğlu;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-586;Taner Morkoç;MERKEZ;P172;100;False;True;1-8-5287;1;Kıdemli Yönetici
+1-8-587;Çiğdem Alperler;MERKEZ;P144;100;False;True;1-8-3124;1;Yönetici
+1-8-596;Gürhan Öz;IZM FORUM BORNOVA;P222;148;False;False;1-8-2676;1;Müdür Yardımcısı
+1-8-695;Kemal Özcan;IST MARMARAPARK;P223;136;False;True;1-8-586;1;Müdür
+187;Rıdvan Arslan;IST CEVAHIR;P223;125;False;True;1-8-586;1;Müdür
+1-8-7000001;Sami Gökbey Karataş;Merkez Ofis;P236;400;False;False;1-8-1131;4;Yönetici
+1-8-7000002;Hasan Öztürk;Merkez Ofis;P259;400;False;False;1-8-1131;4;Yönetici
+1-8-7000004;Eda Güney;Merkez Ofis;P299;400;False;False;1-8-1131;4;Yönetici
+1-8-754;Melek Çukadar;MERKEZ;P179;100;False;False;1-8-4984;1;Kıdemli Uzman
+1-8-776;Ulaş Üstündağ;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+1-8-8000001;Safa Kılıç;Merkez Ofis;P284;500;False;False;1;5;Müdür
+1-8-8000002;Mustafa Sökün;Merkez Ofis;P293;500;False;True;1;5;Müdür
+1-8-8000003;Deniz Kaya Özer;Merkez Ofis;P237;500;False;False;1;5;Müdür
+1-8-8000004;Dilara Kahraman;Merkez Ofis;P271;500;False;False;1-8-8000002;5;Stajyer
+1-8-861;Ümit Berber;IST AKASYA;P222;122;False;False;1-8-5280;1;Müdür Yardımcısı
+1-8-864;Tuğba Çam;MERKEZ;P193;100;False;False;1-8-3104;1;Kıdemli Uzman
+1-8-888;Okan Demir;IST FORUM;P223;126;False;True;1-8-586;1;Müdür
+1-8-891;Tuğçe Taşkın;IST HILLTOWN;P222;130;False;False;1-8-3527;1;Müdür Yardımcısı
+1-8-899;İbrahim Taşkın;IST VENEZIA;P223;145;False;True;1-8-4244;1;Müdür
+1-8-911;Kemal Can Kete;MERKEZ;P261;100;False;False;1-8-1718;1;Danışman
+1-8-945;Murat Fazlaoğlu;MERKEZ;P223;100;False;True;1-8-4072;1;Müdür
+1-8-947;Merve Öcal;ANT TERRACITY;P261;113;False;False;1-8-309;1;Danışman
+1-8-958;Emine Dadak;MERKEZ;P223;100;False;True;15-8-10001;1;Müdür
+192;Mustafa Aksu;MERKEZ;P201;100;False;True;25;1;Kıdemli Müdür
+25;Kaan Darnel;MERKEZ;P288;100;False;True;1-8-1462;1;Direktör
+42;Pınar Bal;MERKEZ;P144;100;False;True;1-8-3124;1;Yönetici
+71;Sercan Küçük;MERKEZ;P107;100;False;True;1-8-5287;1;Yönetici
+79;Azerhan Bozdemir;MERKEZ;P261;100;False;False;1-8-3580;1;Danışman
+86;Rafiye Türk Bayrak;MERKEZ;P153;100;False;False;1-8-4808;1;Destek

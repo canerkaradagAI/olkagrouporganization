@@ -1,0 +1,211 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String     @id @default(cuid())
+  name          String?
+  email         String     @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  firstName     String?
+  lastName      String?
+  isActive      Boolean    @default(true)
+  createdDate   DateTime   @default(now())
+  accounts      Account[]
+  sessions      Session[]
+  userRoles     UserRole[]
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Company {
+  companyId   Int     @id @default(autoincrement())
+  companyName String  @unique
+  brands      Brand[]
+
+  @@map("companies")
+}
+
+model Department {
+  departmentId   Int         @id @default(autoincrement())
+  departmentName String      @unique
+  employees      Employee[]
+  positions      Position[]
+  
+  @@map("departments")
+}
+
+model Brand {
+  brandId   Int        @id @default(autoincrement())
+  brandName String     @unique
+  companyId Int
+  company   Company    @relation(fields: [companyId], references: [companyId])
+  employees Employee[]
+
+  @@map("brands")
+}
+
+model Location {
+  locationId   Int        @id @default(autoincrement())
+  locationName String     @unique
+  employees    Employee[]
+
+  @@map("locations")
+}
+
+model JobTitleLevel {
+  levelId     Int     @id @default(autoincrement())
+  levelName   String  @unique
+  levelOrder  Int     @unique
+  description String?
+  color       String?
+
+  @@map("job_title_levels")
+}
+
+model AssignmentTypeLookup {
+  assignmentTypeId   Int                  @id @default(autoincrement())
+  assignmentTypeName String               @unique
+  assignments        PositionAssignment[]
+
+  @@map("assignment_type_lookup")
+}
+
+model Position {
+  positionId   Int                  @id @default(autoincrement())
+  positionName String
+  departmentId Int?
+  employees    Employee[]
+  assignments  PositionAssignment[]
+  department   Department?          @relation(fields: [departmentId], references: [departmentId])
+  
+  @@map("positions")
+}
+
+model Employee {
+  currAccCode   String               @id
+  firstLastName String
+  organization  String?
+  positionId    Int?
+  locationId    Int?
+  departmentId  Int?
+  isBlocked     Boolean              @default(false)
+  isManager     Boolean              @default(false)
+  managerId     String?
+  brandId       Int?
+  levelName     String?
+  manager       Employee?            @relation("EmployeeManager", fields: [managerId], references: [currAccCode])
+  subordinates  Employee[]           @relation("EmployeeManager")
+  brand         Brand?               @relation(fields: [brandId], references: [brandId])
+  department    Department?          @relation(fields: [departmentId], references: [departmentId])
+  location      Location?            @relation(fields: [locationId], references: [locationId])
+  position      Position?            @relation(fields: [positionId], references: [positionId])
+  assignments   PositionAssignment[]
+
+  @@map("employees")
+}
+
+model PositionAssignment {
+  assignmentId         Int                  @id @default(autoincrement())
+  positionId           Int
+  currAccCode          String
+  startDate            DateTime
+  endDate              DateTime?
+  assignmentType       String
+  assignmentTypeLookup AssignmentTypeLookup @relation(fields: [assignmentType], references: [assignmentTypeName])
+  employee             Employee             @relation(fields: [currAccCode], references: [currAccCode])
+  position             Position             @relation(fields: [positionId], references: [positionId])
+
+  @@map("position_assignments")
+}
+
+model Role {
+  roleId                Int                    @id @default(autoincrement())
+  roleName              String                 @unique
+  description           String?
+  isActive              Boolean                @default(true)
+  roleScreenPermissions RoleScreenPermission[]
+  userRoles             UserRole[]
+
+  @@map("roles")
+}
+
+model Screen {
+  screenId              Int                    @id @default(autoincrement())
+  screenName            String                 @unique
+  screenPath            String                 @unique
+  description           String?
+  roleScreenPermissions RoleScreenPermission[]
+
+  @@map("screens")
+}
+
+model Permission {
+  permissionId          Int                    @id @default(autoincrement())
+  permissionName        String                 @unique
+  roleScreenPermissions RoleScreenPermission[]
+
+  @@map("permissions")
+}
+
+model RoleScreenPermission {
+  roleId       Int
+  screenId     Int
+  permissionId Int
+  permission   Permission @relation(fields: [permissionId], references: [permissionId])
+  screen       Screen     @relation(fields: [screenId], references: [screenId])
+  role         Role       @relation(fields: [roleId], references: [roleId])
+
+  @@id([roleId, screenId, permissionId])
+  @@map("role_screen_permissions")
+}
+
+model UserRole {
+  userId String
+  roleId Int
+  role   Role   @relation(fields: [roleId], references: [roleId])
+  user   User   @relation(fields: [userId], references: [id])
+
+  @@id([userId, roleId])
+  @@map("user_roles")
+}

@@ -1,0 +1,1288 @@
+CompanyId,CurrAccCode,CompanyName,NameSurname,BrandId,BrandName,LocationName,DepartmentName,PositionName,IsManager,ManagerId,LevelName
+1,1,Olka Group,Yasin Kavşak,1,Olka,MERKEZ,Yönetim,Yönetim Kurulu Başkanı,True,NULL,Yönetim Kurulu Başkanı
+1,104,Olka Group,Nurullah Keleş,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Yöneticisi,True,1-8-3025,Kıdemli Yönetici
+1,105,Olka Group,Safa Güneyli,1,Olka,MERKEZ,İdari İşler,Teknik Destek,False,1-8-4808,Destek
+1,109,Olka Group,Volkan Tozkoparan,1,Olka,IST OPTIMUM,Mağazalar,Mağaza Müdür Yardımcısı,False,115,Müdür Yardımcısı
+1,114,Olka Group,Erkan Durgun,1,Olka,IST SASKINBAKKAL,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,115,Olka Group,Serdar Kobal,1,Olka,IST OPTIMUM,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,124,Olka Group,Eylül Belde Baknalı,1,Olka,MERKEZ,İnsan Kaynakları,Organizasyonel Gelişim ve İK Müdürü,True,1-8-4529,Müdür
+1,13,Olka Group,Hüseyin Çimen,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,142,Olka Group,Metin Özcan,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli Bilgi Teknolojileri Müdürü,True,1-8-1924,Kıdemli Müdür
+1,1-8-1002,Olka Group,Suat Şirin,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Operasyon Uzmanı,False,1-8-3127,Kıdemli Uzman
+1,1-8-1005,Olka Group,Ali Aydın,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Operasyon Uzmanı,False,1-8-3127,Kıdemli Uzman
+1,1-8-1024,Olka Group,Sedat Gani Ülker,1,Olka,SAMSUN PIAZZA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2640,Müdür Yardımcısı
+1,1-8-1025,Olka Group,Merve Demir,1,Olka,SAMSUN PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-1026,Olka Group,Muzaffer Demirkurt,1,Olka,SAMSUN PIAZZA,Mağazalar,Uzman Satış Danışmanı,False,1-8-2640,Uzman Danışman
+1,1-8-1052,Olka Group,Ömer Karakoç,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-1058,Olka Group,Muharrem Karakaş,1,Olka,IST MARMARAPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-695,Müdür Yardımcısı
+1,1-8-1097,Olka Group,Çağatay Kürek,1,Olka,SAMSUN PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-1124,Olka Group,Ahmet Yazgan,1,Olka,ANK OPTIMUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-441,Uzman Danışman
+1,1-8-1131,Olka Group,Adem Gökhan Kolutek,1,Olka,MERKEZ,Toptan Satış,Toptan Satış Direktörü,True,1-8-1462,Direktör
+1,1-8-1159,Olka Group,Ali Durgut,1,Olka,MERKEZ,Pazarlama,Bölge Görsel Düzenleme Uzmanı,False,1-8-1666,Uzman
+1,1-8-1162,Olka Group,Muhammed Öztürk,1,Olka,IST OLIVIUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-4243,Uzman Danışman
+1,1-8-1277,Olka Group,Yücel Günenç,1,Olka,MERKEZ,Toptan Satış,Zincir Mağazalar Satış Müdürü,True,1-8-1131,Müdür
+1,1-8-1290,Olka Group,Erhan Ülker,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-1291,Olka Group,Cansu Akçin,1,Olka,IST AKASYA,Mağazalar,Satış Danışmanı,False,1-8-5280,Danışman
+1,1-8-1304,Olka Group,Özkan Karakaya,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1309,Olka Group,Hilal Yılmaz,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-1316,Olka Group,Kenan Kantarcı,1,Olka,IST GRANDPERA,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-1318,Olka Group,Tuğçe Kalaycı,1,Olka,IST GALATAPORT,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2679,Müdür Yardımcısı
+1,1-8-1322,Olka Group,Batuhan Kafadar,1,Olka,MERKEZ,Perakende Satış,Satış Geliştirme Yöneticisi,True,1-8-5287,Yönetici
+1,1-8-1339,Olka Group,Sümeyye Teke,1,Olka,MERKEZ,Pazarlama,Grafik Tasarım Yöneticisi,True,1-8-5488,Yönetici
+1,1-8-1361,Olka Group,Hamza Kömür,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Ürün Geliştirme Uzmanı,False,1-8-4088,Kıdemli Uzman
+1,1-8-1374,Olka Group,Kağan Peker,1,Olka,BURSA MARKA,Mağazalar,Satış Danışmanı,False,1-8-2396,Danışman
+1,1-8-1376,Olka Group,Şakir Can,1,Olka,ADANA M1,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-1381,Olka Group,Seda Şahin,1,Olka,ADANA M1,Mağazalar,Uzman Satış Danışmanı,False,1-8-1376,Uzman Danışman
+1,1-8-1382,Olka Group,İbrahim Yücekal,1,Olka,ADANA OPTIMUM,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-1383,Olka Group,Kübra Dündar,1,Olka,MERKEZ,Mağazalar,Kasa Uzmanı,False,1-8-4812,Uzman Danışman
+1,1-8-1399,Olka Group,Şura Tunç,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-2088,Danışman
+1,1-8-1401,Olka Group,Furkan Cengiz,1,Olka,IST CEVAHIR,Mağazalar,Mağaza Müdür Yardımcısı,False,187,Müdür Yardımcısı
+1,1-8-1402,Olka Group,Reyhan Şengül,1,Olka,IST ISTIKLAL,Mağazalar,Uzman Satış Danışmanı,False,1-8-3706,Uzman Danışman
+1,1-8-1405,Olka Group,Emrullah Arslan,1,Olka,IST SASKINBAKKAL,Mağazalar,Mağaza Müdür Yardımcısı,False,114,Müdür Yardımcısı
+1,1-8-1426,Olka Group,Nalan Ekmen Pekalp,1,Olka,MERKEZ,İnsan Kaynakları,Kıdemli Ücretlendirme ve Yan Haklar Müdürü,True,1-8-4529,Kıdemli Müdür
+1,1-8-1431,Olka Group,Ebru Savur,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E-Ticaret ve Omnichannel Direktörü,True,1-8-1462,Direktör
+1,1-8-1444,Olka Group,Ece Kervan,1,Olka,MERKEZ,İnsan Kaynakları,İnsan Kaynakları Uzmanı,False,1-8-1426,Uzman
+1,1-8-1458,Olka Group,Halise Mengü,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-1462,Olka Group,Ali Mertol Coşkun,1,Olka,MERKEZ,Ticari,Genel Müdür - Skechers,True,1,Genel Müdür
+1,1-8-1466,Olka Group,Efe Ethem Gözener,1,Olka,MERKEZ,Proje Yönetimi ve İş Analizi,Kıdemli Proje Yönetimi ve İş Analizi Müdürü,True,1-8-1924,Kıdemli Müdür
+1,1-8-1467,Olka Group,Nuray Efil,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Planlama Yöneticisi,False,192,Yönetici
+1,1-8-1475,Olka Group,Mehmet Can Özdemir,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Ürün Geliştirme Uzmanı,False,1-8-4088,Kıdemli Uzman
+1,1-8-1484,Olka Group,Hatice Gül,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Sevkiyat Operatörü,False,1-8-1494,Mavi Yaka
+1,1-8-1488,Olka Group,Canan Gökpınar,1,Olka,PALM CITY,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3774,Müdür Yardımcısı
+1,1-8-1489,Olka Group,Ahmet Mesut Yılmaz,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli Help Desk Uzmanı,False,1-8-2671,Kıdemli Uzman
+1,1-8-1494,Olka Group,Naim Işık,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Operasyon Yöneticisi,True,1-8-3104,Yönetici
+1,1-8-1495,Olka Group,Oktay Genç,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-1494,Mavi Yaka
+1,1-8-1505,Olka Group,Deniz Kurtdemir,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-3105,Mavi Yaka
+1,1-8-1506,Olka Group,Mustafa Alptekin,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-1507,Olka Group,Adil Çelik,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1513,Mavi Yaka
+1,1-8-1510,Olka Group,Hayati Çeçen,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1513,Mavi Yaka
+1,1-8-1511,Olka Group,Erkan Toprak,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Operasyon Yöneticisi,True,1-8-3104,Yönetici
+1,1-8-1513,Olka Group,Muhammet Ali Ateş,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-1494,Mavi Yaka
+1,1-8-1518,Olka Group,Gönül Erol,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Sevkiyat Operatörü,False,1-8-1494,Mavi Yaka
+1,1-8-1524,Olka Group,Hatice Dağ,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Sevkiyat Operatörü,False,1-8-1494,Mavi Yaka
+1,1-8-1539,Olka Group,Mehtap Urkan Akpınar,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-1541,Olka Group,Ferdi Kuyçu,1,Olka,MERKEZ,İdari İşler,Kıdemli İdari İşler Uzmanı,False,1-8-2108,Kıdemli Uzman
+1,1-8-1543,Olka Group,Seniha Göksu Köksal,1,Olka,MERKEZ,İç Denetim,Kıdemli İç Denetim Müdürü,True,1,Kıdemli Müdür
+1,1-8-1546,Olka Group,Savaş Özdemir,1,Olka,TRABZON FORUM,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-1552,Olka Group,Gökhan Bozkurt,1,Olka,TRABZON FORUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-1546,Uzman Danışman
+1,1-8-1584,Olka Group,Zelal Çevik,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-1591,Olka Group,Uğur İrhan,1,Olka,TRABZON FORUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1546,Müdür Yardımcısı
+1,1-8-1613,Olka Group,Mahmut Turgut,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1513,Mavi Yaka
+1,1-8-1616,Olka Group,Ayhan Yeşilova,1,Olka,BURSA MARKA,Mağazalar,Uzman Satış Danışmanı,False,1-8-2396,Uzman Danışman
+1,1-8-1617,Olka Group,İrem Eren,1,Olka,MERKEZ,Tedarik Zinciri,Lojistik Yöneticisi,False,1-8-2129,Yönetici
+1,1-8-1632,Olka Group,Murat Çelik,1,Olka,IZMIT 41 BURDA,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-1637,Olka Group,Mehmet Tiryaki,1,Olka,MERKEZ,Ürün Yönetimi,Kıdemli Ürün Operasyon Uzmanı,False,1-8-283,Kıdemli Uzman
+1,1-8-1650,Olka Group,Hakan Karaman,1,Olka,IST SASKINBAKKAL,Mağazalar,Depo Görevlisi,False,114,Danışman
+1,1-8-1655,Olka Group,Veli Bozkurt,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1656,Olka Group,İbrahim Şirin,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1657,Olka Group,Gökhan Keskinkılıç,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1666,Olka Group,Serdar Yakupoğlu,1,Olka,MERKEZ,Pazarlama,Ticari Pazarlama ve Görsel Sunum Müdürü,True,1-8-5224,Müdür
+1,1-8-1667,Olka Group,Süleyman Coşkun,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1668,Olka Group,Tunay Hacımusaoğlu,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1672,Olka Group,Yunus Bayraktar,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1673,Olka Group,Sezgin Taşkesen,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1674,Olka Group,Emre Dursunoğlu,1,Olka,MERKEZ,Ürün İnceleme,Kıdemli Ürün İnceleme Uzmanı,False,1-8-4075,Kıdemli Uzman
+1,1-8-1677,Olka Group,Tolga Pekbaş,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1687,Olka Group,Cansu Gürhan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-2393,Mavi Yaka
+1,1-8-1693,Olka Group,Hasret Yıldız,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-1718,Danışman
+1,1-8-1696,Olka Group,Sedap Koç,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Sistem Operatörü,False,1-8-2393,Mavi Yaka
+1,1-8-1700,Olka Group,Nadidenur Sözbir Biçeroğlu,1,Olka,MERKEZ,İş Geliştirme,Kıdemli Kiralama ve İnşaat İşleri Müdürü,True,1-8-4147,Kıdemli Müdür
+1,1-8-1717,Olka Group,Sadettin Kocaadam,1,Olka,IST CEVAHIR,Mağazalar,Satış Danışmanı,False,187,Danışman
+1,1-8-1718,Olka Group,Onur Usta,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-1741,Olka Group,Sertan Özbilgin,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-1752,Olka Group,Oğuzhan Küçük,1,Olka,IST BUYAKA,Mağazalar,Satış Danışmanı,False,1-8-3338,Danışman
+1,1-8-1758,Olka Group,Uğur Can Kurtuluş,1,Olka,BURSA KORUPARK,Mağazalar,Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-1760,Olka Group,Cemal Günebakan,1,Olka,IST HILLTOWN,Mağazalar,Uzman Satış Danışmanı,False,1-8-3527,Uzman Danışman
+1,1-8-1762,Olka Group,Cem Alemdağ,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4306,Danışman
+1,1-8-1764,Olka Group,Ahmet Dağlı,1,Olka,IST MOI,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4177,Müdür Yardımcısı
+1,1-8-1773,Olka Group,Emrah Zehir,1,Olka,MERKEZ,Tedarik Zinciri,Stok Kontrol Yöneticisi,True,1-8-2129,Yönetici
+1,1-8-1778,Olka Group,Erdal Çifçi,1,Olka,MERKEZ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2088,Müdür Yardımcısı
+1,1-8-1786,Olka Group,Halit Akkul,1,Olka,MERKEZ,Tedarik Zinciri,Stok Kontrol Yöneticisi,True,1-8-2129,Yönetici
+1,1-8-1793,Olka Group,İbrahim Keloğlu,1,Olka,MERKEZ,Bilgi Teknolojileri,Yazılım Geliştirme Yöneticisi,True,142,Yönetici
+1,1-8-1808,Olka Group,Ayşenur Işık,1,Olka,IST ISTINYEPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3968,Müdür Yardımcısı
+1,1-8-1809,Olka Group,Furkan Çakmak,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1827,Olka Group,Gamze Paket,1,Olka,MERKEZ,Ticari,Ticari Operasyon ve Raporlama Yöneticisi,False,1-8-1462,Yönetici
+1,1-8-1833,Olka Group,Nurullah Bayram,1,Olka,IST VIAPORT,Mağazalar,Depo Görevlisi,False,1-8-203,Danışman
+1,1-8-1846,Olka Group,Caner Karadağ,1,Olka,MERKEZ,Proje Yönetimi ve İş Analizi,Kıdemli Proje Yönetimi ve Analizi Yöneticisi,False,1-8-1466,Kıdemli Yönetici
+1,1-8-1857,Olka Group,Cansu Coşkun,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-3105,Mavi Yaka
+1,1-8-1858,Olka Group,Seda Maytalman,1,Olka,MERKEZ,Pazarlama,Kıdemli Bölge Görsel Düzenleme Uzmanı,False,1-8-1666,Kıdemli Uzman
+1,1-8-1862,Olka Group,Saadettin Cınğıl,1,Olka,MERKEZ,Ürün İnceleme,Ürün İnceleme Uzman Yardımcısı,False,1-8-4075,Uzman Yardımcısı
+1,1-8-1866,Olka Group,Esra Dursun,1,Olka,IST BUYAKA KIDS,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-586,Müdür Yardımcısı
+1,1-8-1876,Olka Group,Arslan Berk Kaya,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-1884,Olka Group,Arif Ağyıldız,1,Olka,IST ISTIKLAL,Mağazalar,Uzman Satış Danışmanı,False,1-8-3706,Uzman Danışman
+1,1-8-1896,Olka Group,Burak Turgut,1,Olka,MERKEZ,Mağazalar,Uzman Satış Danışmanı,False,1-8-4306,Uzman Danışman
+1,1-8-1902,Olka Group,Onur Özboyraz,1,Olka,FORUM KAYSERİ,Mağazalar,Uzman Satış Danışmanı,False,1-8-4456,Uzman Danışman
+1,1-8-1913,Olka Group,Belgin Eroğlu,1,Olka,MERKEZ,İnsan Kaynakları,Kıdemli İnsan Kaynakları Uzmanı,False,124,Kıdemli Uzman
+1,1-8-1924,Olka Group,Sedat Çakırca,1,Olka,MERKEZ,Tedarik Zinciri,COO,True,1,C Level
+1,1-8-1932,Olka Group,Melike Yılmaz,1,Olka,IST FORUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-888,Uzman Danışman
+1,1-8-1933,Olka Group,Kıymet Nur Güneş,1,Olka,MERSIN FORUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-3492,Uzman Danışman
+1,1-8-1951,Olka Group,Musa Taş,1,Olka,IZMIR OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-1953,Olka Group,Mert Öztürk,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-1959,Olka Group,Gizem Öncel,1,Olka,MERKEZ,CRM,Back Office Kıdemli Uzmanı,False,1-8-2147,Kıdemli Uzman
+1,1-8-1971,Olka Group,Kübra Tomaç,1,Olka,MERKEZ,CRM,Müşteri İlişkileri Uzmanı,False,1-8-2653,Uzman
+1,1-8-1978,Olka Group,İbrahim Becerikli,1,Olka,MERKEZ,Mağazalar,Depo Uzmanı,False,1-8-4812,Uzman Danışman
+1,1-8-1983,Olka Group,Göktürk Yöndem,1,Olka,IZMIT OUTLET,Mağazalar,Uzman Satış Danışmanı,False,1-8-2293,Uzman Danışman
+1,1-8-1997,Olka Group,Tolga Bıyık,1,Olka,TRABZON FORUM,Mağazalar,Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-1998,Olka Group,Ümit Ötgen,1,Olka,IZM ISTINYE PARK,Mağazalar,Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-2015,Olka Group,Öykü Gürbulak,1,Olka,IST SASKINBAKKAL,Mağazalar,Part-Time Satış Danışmanı,False,114,Danışman
+1,1-8-2016,Olka Group,Buse Güngör,1,Olka,IST GALATAPORT,Mağazalar,Uzman Satış Danışmanı,False,1-8-2679,Uzman Danışman
+1,1-8-203,Olka Group,Murat Güner,1,Olka,IST VIAPORT,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-2032,Olka Group,Nurceren Kurt,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Satış Danışmanı,False,1-8-4214,Danışman
+1,1-8-2045,Olka Group,Selcan Kaya,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Satış Danışmanı,False,1-8-4214,Danışman
+1,1-8-2046,Olka Group,Armağan Can Karaaslan,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli Sistem Uzmanı,False,142,Kıdemli Uzman
+1,1-8-2052,Olka Group,Büşra Usta,1,Olka,MERKEZ,Mağazalar,Uzman Satış Danışmanı,False,1-8-5129,Uzman Danışman
+1,1-8-2061,Olka Group,Buket Özgül,1,Olka,MERKEZ,CRM,Kalite Kıdemli Uzmanı,False,1-8-2147,Kıdemli Uzman
+1,1-8-2081,Olka Group,Fatih Ekinci,1,Olka,IST KADIKOY,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-2084,Olka Group,Ahmet Şimşek,1,Olka,IST SASKINBAKKAL,Mağazalar,Uzman Satış Danışmanı,False,114,Uzman Danışman
+1,1-8-2088,Olka Group,Mesut Volkan Kahraman,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-2094,Olka Group,Emre Yıldız,1,Olka,MERKEZ,Ürün Yönetimi,Showroom Uzmanı,False,1-8-283,Uzman
+1,1-8-2097,Olka Group,Şükran Murat,1,Olka,MERKEZ,Mali İşler,Kıdemli Perakende Muhasebesi Uzmanı,False,1-8-3025,Kıdemli Uzman
+1,1-8-2103,Olka Group,Kadir Varol,1,Olka,MERKEZ,Mağazalar,Uzman Satış Danışmanı,False,1-8-4812,Uzman Danışman
+1,1-8-2104,Olka Group,Tuğba Ezik,1,Olka,IST PIAZZA,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-2106,Olka Group,Niyazi Tunç,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Yöneticisi,False,1-8-3025,Kıdemli Yönetici
+1,1-8-2107,Olka Group,Selma Gelen,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-2108,Olka Group,Ediz Çakmak,1,Olka,MERKEZ,İdari İşler,Kıdemli İdari İşler Yöneticisi,True,1-8-4529,Kıdemli Yönetici
+1,1-8-2112,Olka Group,Aslan Güler,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-2393,Mavi Yaka
+1,1-8-2123,Olka Group,Berke Demir,1,Olka,IZMIT 41 BURDA,Mağazalar,Uzman Satış Danışmanı,False,1-8-1632,Uzman Danışman
+1,1-8-2129,Olka Group,Artur Sackmann,1,Olka,MERKEZ,Tedarik Zinciri,Kıdemli Tedarik Zinciri Müdürü,True,1-8-1924,Kıdemli Müdür
+1,1-8-2131,Olka Group,Enes Çoban,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-1718,Danışman
+1,1-8-2139,Olka Group,Mert Öner,1,Olka,ANK METROMALL,Mağazalar,Satış Danışmanı,False,1-8-3350,Danışman
+1,1-8-2142,Olka Group,Muhammet Şan Özer,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-2112,Mavi Yaka
+1,1-8-2147,Olka Group,Hatice Kurt Kaman,1,Olka,MERKEZ,CRM,Çağrı Merkezi Yöneticisi,True,1-8-2653,Yönetici
+1,1-8-2149,Olka Group,Recep Kacemer,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-2153,Olka Group,Mithat Müftüoğlu,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-2172,Olka Group,Ozan Yılmaz,1,Olka,ANK KENTPARK,Mağazalar,Satış Danışmanı,False,1-8-2872,Danışman
+1,1-8-2177,Olka Group,Özge Ateş,1,Olka,MERKEZ,CRM,Kıdemli Çağrı Merkezi Müşteri İletişim Uzmanı,False,1-8-2147,Kıdemli Uzman
+1,1-8-2178,Olka Group,Okay Günay,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-2191,Olka Group,İsmail Kökçınar,1,Olka,MERKEZ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-945,Müdür Yardımcısı
+1,1-8-2215,Olka Group,Narin Alağaş,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-2223,Olka Group,Ezgi Erciyes Nur,1,Olka,IZMIR OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-2226,Olka Group,Muhammed Danışman,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-2231,Olka Group,Senem Defne Minare,1,Olka,MERKEZ,İnsan Kaynakları,İnsan Kaynakları Uzman Yardımcısı,False,1-8-5180,Uzman Yardımcısı
+1,1-8-2236,Olka Group,Yunus Aksoy,1,Olka,MERKEZ,Toptan Satış,Kıdemli Saha Bayiler Satış Yöneticisi,False,1-8-3108,Kıdemli Yönetici
+1,1-8-2242,Olka Group,Muhammed Altuntabak,1,Olka,MERKEZ,CRM,Back Office Kıdemli Uzmanı,False,1-8-2147,Kıdemli Uzman
+1,1-8-2244,Olka Group,Bünyamin Koçyiğit,1,Olka,ANK KENTPARK,Mağazalar,Satış Danışmanı,False,1-8-2872,Danışman
+1,1-8-2246,Olka Group,İremnur Bayramusta,1,Olka,MERKEZ,CRM,Müşteri İlişkileri Uzmanı,False,1-8-2653,Uzman
+1,1-8-2248,Olka Group,Baran Gül,1,Olka,IZMIR HILLTOWN,Mağazalar,Uzman Satış Danışmanı,False,1-8-4649,Uzman Danışman
+1,1-8-2254,Olka Group,Bora Karadaş,1,Olka,IST FORUM,Mağazalar,Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-2256,Olka Group,Gökhan Sözbir,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-2258,Olka Group,Müjdat Çırak,1,Olka,IST VENEZIA,Mağazalar,Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-2262,Olka Group,Nur Sayan Akgün,1,Olka,MERKEZ,Ürün Yönetimi,Kıdemli Ürün Müdürü,True,25,Kıdemli Müdür
+1,1-8-2264,Olka Group,Sadık Hamisoğlu,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4214,Müdür Yardımcısı
+1,1-8-2276,Olka Group,Ömer Kamacı,1,Olka,KONYA KENT PLAZA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2278,Müdür Yardımcısı
+1,1-8-2278,Olka Group,Kenan Kündem,1,Olka,KONYA KENT PLAZA,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-2289,Olka Group,Gökhan Bayazit,1,Olka,BURSA KORUPARK,Mağazalar,Uzman Satış Danışmanı,False,1-8-361,Uzman Danışman
+1,1-8-2292,Olka Group,Kubilay Yılmaz,1,Olka,MERKEZ,İç Denetim,İç Denetim Yöneticisi,False,1-8-1543,Yönetici
+1,1-8-2293,Olka Group,Hasan Akçiçek,1,Olka,IZMIT OUTLET,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-2294,Olka Group,Dicle Olut,1,Olka,MERKEZ,Ürün Yönetimi,Kıdemli Ürün Eğitim Uzmanı,True,25,Kıdemli Uzman
+1,1-8-2299,Olka Group,Gamze Şenözlüler,1,Olka,IZMIR AGORA,Mağazalar,Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-2300,Olka Group,Buse Sönmez,1,Olka,MERKEZ,Ürün Yönetimi,Perakende Ürün Yöneticisi,False,192,Yönetici
+1,1-8-2374,Olka Group,Emre Aksu,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-958,Danışman
+1,1-8-2392,Olka Group,Bahar Yalçın,1,Olka,MERKEZ,CRM,Çağrı Merkezi Müşteri İletişim Uzmanı,False,1-8-2147,Uzman
+1,1-8-2393,Olka Group,Bilal Özdemir,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Operasyon Yöneticisi,True,1-8-3104,Yönetici
+1,1-8-2395,Olka Group,Burak Öz,1,Olka,MERSIN FORUM,Mağazalar,Satış Danışmanı,False,1-8-3492,Danışman
+1,1-8-2396,Olka Group,Uğur Yılmaz,1,Olka,BURSA MARKA,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-2397,Olka Group,Özkan Çetin,1,Olka,BURSA MARKA,Mağazalar,Satış Danışmanı,False,1-8-2396,Danışman
+1,1-8-2414,Olka Group,Etem Can Yıldız,1,Olka,TRABZON FORUM,Mağazalar,Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-2422,Olka Group,Gökçe Gaykan,1,Olka,MERKEZ,CRM,Çağrı Merkezi Müşteri İletişim Uzmanı,False,1-8-2147,Uzman
+1,1-8-2423,Olka Group,Nihal Gürbüz,1,Olka,MERKEZ,CRM,CRM Müdürü,True,1-8-5224,Müdür
+1,1-8-2424,Olka Group,Elif Ceren Berk,1,Olka,MERKEZ,Tedarik Zinciri,Lojistik Yöneticisi,True,1-8-2129,Yönetici
+1,1-8-2425,Olka Group,İrem Gözde Aydın,1,Olka,KONYA KENT PLAZA,Mağazalar,Satış Danışmanı,False,1-8-2278,Danışman
+1,1-8-2426,Olka Group,Ulaş Tolak,1,Olka,KONYA KENT PLAZA,Mağazalar,Uzman Satış Danışmanı,False,1-8-2278,Uzman Danışman
+1,1-8-2432,Olka Group,İbrahim Hakan Keçeci,1,Olka,IST CEVAHIR,Mağazalar,Satış Danışmanı,False,187,Danışman
+1,1-8-2442,Olka Group,Ahmet Emirhan Coşkun,1,Olka,IST OLIVIUM,Mağazalar,Satış Danışmanı,False,1-8-4243,Danışman
+1,1-8-2444,Olka Group,Emrah Deregözü,1,Olka,IST ISTIKLAL,Mağazalar,Satış Danışmanı,False,1-8-3706,Danışman
+1,1-8-2450,Olka Group,Kerim Sağlam,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Uzmanı,False,104,Kıdemli Uzman
+1,1-8-2454,Olka Group,Şevval İrem Akgün,1,Olka,IST CEVAHIR,Mağazalar,Uzman Satış Danışmanı,False,187,Uzman Danışman
+1,1-8-2457,Olka Group,Barış Eracar,1,Olka,IST VENEZIA,Mağazalar,Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-2458,Olka Group,Sercan Seven,1,Olka,IZMIR OPTIMUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-2733,Uzman Danışman
+1,1-8-2464,Olka Group,Emre Tosun,1,Olka,ANK CEPA,Mağazalar,Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-2466,Olka Group,Gül Karaaslan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Sistem Operatörü,False,1-8-2393,Mavi Yaka
+1,1-8-2468,Olka Group,Alikemal Korkmaz,1,Olka,IST GRANDPERA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1316,Müdür Yardımcısı
+1,1-8-2473,Olka Group,Mehmet Ulusal,1,Olka,IST ISTIKLAL,Mağazalar,Depo Görevlisi,False,1-8-3706,Danışman
+1,1-8-2476,Olka Group,Atanur Zeren,1,Olka,MERKEZ,Ürün İnceleme,Ürün İnceleme Uzmanı,False,1-8-4075,Uzman
+1,1-8-2489,Olka Group,Furkan Biriş,1,Olka,IST FORUM,Mağazalar,Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-2508,Olka Group,Yunus Emre Bilici,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-2516,Olka Group,Melisa Toker,1,Olka,BURSA DOWNTOWN,Mağazalar,Uzman Satış Danışmanı,False,1-8-5589,Uzman Danışman
+1,1-8-2519,Olka Group,Kinyas İşnas,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-2526,Olka Group,Handan Orhan,1,Olka,FORUM KAYSERİ,Mağazalar,Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-2538,Olka Group,Hatice Kurt,1,Olka,MERKEZ,Pazarlama,Marka Pazarlama Yöneticisi,False,1-8-5488,Yönetici
+1,1-8-2542,Olka Group,Gülden Ermurat,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Uzmanı,False,104,Kıdemli Uzman
+1,1-8-2545,Olka Group,Suat Daş,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Ürün Geliştirme Uzmanı,False,1-8-3127,Kıdemli Uzman
+1,1-8-2546,Olka Group,Enes Sezer,1,Olka,SAMSUN PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-2547,Olka Group,Didem Özdemir,1,Olka,TRABZON FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-2553,Olka Group,Cuma Eker,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-2567,Olka Group,Mehmet Can Taş,1,Olka,IST GRANDPERA,Mağazalar,Depo Görevlisi,False,1-8-1316,Danışman
+1,1-8-2570,Olka Group,Evin Acar,1,Olka,IST FORUM KİDS,Mağazalar,Uzman Satış Danışmanı,False,1-8-2893,Uzman Danışman
+1,1-8-2572,Olka Group,Betül Çifçi,1,Olka,IST HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-3527,Danışman
+1,1-8-2593,Olka Group,Suzan Bingör,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-2605,Olka Group,Muhammet Güntepe,1,Olka,IZMIT OUTLET,Mağazalar,Satış Danışmanı,False,1-8-2293,Danışman
+1,1-8-261,Olka Group,Erdal Türkmen,1,Olka,MERKEZ,Perakende Satış,Perakende Satış Operasyon Yöneticisi,False,1-8-3016,Yönetici
+1,1-8-2612,Olka Group,Kadir Eroğlu,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-2616,Olka Group,Şevket Ceyhun Tolungüç,1,Olka,MERKEZ,Mali İşler,CFO,True,1,C Level
+1,1-8-2620,Olka Group,Seyit Eriş,1,Olka,IST METROPOL,Mağazalar,Satış Danışmanı,False,1-8-4459,Danışman
+1,1-8-2628,Olka Group,Zeynep Dilara Uçak,1,Olka,MERKEZ,CRM,Çağrı Merkezi Müşteri İletişim Uzmanı,False,1-8-2147,Uzman
+1,1-8-2640,Olka Group,Osman Gökhan Erkol,1,Olka,MERKEZ,Perakende Satış,Bölge Müdürü,True,1-8-5287,Yönetici
+1,1-8-2644,Olka Group,Hasan Can Ceylan,1,Olka,MERKEZ,Mağazalar,Uzman Satış Danışmanı,False,1-8-945,Uzman Danışman
+1,1-8-2650,Olka Group,Merve Mercan,1,Olka,IZMIR OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-2652,Olka Group,Anıl Toptaş,1,Olka,MERKEZ,Bilgi Teknolojileri,Ağ ve Güvenlik Yöneticisi,True,142,Yönetici
+1,1-8-2653,Olka Group,Zeynep Güler,1,Olka,MERKEZ,CRM,Kıdemli Müşteri İlişkileri Yöneticisi,True,1-8-2423,Kıdemli Yönetici
+1,1-8-266,Olka Group,Ahmet Atala,1,Olka,IST BUYAKA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3338,Müdür Yardımcısı
+1,1-8-2666,Olka Group,Yeşim Bilgin,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli İş Zekası Yöneticisi,True,142,Kıdemli Yönetici
+1,1-8-2668,Olka Group,Neriman Hazal Çelebi,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-2669,Olka Group,Mert Mustafa Kubal,1,Olka,MERKEZ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-958,Müdür Yardımcısı
+1,1-8-2671,Olka Group,Vural Dumanlı,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli Bilgi Teknolojileri Sistem Yöneticisi,True,142,Kıdemli Yönetici
+1,1-8-2676,Olka Group,Gizem Aksoy,1,Olka,IZM FORUM BORNOVA,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-2679,Olka Group,Yasin Akbulut,1,Olka,IST GALATAPORT,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-2681,Olka Group,Mine Işık,1,Olka,IST MOI,Mağazalar,Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-2687,Olka Group,Onur Kaplan,1,Olka,ADANA OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-1382,Danışman
+1,1-8-2694,Olka Group,Sedanur Sözlü,1,Olka,MERKEZ,Dış Ticaret,Dış Ticaret Uzmanı,False,1-8-3109,Uzman
+1,1-8-2702,Olka Group,İbrahim Batuhan Yazı,1,Olka,ANK OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-441,Danışman
+1,1-8-2705,Olka Group,Berkay Kaplan,1,Olka,ANK KENTPARK,Mağazalar,Uzman Satış Danışmanı,False,1-8-2872,Uzman Danışman
+1,1-8-2711,Olka Group,Fatih Oral,1,Olka,ANK CEPA,Mağazalar,Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-2712,Olka Group,Kayra Kaya,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Uzman Satış Danışmanı,False,1-8-2912,Uzman Danışman
+1,1-8-2714,Olka Group,Emircan Karaduman,1,Olka,MERKEZ,İdari İşler,Barista,False,1-8-4808,Destek
+1,1-8-2716,Olka Group,Gökan Kuru,1,Olka,IST ISTIKLAL,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3706,Müdür Yardımcısı
+1,1-8-2733,Olka Group,Sercan Kamalıoğlu,1,Olka,IZMIR OPTIMUM,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-2742,Olka Group,Fatma Nur Kan,1,Olka,KONYA KENT PLAZA,Mağazalar,Satış Danışmanı,False,1-8-2278,Danışman
+1,1-8-2744,Olka Group,Hakan Özdemir,1,Olka,KONYA KENT PLAZA,Mağazalar,Satış Danışmanı,False,1-8-2278,Danışman
+1,1-8-2748,Olka Group,Emre Arslan,1,Olka,IST ZORLU,Mağazalar,Satış Danışmanı,False,1-8-5523,Danışman
+1,1-8-2750,Olka Group,Selman Dinç,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-2751,Olka Group,Muhammet Sergen Katlan,1,Olka,IST AKASYA,Mağazalar,Uzman Satış Danışmanı,False,1-8-5280,Uzman Danışman
+1,1-8-2766,Olka Group,Tara Derhan Arşık,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Uzmanı,False,1-8-4984,Kıdemli Uzman
+1,1-8-2769,Olka Group,Üzeyir Torun,1,Olka,ANT TERRACITY,Mağazalar,Satış Danışmanı,False,1-8-309,Danışman
+1,1-8-2785,Olka Group,Enes Işıktaş,1,Olka,IST KADIKOY,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2081,Müdür Yardımcısı
+1,1-8-2786,Olka Group,Yağmur Yanık,1,Olka,SAMSUN PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-2793,Olka Group,Yeliz Korkmaz,1,Olka,IST ZORLU,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5523,Müdür Yardımcısı
+1,1-8-2797,Olka Group,Mehmet Metin Çayırlı,1,Olka,MERSIN FORUM,Mağazalar,Satış Danışmanı,False,1-8-3492,Danışman
+1,1-8-2804,Olka Group,Tunahan Durmaz,1,Olka,IST KADIKOY,Mağazalar,Satış Danışmanı,False,1-8-2081,Danışman
+1,1-8-2812,Olka Group,Yeliz Ebru Köroğlu,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Satış Danışmanı,False,1-8-4214,Danışman
+1,1-8-2813,Olka Group,Erol Demir,1,Olka,IZMIR OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-2815,Olka Group,Tolgay Aktaş,1,Olka,IST BUYAKA,Mağazalar,Satış Danışmanı,False,1-8-3338,Danışman
+1,1-8-2820,Olka Group,Dilhan Bakın,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Dijital Deneyim Müdürü,False,1-8-1431,Müdür
+1,1-8-2822,Olka Group,Yunus Emre Özdemir,1,Olka,MERKEZ,Bilgi Teknolojileri,Yazılım Geliştirme Yöneticisi,False,142,Yönetici
+1,1-8-2828,Olka Group,Mahsum Alış,1,Olka,BURSA KORUPARK,Mağazalar,Uzman Satış Danışmanı,False,1-8-361,Uzman Danışman
+1,1-8-283,Olka Group,Esra Özpi,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Operasyon Müdürü,True,25,Müdür
+1,1-8-2831,Olka Group,Nazan Özhan,1,Olka,MERKEZ,Mali İşler,Kıdemli Perakende Muhasebesi Uzmanı,False,1-8-3025,Kıdemli Uzman
+1,1-8-2835,Olka Group,Münevver Mine Toksöz,1,Olka,ADANA M1,Mağazalar,Kasiyer,False,1-8-1376,Danışman
+1,1-8-2838,Olka Group,Burçin Özbey Sarı,1,Olka,MERKEZ,Dış Ticaret,Dış Ticaret Yöneticisi,False,1-8-3109,Yönetici
+1,1-8-2842,Olka Group,Alper Kurnaz,1,Olka,SAMSUN PIAZZA,Mağazalar,Depo Görevlisi,False,1-8-2640,Danışman
+1,1-8-2856,Olka Group,Yakup Taşdemir,1,Olka,IST GRANDPERA,Mağazalar,Depo Uzmanı,False,1-8-1316,Uzman Danışman
+1,1-8-2860,Olka Group,Derya Ağamolla,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-2872,Olka Group,Emre Özal Güzelses,1,Olka,ANK KENTPARK,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-2877,Olka Group,Mert Araz,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-1511,Mavi Yaka
+1,1-8-2878,Olka Group,Hüseyin Tenik,1,Olka,ADANA M1,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1376,Müdür Yardımcısı
+1,1-8-2879,Olka Group,Mehmet Aydın,1,Olka,IZMIR WESTPARK,Mağazalar,Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-2893,Olka Group,Bahtiyar Aktaş,1,Olka,IST FORUM KİDS,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-2896,Olka Group,Serkan Yalçın,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-2898,Olka Group,Sema İnan,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-945,Danışman
+1,1-8-2902,Olka Group,Sevinç Bozkurt,1,Olka,FORUM KAYSERİ,Mağazalar,Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-2904,Olka Group,Selin Dönmez,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Yöneticisi,True,1-8-3025,Kıdemli Yönetici
+1,1-8-2912,Olka Group,Sezer Reka,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-2913,Olka Group,Batuhan Sayıl,1,Olka,MERKEZ,Toptan Satış,Saha Bayiler Satış Yöneticisi,False,1-8-1277,Yönetici
+1,1-8-2930,Olka Group,Ahmet Serçe,1,Olka,IST MARMARA FORUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-4638,Uzman Danışman
+1,1-8-2935,Olka Group,Kübra Kaşka,1,Olka,TRABZON FORUM,Mağazalar,Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-2948,Olka Group,Emirhan Özkan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Kıdemli Lojistik Planlama Uzmanı,False,1-8-3104,Kıdemli Uzman
+1,1-8-2951,Olka Group,Tolga Can Yüce,1,Olka,IST ISTINYEPARK,Mağazalar,Uzman Satış Danışmanı,False,1-8-3968,Uzman Danışman
+1,1-8-2954,Olka Group,Eda Köroğlu,1,Olka,ANT LAND OF LEGENDS,Mağazalar,Satış Danışmanı,False,1-8-383,Danışman
+1,1-8-2960,Olka Group,Merve Çakar,1,Olka,MERKEZ,Pazarlama,Kıdemli Grafik Tasarım Uzmanı,False,1-8-1339,Kıdemli Uzman
+1,1-8-2973,Olka Group,Yücel Aslan,1,Olka,IST VIAPORT,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-203,Müdür Yardımcısı
+1,1-8-2975,Olka Group,İbrahim Halil Aslancan,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Uzman Satış Danışmanı,False,1-8-4214,Uzman Danışman
+1,1-8-2978,Olka Group,İbrahim Dumlu,1,Olka,FORUM KAYSERİ,Mağazalar,Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-2979,Olka Group,Turhan Zümret,1,Olka,IZMIR WESTPARK,Mağazalar,Uzman Satış Danışmanı,False,1-8-3107,Uzman Danışman
+1,1-8-3003,Olka Group,Ahmet Aytaç Erol,1,Olka,IST MARMARA FORUM,Mağazalar,Satış Danışmanı,False,1-8-4638,Danışman
+1,1-8-3010,Olka Group,Ebru Sünnetcioğlu,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4812,Danışman
+1,1-8-3016,Olka Group,Aydın İbrahim Nalbant,1,Olka,MERKEZ,Perakende Satış,Perakende Satış Operasyon Kıdemli Yöneticisi,True,1-8-4147,Kıdemli Yönetici
+1,1-8-3019,Olka Group,Ömer Barlak,1,Olka,ANK ANKAMALL,Mağazalar,Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-3025,Olka Group,Temel Eren Çanakçı,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe ve Raporlama Müdürü,True,1-8-2616,Kıdemli Müdür
+1,1-8-3030,Olka Group,Melisa Şahin,1,Olka,ANK KENTPARK,Mağazalar,Satış Danışmanı,False,1-8-2872,Danışman
+1,1-8-3043,Olka Group,Eren Şimşek,1,Olka,IST VENEZIA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-3047,Olka Group,Hasan Aydın,1,Olka,MERKEZ,İnsan Kaynakları,Kıdemli Bordro ve Özlük İşleri Uzmanı,False,1-8-1426,Kıdemli Uzman
+1,1-8-3048,Olka Group,Ahmet Faruk Durmuş,1,Olka,IST TEMA,Mağazalar,Satış Danışmanı,False,1-8-5347,Danışman
+1,1-8-3052,Olka Group,Özge Yalçınkaya,1,Olka,MERKEZ,İç Denetim,,False,1-8-1543,Yönetici
+1,1-8-3055,Olka Group,Muhammet Emin Baysal,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-3057,Olka Group,Hilal Bağış,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Lojistik Planlama Uzmanı,False,1-8-3104,Uzman
+1,1-8-3059,Olka Group,İpek Değirmenci,1,Olka,MERKEZ,Tedarik Zinciri,Lojistik Uzmanı,False,1-8-2424,Uzman
+1,1-8-3061,Olka Group,Arya Subaşı,1,Olka,MERKEZ,Pazarlama,Pazarlama Uzman Yardımcısı,False,1-8-5488,Uzman Yardımcısı
+1,1-8-3062,Olka Group,Gayenur Çelenk,1,Olka,IST VIAPORT,Mağazalar,Kasa Uzmanı,False,1-8-203,Uzman Danışman
+1,1-8-3070,Olka Group,Çağrı Akbaba,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-3071,Olka Group,Seren Dural,1,Olka,MERKEZ,Ürün Yönetimi,Kıdemli Ürün Müdürü,True,25,Kıdemli Müdür
+1,1-8-3081,Olka Group,Dilan Gültekin,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-3086,Olka Group,Emre Karakaya,1,Olka,MERKEZ,Mali İşler,Kıdemli Perakende Muhasebesi Uzmanı,False,1-8-3025,Kıdemli Uzman
+1,1-8-309,Olka Group,Volkan Aydoğan,1,Olka,ANT TERRACITY,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-3090,Olka Group,Mustafa Ökdem,1,Olka,MERKEZ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1718,Müdür Yardımcısı
+1,1-8-3096,Olka Group,Serhat Tokataş,1,Olka,MERSIN FORUM,Mağazalar,Depo Uzmanı,False,1-8-3492,Uzman Danışman
+1,1-8-3103,Olka Group,Adnan Gümüşdağ,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Operasyon Yöneticisi,True,1-8-3104,Yönetici
+1,1-8-3104,Olka Group,Mert Tatalır,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Operasyon Müdürü,True,1-8-2129,Müdür
+1,1-8-3105,Olka Group,Vural Akçakavak,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Operasyon Yöneticisi,True,1-8-3104,Yönetici
+1,1-8-3107,Olka Group,Timur Babaoğlu,1,Olka,MERKEZ,Perakende Satış,Bölge Müdürü,True,1-8-5287,Yönetici
+1,1-8-3108,Olka Group,Ahmet Yusuf Ergül,1,Olka,MERKEZ,Toptan Satış,Saha Bayiler Kıdemli Satış Müdürü,True,1-8-1131,Kıdemli Müdür
+1,1-8-3109,Olka Group,Alper Dönmez,1,Olka,MERKEZ,Dış Ticaret,Kıdemli Dış Ticaret Müdürü,True,1-8-1924,Kıdemli Müdür
+1,1-8-3110,Olka Group,Burak Erdoğan,1,Olka,MERKEZ,Toptan Satış,Toptan Satış Geliştirme Kıdemli Yöneticisi,False,1-8-1131,Kıdemli Yönetici
+1,1-8-3111,Olka Group,Fadime Köse,1,Olka,MERKEZ,İdari İşler,Resepsiyonist,False,1-8-4808,Destek
+1,1-8-3112,Olka Group,Gülhanım Taş,1,Olka,MERKEZ,İdari İşler,İdari İşler Destek,False,1-8-4808,Destek
+1,1-8-3119,Olka Group,Aleyna Doğan,1,Olka,IZM FORUM BORNOVA,Mağazalar,Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-3120,Olka Group,İskender Aydın Ömür,1,Olka,MERKEZ,Toptan Satış,Saha Bayiler Kıdemli Satış Yöneticisi,False,1-8-3108,Kıdemli Yönetici
+1,1-8-3122,Olka Group,Nuriye Turhan,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Müdürü,False,1-8-2616,Kıdemli Müdür
+1,1-8-3124,Olka Group,Tamer Yurttaş,1,Olka,MERKEZ,Mali İşler,Kıdemli Finans Müdürü,True,1-8-2616,Kıdemli Müdür
+1,1-8-3127,Olka Group,Suat Türkyılmaz,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E Ticaret Operasyon Müdürü,True,1-8-1431,Müdür
+1,1-8-3129,Olka Group,Esra Kayar,1,Olka,IST FORUM,Mağazalar,Kasa Uzmanı,False,1-8-888,Uzman Danışman
+1,1-8-3145,Olka Group,Aleyna Bulut,1,Olka,TRABZON FORUM,Mağazalar,Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-3150,Olka Group,Tanya Taşyan,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Grafik Tasarım Uzmanı,False,1-8-4984,Uzman
+1,1-8-3153,Olka Group,Yusuf Özbay,1,Olka,IST MARMARA FORUM,Mağazalar,Satış Danışmanı,False,1-8-4638,Danışman
+1,1-8-3157,Olka Group,Besra Türkdoğan,1,Olka,MERKEZ,İdari İşler,İdari İşler Destek,False,1-8-2108,Destek
+1,1-8-3160,Olka Group,Şahin Koçaş,1,Olka,KONYA KENT PLAZA,Mağazalar,Satış Danışmanı,False,1-8-2278,Danışman
+1,1-8-3170,Olka Group,Buse Karataş,1,Olka,ANK ANKAMALL,Mağazalar,Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-3171,Olka Group,Zafer Küyük,1,Olka,ANK CEPA,Mağazalar,Uzman Satış Danışmanı,False,1-8-4904,Uzman Danışman
+1,1-8-3190,Olka Group,Damla Gülsüm Öztürk,1,Olka,ANT ALANYA,Mağazalar,Satış Danışmanı,False,1-8-5584,Danışman
+1,1-8-3191,Olka Group,Beyza Arslan,1,Olka,ANT ALANYA,Mağazalar,Satış Danışmanı,False,1-8-5584,Danışman
+1,1-8-3198,Olka Group,Fatmagül Başpınar,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Dijital Pazarlama Uzman Yardımcısı,False,1-8-5057,Uzman Yardımcısı
+1,1-8-3200,Olka Group,Necati Erlus,1,Olka,MERKEZ,Bilgi Teknolojileri,Yazılım Geliştirme Uzmanı,False,1-8-1793,Uzman
+1,1-8-3206,Olka Group,Alper Tosun,1,Olka,BURSA KORUPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-3209,Olka Group,Hasene Nur Çelikli,1,Olka,IZMIT OUTLET,Mağazalar,Satış Danışmanı,False,1-8-2293,Danışman
+1,1-8-3214,Olka Group,Birol Hamit Aytürk,1,Olka,IZM FORUM BORNOVA,Mağazalar,Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-3239,Olka Group,Emre Boz,1,Olka,ANT ALANYA,Mağazalar,Satış Danışmanı,False,1-8-5584,Danışman
+1,1-8-324,Olka Group,Şenol Baş,1,Olka,BURSA KORUPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-361,Müdür Yardımcısı
+1,1-8-3241,Olka Group,Kamil Reçber,1,Olka,ADANA OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-1382,Danışman
+1,1-8-3246,Olka Group,Duygu Kulak,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-3256,Olka Group,Mehmet Nizam,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-3263,Olka Group,Yusuf Ergun,1,Olka,SAMSUN PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-3272,Olka Group,Eren Doğanay,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Operasyon Uzmanı,False,1-8-3127,Kıdemli Uzman
+1,1-8-3282,Olka Group,Umut Erdem,1,Olka,IST MOI,Mağazalar,Saha Operasyon Görevlisi,False,1-8-3016,Danışman
+1,1-8-3307,Olka Group,Damla Yalçın,1,Olka,MERKEZ,İş Geliştirme,Kıdemli Mimari Proje Yöneticisi,False,1-8-1700,Kıdemli Yönetici
+1,1-8-3311,Olka Group,Gamze Sıla Arslaner,1,Olka,IST AKASYA,Mağazalar,Satış Danışmanı,False,1-8-5280,Danışman
+1,1-8-3325,Olka Group,Azizcan Güveyi,1,Olka,IST GALATAPORT,Mağazalar,Depo Görevlisi,False,1-8-2679,Danışman
+1,1-8-3326,Olka Group,Afife Karaman Öncü,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-3334,Olka Group,Muhammet Emir Baş,1,Olka,IST BUYAKA,Mağazalar,Satış Danışmanı,False,1-8-3338,Danışman
+1,1-8-3338,Olka Group,Hüseyin Tulunay,1,Olka,IST BUYAKA,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-3341,Olka Group,Serkan Bulut,1,Olka,IZM ISTINYE PARK,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-3346,Olka Group,Anıl Ulaş Durna,1,Olka,IST SIRKECI,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5060,Müdür Yardımcısı
+1,1-8-3350,Olka Group,Emre Altınışık,1,Olka,ANK METROMALL,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-3354,Olka Group,Sercan Baran,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli ERP Yöneticisi,True,142,Kıdemli Yönetici
+1,1-8-3358,Olka Group,Ali Karakaya,1,Olka,ANK NATAVEGA,Mağazalar,Uzman Satış Danışmanı,False,1-8-4576,Uzman Danışman
+1,1-8-3361,Olka Group,Kübra Ünlü,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4812,Danışman
+1,1-8-3362,Olka Group,Mert Çakır,1,Olka,SAMSUN PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-3363,Olka Group,Volkan Özçelik,1,Olka,ANK NATAVEGA,Mağazalar,Satış Danışmanı,False,1-8-4576,Danışman
+1,1-8-3374,Olka Group,Fatma Kurttekin,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-3381,Olka Group,Cengiz Cansın Polat,1,Olka,MERKEZ,CRM,CRM Kampanya ve İletişim Yöneticisi,True,1-8-2423,Yönetici
+1,1-8-3392,Olka Group,Mustafa Can Çiçek,1,Olka,IST GRANDPERA,Mağazalar,Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-3416,Olka Group,Selman Akyüz,1,Olka,IST OLIVIUM,Mağazalar,Satış Danışmanı,False,1-8-4243,Danışman
+1,1-8-3419,Olka Group,Özge Şahin,1,Olka,MERKEZ,Mali İşler,Muhasebe Uzman Yardımcısı,False,104,Uzman Yardımcısı
+1,1-8-3424,Olka Group,Onur Türkön,1,Olka,MERKEZ,Perakende Satış,Perakende Satış Operasyon Kıdemli Uzmanı,False,1-8-3016,Kıdemli Uzman
+1,1-8-3425,Olka Group,Aylin Ocak,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-3427,Olka Group,Muhammed Kayra Aksoy,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-3454,Olka Group,Hilal Çakmak,1,Olka,IST MARMARA FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4638,Danışman
+1,1-8-3466,Olka Group,Ebru Kübra Yanbul,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Yöneticisi,False,1-8-2262,Yönetici
+1,1-8-3467,Olka Group,Aycan Türedi,1,Olka,IST ZORLU,Mağazalar,Satış Danışmanı,False,1-8-5523,Danışman
+1,1-8-3470,Olka Group,Sude Ertekin,1,Olka,MERKEZ,İnsan Kaynakları,İnsan Kaynakları Uzman Yardımcısı,False,1-8-5180,Uzman Yardımcısı
+1,1-8-3472,Olka Group,Emre Kılıç,1,Olka,PALM CITY,Mağazalar,Satış Danışmanı,False,1-8-3774,Danışman
+1,1-8-3486,Olka Group,Zehra Örs,1,Olka,MERKEZ,CRM,Çağrı Merkezi Müşteri İletişim Uzmanı,False,1-8-2147,Uzman
+1,1-8-3492,Olka Group,Hıdır Yavuz,1,Olka,MERSIN FORUM,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-3493,Olka Group,Denizhan Taşçı,1,Olka,MERKEZ,Proje Yönetimi ve İş Analizi,İş Analizi Uzmanı,False,1-8-1466,Uzman
+1,1-8-3498,Olka Group,Mehriban Al,1,Olka,BURSA KORUPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-350,Olka Group,Deniz Hıdır,1,Olka,IZMIR AGORA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3107,Müdür Yardımcısı
+1,1-8-3503,Olka Group,Yunus Emre Dönmez,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli Help Desk Uzmanı,False,1-8-2671,Kıdemli Uzman
+1,1-8-3514,Olka Group,Hatice Demirkol,1,Olka,ADANA M1,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1376,Müdür Yardımcısı
+1,1-8-3516,Olka Group,Eda Nur Nacar,1,Olka,ADANA OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-1382,Danışman
+1,1-8-3517,Olka Group,Naci Yenier,1,Olka,ADANA OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-1382,Danışman
+1,1-8-3518,Olka Group,Sergen Tayırcık,1,Olka,ADANA OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-1382,Danışman
+1,1-8-3520,Olka Group,Abdulkadir Turan,1,Olka,ADANA OPTIMUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1382,Müdür Yardımcısı
+1,1-8-3521,Olka Group,Soner Pehlivan,1,Olka,ADANA OPTIMUM,Mağazalar,Uzman Satış Danışmanı,False,1-8-1382,Uzman Danışman
+1,1-8-3523,Olka Group,Hisamettin Erpolat,1,Olka,MERKEZ,Mağazalar,Depo Görevlisi,False,1-8-4303,Danışman
+1,1-8-3527,Olka Group,Mehmet Akif Zengin,1,Olka,IST HILLTOWN,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-3533,Olka Group,Mehmet Tunahan Tunç,1,Olka,IST MARMARA FORUM,Mağazalar,Satış Danışmanı,False,1-8-4638,Danışman
+1,1-8-3535,Olka Group,Doğukan Şahin,1,Olka,ANT LAND OF LEGENDS,Mağazalar,Satış Danışmanı,False,1-8-383,Danışman
+1,1-8-3543,Olka Group,Metin Berk Akbaş,1,Olka,IZM ISTINYE PARK,Mağazalar,Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-3544,Olka Group,Murat Karakaş,1,Olka,MERKEZ,İç Denetim,Kıdemli İç Denetim Uzmanı,False,1-8-1543,Kıdemli Uzman
+1,1-8-3546,Olka Group,Mesut Sağlam,1,Olka,IST ISTIKLAL,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3706,Müdür Yardımcısı
+1,1-8-3548,Olka Group,Serdar Aldan,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-3566,Olka Group,Berk Aydın,1,Olka,IZM FORUM BORNOVA,Mağazalar,Depo Görevlisi,False,1-8-2676,Danışman
+1,1-8-3568,Olka Group,Betül Beyhatun,1,Olka,MERKEZ,Proje Yönetimi ve İş Analizi,İş Analist Yöneticisi,False,1-8-1466,Yönetici
+1,1-8-3572,Olka Group,Sebile Döngel,1,Olka,TRABZON FORUM,Mağazalar,Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-3573,Olka Group,Buğra Yağız Yazılı,1,Olka,IST BUYAKA,Mağazalar,Satış Danışmanı,False,1-8-3338,Danışman
+1,1-8-3580,Olka Group,Erdem Enuysal,1,Olka,MERKEZ,Toptan Satış,Stratejik Bayiler Satış Yöneticisi,True,1-8-1131,Yönetici
+1,1-8-3586,Olka Group,Emre Uğuzyerli,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-3592,Olka Group,Gaye Kayaoğlu,1,Olka,IST GALATAPORT,Mağazalar,Satış Danışmanı,False,1-8-2679,Danışman
+1,1-8-3596,Olka Group,Yasemin Yılmaz,1,Olka,MERKEZ,Pazarlama,Bölge Görsel Düzenleme Uzmanı,False,1-8-1666,Uzman
+1,1-8-3601,Olka Group,Oğuzhan Tokmak,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-3603,Olka Group,Mustafa Aysu,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-361,Olka Group,Sevcan Durmuş,1,Olka,BURSA KORUPARK,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-3619,Olka Group,Elif Ağhan,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-3628,Olka Group,Özge Aslan,1,Olka,MERKEZ,Proje Yönetimi ve İş Analizi,İş Analizi Uzman Yardımcısı,False,1-8-1466,Uzman Yardımcısı
+1,1-8-363,Olka Group,Ahmet Mesut Sağkol,1,Olka,MERKEZ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4812,Müdür Yardımcısı
+1,1-8-3630,Olka Group,Aykut Dinçer,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-365,Olka Group,Gökay Yeniçeri,1,Olka,MERKEZ,Perakende Satış,Perakende Satış Operasyon Yöneticisi,False,1-8-3016,Yönetici
+1,1-8-3706,Olka Group,Ertuğrul Özen,1,Olka,IST ISTIKLAL,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-3707,Olka Group,Şeymanur Ergün,1,Olka,BURSA KORUPARK,Mağazalar,Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-3716,Olka Group,Tuncer Toprak,1,Olka,IST MARMARAPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-695,Müdür Yardımcısı
+1,1-8-3719,Olka Group,Ömer Canlı,1,Olka,IST GALATAPORT,Mağazalar,Satış Danışmanı,False,1-8-2679,Danışman
+1,1-8-3726,Olka Group,Şevval Şimşek,1,Olka,IZMIT OUTLET,Mağazalar,Satış Danışmanı,False,1-8-2293,Danışman
+1,1-8-3732,Olka Group,İlayda Gürlek,1,Olka,KONYA KENT PLAZA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2278,Danışman
+1,1-8-3735,Olka Group,Melike Hilal Başarır,1,Olka,BURSA MARKA,Mağazalar,Satış Danışmanı,False,1-8-2396,Danışman
+1,1-8-3738,Olka Group,Aslı Sultan Aksarı,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-3740,Olka Group,Bedirhan Kekeç,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-3747,Olka Group,Ece Gezen,1,Olka,ANT TERRACITY,Mağazalar,Satış Danışmanı,False,1-8-309,Danışman
+1,1-8-3749,Olka Group,Ebru Yıldırım,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-3750,Olka Group,Emir Talha Savaş,1,Olka,IST ISTINYEPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3968,Danışman
+1,1-8-3754,Olka Group,Yunus Sayın,1,Olka,ANT TERRACITY,Mağazalar,Satış Danışmanı,False,1-8-309,Danışman
+1,1-8-3755,Olka Group,Halil İbrahim Odabaşoğlu,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-3756,Olka Group,Murat Burak Baştürk,1,Olka,IST VENEZIA,Mağazalar,Depo Görevlisi,False,1-8-899,Danışman
+1,1-8-3762,Olka Group,Tarık Özçelik,1,Olka,IST MARMARAPARK,Mağazalar,Saha Operasyon Görevlisi,False,1-8-3016,Danışman
+1,1-8-3765,Olka Group,Aksel Deniz,1,Olka,MERKEZ,Dış Ticaret,Dış Ticaret Uzman Yardımcısı,False,1-8-3109,Uzman Yardımcısı
+1,1-8-3773,Olka Group,Onur Osmanalemdaroğlu,1,Olka,IST BUYAKA,Mağazalar,Uzman Satış Danışmanı,False,1-8-3338,Uzman Danışman
+1,1-8-3774,Olka Group,Orçun Uysal,1,Olka,PALM CITY,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-3784,Olka Group,Burcu Sezer,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3785,Olka Group,Bünyamin Yılmaz,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3786,Olka Group,Emine Sayın,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3787,Olka Group,Engin Duru,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3788,Olka Group,Ergin İçten,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3789,Olka Group,Gülbahar Kumaş,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3790,Olka Group,Nedret Eren,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3791,Olka Group,Nurdanur Işık,1,Olka,MERKEZ,Destek,Destek Personeli,False,1-8-1426,Destek
+1,1-8-3803,Olka Group,Seydi Ahmet Alıntaş,1,Olka,SAMSUN PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-3808,Olka Group,Ruveyda Cebe,1,Olka,IST MARMARAPARK,Mağazalar,Kasiyer,False,1-8-695,Danışman
+1,1-8-3809,Olka Group,Deniz Nikbay,1,Olka,IST MARMARAPARK,Mağazalar,Depo Görevlisi,False,1-8-695,Danışman
+1,1-8-3815,Olka Group,Batuhan Oğuz,1,Olka,IST AKASYA,Mağazalar,Satış Danışmanı,False,1-8-5280,Danışman
+1,1-8-3817,Olka Group,Enes Öztürk,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-3819,Olka Group,Duygu Özkan,1,Olka,IZMIR AGORA,Mağazalar,Uzman Satış Danışmanı,False,1-8-3107,Uzman Danışman
+1,1-8-3822,Olka Group,Murat Bideratan,1,Olka,ADANA M1,Mağazalar,Depo Görevlisi,False,1-8-1376,Danışman
+1,1-8-3829,Olka Group,Nisanur Balgiz,1,Olka,ADANA OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-1382,Danışman
+1,1-8-383,Olka Group,Bahar Acar,1,Olka,ANT LAND OF LEGENDS,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-3858,Olka Group,Berk Paslı,1,Olka,ANK ANKAMALL,Mağazalar,Uzman Satış Danışmanı,False,1-8-5493,Uzman Danışman
+1,1-8-3863,Olka Group,Onur Kartal,1,Olka,IST FORUM,Mağazalar,Depo Görevlisi,False,1-8-888,Danışman
+1,1-8-3875,Olka Group,Ömer Akyüz,1,Olka,KONYA KENT PLAZA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2278,Danışman
+1,1-8-3888,Olka Group,Bahar Anık,1,Olka,IST OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,115,Danışman
+1,1-8-3901,Olka Group,Büşra Alkan,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Uzmanı,False,1-8-2904,Kıdemli Uzman
+1,1-8-3911,Olka Group,Samet Cesur,1,Olka,IST MARMARA FORUM,Mağazalar,Kasiyer,False,1-8-4638,Danışman
+1,1-8-3914,Olka Group,Aleyna Aslan,1,Olka,ANK CEPA,Mağazalar,Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-3917,Olka Group,Mahir Kordu,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-3920,Olka Group,Ahmet Beşli,1,Olka,MERSIN FORUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3492,Müdür Yardımcısı
+1,1-8-3921,Olka Group,Hüseyin Kum,1,Olka,IST ZORLU,Mağazalar,Depo Uzmanı,False,1-8-5523,Uzman Danışman
+1,1-8-3927,Olka Group,Sara Benyaro,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E-Ticaret Uzman Yardımcısı,False,1-8-4290,Uzman Yardımcısı
+1,1-8-3928,Olka Group,Emel Çalış,1,Olka,IST TEMA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5347,Müdür Yardımcısı
+1,1-8-3929,Olka Group,Ayhan Mutlu,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-3933,Olka Group,Songül Şin,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-3947,Olka Group,Melike Zeynep Turhan,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-945,Danışman
+1,1-8-3948,Olka Group,Kadir Çerdik,1,Olka,MERKEZ,İdari İşler,Teknik Destek,False,1-8-2108,Uzman
+1,1-8-3950,Olka Group,Uğur Bıçakçı,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-3953,Olka Group,Kader Bayrak,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-3954,Olka Group,Cansu Selman,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Operasyon Uzmanı,False,1-8-3127,Kıdemli Uzman
+1,1-8-3959,Olka Group,Gökhan Dalbudak,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Satış Danışmanı,False,1-8-4214,Danışman
+1,1-8-3962,Olka Group,İbrahim Yılmaz,1,Olka,ANK OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-441,Danışman
+1,1-8-3968,Olka Group,Hakan Karayel,1,Olka,IST ISTINYEPARK,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-3969,Olka Group,Muhtalip Güler,1,Olka,IST ISTIKLAL,Mağazalar,Depo Görevlisi,False,1-8-3706,Danışman
+1,1-8-3970,Olka Group,Ersin Satıç,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-3976,Olka Group,Mustafa Mert Aykanat,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-3991,Olka Group,Yıldırım Karakaya,1,Olka,IST MARMARAPARK,Mağazalar,Depo Uzmanı,False,1-8-695,Uzman Danışman
+1,1-8-3994,Olka Group,Buket Kocaoğlu,1,Olka,MERKEZ,Satın Alma,Satın Alma Müdürü,True,1-8-2616,Müdür
+1,1-8-3997,Olka Group,Muhammet Serhat Şimşek,1,Olka,MERKEZ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4303,Müdür Yardımcısı
+1,1-8-3998,Olka Group,Metin Taşar,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1505,Mavi Yaka
+1,1-8-4000,Olka Group,Mustafa Sönmez,1,Olka,IST BUYAKA,Mağazalar,Satış Danışmanı,False,1-8-3338,Danışman
+1,1-8-4002,Olka Group,Emir Çamcı,1,Olka,BURSA MARKA,Mağazalar,Satış Danışmanı,False,1-8-2396,Danışman
+1,1-8-4007,Olka Group,Tuğrul Can Karaca,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4012,Olka Group,Zeynep Çay,1,Olka,ANK NATAVEGA,Mağazalar,Satış Danışmanı,False,1-8-4576,Danışman
+1,1-8-4013,Olka Group,Merve Çalışkan,1,Olka,MERKEZ,İnsan Kaynakları,İnsan Kaynakları Uzmanı,False,124,Uzman
+1,1-8-4014,Olka Group,Kezban Abalay,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1513,Mavi Yaka
+1,1-8-4030,Olka Group,Abdullah İşler,1,Olka,MERKEZ,Mağazalar,Uzman Satış Danışmanı,False,1-8-1718,Uzman Danışman
+1,1-8-4031,Olka Group,Sare Büyükçapar,1,Olka,KAHRAMANMARAŞ,Mağazalar,Satış Danışmanı,False,1-8-4449,Danışman
+1,1-8-4035,Olka Group,Okan Erdemir,1,Olka,KAHRAMANMARAŞ,Mağazalar,Satış Danışmanı,False,1-8-4449,Danışman
+1,1-8-4038,Olka Group,Mustafa Doğukan Kaplan,1,Olka,KAHRAMANMARAŞ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4449,Müdür Yardımcısı
+1,1-8-4049,Olka Group,Cemre Kaya,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Satış Danışmanı,False,1-8-2912,Danışman
+1,1-8-4058,Olka Group,İlker Demirkan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1513,Mavi Yaka
+1,1-8-4062,Olka Group,İrem Şeyma Arslan,1,Olka,IST HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-3527,Danışman
+1,1-8-4063,Olka Group,Akın Çölbekler,1,Olka,ANT LAND OF LEGENDS,Mağazalar,Satış Danışmanı,False,1-8-383,Danışman
+1,1-8-4068,Olka Group,Ufuk Güler,1,Olka,MERKEZ,İç Denetim,Kayıp Önleme Uzmanı,False,1-8-1543,Uzman
+1,1-8-4070,Olka Group,Ümit Burak Özorhan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4071,Olka Group,İbrahim Halil Kıran,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4072,Olka Group,Fethi Canbulat,1,Olka,MERKEZ,Perakende Satış,Kıdemli Bölge Müdürü,True,1-8-5287,Kıdemli Yönetici
+1,1-8-4074,Olka Group,Doğan Ağırcan,1,Olka,MERKEZ,İnsan Kaynakları,Kıdemli İnsan Kaynakları Yöneticisi,False,1-8-1426,Kıdemli Yönetici
+1,1-8-4075,Olka Group,Levent Özarslan,1,Olka,MERKEZ,Ürün İnceleme,Kıdemli Ürün İnceleme Yöneticisi,True,1-8-2129,Kıdemli Yönetici
+1,1-8-4076,Olka Group,Mesut Yalçın,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-2393,Mavi Yaka
+1,1-8-4085,Olka Group,Adem Palabıyık,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-4088,Olka Group,Zanyar Serhat Üstebay,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E- Ticaret Ürün Geliştirme Müdürü,True,1-8-1431,Müdür
+1,1-8-4092,Olka Group,Görkem Deniz Babayiğit,1,Olka,BURSA DOWNTOWN,Mağazalar,Satış Danışmanı,False,1-8-5589,Danışman
+1,1-8-4095,Olka Group,Ayşe Nur Bozdağ,1,Olka,FORUM KAYSERİ,Mağazalar,Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-4096,Olka Group,Burak Yasin Güneş,1,Olka,IST SIRKECI,Mağazalar,Satış Danışmanı,False,1-8-5060,Danışman
+1,1-8-410,Olka Group,İnan Eser,1,Olka,ANK METROMALL,Mağazalar,Uzman Satış Danışmanı,False,1-8-3350,Uzman Danışman
+1,1-8-4111,Olka Group,Gülcan Öztaş,1,Olka,IZM FORUM BORNOVA,Mağazalar,Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-4118,Olka Group,Esra Nur Karacan,1,Olka,IZM ISTINYE PARK,Mağazalar,Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-4119,Olka Group,Nuri Furkan Tozkoparan,1,Olka,MERKEZ,Toptan Satış,Satış Operasyon ve Raporlama Uzmanı,False,1-8-1131,Uzman
+1,1-8-4127,Olka Group,Galip Gürkan Kuş,1,Olka,IST MOI,Mağazalar,Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-4129,Olka Group,Aleyna Türk,1,Olka,BURSA DOWNTOWN,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5589,Müdür Yardımcısı
+1,1-8-4147,Olka Group,Ali Karakuş,1,Olka,MERKEZ,Perakende Satış,Perakende Satış Direktörü,True,1-8-1462,Direktör
+1,1-8-4148,Olka Group,Ebru Özer,1,Olka,IST MOI,Mağazalar,Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-4149,Olka Group,Seda Açıkgöz,1,Olka,MERKEZ,Toptan Satış,Stratejik Bayiler Satış Yöneticisi,False,1-8-1131,Yönetici
+1,1-8-4161,Olka Group,Zeynep Yalçın,1,Olka,IST MARMARA FORUM KIDS,Mağazalar,Satış Danışmanı,False,1-8-5331,Danışman
+1,1-8-4168,Olka Group,Enes Demir,1,Olka,IST FORUM,Mağazalar,Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-4169,Olka Group,Barış Baydemir,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-5129,Danışman
+1,1-8-4177,Olka Group,Ömer Yetgin,1,Olka,IST MOI,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-4180,Olka Group,Emin Metehan Kılıçlı,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-4185,Olka Group,Abdülsamet Turgut,1,Olka,IST CEVAHIR,Mağazalar,Depo Görevlisi,False,187,Danışman
+1,1-8-4186,Olka Group,Soner Çömelekoğlu,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-4188,Olka Group,Ezgi Çelik,1,Olka,MERKEZ,CRM,Çağrı Merkezi Müşteri İletişim Uzman Yardımcısı,False,1-8-2147,Uzman Yardımcısı
+1,1-8-4198,Olka Group,Esra Yiğit,1,Olka,MERKEZ,Bilgi Teknolojileri,ERP Uzmanı,False,1-8-3354,Uzman
+1,1-8-4202,Olka Group,Fatih Aydın,1,Olka,IST SASKINBAKKAL,Mağazalar,Satış Danışmanı,False,114,Danışman
+1,1-8-4205,Olka Group,Sevgi Çetinkaya,1,Olka,KAHRAMANMARAŞ,Mağazalar,Satış Danışmanı,False,1-8-4449,Danışman
+1,1-8-4206,Olka Group,Ahmet Toraman,1,Olka,IST GALATAPORT,Mağazalar,Satış Danışmanı,False,1-8-2679,Danışman
+1,1-8-4214,Olka Group,Murat Samet Demirhan,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-4220,Olka Group,Yusuf Can Kele,1,Olka,IZM ISTINYE PARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-4221,Olka Group,Enes Anlı,1,Olka,MERKEZ,İdari İşler,Ofisboy,False,1-8-4808,Destek
+1,1-8-4229,Olka Group,Selen Karaman,1,Olka,MERKEZ,İnsan Kaynakları,Kıdemli İnsan Kaynakları Yöneticisi,False,124,Kıdemli Yönetici
+1,1-8-4232,Olka Group,Enes Furkan Şentürk,1,Olka,MERKEZ,Tedarik Zinciri,Stok Kontrol Uzman Yardımcısı,False,1-8-1786,Uzman Yardımcısı
+1,1-8-4235,Olka Group,Ali Hamza Öz,1,Olka,IST PIAZZA,Mağazalar,Depo Görevlisi,False,1-8-2104,Danışman
+1,1-8-4240,Olka Group,Dilek Yavuz,1,Olka,BURSA MARKA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2396,Müdür Yardımcısı
+1,1-8-4242,Olka Group,Kübra Esentekin,1,Olka,ANT LAND OF LEGENDS,Mağazalar,Satış Danışmanı,False,1-8-383,Danışman
+1,1-8-4243,Olka Group,Fatih Pınarlı,1,Olka,IST OLIVIUM,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-4244,Olka Group,Ozan Doğanay,1,Olka,MERKEZ,Perakende Satış,Kıdemli Bölge Müdürü,True,1-8-5287,Kıdemli Yönetici
+1,1-8-4245,Olka Group,Deniz Selimoğlu,1,Olka,MERKEZ,Pazarlama,Marka ve Dijital Pazarlama Yöneticisi,False,1-8-5488,Yönetici
+1,1-8-4247,Olka Group,Şeyda Çıkrıkoğlu,1,Olka,MERKEZ,Dış Ticaret,Dış Ticaret Uzmanı,False,1-8-3109,Uzman
+1,1-8-4250,Olka Group,Mert İlhan,1,Olka,IST PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2104,Danışman
+1,1-8-4254,Olka Group,Oğuzhan Bayar,1,Olka,ANK CEPA,Mağazalar,Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-4256,Olka Group,Burak Daka,1,Olka,IST MARMARAPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-4266,Olka Group,Esmanur Çetin,1,Olka,IST OLIVIUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4243,Danışman
+1,1-8-4268,Olka Group,Aleyna Esin Güneş,1,Olka,IZMIT OUTLET,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2293,Müdür Yardımcısı
+1,1-8-4273,Olka Group,Fazlı Başhasanoğlu,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-4274,Olka Group,Taha Fırat Akol,1,Olka,IST OPTIMUM,Mağazalar,Uzman Satış Danışmanı,False,115,Uzman Danışman
+1,1-8-4277,Olka Group,Alperen Şahin,1,Olka,TRABZON FORUM,Mağazalar,Depo Görevlisi,False,1-8-1546,Danışman
+1,1-8-4279,Olka Group,Kerim Can Çelik,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2088,Danışman
+1,1-8-4281,Olka Group,İlker Karaduran,1,Olka,MERKEZ,Satın Alma,Kıdemli Satın Alma Uzmanı,False,1-8-3994,Kıdemli Uzman
+1,1-8-4283,Olka Group,Halenur Yılmaz,1,Olka,IST OLIVIUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4243,Danışman
+1,1-8-429,Olka Group,Semih Balkan,1,Olka,IST OLIVIUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4243,Müdür Yardımcısı
+1,1-8-4290,Olka Group,Pınar Demiralp,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E-Ticaret Ürün ve Satış Yöneticisi,True,1-8-1431,Yönetici
+1,1-8-4292,Olka Group,Zafer Pelvan,1,Olka,IZMIT OUTLET,Mağazalar,Part-Time Depo Görevlisi,False,1-8-2293,Danışman
+1,1-8-4296,Olka Group,Celal Turan Kom,1,Olka,IST PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2104,Danışman
+1,1-8-4298,Olka Group,Miray Vahide Elikılıç,1,Olka,IZMIT OUTLET,Mağazalar,Satış Danışmanı,False,1-8-2293,Danışman
+1,1-8-4303,Olka Group,Tayfun Karataş,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,15-8-10001,Müdür
+1,1-8-4306,Olka Group,Dilek Tuz,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,15-8-10001,Müdür
+1,1-8-4315,Olka Group,Murat Can Temel,1,Olka,FORUM KAYSERİ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-4316,Olka Group,Cihan Palavan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4319,Olka Group,Yaşar Kütük,1,Olka,IST MOI,Mağazalar,Depo Görevlisi,False,1-8-4177,Danışman
+1,1-8-4327,Olka Group,Mehmet Güneş,1,Olka,KAHRAMANMARAŞ,Mağazalar,Satış Danışmanı,False,1-8-4449,Danışman
+1,1-8-4328,Olka Group,Ali Kurt,1,Olka,IST VENEZIA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-4329,Olka Group,Volkan Öğüt,1,Olka,ANT MARKA,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-4344,Olka Group,Emiray Tuncel,1,Olka,SAMSUN PIAZZA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-4345,Olka Group,Selçuk Topçu,1,Olka,MERKEZ,Bilgi Teknolojileri,Yazılım Geliştirme Yöneticisi,False,142,Yönetici
+1,1-8-4346,Olka Group,İsa Yaslı,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4348,Olka Group,Hatice Şevval Kocabıyık,1,Olka,IST ISTINYEPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3968,Danışman
+1,1-8-4349,Olka Group,Aleyna Çeçen,1,Olka,IST MARMARA FORUM,Mağazalar,Satış Danışmanı,False,1-8-4638,Danışman
+1,1-8-4394,Olka Group,Yakup Selcik,1,Olka,TRABZON FORUM,Mağazalar,Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-4396,Olka Group,Adem Keklik,1,Olka,IZMIR WESTPARK,Mağazalar,Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-4399,Olka Group,Osman Aydoğan,1,Olka,MERKEZ,Yönetim Destek,Genel Müdür Şoförü,False,1-8-4842,Uzman
+1,1-8-4408,Olka Group,Batuhan Türkyılmaz,1,Olka,IST ISTIKLAL,Mağazalar,Satış Danışmanı,False,1-8-3706,Danışman
+1,1-8-441,Olka Group,Sedat Keçeci,1,Olka,ANK OPTIMUM,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-4415,Olka Group,Zehra Vural,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-958,Danışman
+1,1-8-4417,Olka Group,Kemal Günay,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Reachtruck Operatörü,False,1-8-3104,Mavi Yaka
+1,1-8-4421,Olka Group,Murat Aydın,1,Olka,IST GRANDPERA,Mağazalar,Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-4423,Olka Group,Samet İncirkuş,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-4424,Olka Group,Mehlika Arslan,1,Olka,IST FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-4428,Olka Group,Umut Karabulut,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4433,Olka Group,Fatma Akdağ,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-4435,Olka Group,Zehra Taşkın,1,Olka,IST MARMARA FORUM KIDS,Mağazalar,Satış Danışmanı,False,1-8-5331,Danışman
+1,1-8-4436,Olka Group,Damla Altuntaş,1,Olka,ANT MARKA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-4437,Olka Group,Sude Nur Özdemir,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-958,Danışman
+1,1-8-4438,Olka Group,Emircan Gündoğdu,1,Olka,IST GALATAPORT,Mağazalar,Depo Görevlisi,False,1-8-2679,Danışman
+1,1-8-4442,Olka Group,Vedat Kaplan,1,Olka,IST MARMARAPARK,Mağazalar,Depo Görevlisi,False,1-8-695,Danışman
+1,1-8-4449,Olka Group,Ali Evrim Tuncel,1,Olka,KAHRAMANMARAŞ,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-4452,Olka Group,Hasan Şahin,1,Olka,IZMIR OPTIMUM,Mağazalar,Depo Görevlisi,False,1-8-2733,Danışman
+1,1-8-4453,Olka Group,Yaren Armağan Usburak,1,Olka,MERKEZ,İnsan Kaynakları,İnsan Kaynakları Uzman Yardımcısı,False,1-8-1426,Uzman Yardımcısı
+1,1-8-4454,Olka Group,Osman Atakan Ocakoğlu,1,Olka,MERKEZ,Ticari,Ticari Planlama Müdürü,False,1-8-1462,Müdür
+1,1-8-4456,Olka Group,Hakan Necati Gökşen,1,Olka,FORUM KAYSERİ,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-4457,Olka Group,Aycan Doğru,1,Olka,MERKEZ,Toptan Satış,Stratejik Bayiler Satış Yöneticisi,False,1-8-1131,Yönetici
+1,1-8-4458,Olka Group,Tuğçe Çamur,1,Olka,MERKEZ,Pazarlama,Bölge Görsel Düzenleme Uzmanı,False,1-8-1666,Uzman
+1,1-8-4459,Olka Group,Ebru Aydemir Hekimoğlu,1,Olka,IST METROPOL,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-4462,Olka Group,Ali Saraç,1,Olka,ANK NATAVEGA,Mağazalar,Satış Danışmanı,False,1-8-4576,Danışman
+1,1-8-4464,Olka Group,Mehmet Akif Atlı,1,Olka,IST MARMARA FORUM,Mağazalar,Depo Görevlisi,False,1-8-4638,Danışman
+1,1-8-4468,Olka Group,Muhammed Samet Zehilli,1,Olka,IST FORUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-888,Müdür Yardımcısı
+1,1-8-4469,Olka Group,Mustafa Murat Macit,1,Olka,IST FORUM KİDS,Mağazalar,Satış Danışmanı,False,1-8-2893,Danışman
+1,1-8-4472,Olka Group,Emine Gülcan Havutcu,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-4476,Olka Group,Yağmur Gelen,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-4484,Olka Group,Melisa Yonat Yeniçeri,1,Olka,IST GRANDPERA,Mağazalar,Kasiyer,False,1-8-1316,Danışman
+1,1-8-4485,Olka Group,Ferhat Aslan,1,Olka,ANK ANKAMALL,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5493,Müdür Yardımcısı
+1,1-8-4487,Olka Group,Ali Uğur Üstenci,1,Olka,ANT TERRACITY,Mağazalar,Satış Danışmanı,False,1-8-309,Danışman
+1,1-8-4488,Olka Group,İrem Özgüven,1,Olka,MERKEZ,CRM,CRM Kampanya ve İletişim Uzman Yardımcısı,False,1-8-3381,Uzman Yardımcısı
+1,1-8-4489,Olka Group,Halil Sarıbaş,1,Olka,MERKEZ,Satın Alma,Kıdemli Satın Alma Uzmanı,False,1-8-3994,Kıdemli Uzman
+1,1-8-4490,Olka Group,Özgür Uğurel,1,Olka,ANT LAND OF LEGENDS,Mağazalar,Satış Danışmanı,False,1-8-383,Danışman
+1,1-8-4491,Olka Group,Serkan Aydın,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-4493,Olka Group,Tuncay Aktürk,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-4495,Olka Group,Muhammet Ali Özmen,1,Olka,ANK ANKAMALL,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5493,Müdür Yardımcısı
+1,1-8-4500,Olka Group,Fırat Kırmızı,1,Olka,ANT MOA,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-4502,Olka Group,Sezer Kaya,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-4503,Olka Group,Kerim Can Işık,1,Olka,IST HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-3527,Danışman
+1,1-8-4507,Olka Group,Berk Orhan,1,Olka,IST MOI,Mağazalar,Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-4516,Olka Group,Sadullah Lider,1,Olka,IST MOI,Mağazalar,Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-4519,Olka Group,Şule Erkan,1,Olka,MERKEZ,İnsan Kaynakları,İnsan Kaynakları Uzmanı,False,124,Uzman
+1,1-8-4522,Olka Group,Görkem Alkoç,1,Olka,IST SIRKECI,Mağazalar,Depo Görevlisi,False,1-8-5060,Danışman
+1,1-8-4523,Olka Group,Şerife Durmuş,1,Olka,FORUM KAYSERİ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-4526,Olka Group,Evenur Demir,1,Olka,MERSIN FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3492,Danışman
+1,1-8-4527,Olka Group,Eylül Deniz Atalar,1,Olka,MERKEZ,Mali İşler,Finans Uzman Yardımcısı,False,1-8-587,Uzman Yardımcısı
+1,1-8-4529,Olka Group,Emek Yurdanur,1,Olka,MERKEZ,İnsan Kaynakları,CHRO,True,1,C Level
+1,1-8-4530,Olka Group,Berivan Yalçı,1,Olka,MERSIN FORUM,Mağazalar,Kasiyer,False,1-8-3492,Danışman
+1,1-8-4534,Olka Group,Serkan Evren,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4535,Olka Group,Onur Tabanlı,1,Olka,IST BUYAKA KIDS,Mağazalar,Satış Danışmanı,False,1-8-586,Danışman
+1,1-8-4536,Olka Group,Muhammedin Emin Kökrem,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-4543,Olka Group,Şeydanur Şen,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-4547,Olka Group,Ezgi Kotan,1,Olka,MERKEZ,Dış Ticaret,Dış Ticaret Uzman Yardımcısı,False,1-8-3109,Uzman Yardımcısı
+1,1-8-4552,Olka Group,Bedri Öztürk,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4553,Olka Group,Furkan Bircan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4554,Olka Group,Ramazan Karakurt,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-4556,Olka Group,Simay Somuncu,1,Olka,BURSA KORUPARK,Mağazalar,Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-4559,Olka Group,Büşra Sarı Ortaç,1,Olka,IST MARMARAPARK,Mağazalar,Kasiyer,False,1-8-695,Danışman
+1,1-8-4566,Olka Group,Sinem Tuyan,1,Olka,IZMIR OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-4572,Olka Group,Yusuf Karaca,1,Olka,IST VENEZIA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-4573,Olka Group,Doğancan Yılmaz,1,Olka,MERKEZ,Mali İşler,Muhasebe Yöneticisi,False,1-8-3025,Yönetici
+1,1-8-4576,Olka Group,Özge Ergül,1,Olka,ANK NATAVEGA,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-4577,Olka Group,Ahmet Vardar,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Satış Danışmanı,False,1-8-2912,Danışman
+1,1-8-4579,Olka Group,Oğuzcan Gabel,1,Olka,IZMIR HILLTOWN,Mağazalar,Kasiyer,False,1-8-4649,Danışman
+1,1-8-4580,Olka Group,Ahmet Can Ünlüöz,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Satış Danışmanı,False,1-8-2912,Danışman
+1,1-8-4584,Olka Group,Yusuf Güney,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Pazaryeri Yöneticisi,False,1-8-4984,Yönetici
+1,1-8-4585,Olka Group,Yasemin Yeniçeri,1,Olka,MERKEZ,Ürün Yönetimi,Perakende Ürün Uzmanı,False,192,Uzman
+1,1-8-4586,Olka Group,Egemen Çuracı,1,Olka,IZMIR AGORA,Mağazalar,Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-4587,Olka Group,Fevzi Kırımşelioğlu,1,Olka,IZM ISTINYE PARK,Mağazalar,Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-4589,Olka Group,Serhat Korkmaz,1,Olka,IZMIR HILLTOWN,Mağazalar,Depo Görevlisi,False,1-8-4649,Danışman
+1,1-8-4590,Olka Group,Mehmet Nurettin Ayhan,1,Olka,IZMIR HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-4649,Danışman
+1,1-8-4591,Olka Group,Melisa Yıldırım,1,Olka,IZMIR HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-4649,Danışman
+1,1-8-4592,Olka Group,Tolga Biricik,1,Olka,IZMIR AGORA,Mağazalar,Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-4593,Olka Group,Büşra Özbaş,1,Olka,IZM ISTINYE PARK,Mağazalar,Kasiyer,False,1-8-3341,Danışman
+1,1-8-4594,Olka Group,Eser Samur,1,Olka,IZMIR HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-4649,Danışman
+1,1-8-4595,Olka Group,Murat Arı,1,Olka,IZM ISTINYE PARK,Mağazalar,Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-4598,Olka Group,Seren Takıcak,1,Olka,IST TEMA,Mağazalar,Satış Danışmanı,False,1-8-5347,Danışman
+1,1-8-4601,Olka Group,Pınar Çiloğlan,1,Olka,BODRUM MIDTOWN,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-4603,Olka Group,Özer Akkuş,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4607,Olka Group,Barış Duzalan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4609,Olka Group,Şenay Arslan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4620,Olka Group,Şevval Peker,1,Olka,IST PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2104,Danışman
+1,1-8-4621,Olka Group,Kerim Nas,1,Olka,IZMIR OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-4623,Olka Group,Erhan Korukcu,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4626,Olka Group,Burçin Doğan,1,Olka,ANK KENTPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2872,Müdür Yardımcısı
+1,1-8-4627,Olka Group,Mehmet Erkan Kalyoncu,1,Olka,ÇAN 17 BURDA,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-4628,Olka Group,Mehmet Boşnakoğlu,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-4635,Olka Group,Yusuf Ceran,1,Olka,FORUM KAYSERİ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4456,Müdür Yardımcısı
+1,1-8-4638,Olka Group,Onur Yardımcı,1,Olka,IST MARMARA FORUM,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-4640,Olka Group,Serhat Özdemir,1,Olka,IZMIR HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-4649,Danışman
+1,1-8-4643,Olka Group,Fatma Nur Yıldırım,1,Olka,ÇAN 17 BURDA,Mağazalar,Satış Danışmanı,False,1-8-4627,Danışman
+1,1-8-4645,Olka Group,Reha Ağa,1,Olka,ÇAN 17 BURDA,Mağazalar,Satış Danışmanı,False,1-8-4627,Danışman
+1,1-8-4648,Olka Group,Onur Aktaş,1,Olka,IZM FORUM BORNOVA,Mağazalar,Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-4649,Olka Group,Koray Koçyiğit,1,Olka,IZMIR HILLTOWN,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-4651,Olka Group,Samim Kılıç,1,Olka,MERKEZ,Proje Yönetimi ve İş Analizi,İş Analizi ve Proje Yöneticisi,False,1-8-1466,Yönetici
+1,1-8-4652,Olka Group,Mehmet Alperen Pınarbaşı,1,Olka,MERKEZ,Bilgi Teknolojileri,Ağ ve Bilgi Güvenliği Uzmanı,False,1-8-2652,Uzman
+1,1-8-4653,Olka Group,Özgür Tekiner,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-4655,Olka Group,Kevser Usta Kaya,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4656,Olka Group,Uğur Özdemir,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4659,Olka Group,Mustafa Sargın,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-4662,Olka Group,Furkan Yılmaz,1,Olka,IZMIR HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-4649,Danışman
+1,1-8-4664,Olka Group,Mustafa Tan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4665,Olka Group,Rozelin Çelik,1,Olka,IZM ISTINYE PARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-4667,Olka Group,Sinem Buket Uğur,1,Olka,IZMIR HILLTOWN,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4649,Müdür Yardımcısı
+1,1-8-4668,Olka Group,Batuhan Çavdı,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-4671,Olka Group,Fazlı Özkan,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-4675,Olka Group,Beratcan Karakaş,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-4680,Olka Group,Ömer Gezme,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-4686,Olka Group,Sevde Cingöz,1,Olka,IST ISTINYEPARK,Mağazalar,Satış Danışmanı,False,1-8-3968,Danışman
+1,1-8-4696,Olka Group,Betül Sarı,1,Olka,IZMIR OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-4697,Olka Group,Duygu Aksoy,1,Olka,IST MOI,Mağazalar,Kasiyer,False,1-8-4177,Danışman
+1,1-8-470,Olka Group,Emre Yıldırım,1,Olka,MERKEZ,Pazarlama,Sports ve Influencer Pazarlama Müdürü,True,1-8-5224,Müdür
+1,1-8-4700,Olka Group,Nedime Kalıntaş,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-945,Danışman
+1,1-8-4701,Olka Group,Dilara Karakuş Pektaş,1,Olka,MERKEZ,CRM,Çağrı Merkezi Müşteri İletişim Uzmanı,False,1-8-2147,Uzman
+1,1-8-4704,Olka Group,Ferhat İnam,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Eğitim Uzman Yardımcısı,False,1-8-2294,Uzman Yardımcısı
+1,1-8-4709,Olka Group,Mert Akbulut,1,Olka,ADANA M1,Mağazalar,Part-Time Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-4719,Olka Group,Cemre Kadriye Lider,1,Olka,MERKEZ,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4306,Müdür Yardımcısı
+1,1-8-4721,Olka Group,Kardelen Gırcal,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-4722,Olka Group,Sabri Sevdin,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4727,Olka Group,Ceylan Ölçen,1,Olka,PALM CITY,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3774,Danışman
+1,1-8-4728,Olka Group,Sümeyye Kaymaz,1,Olka,IZMIR OPTIMUM,Mağazalar,Part-Time Kasiyer,False,1-8-2733,Danışman
+1,1-8-4731,Olka Group,Gürkan Eryolcu,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4732,Olka Group,Gözde Nehir Aydoğan,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Satış Danışmanı,False,1-8-2912,Danışman
+1,1-8-4735,Olka Group,Murat Aydın,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4736,Olka Group,Mustafa Temel,1,Olka,IST METROPOL,Mağazalar,Depo Görevlisi,False,1-8-4459,Danışman
+1,1-8-4739,Olka Group,Gülüzar Coşar,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-4741,Olka Group,Arif Doğan,1,Olka,IST GRANDPERA,Mağazalar,Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-4743,Olka Group,Gülsüm Kahraman,1,Olka,IST HILLTOWN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3527,Danışman
+1,1-8-4748,Olka Group,Olcay Alış,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Reachtruck Operatörü,False,1-8-3104,Mavi Yaka
+1,1-8-4750,Olka Group,Elif Salduz,1,Olka,IST MARMARAPARK,Mağazalar,Part-Time Kasiyer,False,1-8-695,Danışman
+1,1-8-4751,Olka Group,Kübra İnan,1,Olka,IST PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2104,Danışman
+1,1-8-4757,Olka Group,Şevval Haskırış,1,Olka,IST OLIVIUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4243,Danışman
+1,1-8-4758,Olka Group,Mehmet Aksu,1,Olka,IST MOI,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-4760,Olka Group,Furkan Kara,1,Olka,IZM FORUM BORNOVA,Mağazalar,Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-4766,Olka Group,Ayhan Parlar,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-4769,Olka Group,Senanur Aktaş,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-4776,Olka Group,Eren Erçelik,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4812,Danışman
+1,1-8-4777,Olka Group,Furkan Öztürk,1,Olka,IST SIRKECI,Mağazalar,Satış Danışmanı,False,1-8-5060,Danışman
+1,1-8-4778,Olka Group,Burcu İldeş,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2912,Müdür Yardımcısı
+1,1-8-4782,Olka Group,Ümit Çeşit,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-4783,Olka Group,İlayda Çetinbaş,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Operasyon Uzman Yardımcısı,False,1-8-283,Uzman Yardımcısı
+1,1-8-4785,Olka Group,Berivan Sezgin,1,Olka,MERSIN FORUM,Mağazalar,Satış Danışmanı,False,1-8-3492,Danışman
+1,1-8-4789,Olka Group,Sude Pelşin Kesen,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4306,Danışman
+1,1-8-4793,Olka Group,Doğukan Sağlam,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-4798,Olka Group,Sinan Minsin,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4799,Olka Group,Ali Kemal Şadman,1,Olka,BURSA DOWNTOWN,Mağazalar,Satış Danışmanı,False,1-8-5589,Danışman
+1,1-8-4804,Olka Group,Ceyda Özalp,1,Olka,IZM FORUM BORNOVA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-4805,Olka Group,Merve Berber,1,Olka,IZMIR HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-4649,Danışman
+1,1-8-4808,Olka Group,Hande Akatlı,1,Olka,MERKEZ,İdari İşler,İdari İşler Yöneticisi,True,1-8-4529,Yönetici
+1,1-8-4809,Olka Group,Zeki Alper Kesim,1,Olka,MERKEZ,İnsan Kaynakları,Dijital Eğitim Yöneticisi,False,1-8-4529,Yönetici
+1,1-8-4812,Olka Group,Uğur Ömer Tartıcı,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,15-8-10001,Müdür
+1,1-8-4814,Olka Group,Fatma Nur Genç,1,Olka,ANT MARKA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-4817,Olka Group,Yusuf Utku Uykucu,1,Olka,IST METROPOL,Mağazalar,Satış Danışmanı,False,1-8-4459,Danışman
+1,1-8-4821,Olka Group,Ahmethan Kazan,1,Olka,IST ISTIKLAL,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3706,Danışman
+1,1-8-4829,Olka Group,Gamze Gülşah Elmalı,1,Olka,BODRUM MIDTOWN,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4601,Müdür Yardımcısı
+1,1-8-4832,Olka Group,Umut Kaya,1,Olka,IST MOI,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-4833,Olka Group,Hilal Alagözoğlu,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4812,Danışman
+1,1-8-4834,Olka Group,Sera Topaloğlu,1,Olka,ÇAN 17 BURDA,Mağazalar,Satış Danışmanı,False,1-8-4627,Danışman
+1,1-8-4835,Olka Group,Yasin Özsoy,1,Olka,TRABZON FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-4842,Olka Group,Cora Monigue Mc Dougle,1,Olka,MERKEZ,Yönetim Destek,Genel Müdür Asistanı,True,1-8-1462,Yönetici
+1,1-8-4847,Olka Group,Mahmut Yağız,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-4853,Olka Group,Zuhal Demir,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2088,Danışman
+1,1-8-4857,Olka Group,Atilla Avar,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Sistem Operatörü,False,1-8-3103,Mavi Yaka
+1,1-8-4859,Olka Group,Muhammet Aktaş,1,Olka,IST BUYAKA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3338,Danışman
+1,1-8-4860,Olka Group,Beyza Nur Topal,1,Olka,ANK KENTPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2872,Danışman
+1,1-8-4862,Olka Group,Murat Cemal Gülsoy,1,Olka,MERKEZ,Toptan Satış,Zincir Mağazalar Satış Yöneticisi,False,1-8-1277,Yönetici
+1,1-8-4868,Olka Group,Emir Arda Can Yalçın,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-958,Danışman
+1,1-8-4870,Olka Group,Rabia Bostan,1,Olka,IST GRANDPERA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1316,Müdür Yardımcısı
+1,1-8-4872,Olka Group,İlayda Menge,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-4876,Olka Group,Irmak Koç,1,Olka,IST GALATAPORT,Mağazalar,Satış Danışmanı,False,1-8-2679,Danışman
+1,1-8-4879,Olka Group,Erdinç Acar,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-4883,Olka Group,Dursun Dinler,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4884,Olka Group,Mustafa Darıga,1,Olka,ANT LAND OF LEGENDS,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-383,Müdür Yardımcısı
+1,1-8-4886,Olka Group,Eyüp Alp,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4890,Olka Group,Zeynep Turgut,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-4891,Olka Group,Rümeysa Kıvrak,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-4894,Olka Group,Şule Çakmak,1,Olka,MERKEZ,Pazarlama,Bölge Görsel Düzenleme Uzmanı,False,1-8-1666,Uzman
+1,1-8-4901,Olka Group,Serkan Özmen,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-4904,Olka Group,Kaan Kırnıç,1,Olka,ANK CEPA,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-4909,Olka Group,Emre Yegen,1,Olka,ANT TERRACITY,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-309,Müdür Yardımcısı
+1,1-8-4910,Olka Group,Eren Akçay,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-4914,Olka Group,Tuana Sarıaydın,1,Olka,MERKEZ,Mali İşler,Paralegal,False,1-8-2616,Uzman
+1,1-8-4915,Olka Group,Ceren Durmuş,1,Olka,IST FORUM KİDS,Mağazalar,Satış Danışmanı,False,1-8-2893,Danışman
+1,1-8-4917,Olka Group,Güney Kutlu,1,Olka,PALM CITY,Mağazalar,Satış Danışmanı,False,1-8-3774,Danışman
+1,1-8-4920,Olka Group,Batuhan Küçük,1,Olka,IST FORUM,Mağazalar,Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-4923,Olka Group,Emine Kurcan,1,Olka,ÇAN 17 BURDA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4627,Müdür Yardımcısı
+1,1-8-4925,Olka Group,Ediz Mayın,1,Olka,IST FORUM,Mağazalar,Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-4928,Olka Group,Ayşegül Başaran,1,Olka,ADANA M1,Mağazalar,Part-Time Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-493,Olka Group,Duygu Karaoğlan,1,Olka,MERKEZ,Mali İşler,Finans Yöneticisi,True,1-8-3124,Yönetici
+1,1-8-4930,Olka Group,Cennet İrem Ünal,1,Olka,MERSIN FORUM,Mağazalar,Satış Danışmanı,False,1-8-3492,Danışman
+1,1-8-4931,Olka Group,Ali Erdem Uçarkuş,1,Olka,IST FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-4932,Olka Group,Mehmet Erdil Kul,1,Olka,MERKEZ,Ürün İnceleme,Ürün İnceleme Uzman Yardımcısı,False,1-8-4075,Uzman Yardımcısı
+1,1-8-4933,Olka Group,Esma Alagöz,1,Olka,MERKEZ,Mağazalar,Kasiyer,False,1-8-4303,Danışman
+1,1-8-4938,Olka Group,Kadir Kaan Zopcuk,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-4939,Olka Group,İrem Nur Çalış,1,Olka,IST VENEZIA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-899,Müdür Yardımcısı
+1,1-8-4940,Olka Group,Yasin Lök,1,Olka,IZM ISTINYE PARK,Mağazalar,Depo Görevlisi,False,1-8-3341,Danışman
+1,1-8-4942,Olka Group,Doğan Yılmaz,1,Olka,IST MARMARA FORUM,Mağazalar,Satış Danışmanı,False,1-8-4638,Danışman
+1,1-8-4943,Olka Group,Mehmet Nuri Sarı,1,Olka,ÇAN 17 BURDA,Mağazalar,Satış Danışmanı,False,1-8-4627,Danışman
+1,1-8-4945,Olka Group,Halil İbrahim Dağ,1,Olka,KAHRAMANMARAŞ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4449,Danışman
+1,1-8-4954,Olka Group,Tuğberk Ünalmış,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-4956,Olka Group,Gökçenur Kart,1,Olka,IST FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-4962,Olka Group,Sude Sena Özkan,1,Olka,IZM ISTINYE PARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3341,Müdür Yardımcısı
+1,1-8-4963,Olka Group,Özkan Güzel,1,Olka,ANK KENTPARK,Mağazalar,Satış Danışmanı,False,1-8-2872,Danışman
+1,1-8-4964,Olka Group,Abdullah Selvi,1,Olka,IST BUYAKA KIDS,Mağazalar,Satış Danışmanı,False,1-8-586,Danışman
+1,1-8-4966,Olka Group,Özge Bostancı,1,Olka,MERKEZ,Yönetim Destek,Yönetici Asistanı,True,1-8-4529,Yönetici
+1,1-8-4967,Olka Group,Merve Borazan,1,Olka,ADANA M1,Mağazalar,Satış Danışmanı,False,1-8-1376,Danışman
+1,1-8-4968,Olka Group,Sümeyye Zenger,1,Olka,IST SIRKECI,Mağazalar,Satış Danışmanı,False,1-8-5060,Danışman
+1,1-8-4970,Olka Group,Mehmet Ali Çaylık,1,Olka,IST HILLTOWN,Mağazalar,Depo Görevlisi,False,1-8-3527,Danışman
+1,1-8-4972,Olka Group,Kadir Coşkun,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,True,1-8-3103,Mavi Yaka
+1,1-8-4974,Olka Group,Görkem Bar,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-4975,Olka Group,Burak Kaan Doğramacıoğlu,1,Olka,IST MARMARA FORUM KIDS,Mağazalar,Satış Danışmanı,False,1-8-5331,Danışman
+1,1-8-4977,Olka Group,Busenur Çuhadaroğlu,1,Olka,BURSA MARKA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2396,Danışman
+1,1-8-4978,Olka Group,Muhammet Göktuğ Eşki,1,Olka,IST MARMARAPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-4981,Olka Group,Gizem Meydan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-4982,Olka Group,Türkan Hür Özüm,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-4984,Olka Group,Şeyda Yavuz,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E-Ticaret Ürün ve Satış Müdürü,True,1-8-1431,Müdür
+1,1-8-4985,Olka Group,Atalay Bozuklu,1,Olka,IST ISTIKLAL,Mağazalar,Satış Danışmanı,False,1-8-3706,Danışman
+1,1-8-4986,Olka Group,Emir Furkan Ercan,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-4987,Olka Group,Zeynep Sude Kalelioğlu,1,Olka,BURSA KORUPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-4989,Olka Group,Yusuf Ünlü,1,Olka,IST FORUM,Mağazalar,Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-4991,Olka Group,Uğur Yöret,1,Olka,IST METROPOL,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4459,Müdür Yardımcısı
+1,1-8-4992,Olka Group,Esma Yerlikaya,1,Olka,BURSA KORUPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-4993,Olka Group,Emirhan Gelişken,1,Olka,BURSA KORUPARK,Mağazalar,Depo Görevlisi,False,1-8-361,Danışman
+1,1-8-4995,Olka Group,Behlül Can Adar,1,Olka,IST SASKINBAKKAL,Mağazalar,Satış Danışmanı,False,114,Danışman
+1,1-8-5002,Olka Group,Selim Can Güneş,1,Olka,IST FORUM,Mağazalar,Depo Görevlisi,False,1-8-888,Danışman
+1,1-8-5010,Olka Group,Abdulsamet Atbaş,1,Olka,IST MOI,Mağazalar,Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-5012,Olka Group,Merve Doğan,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-5013,Olka Group,Efe Zipak,1,Olka,ÇAN 17 BURDA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4627,Danışman
+1,1-8-5015,Olka Group,Fatma Şahin,1,Olka,IST SASKINBAKKAL,Mağazalar,Satış Danışmanı,False,114,Danışman
+1,1-8-5018,Olka Group,Sena Yatmaz,1,Olka,IST MARMARA FORUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4638,Müdür Yardımcısı
+1,1-8-5019,Olka Group,Salih Yumurtacı,1,Olka,IST GRANDPERA,Mağazalar,Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-5020,Olka Group,Emre Köse,1,Olka,IST ISTINYEPARK,Mağazalar,Satış Danışmanı,False,1-8-3968,Danışman
+1,1-8-5021,Olka Group,Yıldıray Korkmaz,1,Olka,MERKEZ,Yönetim Destek,Şoför,False,1-8-4966,Uzman
+1,1-8-5023,Olka Group,Ziya Arslan,1,Olka,IST METROPOL,Mağazalar,Satış Danışmanı,False,1-8-4459,Danışman
+1,1-8-5024,Olka Group,Bahar Demirarslan,1,Olka,IST CEVAHIR,Mağazalar,Satış Danışmanı,False,187,Danışman
+1,1-8-5029,Olka Group,Sinem Ezgün,1,Olka,IST ISTINYEPARK,Mağazalar,Kasiyer,False,1-8-3968,Danışman
+1,1-8-5030,Olka Group,Tolunay Tekin,1,Olka,MERKEZ,Bilgi Teknolojileri,Yazılım Uzmanı,False,1-8-1793,Uzman
+1,1-8-5031,Olka Group,Serhad Mehmet Özdemir,1,Olka,MERKEZ,Bilgi Teknolojileri,WMS Uygulama Yöneticisi,False,142,Yönetici
+1,1-8-5034,Olka Group,Zehra Özkaradeniz,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1687,Mavi Yaka
+1,1-8-5038,Olka Group,Bahadır Kovar,1,Olka,IZMIT 41 BURDA,Mağazalar,Satış Danışmanı,False,1-8-1632,Danışman
+1,1-8-5039,Olka Group,Dilara Tatlıdil,1,Olka,IZMIT 41 BURDA,Mağazalar,Satış Danışmanı,False,1-8-1632,Danışman
+1,1-8-5040,Olka Group,Sultan Durmuş,1,Olka,IZMIT 41 BURDA,Mağazalar,Satış Danışmanı,False,1-8-1632,Danışman
+1,1-8-5047,Olka Group,Sevda Akçiçek,1,Olka,BODRUM MIDTOWN,Mağazalar,Satış Danışmanı,False,1-8-4601,Danışman
+1,1-8-5056,Olka Group,Göksal Kaya,1,Olka,ANT MOA,Mağazalar,Depo Görevlisi,False,1-8-4500,Danışman
+1,1-8-5057,Olka Group,Meltem Gürbüz,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Growth Manager,True,1-8-1431,Müdür
+1,1-8-5059,Olka Group,Dilan Doğan,1,Olka,IST MARMARA FORUM KIDS,Mağazalar,Satış Danışmanı,False,1-8-5331,Danışman
+1,1-8-5060,Olka Group,Gökhan Özdemir,1,Olka,IST SIRKECI,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-5062,Olka Group,Bektaşcan Gündüz,1,Olka,IST TEMA,Mağazalar,Satış Danışmanı,False,1-8-5347,Danışman
+1,1-8-5064,Olka Group,Mesut Yol,1,Olka,IST KADIKOY,Mağazalar,Satış Danışmanı,False,1-8-2081,Danışman
+1,1-8-5070,Olka Group,Erkut Özler,1,Olka,MERKEZ,Mali İşler,Muhasebe Yöneticisi,False,1-8-3025,Yönetici
+1,1-8-5071,Olka Group,Emrecan Demir,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-5073,Olka Group,Dilek Kurt,1,Olka,MERKEZ,Pazarlama,PR Yöneticisi,False,1-8-5488,Yönetici
+1,1-8-5074,Olka Group,Furkan Kara,1,Olka,PALM CITY,Mağazalar,Satış Danışmanı,False,1-8-3774,Danışman
+1,1-8-5117,Olka Group,Yaren Ertuğrul,1,Olka,IST BUYAKA KIDS,Mağazalar,Satış Danışmanı,False,1-8-586,Danışman
+1,1-8-5118,Olka Group,Sahra Karahan,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Uzmanı,False,1-8-2262,Uzman
+1,1-8-5120,Olka Group,Elif Yüksekdağ,1,Olka,IZM ISTINYE PARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-5126,Olka Group,Ali Cemal Teber,1,Olka,IST VIAPORT,Mağazalar,Uzman Satış Danışmanı,False,1-8-203,Uzman Danışman
+1,1-8-5129,Olka Group,Senanur Özdemir,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-5130,Olka Group,Tuğçe Taner,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Yöneticisi,False,1-8-3108,Yönetici
+1,1-8-5133,Olka Group,Zafer Avşar,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-5135,Olka Group,Ebru Karaağaç,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-5136,Olka Group,Hakan Budak,1,Olka,MERKEZ,Tedarik Zinciri,Stok Kontrol Uzmanı,False,1-8-1773,Uzman
+1,1-8-5137,Olka Group,Doğan Akçay,1,Olka,IST SIRKECI,Mağazalar,Uzman Satış Danışmanı,False,1-8-5060,Uzman Danışman
+1,1-8-5139,Olka Group,Mehmet Emin Karadağ,1,Olka,MERKEZ,Pazarlama,Ticari Pazarlama Uzmanı,False,1-8-1666,Uzman
+1,1-8-5140,Olka Group,Kenan Çelik,1,Olka,IST SIRKECI,Mağazalar,Satış Danışmanı,False,1-8-5060,Danışman
+1,1-8-5143,Olka Group,Mürşide Kozan,1,Olka,ADANA OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-1382,Danışman
+1,1-8-5144,Olka Group,Uğurcan Onuk,1,Olka,MERKEZ,Mağazalar,Depo Görevlisi,False,1-8-5129,Danışman
+1,1-8-5149,Olka Group,Hasan Ayman,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-515,Olka Group,Songül Yıldız,1,Olka,IST OPTIMUM,Mağazalar,Kasiyer,False,115,Danışman
+1,1-8-5151,Olka Group,Edanur Baysa,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-5129,Danışman
+1,1-8-5153,Olka Group,Oğuzhan Batıgün,1,Olka,MERKEZ,Bilgi Teknolojileri,Sistem Destek Uzmanı,False,1-8-2671,Uzman
+1,1-8-5160,Olka Group,İhsan Küçükbaş,1,Olka,IST OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,115,Danışman
+1,1-8-5161,Olka Group,Ece Nur Akıncı,1,Olka,IST GRANDPERA,Mağazalar,Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-5164,Olka Group,Zeynep Demirkıran,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-2088,Danışman
+1,1-8-5165,Olka Group,Tarık Harman,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-2088,Danışman
+1,1-8-5171,Olka Group,Erdoğan Sever,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Takım Lideri,False,1-8-3103,Mavi Yaka
+1,1-8-5173,Olka Group,Halil İbrahim Saygılı,1,Olka,GAZIANTEP SANKOPARK,Mağazalar,Satış Danışmanı,False,1-8-4214,Danışman
+1,1-8-5180,Olka Group,Esin Yıldız,1,Olka,MERKEZ,İnsan Kaynakları,Saha İnsan Kaynakları Müdürü,True,1-8-4529,Müdür
+1,1-8-5182,Olka Group,Volkan Kaçaner,1,Olka,MERKEZ,Ticari,Uluslararası Satış Müdürü,False,1-8-1462,Müdür
+1,1-8-5184,Olka Group,Mustafa Uğur İlter,1,Olka,IST PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2104,Danışman
+1,1-8-5186,Olka Group,İbrahim Korkusuz,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-5187,Olka Group,Fırat Betus,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-5188,Olka Group,Oktay Çimen,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-5189,Olka Group,Ayşe Zorlu,1,Olka,IZMIR WESTPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3107,Müdür Yardımcısı
+1,1-8-5190,Olka Group,Aygül Ak,1,Olka,IST ZORLU,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5523,Danışman
+1,1-8-5193,Olka Group,Elmas Dernek,1,Olka,ANK METROMALL,Mağazalar,Satış Danışmanı,False,1-8-3350,Danışman
+1,1-8-5194,Olka Group,Esma Sude Yürük,1,Olka,ANK METROMALL,Mağazalar,Satış Danışmanı,False,1-8-3350,Danışman
+1,1-8-5195,Olka Group,Emircan Atangüç,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4306,Danışman
+1,1-8-5196,Olka Group,Can Sakarya,1,Olka,IST SASKINBAKKAL,Mağazalar,Satış Danışmanı,False,114,Danışman
+1,1-8-5200,Olka Group,Hakan Boyacı,1,Olka,IZMIR OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-2733,Danışman
+1,1-8-5201,Olka Group,Murat Parıltı,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4306,Danışman
+1,1-8-5202,Olka Group,Sezgin Kadir Doğan,1,Olka,IST HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-3527,Danışman
+1,1-8-5216,Olka Group,İsmail Gizli,1,Olka,IST MOI,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4177,Müdür Yardımcısı
+1,1-8-5217,Olka Group,Onurcan Budancil,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-5224,Olka Group,Efe Çapar,1,Olka,MERKEZ,Pazarlama,Pazarlama Direktörü,True,1-8-1462,Direktör
+1,1-8-5226,Olka Group,Ömer Faruk Koçak,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-5229,Olka Group,Suat Bediroğlu,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-5231,Olka Group,Umut Uysal,1,Olka,IZMIR AGORA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-5234,Olka Group,Oğuz Can Çelik,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-5235,Olka Group,Emre Divar,1,Olka,IZM FORUM BORNOVA,Mağazalar,Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-5238,Olka Group,Birtan İyi,1,Olka,IST MARMARAPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-5250,Olka Group,Abdullah Tarhan,1,Olka,IST MOI,Mağazalar,Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-5255,Olka Group,Furkan Genç,1,Olka,IZMIR AGORA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-5257,Olka Group,Şitaberk Karali,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E-Ticaret İş Analizi Uzmanı,False,1-8-4088,Uzman
+1,1-8-5258,Olka Group,Kemal Öztürk,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-1857,Mavi Yaka
+1,1-8-5263,Olka Group,Gizem Alkan,1,Olka,MERKEZ,Pazarlama,Kıdemli Grafik Tasarım Uzmanı,False,1-8-1339,Kıdemli Uzman
+1,1-8-5272,Olka Group,Alper Oğuz Gökçek,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-2088,Danışman
+1,1-8-5275,Olka Group,Duygu Kömürcü,1,Olka,ÇAN 17 BURDA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4627,Danışman
+1,1-8-5276,Olka Group,Mustafa Hayati Demirbaş,1,Olka,ANK CEPA,Mağazalar,Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-5280,Olka Group,Özcan Kala,1,Olka,IST AKASYA,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-5284,Olka Group,Vural Derdiyok,1,Olka,MERKEZ,CRM,CRM Kampanya ve İletişim Uzmanı,False,1-8-3381,Uzman
+1,1-8-5285,Olka Group,Ensar Can,1,Olka,MERKEZ,Bilgi Teknolojileri,İş Zekası Uzman Yardımcısı,False,1-8-2666,Uzman Yardımcısı
+1,1-8-5287,Olka Group,İbrahim Kaan Ökcesiz,1,Olka,MERKEZ,Perakende Satış,Perakende Satış Müdürü,True,1-8-4147,Müdür
+1,1-8-5289,Olka Group,Doğukan Yıldırım,1,Olka,ANK CEPA,Mağazalar,Depo Görevlisi,False,1-8-4904,Danışman
+1,1-8-5291,Olka Group,Ezginur Beygirci,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Operasyon Uzman Yardımcısı,False,1-8-283,Uzman Yardımcısı
+1,1-8-5299,Olka Group,Yiğit Genan,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-958,Danışman
+1,1-8-5301,Olka Group,Eda Nur Eren,1,Olka,IST CEVAHIR,Mağazalar,Satış Danışmanı,False,187,Danışman
+1,1-8-5302,Olka Group,Onur Ceren Korkmaz,1,Olka,MERKEZ,Bilgi Teknolojileri,Kıdemli ERP Proje Yöneticisi,False,142,Kıdemli Yönetici
+1,1-8-5303,Olka Group,Berra Ağıç,1,Olka,MERKEZ,Dış Ticaret,Stajyer,False,1-8-3109,Stajyer
+1,1-8-5304,Olka Group,İlyas Polat,1,Olka,IST VENEZIA,Mağazalar,Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-5306,Olka Group,Enes Özkan,1,Olka,IST VENEZIA,Mağazalar,Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-5309,Olka Group,Mevlüt Hüseyin Çakır,1,Olka,IST ZORLU,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5523,Danışman
+1,1-8-5310,Olka Group,Kübra Türkyılmaz,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Uzman Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-5311,Olka Group,Esra Cancı,1,Olka,IZMIT 41 BURDA,Mağazalar,Satış Danışmanı,False,1-8-1632,Danışman
+1,1-8-5314,Olka Group,Barışcan Okur,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-5315,Olka Group,Yunus Erdem Akpınar,1,Olka,IST MARMARAPARK,Mağazalar,Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-5317,Olka Group,Tolga Aydoğdu,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-5319,Olka Group,Yaren Takıcak,1,Olka,IST MARMARA FORUM KIDS,Mağazalar,Satış Danışmanı,False,1-8-5331,Danışman
+1,1-8-5320,Olka Group,Büşra Oğuz,1,Olka,IST HILLTOWN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3527,Danışman
+1,1-8-5321,Olka Group,Tugay Babayım,1,Olka,BODRUM MIDTOWN,Mağazalar,Satış Danışmanı,False,1-8-4601,Danışman
+1,1-8-5322,Olka Group,Eren Bulut,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-5129,Danışman
+1,1-8-5324,Olka Group,Özge Şahin Yücetaş,1,Olka,MERKEZ,İnsan Kaynakları,İnsan Kaynakları Uzmanı,False,1-8-5180,Uzman
+1,1-8-5326,Olka Group,Ümmü Gülsüm Tezcan,1,Olka,IZMIR MAVIBAHCE,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2912,Danışman
+1,1-8-5327,Olka Group,Şevval Karagöz,1,Olka,BURSA MARKA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2396,Danışman
+1,1-8-5329,Olka Group,Mehmet Tunç,1,Olka,BODRUM MIDTOWN,Mağazalar,Satış Danışmanı,False,1-8-4601,Danışman
+1,1-8-5331,Olka Group,Handan Tanrıverdi,1,Olka,IST MARMARA FORUM KIDS,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-5333,Olka Group,Gökhan Karayel,1,Olka,IZMIT 41 BURDA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-1632,Müdür Yardımcısı
+1,1-8-5334,Olka Group,Sümeyye Koçer,1,Olka,IST BUYAKA KIDS,Mağazalar,Satış Danışmanı,False,1-8-586,Danışman
+1,1-8-5340,Olka Group,İrem Aksu,1,Olka,IZMIT 41 BURDA,Mağazalar,Satış Danışmanı,False,1-8-1632,Danışman
+1,1-8-5342,Olka Group,Tarık Karan,1,Olka,IZMIR WESTPARK,Mağazalar,Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-5343,Olka Group,Anıl Can Görentaş,1,Olka,ANT MOA,Mağazalar,Satış Danışmanı,False,1-8-4500,Danışman
+1,1-8-5346,Olka Group,Mehmet Kartal,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-5347,Olka Group,Turgay Arslan,1,Olka,IST TEMA,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-5355,Olka Group,Ayberk Bayraktar,1,Olka,BURSA MARKA,Mağazalar,Depo Görevlisi,False,1-8-2396,Danışman
+1,1-8-5358,Olka Group,Seçkin Yüksektepe,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Yöneticisi (Tekstil & Aksesuar),False,1-8-3071,Yönetici
+1,1-8-536,Olka Group,Ali Osman Bayram,1,Olka,BURSA MARKA,Mağazalar,Satış Danışmanı,False,1-8-2396,Danışman
+1,1-8-5362,Olka Group,Oktay Vural,1,Olka,ANT ALANYA,Mağazalar,Satış Danışmanı,False,1-8-5584,Danışman
+1,1-8-5366,Olka Group,Berfin Aytek,1,Olka,IST MARMARA FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4638,Danışman
+1,1-8-5373,Olka Group,Hafize Yaşar,1,Olka,ANK OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-441,Danışman
+1,1-8-5374,Olka Group,Esmanur Fındık,1,Olka,IST FORUM,Mağazalar,Kasiyer,False,1-8-888,Danışman
+1,1-8-5376,Olka Group,Emre Can Şahin,1,Olka,IST MARMARAPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-695,Danışman
+1,1-8-5377,Olka Group,Bahattin Çetintaş,1,Olka,MERKEZ,İş Geliştirme,Kıdemli İnşaat İşleri Yöneticisi,False,1-8-1700,Kıdemli Yönetici
+1,1-8-5378,Olka Group,Burcu İnal,1,Olka,IST MARMARA FORUM,Mağazalar,Kasiyer,False,1-8-4638,Danışman
+1,1-8-5379,Olka Group,Büşeyra Eroğlu,1,Olka,TRABZON FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-1546,Danışman
+1,1-8-5380,Olka Group,Ahmet Atlas,1,Olka,ANT ALANYA,Mağazalar,Satış Danışmanı,False,1-8-5584,Danışman
+1,1-8-5382,Olka Group,Feyzanur Samur,1,Olka,IST AKASYA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5280,Danışman
+1,1-8-5385,Olka Group,Tolga Akpunar,1,Olka,IST AKASYA,Mağazalar,Satış Danışmanı,False,1-8-5280,Danışman
+1,1-8-5386,Olka Group,Sahra Bavık,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-5389,Olka Group,Bora Küçüktunca,1,Olka,IST OPTIMUM,Mağazalar,Satış Danışmanı,False,115,Danışman
+1,1-8-5390,Olka Group,Miray Deniz Arslan,1,Olka,IST PIAZZA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2104,Danışman
+1,1-8-5393,Olka Group,Ayçanur Tatlı,1,Olka,KAHRAMANMARAŞ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4449,Danışman
+1,1-8-5394,Olka Group,Berke Can Kalay,1,Olka,BODRUM MIDTOWN,Mağazalar,Satış Danışmanı,False,1-8-4601,Danışman
+1,1-8-5395,Olka Group,Adnan Kocadağ,1,Olka,ANT MARKA,Mağazalar,Satış Danışmanı,False,1-8-4329,Danışman
+1,1-8-5396,Olka Group,Seda Nigar Arslan,1,Olka,ANT ALANYA,Mağazalar,Satış Danışmanı,False,1-8-5584,Danışman
+1,1-8-5397,Olka Group,Oğuz Kuruca,1,Olka,ANT MARKA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4329,Müdür Yardımcısı
+1,1-8-5398,Olka Group,Abdulkerim Şahin,1,Olka,IST MOI,Mağazalar,Depo Görevlisi,False,1-8-4177,Danışman
+1,1-8-5399,Olka Group,Gülçin Birge,1,Olka,MERKEZ,Tedarik Zinciri,Lojistik Uzmanı,False,1-8-2129,Uzman
+1,1-8-5401,Olka Group,Batuhan Göksoy,1,Olka,ADANA OPTIMUM,Mağazalar,Part-Time Depo Görevlisi,False,1-8-1382,Danışman
+1,1-8-5403,Olka Group,Mahmut Kerem Ayan,1,Olka,IST KADIKOY,Mağazalar,Satış Danışmanı,False,1-8-2081,Danışman
+1,1-8-5407,Olka Group,Deniz Sena Nalbantoğlu,1,Olka,IZMIR WESTPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3107,Danışman
+1,1-8-5410,Olka Group,Suğra Gülseren,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-1718,Danışman
+1,1-8-5412,Olka Group,Mustafa Özcan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-5413,Olka Group,Semanur Akdoğan,1,Olka,PALM CITY,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3774,Danışman
+1,1-8-5414,Olka Group,Ömer Kum,1,Olka,IST GALATAPORT,Mağazalar,Depo Görevlisi,False,1-8-2679,Danışman
+1,1-8-5417,Olka Group,Ayşegül Erbay,1,Olka,BODRUM MIDTOWN,Mağazalar,Satış Danışmanı,False,1-8-4601,Danışman
+1,1-8-5418,Olka Group,Yaren Ceren Kaplan,1,Olka,IST TEMA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5347,Danışman
+1,1-8-5419,Olka Group,Emel Şencan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1857,Mavi Yaka
+1,1-8-5421,Olka Group,Emir Yılmaz,1,Olka,BURSA KORUPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-361,Danışman
+1,1-8-5422,Olka Group,Gözde Korkmaz,1,Olka,IST BUYAKA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3338,Danışman
+1,1-8-5424,Olka Group,Selin Kınış,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Performans Pazarlama Yöneticisi,False,1-8-5057,Yönetici
+1,1-8-5425,Olka Group,Gamze Nur Tekeli,1,Olka,MERKEZ,İş Geliştirme,Kiralama ve İş Geliştirme Uzmanı,False,1-8-1700,Uzman
+1,1-8-5427,Olka Group,Hüseyin Şahin,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1513,Mavi Yaka
+1,1-8-5428,Olka Group,Mehdi Özkaner,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-5431,Olka Group,Mert Mutlu,1,Olka,ANT TERRACITY,Mağazalar,Satış Danışmanı,False,1-8-309,Danışman
+1,1-8-5432,Olka Group,Sude Demirağ,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4306,Danışman
+1,1-8-5433,Olka Group,Cansu Soğukpınar,1,Olka,IST CEVAHIR,Mağazalar,Satış Danışmanı,False,187,Danışman
+1,1-8-5434,Olka Group,Selim Yiğit,1,Olka,IST ISTIKLAL,Mağazalar,Satış Danışmanı,False,1-8-3706,Danışman
+1,1-8-5437,Olka Group,Mehmet Aktaş,1,Olka,ANT ALANYA,Mağazalar,Satış Danışmanı,False,1-8-5584,Danışman
+1,1-8-5438,Olka Group,Şeyma Nur Efilti,1,Olka,FORUM KAYSERİ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-5439,Olka Group,Taha Ceyhan,1,Olka,IST GRANDPERA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-5440,Olka Group,Cemil Samet Çakır,1,Olka,IST VIAPORT,Mağazalar,Satış Danışmanı,False,1-8-203,Danışman
+1,1-8-5441,Olka Group,Batuhan Özdemir,1,Olka,IST FORUM KİDS,Mağazalar,Satış Danışmanı,False,1-8-2893,Danışman
+1,1-8-5442,Olka Group,Muhammed Nurullah Bağırkan,1,Olka,IST GRANDPERA,Mağazalar,Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-5445,Olka Group,Irmak Dağ,1,Olka,IST MARMARAPARK,Mağazalar,Part-Time Kasiyer,False,1-8-695,Danışman
+1,1-8-5447,Olka Group,Serkan Necip Öncü,1,Olka,ANK METROMALL,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3350,Müdür Yardımcısı
+1,1-8-5449,Olka Group,Harun Çetin,1,Olka,ANT TERRACITY,Mağazalar,Depo Görevlisi,False,1-8-309,Danışman
+1,1-8-5451,Olka Group,Burak Hıyamlıoğlu,1,Olka,MERKEZ,Mağazalar,Depo Görevlisi,False,1-8-4306,Danışman
+1,1-8-5455,Olka Group,Ender Murat Önür,1,Olka,ANT TERRACITY,Mağazalar,Satış Danışmanı,False,1-8-309,Danışman
+1,1-8-5456,Olka Group,Deniz Ören,1,Olka,IST ZORLU,Mağazalar,Uzman Satış Danışmanı,False,1-8-5523,Uzman Danışman
+1,1-8-5457,Olka Group,Şeval Irmak Coşkun,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-5129,Danışman
+1,1-8-5458,Olka Group,Hüseyin Tunç,1,Olka,MERKEZ,CRM,CRM Veri Analitiği Yöneticisi,False,1-8-2423,Yönetici
+1,1-8-5459,Olka Group,Fatma Nur Dilbaz,1,Olka,FORUM KAYSERİ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4456,Danışman
+1,1-8-5463,Olka Group,Zeynep Burcu Topçu Güleryüz,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli Ürün Geliştirme Uzmanı,False,1-8-4088,Kıdemli Uzman
+1,1-8-5465,Olka Group,Hasan Can Yılmaz,1,Olka,IST HILLTOWN,Mağazalar,Satış Danışmanı,False,1-8-3527,Danışman
+1,1-8-5467,Olka Group,Mehmet Çağlar Kubilay,1,Olka,ANK ANKAMALL,Mağazalar,Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-5469,Olka Group,Abdullah Oğulberk Şimşek,1,Olka,ANK ANKAMALL,Mağazalar,Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-5470,Olka Group,Hayat Sunğar,1,Olka,MERKEZ,CRM,Stajyer,False,1-8-2653,Stajyer
+1,1-8-5471,Olka Group,Kemal Emre Demir,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,E-Ticaret Uzman Yardımcısı,False,1-8-4984,Uzman Yardımcısı
+1,1-8-5472,Olka Group,Sadık Ortatepe,1,Olka,MERKEZ,Dış Ticaret,Dış Ticaret Operasyon Yöneticisi,False,1-8-3109,Yönetici
+1,1-8-5473,Olka Group,Ayberk Türkmen,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-945,Danışman
+1,1-8-5474,Olka Group,Onur Tatlı,1,Olka,IST FORUM,Mağazalar,Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-5475,Olka Group,Merve Yıldırım,1,Olka,MERKEZ,Pazarlama,Kıdemli Grafik Tasarım Uzmanı,False,1-8-1339,Kıdemli Uzman
+1,1-8-5476,Olka Group,Yasin Şahin,1,Olka,IST METROPOL,Mağazalar,Satış Danışmanı,False,1-8-4459,Danışman
+1,1-8-5477,Olka Group,İslam Özerdoğan,1,Olka,IST KADIKOY,Mağazalar,Satış Danışmanı,False,1-8-2081,Danışman
+1,1-8-5478,Olka Group,Deniz Yılmaz,1,Olka,IZMIT OUTLET,Mağazalar,Satış Danışmanı,False,1-8-2293,Danışman
+1,1-8-5480,Olka Group,Nejla Buse Ünal,1,Olka,ANK ANKAMALL,Mağazalar,Kasiyer,False,1-8-5493,Danışman
+1,1-8-5481,Olka Group,Aleyna Tekinaslan,1,Olka,ANK ANKAMALL,Mağazalar,Kasiyer,False,1-8-5493,Danışman
+1,1-8-5482,Olka Group,Serhat Ercan,1,Olka,IZMIT OUTLET,Mağazalar,Satış Danışmanı,False,1-8-2293,Danışman
+1,1-8-5483,Olka Group,Tuğçe Alptekin,1,Olka,IZM FORUM BORNOVA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2676,Danışman
+1,1-8-5486,Olka Group,İsmail Şipal,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-3105,Mavi Yaka
+1,1-8-5488,Olka Group,Çağla Atalay Dayı,1,Olka,MERKEZ,Pazarlama,Pazarlama Müdürü,True,1-8-5224,Müdür
+1,1-8-5490,Olka Group,Figen Dikmen,1,Olka,BODRUM MIDTOWN,Mağazalar,Satış Danışmanı,False,1-8-4601,Danışman
+1,1-8-5491,Olka Group,Mustafa Umuralp Yücel,1,Olka,ANK ANKAMALL,Mağazalar,Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-5492,Olka Group,Sena Boğaz,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2088,Danışman
+1,1-8-5493,Olka Group,Yusuf Ünaydın,1,Olka,ANK ANKAMALL,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-5494,Olka Group,Ebrar Kapaklıkaya,1,Olka,ESK ESPARK,Mağazalar,Satış Danışmanı,False,1-8-5504,Danışman
+1,1-8-5497,Olka Group,Yavuz Dirlik,1,Olka,ESK ESPARK,Mağazalar,Satış Danışmanı,False,1-8-5504,Danışman
+1,1-8-5498,Olka Group,Serkan Balcı,1,Olka,IST CEVAHIR,Mağazalar,Satış Danışmanı,False,187,Danışman
+1,1-8-5499,Olka Group,Emine Nur Şaşmaz,1,Olka,ESK ESPARK,Mağazalar,Kasiyer,False,1-8-5504,Danışman
+1,1-8-5501,Olka Group,Yusuf Karataş,1,Olka,ESK ESPARK,Mağazalar,Satış Danışmanı,False,1-8-5504,Danışman
+1,1-8-5503,Olka Group,Cemal Kaşka,1,Olka,IST CEVAHIR,Mağazalar,Part-Time Satış Danışmanı,False,187,Danışman
+1,1-8-5504,Olka Group,Nevriye Ulusoy,1,Olka,ESK ESPARK,Mağazalar,Mağaza Müdürü,True,1-8-2640,Müdür
+1,1-8-5505,Olka Group,Umut Demir,1,Olka,ANK ANKAMALL,Mağazalar,Depo Görevlisi,False,1-8-5493,Danışman
+1,1-8-5510,Olka Group,Hilal Altuntaş,1,Olka,ANK CEPA,Mağazalar,Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-5513,Olka Group,Umut Baha Çetin,1,Olka,IZM ISTINYE PARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-5514,Olka Group,Müslüm Karacı,1,Olka,IST ISTIKLAL,Mağazalar,Satış Danışmanı,False,1-8-3706,Danışman
+1,1-8-5516,Olka Group,Kazım Aydın,1,Olka,ANK ANKAMALL,Mağazalar,Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-5517,Olka Group,Esma Beliren,1,Olka,IST AKASYA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5280,Danışman
+1,1-8-5520,Olka Group,Yusuf Yakan,1,Olka,ESK ESPARK,Mağazalar,Satış Danışmanı,False,1-8-5504,Danışman
+1,1-8-5521,Olka Group,Yasin Gürsoy,1,Olka,IST ISTINYEPARK,Mağazalar,Satış Danışmanı,False,1-8-3968,Danışman
+1,1-8-5522,Olka Group,Şeyma Biçer,1,Olka,IST CEVAHIR,Mağazalar,Part-Time Kasiyer,False,187,Danışman
+1,1-8-5523,Olka Group,Nurcan Selam,1,Olka,IST ZORLU,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-5524,Olka Group,Cengizhan Şahin,1,Olka,ANK METROMALL,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3350,Danışman
+1,1-8-5525,Olka Group,İrfan Mert Tanal,1,Olka,ANK KENTPARK,Mağazalar,Part-Time Depo Görevlisi,False,1-8-2872,Danışman
+1,1-8-5526,Olka Group,Zeliha Arınmış,1,Olka,ANK METROMALL,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3350,Danışman
+1,1-8-5527,Olka Group,İsmail Şahin,1,Olka,ESK ESPARK,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5504,Müdür Yardımcısı
+1,1-8-5529,Olka Group,Yusuf Arslan,1,Olka,MERKEZ,İdari İşler,Ofisboy,False,1-8-4808,Destek
+1,1-8-5530,Olka Group,Beyza Doğan,1,Olka,ESK ESPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5504,Danışman
+1,1-8-5531,Olka Group,Muhammet Karakaş,1,Olka,ANK ANKAMALL,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-5532,Olka Group,Rüya Bolat,1,Olka,ESK ESPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5504,Danışman
+1,1-8-5533,Olka Group,Dursun Murat Duman,1,Olka,IST AKASYA,Mağazalar,Depo Görevlisi,False,1-8-4636,Danışman
+1,1-8-5534,Olka Group,Serkan Kaya,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-2877,Mavi Yaka
+1,1-8-5535,Olka Group,Eren Karagöz,1,Olka,ANK CEPA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-5536,Olka Group,Simanur Kaya,1,Olka,ANK OPTIMUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-441,Danışman
+1,1-8-5538,Olka Group,Fatmanur Aydın,1,Olka,ESK ESPARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5504,Danışman
+1,1-8-5539,Olka Group,Kerem Özmen,1,Olka,IST SASKINBAKKAL,Mağazalar,Part-Time Satış Danışmanı,False,114,Danışman
+1,1-8-5541,Olka Group,Havin Gencer,1,Olka,IST MARMARAPARK,Mağazalar,Part-Time Kasiyer,False,1-8-695,Danışman
+1,1-8-5542,Olka Group,Berfin Abasız,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Uzmanı,False,1-8-3025,Kıdemli Uzman
+1,1-8-5543,Olka Group,Mehlika Arslan,1,Olka,MERKEZ,Dış Ticaret,Stajyer,False,1-8-2129,Stajyer
+1,1-8-5544,Olka Group,Selenay Karaman,1,Olka,IST ISTINYEPARK,Mağazalar,Satış Danışmanı,False,1-8-3968,Danışman
+1,1-8-5545,Olka Group,Asram Erdal,1,Olka,IST MOI,Mağazalar,Kasiyer,False,1-8-4177,Danışman
+1,1-8-5546,Olka Group,Önder Özer,1,Olka,MERKEZ,Mali İşler,Kıdemli Muhasebe Uzmanı,False,1-8-3025,Kıdemli Uzman
+1,1-8-5550,Olka Group,Yıldız Özkan,1,Olka,IST ISTINYEPARK,Mağazalar,Satış Danışmanı,False,1-8-3968,Danışman
+1,1-8-5551,Olka Group,Emre Şenyüz,1,Olka,ANK OPTIMUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-441,Müdür Yardımcısı
+1,1-8-5552,Olka Group,Kerimcan Kaya,1,Olka,IST KADIKOY,Mağazalar,Depo Görevlisi,False,1-8-2081,Danışman
+1,1-8-5553,Olka Group,Mustafa Kemal Mustafa,1,Olka,IST ISTIKLAL,Mağazalar,Depo Görevlisi,False,1-8-3706,Danışman
+1,1-8-5554,Olka Group,Özkan Beyler,1,Olka,ANK CEPA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4904,Müdür Yardımcısı
+1,1-8-5555,Olka Group,Çağrı Gül,1,Olka,IST ZORLU,Mağazalar,Satış Danışmanı,False,1-8-5523,Danışman
+1,1-8-5556,Olka Group,Emrecan Yıldırım,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-1718,Danışman
+1,1-8-5558,Olka Group,Eralp Avcı,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-1718,Danışman
+1,1-8-5560,Olka Group,Zeynep Üner,1,Olka,MERKEZ,Pazarlama,Stajyer,False,1-8-5488,Stajyer
+1,1-8-5562,Olka Group,Devin Karaşal,1,Olka,ANK ANKAMALL,Mağazalar,Satış Danışmanı,False,1-8-5493,Danışman
+1,1-8-5563,Olka Group,Fahri Küçükarslan,1,Olka,IST TEMA,Mağazalar,Depo Görevlisi,False,1-8-5347,Danışman
+1,1-8-5564,Olka Group,Tacettin Öztürk,1,Olka,IST BUYAKA,Mağazalar,Depo Görevlisi,False,1-8-3338,Danışman
+1,1-8-5565,Olka Group,Celal Can Tepe,1,Olka,IST METROPOL,Mağazalar,Satış Danışmanı,False,1-8-4459,Danışman
+1,1-8-5567,Olka Group,Rabia Balcı,1,Olka,MERKEZ,Mağazalar,Kasiyer,False,1-8-958,Danışman
+1,1-8-5568,Olka Group,Ceren Sevil,1,Olka,BURSA DOWNTOWN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5589,Danışman
+1,1-8-5569,Olka Group,Deniz Ceylan,1,Olka,ANK NATAVEGA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4576,Danışman
+1,1-8-5570,Olka Group,Mehmet Aynacı,1,Olka,IST SASKINBAKKAL,Mağazalar,Satış Danışmanı,False,114,Danışman
+1,1-8-5571,Olka Group,Deniz Ulaş Lalegül,1,Olka,ANK CEPA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-5572,Olka Group,Hasan Arslan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-5574,Olka Group,Ali Arı,1,Olka,BURSA DOWNTOWN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-5589,Danışman
+1,1-8-5575,Olka Group,Muhsin Alördek,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4972,Mavi Yaka
+1,1-8-5576,Olka Group,Doğan Pulat,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1495,Mavi Yaka
+1,1-8-5577,Olka Group,İrem Selin Şarman,1,Olka,MERKEZ,İnsan Kaynakları,Kıdemli Eğitim Müdürü,False,1-8-4529,Kıdemli Müdür
+1,1-8-5578,Olka Group,Emel Murat,1,Olka,ANK CEPA,Mağazalar,Kasiyer,False,1-8-4904,Danışman
+1,1-8-5579,Olka Group,Mustafa Okur,1,Olka,ANK ANKAMALL,Mağazalar,Depo Görevlisi,False,1-8-5493,Danışman
+1,1-8-5580,Olka Group,Halil Arslanpınar,1,Olka,KONYA KENT PLAZA,Mağazalar,Part-Time Depo Görevlisi,False,1-8-2278,Danışman
+1,1-8-5582,Olka Group,Burak Yücel,1,Olka,MERKEZ,Toptan Satış,Zincir Mağazalar Satış Yöneticisi,False,1-8-1277,Yönetici
+1,1-8-5584,Olka Group,Mehmet Emin Terlemez,1,Olka,ANT ALANYA,Mağazalar,Mağaza Müdürü,True,71,Müdür
+1,1-8-5585,Olka Group,Sema Pekkan,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-1857,Mavi Yaka
+1,1-8-5586,Olka Group,İbrahim Kılıç,1,Olka,ANK NATAVEGA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4576,Müdür Yardımcısı
+1,1-8-5587,Olka Group,Ceren Guguk,1,Olka,MERKEZ,Mali İşler,Finans Uzmanı,False,42,Uzman
+1,1-8-5588,Olka Group,Medine Nur Gün,1,Olka,IST FORUM KİDS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-2893,Danışman
+1,1-8-5589,Olka Group,Çağlar Sarıçiçek,1,Olka,BURSA DOWNTOWN,Mağazalar,Mağaza Müdürü,True,1-8-3107,Müdür
+1,1-8-5590,Olka Group,Yağmur Cebeci,1,Olka,IZM ISTINYE PARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-5591,Olka Group,Helin Ulutaş,1,Olka,IZM ISTINYE PARK,Mağazalar,Part-Time Satış Danışmanı,False,1-8-3341,Danışman
+1,1-8-5592,Olka Group,Doğukan Yılmaz,1,Olka,BODRUM MIDTOWN,Mağazalar,Depo Görevlisi,False,1-8-4601,Danışman
+1,1-8-5593,Olka Group,Sinan Erman Başaran,1,Olka,IZMIR OPTIMUM,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2733,Müdür Yardımcısı
+1,1-8-5595,Olka Group,Hasan Eskimiş,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-4812,Danışman
+1,1-8-5596,Olka Group,Eyal Benefrahim,1,Olka,MERKEZ,Pazarlama,Stajyer,False,1-8-470,Stajyer
+1,1-8-5597,Olka Group,Hüsnü Can Çetin,1,Olka,IST GRANDPERA,Mağazalar,Satış Danışmanı,False,1-8-1316,Danışman
+1,1-8-5598,Olka Group,Berke Buğra Dönmez,1,Olka,ANK CEPA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4904,Danışman
+1,1-8-5599,Olka Group,Ezgi Ergül Güler,1,Olka,MERKEZ,Mali İşler,Finans Uzmanı,False,1-8-493,Uzman
+1,1-8-5600,Olka Group,Aleyna Koşucu,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-5601,Olka Group,Yeliz Yılmaz,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-4076,Mavi Yaka
+1,1-8-5602,Olka Group,Mina Nur Yılmaz,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4303,Danışman
+1,1-8-5603,Olka Group,Muhammed Yasin Cansev,1,Olka,ANK OPTIMUM,Mağazalar,Satış Danışmanı,False,1-8-441,Danışman
+1,1-8-5604,Olka Group,Bulut Kaan Başol,1,Olka,ANK NATAVEGA,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4576,Danışman
+1,1-8-5605,Olka Group,Nehir Kaya,1,Olka,IST METROPOL,Mağazalar,Stajyer,False,1-8-4459,Stajyer
+1,1-8-5606,Olka Group,Gizem İnan,1,Olka,IST BUYAKA,Mağazalar,Stajyer,False,1-8-3338,Stajyer
+1,1-8-5607,Olka Group,Rovshen Atayev,1,Olka,MERKEZ,Mağazalar,Stajyer,False,1-8-945,Stajyer
+1,1-8-5608,Olka Group,Belinay Yıldız,1,Olka,MERKEZ,Mağazalar,Stajyer,False,1-8-2088,Stajyer
+1,1-8-5609,Olka Group,Damla Soncul,1,Olka,IST BUYAKA KIDS,Mağazalar,Stajyer,False,1-8-586,Stajyer
+1,1-8-5610,Olka Group,Rümeysa Acar,1,Olka,IST PIAZZA,Mağazalar,Satış Danışmanı,False,1-8-2104,Danışman
+1,1-8-5611,Olka Group,Medine Avdatek,1,Olka,IST MARMARAPARK,Mağazalar,Stajyer,False,1-8-695,Stajyer
+1,1-8-5612,Olka Group,Kübra Kardaş,1,Olka,IST MARMARAPARK,Mağazalar,Stajyer,False,1-8-695,Stajyer
+1,1-8-5613,Olka Group,Zehra Çoltu,1,Olka,IST MARMARAPARK,Mağazalar,Stajyer,False,1-8-695,Stajyer
+1,1-8-5614,Olka Group,Minesu Demirel,1,Olka,IST FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-5615,Olka Group,Musab Yanar,1,Olka,IST FORUM,Mağazalar,Part-Time Satış Danışmanı,False,1-8-888,Danışman
+1,1-8-5616,Olka Group,Mehmet Karaman,1,Olka,ANK CEPA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4904,Müdür Yardımcısı
+1,1-8-5617,Olka Group,Deniz Özden Kurteş,1,Olka,MERKEZ,Mağazalar,Part-Time Satış Danışmanı,False,1-8-958,Danışman
+1,1-8-5619,Olka Group,Irmak Sekman,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Stajyer,False,1-8-1431,Stajyer
+1,1-8-5620,Olka Group,Arda Kaygısız,1,Olka,MERKEZ,Ticari,Stajyer,False,1-8-1462,Stajyer
+1,1-8-5621,Olka Group,Selim Tuna Kılıç,1,Olka,IST MOI,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-5622,Olka Group,Yağmur Günyel,1,Olka,IST MOI,Mağazalar,Part-Time Satış Danışmanı,False,1-8-4177,Danışman
+1,1-8-5623,Olka Group,Mehmet Tuncer,1,Olka,MALATYA PARK AVM,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-5624,Olka Group,İbrahim Batuhan Çiçek,1,Olka,MALATYA PARK AVM,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-5625,Olka Group,Batuhan Yıldırım,1,Olka,MALATYA PARK AVM,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-5626,Olka Group,Selma Öz,1,Olka,MALATYA PARK AVM,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-5627,Olka Group,Duygu Karakaş,1,Olka,MALATYA PARK AVM,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-5628,Olka Group,Elanur Ciğerci,1,Olka,MALATYA PARK AVM,Mağazalar,Satış Danışmanı,False,1-8-2640,Danışman
+1,1-8-5629,Olka Group,Aslıhan Bozkurt,1,Olka,IST VENEZIA,Mağazalar,Satış Danışmanı,False,1-8-899,Danışman
+1,1-8-5630,Olka Group,Emre Ergin,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Depo Görevlisi,False,1-8-3104,Mavi Yaka
+1,1-8-5631,Olka Group,Aytaç Türkbay,1,Olka,IZMIR AGORA,Mağazalar,Mağaza Müdürü,False,1-8-3107,Müdür
+1,1-8-5632,Olka Group,Serhat Kaynar,1,Olka,MALATYA PARK AVM,Mağazalar,Mağaza Müdürü,False,1-8-2640,Müdür
+1,1-8-5633,Olka Group,Burhan Çırak,1,Olka,SAMSUN PIAZZA,Mağazalar,Mağaza Müdürü,False,1-8-2640,Müdür
+1,1-8-5634,Olka Group,Muhammet Eren Saldıran,1,Olka,MERKEZ,Mağazalar,Depo Görevlisi,False,1-8-958,Danışman
+1,1-8-566,Olka Group,Ömer Yiğitoğlu,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-586,Olka Group,Taner Morkoç,1,Olka,MERKEZ,Perakende Satış,Kıdemli Bölge Müdürü,True,1-8-5287,Kıdemli Yönetici
+1,1-8-587,Olka Group,Çiğdem Alperler,1,Olka,MERKEZ,Mali İşler,Finans Yöneticisi,True,1-8-3124,Yönetici
+1,1-8-596,Olka Group,Gürhan Öz,1,Olka,IZM FORUM BORNOVA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-2676,Müdür Yardımcısı
+1,1-8-695,Olka Group,Kemal Özcan,1,Olka,IST MARMARAPARK,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,187,Olka Group,Rıdvan Arslan,1,Olka,IST CEVAHIR,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-754,Olka Group,Melek Çukadar,1,Olka,MERKEZ,E-Ticaret ve Omnichannel,Kıdemli E-Ticaret Uzmanı,False,1-8-4984,Kıdemli Uzman
+1,1-8-776,Olka Group,Ulaş Üstündağ,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,1-8-861,Olka Group,Ümit Berber,1,Olka,IST AKASYA,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-5280,Müdür Yardımcısı
+1,1-8-864,Olka Group,Tuğba Çam,1,Olka,MERKEZ,Depo Lojistik Dağıtım Merkezi,Kıdemli Lojistik Planlama Uzmanı,False,1-8-3104,Kıdemli Uzman
+1,1-8-888,Olka Group,Okan Demir,1,Olka,IST FORUM,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-891,Olka Group,Tuğçe Taşkın,1,Olka,IST HILLTOWN,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-3527,Müdür Yardımcısı
+1,1-8-899,Olka Group,İbrahim Taşkın,1,Olka,IST VENEZIA,Mağazalar,Mağaza Müdürü,True,1-8-4244,Müdür
+1,1-8-911,Olka Group,Kemal Can Kete,1,Olka,MERKEZ,Mağazalar,Satış Danışmanı,False,1-8-1718,Danışman
+1,1-8-945,Olka Group,Murat Fazlaoğlu,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-947,Olka Group,Merve Öcal,1,Olka,ANT TERRACITY,Mağazalar,Satış Danışmanı,False,1-8-309,Danışman
+1,1-8-958,Olka Group,Emine Dadak,1,Olka,MERKEZ,Mağazalar,Mağaza Müdürü,True,15-8-10001,Müdür
+1,192,Olka Group,Mustafa Aksu,1,Olka,MERKEZ,Ürün Yönetimi,Kıdemli Perakende Ürün Müdürü,True,25,Kıdemli Müdür
+1,25,Olka Group,Kaan Darnel,1,Olka,MERKEZ,Ürün Yönetimi,Ürün Direktörü,True,1-8-1462,Direktör
+1,42,Olka Group,Pınar Bal,1,Olka,MERKEZ,Mali İşler,Finans Yöneticisi,True,1-8-3124,Yönetici
+1,71,Olka Group,Sercan Küçük,1,Olka,MERKEZ,Perakende Satış,Bölge Müdürü,True,1-8-5287,Yönetici
+1,79,Olka Group,Azerhan Bozdemir,1,Olka,MERKEZ,Boyner,Satış Danışmanı,False,1-8-3580,Danışman
+1,86,Olka Group,Rafiye Türk Bayrak,1,Olka,MERKEZ,İdari İşler,İdari İşler Destek,False,1-8-4808,Destek
+1,1-8-126,Olka Group,Emre Can Sarı,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Uzman Satış Danışmanı,False,1-8-300175,Uzman Danışman
+1,1-8-143,Olka Group,Hasan Özer,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300101,Müdür Yardımcısı
+1,1-8-166,Olka Group,Feride Baş,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Kasiyer,False,1-8-300101,Danışman
+1,1-8-167,Olka Group,Volkan Coşkun,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-180,Olka Group,Ali Berke Yarahmet,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Uzman Satış Danışmanı,False,1-8-300101,Uzman Danışman
+1,1-8-196,Olka Group,Beyzanur Kamçı,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Kasiyer,False,1-8-300101,Danışman
+1,1-8-197,Olka Group,Aslıhan Dündar,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Kasiyer,False,1-8-300406,Danışman
+1,1-8-300007,Olka Group,Sabri Baysal,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300056,Olka Group,Kübra Arıkan,2,Marlin,MERKEZ,Toptan Satış,Satış Yöneticisi,True,1-8-300068,Yönetici
+1,1-8-300064,Olka Group,Aziz Yiğit Gökalp,2,Marlin,MERKEZ,Pazarlama ve Görsel Sunum,Kıdemli Asics Pazarlama Müdürü,True,1-8-300354,Kıdemli Müdür
+1,1-8-300068,Olka Group,Nazif Kaygısız,2,Marlin,MERKEZ,Toptan Satış,Kıdemli Asics Toptan Satış Müdürü,True,1-8-300354,Kıdemli Müdür
+1,1-8-300076,Olka Group,Gürkan Koçoğlu,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300087,Olka Group,Sibel Çumak,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300091,Olka Group,Berat Aktaş,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Satış Danışmanı,False,1-8-300406,Danışman
+1,1-8-300096,Olka Group,Koray Yılmaz,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Depo Görevlisi,False,1-8-300101,Danışman
+1,1-8-300101,Olka Group,Demiray Dikmen,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300103,Olka Group,İbrahim Salman,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300107,Olka Group,Canan Karaağaç,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300175,Müdür Yardımcısı
+1,1-8-300108,Olka Group,Mustafa Can Arslan,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300126,Olka Group,Mustafa Atmaca,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Depo Görevlisi,False,1-8-300101,Danışman
+1,1-8-300140,Olka Group,Murat Acar,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300144,Olka Group,Gül Arslan,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300175,Danışman
+1,1-8-300147,Olka Group,Tuana Çömlekçi,2,Marlin,MERKEZ,Pazarlama ve Görsel Sunum,Pazarlama Uzman Yardımcısı,False,1-8-300064,Uzman Yardımcısı
+1,1-8-300159,Olka Group,Betül Çoban,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300165,Olka Group,Erdem Can Tanrısevergil,2,Marlin,ZORLU ASICS,Mağazalar,Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300168,Olka Group,Hakan Civelek,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300174,Olka Group,Mehmet Deniz Altay,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300175,Olka Group,Şener Çakır,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300177,Olka Group,Muhammed Oğuzhan Karaağaç,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300185,Olka Group,Hasan Buğra Yılmaz,2,Marlin,MERKEZ,Ürün Yönetimi,Asics Kıdemli Ürün Müdürü,True,1-8-300354,Kıdemli Müdür
+1,1-8-300193,Olka Group,Mustafa Tarakçı,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300202,Olka Group,Ezgi Atik,2,Marlin,ZORLU ASICS,Mağazalar,Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300204,Olka Group,Cihan Avcı,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300206,Olka Group,Sudenaz Akagündüz,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Uzman Satış Danışmanı,False,1-8-300398,Uzman Danışman
+1,1-8-300207,Olka Group,Şakir Kayhan Çetinkaya,2,Marlin,MERKEZ,Ticari,Raporlama ve Operasyon Yöneticisi,False,1-8-300354,Yönetici
+1,1-8-300210,Olka Group,Tayfun Çayırlı,2,Marlin,ZORLU ASICS,Mağazalar,Depo Görevlisi,False,1-8-300270,Danışman
+1,1-8-300213,Olka Group,Mert Yavuz,2,Marlin,ZORLU ASICS,Mağazalar,Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300216,Olka Group,Dilara Acar,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300220,Olka Group,Şevval Irmak,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300222,Olka Group,Muharrem Emirhan Didin,2,Marlin,ZORLU ASICS,Mağazalar,Uzman Satış Danışmanı,False,1-8-300270,Uzman Danışman
+1,1-8-300225,Olka Group,Erdi Yılmaz,2,Marlin,ZORLU ASICS,Mağazalar,Uzman Satış Danışmanı,False,1-8-300270,Uzman Danışman
+1,1-8-300227,Olka Group,Burak Ateş,2,Marlin,IST MOI ASICS,Mağazalar,Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300229,Olka Group,Harun Yahya Çelebi,2,Marlin,ZORLU ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300230,Olka Group,Dilan Mehmetoğlu,2,Marlin,MERKEZ,Toptan Satış,Kıdemli Satış Uzmanı,False,1-8-300068,Kıdemli Uzman
+1,1-8-300235,Olka Group,Gökhan Akbaba,2,Marlin,MERKEZ,Perakende Satış,Perakende Satış Yöneticisi,True,1-8-300354,Yönetici
+1,1-8-300239,Olka Group,Can Yılmaz,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300101,Müdür Yardımcısı
+1,1-8-300247,Olka Group,Fadime Türk,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300254,Olka Group,Ecem Örnek,2,Marlin,ZORLU ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300256,Olka Group,Kıvanç Erbiz,2,Marlin,MERKEZ,Toptan Satış,Saha Satış Yöneticisi,False,1-8-300068,Yönetici
+1,1-8-300260,Olka Group,İrem Türköz Demirdöven,2,Marlin,MERKEZ,Pazarlama ve Görsel Sunum,Grafik Tasarım Uzmanı,False,1-8-300064,Uzman
+1,1-8-300262,Olka Group,Çiğdem Var,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300264,Olka Group,Ferhat Güder,2,Marlin,IST HILLTOWN ASICS,Mağazalar,Uzman Satış Danışmanı,False,1-8-300327,Uzman Danışman
+1,1-8-300268,Olka Group,Ali Cevat Ünsal,2,Marlin,MERKEZ,Ürün Yönetimi,Ürün Eğitim Yöneticisi (Asics),False,1-8-300185,Yönetici
+1,1-8-300270,Olka Group,Kadir Tiryaki,2,Marlin,ZORLU ASICS,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300278,Olka Group,Elif Ergül,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300406,Danışman
+1,1-8-300280,Olka Group,Mert Ali Yuvacı,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300281,Olka Group,Mina Nur Kayam,2,Marlin,ZORLU ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300286,Olka Group,Ahmet Can Kılıç,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300175,Danışman
+1,1-8-300288,Olka Group,Doğa Esra Öztürk,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300290,Olka Group,Nazlı Bargin,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300298,Olka Group,Göktürk Yılmaz,2,Marlin,IST MOI ASICS,Mağazalar,Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300299,Olka Group,Sibel Yıldız,2,Marlin,IST MOI ASICS,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300301,Olka Group,Samet Özdemir,2,Marlin,IST MOI ASICS,Mağazalar,Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300304,Olka Group,Eren Gezer,2,Marlin,IST MOI ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300306,Olka Group,Emir Cihan Gözkonan,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300313,Olka Group,Bensu Güner,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300314,Olka Group,Kaan Sevgilican,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300315,Olka Group,Mert Oğuzhan Karabulut,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300316,Olka Group,İbrahim Ören,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300322,Olka Group,Gizem Kavak,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300323,Olka Group,Fatih Gümüş,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300314,Müdür Yardımcısı
+1,1-8-300325,Olka Group,Esra Ayvaz,2,Marlin,MERKEZ,İdari İşler,İdari İşler Destek,False,1-8-300354,Destek
+1,1-8-300327,Olka Group,İzzet Şahin,2,Marlin,IST HILLTOWN ASICS,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300330,Olka Group,Çağatay Çalcalı,2,Marlin,IST HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300327,Danışman
+1,1-8-300331,Olka Group,Kaan Akkaya,2,Marlin,IST HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300327,Danışman
+1,1-8-300336,Olka Group,Adem Civelek,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300341,Olka Group,Özümcan Kösali,2,Marlin,MERKEZ,E Ticaret,E-Ticaret Ürün ve Satış Uzmanı,False,1-8-300342,Uzman
+1,1-8-300342,Olka Group,Gizem Yağlı,2,Marlin,MERKEZ,E Ticaret,E-Ticaret Müdürü,True,1-8-300354,Müdür
+1,1-8-300344,Olka Group,Alper Özgül,2,Marlin,MERKEZ,Pazarlama ve Görsel Sunum,Sports ve Influencer Pazarlama Yöneticisi,True,1-8-300064,Yönetici
+1,1-8-300345,Olka Group,Rabia Kuru,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300406,Müdür Yardımcısı
+1,1-8-300347,Olka Group,İbrahim Tosun,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300352,Olka Group,Abdulkadir Yaman,2,Marlin,IST HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300327,Danışman
+1,1-8-300354,Olka Group,Umut Arat,2,Marlin,MERKEZ,Ticari,Genel Müdür - Asics,True,1,Genel Müdür
+1,1-8-300358,Olka Group,Ceylin Arıkan,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300372,Danışman
+1,1-8-300359,Olka Group,Cansu Akdoğan,2,Marlin,ZORLU ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300368,Olka Group,Ceyda Cebeci,2,Marlin,IST MOI ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300369,Olka Group,Şahin Karaman,2,Marlin,MERKEZ,Boyner,Satış Danışmanı,False,1-8-300056,Danışman
+1,1-8-300372,Olka Group,Uğur Güngören,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300374,Olka Group,Perihan Altuntaş,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300372,Müdür Yardımcısı
+1,1-8-300375,Olka Group,Ayla Ayana,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300378,Olka Group,Çağrı Dinçer,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300372,Danışman
+1,1-8-300380,Olka Group,Furkan Baykara,2,Marlin,ZORLU ASICS,Mağazalar,Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300382,Olka Group,Dicle Akgündüz,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300392,Olka Group,Batuhan Yılmaz,2,Marlin,ZORLU ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300393,Olka Group,Buket Tütüncü,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300372,Danışman
+1,1-8-300395,Olka Group,Eren Görkem Gürel,2,Marlin,ZORLU ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300396,Olka Group,Cansu Korkmaz Güney,2,Marlin,MERKEZ,E Ticaret,Performans Pazarlama Yöneticisi,False,1-8-300342,Yönetici
+1,1-8-300398,Olka Group,Arif Tekir,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300399,Olka Group,Eren Bolukoç,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300175,Danışman
+1,1-8-300406,Olka Group,Muhammed Ali Özkan,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300407,Olka Group,Selin Kaya,2,Marlin,MERKEZ,Pazarlama ve Görsel Sunum,Stajyer,False,1-8-300344,Stajyer
+1,1-8-300410,Olka Group,Gaye Aytekin,2,Marlin,IST HILLTOWN ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300327,Danışman
+1,1-8-300411,Olka Group,Beyza Bingöl,2,Marlin,IST HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300327,Danışman
+1,1-8-300412,Olka Group,Muhammet Maşa,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Depo Görevlisi,False,1-8-300175,Danışman
+1,1-8-300413,Olka Group,Büşra Tat,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300414,Olka Group,Esma Yılmaz,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300415,Olka Group,Furkan Akbulut,2,Marlin,ANKARA FORUM MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300101,Danışman
+1,1-8-300416,Olka Group,Aleyna Yancıoğlu,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300417,Olka Group,İsmet Kalaycı,2,Marlin,MERKEZ,Ürün Yönetimi,Kıdemli Ürün Uzmanı,False,1-8-300185,Kıdemli Uzman
+1,1-8-300418,Olka Group,Emrullah Acar,2,Marlin,IST MOI ASICS,Mağazalar,Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300420,Olka Group,Mert Samet Ardıç,2,Marlin,IST MOI ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300421,Olka Group,Hasan Yürek,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300423,Olka Group,Aslıhan Akuç,2,Marlin,MERKEZ,Pazarlama ve Görsel Sunum,Pazarlama Uzmanı,False,1-8-300064,Uzman
+1,1-8-300424,Olka Group,Seher Argın,2,Marlin,IST MOI ASICS,Mağazalar,Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300427,Olka Group,Murat Kayıkçı,2,Marlin,ZORLU ASICS,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300270,Müdür Yardımcısı
+1,1-8-300429,Olka Group,Tufan Torus,2,Marlin,MERKEZ,Ürün Yönetimi,Kıdemli Ürün Yöneticisi,False,1-8-300185,Kıdemli Yönetici
+1,1-8-300430,Olka Group,Mahmut Emin Bekiri,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300433,Olka Group,Emre Duygun,2,Marlin,IST MOI ASICS,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-300456,Müdür Yardımcısı
+1,1-8-300434,Olka Group,Sinem Demirtaş,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Satış Danışmanı,False,1-8-300406,Danışman
+1,1-8-300435,Olka Group,Kerem Girgin,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300372,Danışman
+1,1-8-300436,Olka Group,Elif Bergamalı,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300372,Danışman
+1,1-8-300437,Olka Group,İrem Gilgiler,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300372,Danışman
+1,1-8-300438,Olka Group,Emre Hastürk,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Satış Danışmanı,False,1-8-300372,Danışman
+1,1-8-300439,Olka Group,Seyfi Yalçın,2,Marlin,KARŞIYAKA HILLTOWN ASICS,Mağazalar,Destek Personeli,False,1-8-300372,Destek
+1,1-8-300440,Olka Group,Zeynep Yapar,2,Marlin,MERKEZ,Ürün Yönetimi,Ürün Uzman Yardımcısı,False,1-8-300354,Uzman Yardımcısı
+1,1-8-300441,Olka Group,Emirhan Erdil,2,Marlin,STARCITY OUTLET MARLIN,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300398,Danışman
+1,1-8-300443,Olka Group,Melisa Göze,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Kasiyer,False,1-8-300372,Danışman
+1,1-8-300445,Olka Group,Hilmi İnan,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Destek Personeli,False,1-8-300314,Destek
+1,1-8-300449,Olka Group,Ali Murat Güçlü,2,Marlin,VIAPORT MARINA MARLIN,Mağazalar,Satış Danışmanı,False,1-8-300175,Danışman
+1,1-8-300451,Olka Group,Hüseyin Özgürler,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Destek Personeli,False,1-8-300314,Destek
+1,1-8-300452,Olka Group,Özlem Yıldırım,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Destek Personeli,False,1-8-300314,Destek
+1,1-8-300453,Olka Group,Umut Ören,2,Marlin,ZORLU ASICS,Mağazalar,Satış Danışmanı,False,1-8-300270,Danışman
+1,1-8-300454,Olka Group,Murat Yaman,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300406,Danışman
+1,1-8-300455,Olka Group,Yaren Gül,2,Marlin,VIAPORT MARLIN OUTLET,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300406,Danışman
+1,1-8-300456,Olka Group,Samet Uygun,2,Marlin,IST MOI ASICS,Mağazalar,Mağaza Müdürü,True,1-8-300235,Müdür
+1,1-8-300457,Olka Group,Umutcan Deniz,2,Marlin,IST MOI ASICS,Mağazalar,Part-Time Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-300458,Olka Group,Emrecan Gülveren,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300459,Olka Group,Fehimegül Gökhan,2,Marlin,IZMIR ISTINYE ASICS,Mağazalar,Satış Danışmanı,False,1-8-300314,Danışman
+1,1-8-300460,Olka Group,Emre Gebeşoğlu,2,Marlin,IST MOI ASICS,Mağazalar,Satış Danışmanı,False,1-8-300456,Danışman
+1,1-8-400005,Olka Group,Taylan Akhan,3,Jupiter,MALTEPE PIAZZA KLAUD,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-4072,Müdür Yardımcısı
+1,1-8-400011,Olka Group,Ömer Menekşe,3,Jupiter,MALTEPE PIAZZA KLAUD,Mağazalar,Satış Danışmanı,False,1-8-400038,Danışman
+1,1-8-400017,Olka Group,Oktay Sandıkçı,3,Jupiter,MALTEPE PIAZZA KLAUD,Mağazalar,Satış Danışmanı,False,1-8-400033,Danışman
+1,1-8-400025,Olka Group,Sefa Battal,3,Jupiter,IST MOI KLAUD,Mağazalar,Satış Danışmanı,False,1-8-400033,Danışman
+1,1-8-400027,Olka Group,Esra Koçak,3,Jupiter,IST MOI KLAUD,Mağazalar,Satış Danışmanı,False,1-8-400033,Danışman
+1,1-8-400031,Olka Group,Kutay Ediz Yılmaz,3,Jupiter,MALTEPE PIAZZA KLAUD,Mağazalar,Part-Time Satış Danışmanı,False,1-8-400038,Danışman
+1,1-8-400033,Olka Group,Kaan Kaçarlar,3,Jupiter,IST MOI KLAUD,Mağazalar,Mağaza Müdürü,True,1-8-586,Müdür
+1,1-8-400035,Olka Group,Merve Yıldız,3,Jupiter,IST MOI KLAUD,Mağazalar,Mağaza Müdür Yardımcısı,False,1-8-400033,Müdür Yardımcısı
+1,1-8-400037,Olka Group,Meryem Sude Yarluğkal,3,Jupiter,MALTEPE PIAZZA KLAUD,Mağazalar,Satış Danışmanı,False,1-8-400038,Danışman
+1,1-8-400038,Olka Group,Hakan Öğüt,3,Jupiter,MALTEPE PIAZZA KLAUD,Mağazalar,Mağaza Müdürü,True,1-8-4072,Müdür
+1,1-8-7000001,Olka Group,Sami Gökbey Karataş,4,Neptun,Merkez Ofis,Pazarlama,Pazarlama İletişim Yöneticisi,False,1-8-1131,Yönetici
+1,1-8-7000002,Olka Group,Hasan Öztürk,4,Neptun,Merkez Ofis,Toptan Satış,Saha Satış Yöneticisi,False,1-8-1131,Yönetici
+1,1-8-7000004,Olka Group,Eda Güney,4,Neptun,Merkez Ofis,Ürün Yönetimi,Ürün Yöneticisi,False,1-8-1131,Yönetici
+1,1-8-8000001,Olka Group,Safa Kılıç,5,Saturn,Merkez Ofis,Toptan Satış,Toptan Satış Müdürü (On),False,1,Müdür
+1,1-8-8000002,Olka Group,Mustafa Sökün,5,Saturn,Merkez Ofis,Ürün Yönetimi,Ürün Müdürü,True,1,Müdür
+1,1-8-8000003,Olka Group,Deniz Kaya Özer,5,Saturn,Merkez Ofis,Pazarlama,Pazarlama Müdürü,False,1,Müdür
+1,1-8-8000004,Olka Group,Dilara Kahraman,5,Saturn,Merkez Ofis,Ürün Yönetimi,Stajyer,False,1-8-8000002,Stajyer

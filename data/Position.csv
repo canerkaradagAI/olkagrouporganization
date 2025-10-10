@@ -1,0 +1,609 @@
+﻿PositionId;PositionName;LocationId;BrandId;DepartmentId;LevelId
+P001;Yönetim Kurulu Başkanı;100;1;D001;L001
+P101;Ağ ve Bilgi Güvenliği Uzmanı;100;1;D101;L113
+P102;Ağ ve Güvenlik Yöneticisi;100;1;D101;L116
+P103;Asics Kıdemli Ürün Müdürü;200;2;D124;L106
+P104;Back Office Kıdemli Uzmanı;100;1;D103;L107
+P105;Barista;100;1;D110;L103
+P106;Bölge Görsel Düzenleme Uzmanı;100;1;D115;L113
+P107;Bölge Müdürü;100;1;D117;L116
+P108;CFO;100;1;D114;L101
+P109;CHRO;100;1;D111;L101
+P110;COO;100;1;D120;L101
+P111;CRM Kampanya ve İletişim Uzman Yardımcısı;100;1;D103;L115
+P112;CRM Kampanya ve İletişim Uzmanı;100;1;D103;L113
+P113;CRM Kampanya ve İletişim Yöneticisi;100;1;D103;L116
+P114;CRM Müdürü;100;1;D103;L110
+P115;CRM Veri Analitiği Yöneticisi;100;1;D103;L116
+P116;Çağrı Merkezi Müşteri İletişim Uzman Yardımcısı;100;1;D103;L115
+P117;Çağrı Merkezi Müşteri İletişim Uzmanı;100;1;D103;L113
+P118;Çağrı Merkezi Yöneticisi;100;1;D103;L116
+P119;Depo Görevlisi;100;1;D104;L109
+P119;Depo Görevlisi;100;1;D113;L102
+P119;Depo Görevlisi;101;1;D113;L102
+P119;Depo Görevlisi;103;1;D113;L102
+P119;Depo Görevlisi;104;1;D113;L102
+P119;Depo Görevlisi;112;1;D113;L102
+P119;Depo Görevlisi;113;1;D113;L102
+P119;Depo Görevlisi;114;1;D113;L102
+P119;Depo Görevlisi;116;1;D113;L102
+P119;Depo Görevlisi;117;1;D113;L102
+P119;Depo Görevlisi;122;1;D113;L102
+P119;Depo Görevlisi;123;1;D113;L102
+P119;Depo Görevlisi;125;1;D113;L102
+P119;Depo Görevlisi;126;1;D113;L102
+P119;Depo Görevlisi;128;1;D113;L102
+P119;Depo Görevlisi;129;1;D113;L102
+P119;Depo Görevlisi;130;1;D113;L102
+P119;Depo Görevlisi;131;1;D113;L102
+P119;Depo Görevlisi;133;1;D113;L102
+P119;Depo Görevlisi;134;1;D113;L102
+P119;Depo Görevlisi;136;1;D113;L102
+P119;Depo Görevlisi;137;1;D113;L102
+P119;Depo Görevlisi;138;1;D113;L102
+P119;Depo Görevlisi;141;1;D113;L102
+P119;Depo Görevlisi;142;1;D113;L102
+P119;Depo Görevlisi;143;1;D113;L102
+P119;Depo Görevlisi;144;1;D113;L102
+P119;Depo Görevlisi;145;1;D113;L102
+P119;Depo Görevlisi;146;1;D113;L102
+P119;Depo Görevlisi;148;1;D113;L102
+P119;Depo Görevlisi;149;1;D113;L102
+P119;Depo Görevlisi;151;1;D113;L102
+P119;Depo Görevlisi;153;1;D113;L102
+P119;Depo Görevlisi;162;1;D113;L102
+P119;Depo Görevlisi;163;1;D113;L102
+P119;Depo Görevlisi;201;2;D113;L102
+P119;Depo Görevlisi;207;2;D113;L102
+P119;Depo Görevlisi;209;2;D113;L102
+P120;Depo Operasyon Müdürü;100;1;D104;L110
+P121;Depo Operasyon Yöneticisi;100;1;D104;L116
+P122;Depo Takım Lideri;100;1;D104;L109
+P123;Depo Uzmanı;100;1;D113;L114
+P123;Depo Uzmanı;129;1;D113;L114
+P123;Depo Uzmanı;136;1;D113;L114
+P123;Depo Uzmanı;147;1;D113;L114
+P123;Depo Uzmanı;160;1;D113;L114
+P124;Destek Personeli;100;1;D105;L103
+P124;Destek Personeli;204;2;D113;L103
+P124;Destek Personeli;205;2;D113;L103
+P125;Dış Ticaret Operasyon Yöneticisi;100;1;D106;L116
+P126;Dış Ticaret Uzman Yardımcısı;100;1;D106;L115
+P127;Dış Ticaret Uzmanı;100;1;D106;L113
+P128;Dış Ticaret Yöneticisi;100;1;D106;L116
+P129;Dijital Deneyim Müdürü;100;1;D108;L110
+P130;Dijital Eğitim Yöneticisi;100;1;D111;L116
+P131;Dijital Pazarlama Uzman Yardımcısı;100;1;D108;L115
+P132;E Ticaret Operasyon Müdürü;100;1;D108;L110
+P133;E- Ticaret Ürün Geliştirme Müdürü;100;1;D108;L110
+P134;ERP Uzmanı;100;1;D101;L113
+P135;E-Ticaret İş Analizi Uzmanı;100;1;D108;L113
+P136;E-Ticaret Müdürü;200;2;D107;L110
+P137;E-Ticaret Uzman Yardımcısı;100;1;D108;L115
+P138;E-Ticaret Ürün ve Satış Müdürü;100;1;D108;L110
+P139;E-Ticaret Ürün ve Satış Uzmanı;200;2;D107;L113
+P140;E-Ticaret Ürün ve Satış Yöneticisi;100;1;D108;L116
+P141;E-Ticaret ve Omnichannel Direktörü;100;1;D108;L104
+P142;Finans Uzman Yardımcısı;100;1;D114;L115
+P143;Finans Uzmanı;100;1;D114;L113
+P144;Finans Yöneticisi;100;1;D114;L116
+P145;Genel Müdür - Asics;200;2;D121;L105
+P146;Genel Müdür - Skechers;100;1;D121;L105
+P147;Genel Müdür Asistanı;100;1;D125;L116
+P148;Genel Müdür Şoförü;100;1;D125;L113
+P149;Grafik Tasarım Uzmanı;100;1;D108;L113
+P149;Grafik Tasarım Uzmanı;200;2;D116;L113
+P150;Grafik Tasarım Yöneticisi;100;1;D115;L116
+P151;Growth Manager;100;1;D108;L110
+P152;İç Denetim Yöneticisi;100;1;D109;L116
+P153;İdari İşler Destek;100;1;D110;L103
+P153;İdari İşler Destek;200;2;D110;L103
+P154;İdari İşler Yöneticisi;100;1;D110;L116
+P155;İnsan Kaynakları Uzman Yardımcısı;100;1;D111;L115
+P156;İnsan Kaynakları Uzmanı;100;1;D111;L113
+P157;İş Analist Yöneticisi;100;1;D118;L116
+P158;İş Analizi Uzman Yardımcısı;100;1;D118;L115
+P159;İş Analizi Uzmanı;100;1;D118;L113
+P160;İş Analizi ve Proje Yöneticisi;100;1;D118;L116
+P161;İş Zekası Uzman Yardımcısı;100;1;D101;L115
+P162;Kalite Kıdemli Uzmanı;100;1;D103;L107
+P163;Kasa Uzmanı;100;1;D113;L114
+P163;Kasa Uzmanı;126;1;D113;L114
+P163;Kasa Uzmanı;146;1;D113;L114
+P164;Kasiyer;100;1;D113;L102
+P164;Kasiyer;101;1;D113;L102
+P164;Kasiyer;103;1;D113;L102
+P164;Kasiyer;104;1;D113;L102
+P164;Kasiyer;119;1;D113;L102
+P164;Kasiyer;126;1;D113;L102
+P164;Kasiyer;129;1;D113;L102
+P164;Kasiyer;132;1;D113;L102
+P164;Kasiyer;134;1;D113;L102
+P164;Kasiyer;136;1;D113;L102
+P164;Kasiyer;138;1;D113;L102
+P164;Kasiyer;140;1;D113;L102
+P164;Kasiyer;149;1;D113;L102
+P164;Kasiyer;151;1;D113;L102
+P164;Kasiyer;160;1;D113;L102
+P164;Kasiyer;201;2;D113;L102
+P164;Kasiyer;207;2;D113;L102
+P164;Kasiyer;208;2;D113;L102
+P165;Kayıp Önleme Uzmanı;100;1;D109;L113
+P166;Kıdemli Asics Pazarlama Müdürü;200;2;D116;L106
+P167;Kıdemli Asics Toptan Satış Müdürü;200;2;D122;L106
+P168;Kıdemli Bilgi Teknolojileri Müdürü;100;1;D101;L106
+P169;Kıdemli Bilgi Teknolojileri Sistem Yöneticisi;100;1;D101;L108
+P170;Kıdemli Bordro ve Özlük İşleri Uzmanı;100;1;D111;L107
+P171;Kıdemli Bölge Görsel Düzenleme Uzmanı;100;1;D115;L107
+P172;Kıdemli Bölge Müdürü;100;1;D117;L108
+P173;Kıdemli Çağrı Merkezi Müşteri İletişim Uzmanı;100;1;D103;L107
+P174;Kıdemli Dış Ticaret Müdürü;100;1;D106;L106
+P175;Kıdemli Eğitim Müdürü;100;1;D111;L106
+P176;Kıdemli ERP Proje Yöneticisi;100;1;D101;L108
+P177;Kıdemli ERP Yöneticisi;100;1;D101;L108
+P178;Kıdemli E-Ticaret Operasyon Uzmanı;100;1;D108;L107
+P179;Kıdemli E-Ticaret Uzmanı;100;1;D108;L107
+P180;Kıdemli E-Ticaret Ürün Geliştirme Uzmanı;100;1;D108;L107
+P181;Kıdemli Finans Müdürü;100;1;D114;L106
+P182;Kıdemli Grafik Tasarım Uzmanı;100;1;D115;L107
+P183;Kıdemli Help Desk Uzmanı;100;1;D101;L107
+P184;Kıdemli İç Denetim Müdürü;100;1;D109;L106
+P185;Kıdemli İç Denetim Uzmanı;100;1;D109;L107
+P186;Kıdemli İdari İşler Uzmanı;100;1;D110;L107
+P187;Kıdemli İdari İşler Yöneticisi;100;1;D110;L108
+P188;Kıdemli İnsan Kaynakları Uzmanı;100;1;D111;L107
+P189;Kıdemli İnsan Kaynakları Yöneticisi;100;1;D111;L108
+P190;Kıdemli İnşaat İşleri Yöneticisi;100;1;D112;L108
+P191;Kıdemli İş Zekası Yöneticisi;100;1;D101;L108
+P192;Kıdemli Kiralama ve İnşaat İşleri Müdürü;100;1;D112;L106
+P193;Kıdemli Lojistik Planlama Uzmanı;100;1;D104;L107
+P194;Kıdemli Mimari Proje Yöneticisi;100;1;D112;L108
+P195;Kıdemli Muhasebe Müdürü;100;1;D114;L106
+P196;Kıdemli Muhasebe Uzmanı;100;1;D114;L107
+P197;Kıdemli Muhasebe ve Raporlama Müdürü;100;1;D114;L106
+P198;Kıdemli Muhasebe Yöneticisi;100;1;D114;L108
+P199;Kıdemli Müşteri İlişkileri Yöneticisi;100;1;D103;L108
+P200;Kıdemli Perakende Muhasebesi Uzmanı;100;1;D114;L107
+P201;Kıdemli Perakende Ürün Müdürü;100;1;D124;L106
+P202;Kıdemli Proje Yönetimi ve Analizi Yöneticisi;100;1;D118;L108
+P203;Kıdemli Proje Yönetimi ve İş Analizi Müdürü;100;1;D118;L106
+P204;Kıdemli Saha Bayiler Satış Yöneticisi;100;1;D122;L108
+P205;Kıdemli Satın Alma Uzmanı;100;1;D119;L107
+P206;Kıdemli Satış Uzmanı;200;2;D122;L107
+P207;Kıdemli Sistem Uzmanı;100;1;D101;L107
+P208;Kıdemli Tedarik Zinciri Müdürü;100;1;D120;L106
+P209;Kıdemli Ücretlendirme ve Yan Haklar Müdürü;100;1;D111;L106
+P210;Kıdemli Ürün Eğitim Uzmanı;100;1;D124;L107
+P211;Kıdemli Ürün Geliştirme Uzmanı;100;1;D108;L107
+P212;Kıdemli Ürün İnceleme Uzmanı;100;1;D123;L107
+P213;Kıdemli Ürün İnceleme Yöneticisi;100;1;D123;L108
+P214;Kıdemli Ürün Müdürü;100;1;D124;L106
+P215;Kıdemli Ürün Operasyon Uzmanı;100;1;D124;L107
+P216;Kıdemli Ürün Uzmanı;200;2;D124;L107
+P217;Kıdemli Ürün Yöneticisi;200;2;D124;L108
+P218;Kiralama ve İş Geliştirme Uzmanı;100;1;D112;L113
+P219;Lojistik Planlama Uzmanı;100;1;D104;L113
+P220;Lojistik Uzmanı;100;1;D120;L113
+P221;Lojistik Yöneticisi;100;1;D120;L116
+P222;Mağaza Müdür Yardımcısı;100;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;101;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;102;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;103;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;104;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;105;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;106;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;107;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;108;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;110;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;111;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;113;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;114;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;115;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;116;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;117;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;118;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;119;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;120;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;121;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;122;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;123;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;124;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;125;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;126;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;128;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;129;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;130;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;131;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;132;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;133;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;134;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;136;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;137;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;138;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;139;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;140;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;142;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;143;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;144;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;145;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;146;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;147;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;148;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;149;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;150;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;151;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;152;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;153;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;154;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;155;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;156;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;157;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;158;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;160;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;161;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;162;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;163;1;D113;L111
+P222;Mağaza Müdür Yardımcısı;201;2;D113;L111
+P222;Mağaza Müdür Yardımcısı;203;2;D113;L111
+P222;Mağaza Müdür Yardımcısı;205;2;D113;L111
+P222;Mağaza Müdür Yardımcısı;207;2;D113;L111
+P222;Mağaza Müdür Yardımcısı;208;2;D113;L111
+P222;Mağaza Müdür Yardımcısı;209;2;D113;L111
+P222;Mağaza Müdür Yardımcısı;301;3;D113;L111
+P222;Mağaza Müdür Yardımcısı;302;3;D113;L111
+P223;Mağaza Müdürü;100;1;D113;L110
+P223;Mağaza Müdürü;101;1;D113;L110
+P223;Mağaza Müdürü;102;1;D113;L110
+P223;Mağaza Müdürü;103;1;D113;L110
+P223;Mağaza Müdürü;104;1;D113;L110
+P223;Mağaza Müdürü;105;1;D113;L110
+P223;Mağaza Müdürü;106;1;D113;L110
+P223;Mağaza Müdürü;107;1;D113;L110
+P223;Mağaza Müdürü;108;1;D113;L110
+P223;Mağaza Müdürü;109;1;D113;L110
+P223;Mağaza Müdürü;110;1;D113;L110
+P223;Mağaza Müdürü;111;1;D113;L110
+P223;Mağaza Müdürü;112;1;D113;L110
+P223;Mağaza Müdürü;113;1;D113;L110
+P223;Mağaza Müdürü;114;1;D113;L110
+P223;Mağaza Müdürü;115;1;D113;L110
+P223;Mağaza Müdürü;116;1;D113;L110
+P223;Mağaza Müdürü;117;1;D113;L110
+P223;Mağaza Müdürü;118;1;D113;L110
+P223;Mağaza Müdürü;119;1;D113;L110
+P223;Mağaza Müdürü;120;1;D113;L110
+P223;Mağaza Müdürü;121;1;D113;L110
+P223;Mağaza Müdürü;122;1;D113;L110
+P223;Mağaza Müdürü;123;1;D113;L110
+P223;Mağaza Müdürü;125;1;D113;L110
+P223;Mağaza Müdürü;126;1;D113;L110
+P223;Mağaza Müdürü;127;1;D113;L110
+P223;Mağaza Müdürü;128;1;D113;L110
+P223;Mağaza Müdürü;129;1;D113;L110
+P223;Mağaza Müdürü;130;1;D113;L110
+P223;Mağaza Müdürü;131;1;D113;L110
+P223;Mağaza Müdürü;132;1;D113;L110
+P223;Mağaza Müdürü;133;1;D113;L110
+P223;Mağaza Müdürü;134;1;D113;L110
+P223;Mağaza Müdürü;135;1;D113;L110
+P223;Mağaza Müdürü;136;1;D113;L110
+P223;Mağaza Müdürü;137;1;D113;L110
+P223;Mağaza Müdürü;138;1;D113;L110
+P223;Mağaza Müdürü;139;1;D113;L110
+P223;Mağaza Müdürü;140;1;D113;L110
+P223;Mağaza Müdürü;141;1;D113;L110
+P223;Mağaza Müdürü;142;1;D113;L110
+P223;Mağaza Müdürü;143;1;D113;L110
+P223;Mağaza Müdürü;144;1;D113;L110
+P223;Mağaza Müdürü;145;1;D113;L110
+P223;Mağaza Müdürü;146;1;D113;L110
+P223;Mağaza Müdürü;147;1;D113;L110
+P223;Mağaza Müdürü;148;1;D113;L110
+P223;Mağaza Müdürü;149;1;D113;L110
+P223;Mağaza Müdürü;150;1;D113;L110
+P223;Mağaza Müdürü;151;1;D113;L110
+P223;Mağaza Müdürü;152;1;D113;L110
+P223;Mağaza Müdürü;153;1;D113;L110
+P223;Mağaza Müdürü;155;1;D113;L110
+P223;Mağaza Müdürü;156;1;D113;L110
+P223;Mağaza Müdürü;157;1;D113;L110
+P223;Mağaza Müdürü;158;1;D113;L110
+P223;Mağaza Müdürü;159;1;D113;L110
+P223;Mağaza Müdürü;160;1;D113;L110
+P223;Mağaza Müdürü;161;1;D113;L110
+P223;Mağaza Müdürü;162;1;D113;L110
+P223;Mağaza Müdürü;163;1;D113;L110
+P223;Mağaza Müdürü;201;2;D113;L110
+P223;Mağaza Müdürü;202;2;D113;L110
+P223;Mağaza Müdürü;203;2;D113;L110
+P223;Mağaza Müdürü;204;2;D113;L110
+P223;Mağaza Müdürü;205;2;D113;L110
+P223;Mağaza Müdürü;206;2;D113;L110
+P223;Mağaza Müdürü;207;2;D113;L110
+P223;Mağaza Müdürü;208;2;D113;L110
+P223;Mağaza Müdürü;209;2;D113;L110
+P223;Mağaza Müdürü;301;3;D113;L110
+P223;Mağaza Müdürü;302;3;D113;L110
+P224;Marka Pazarlama Yöneticisi;100;1;D115;L116
+P225;Marka ve Dijital Pazarlama Yöneticisi;100;1;D115;L116
+P226;Muhasebe Uzman Yardımcısı;100;1;D114;L115
+P227;Muhasebe Yöneticisi;100;1;D114;L116
+P228;Müşteri İlişkileri Uzmanı;100;1;D103;L113
+P229;Ofisboy;100;1;D110;L103
+P230;Organizasyonel Gelişim ve İK Müdürü;100;1;D111;L110
+P231;Paralegal;100;1;D114;L113
+P232;Part-Time Depo Görevlisi;102;1;D113;L102
+P232;Part-Time Depo Görevlisi;105;1;D113;L102
+P232;Part-Time Depo Görevlisi;156;1;D113;L102
+P232;Part-Time Depo Görevlisi;158;1;D113;L102
+P233;Part-Time Kasiyer;125;1;D113;L102
+P233;Part-Time Kasiyer;136;1;D113;L102
+P233;Part-Time Kasiyer;153;1;D113;L102
+P234;Part-Time Satış Danışmanı;100;1;D113;L102
+P234;Part-Time Satış Danışmanı;101;1;D113;L102
+P234;Part-Time Satış Danışmanı;102;1;D113;L102
+P234;Part-Time Satış Danışmanı;103;1;D113;L102
+P234;Part-Time Satış Danışmanı;104;1;D113;L102
+P234;Part-Time Satış Danışmanı;105;1;D113;L102
+P234;Part-Time Satış Danışmanı;106;1;D113;L102
+P234;Part-Time Satış Danışmanı;107;1;D113;L102
+P234;Part-Time Satış Danışmanı;108;1;D113;L102
+P234;Part-Time Satış Danışmanı;111;1;D113;L102
+P234;Part-Time Satış Danışmanı;115;1;D113;L102
+P234;Part-Time Satış Danışmanı;116;1;D113;L102
+P234;Part-Time Satış Danışmanı;117;1;D113;L102
+P234;Part-Time Satış Danışmanı;118;1;D113;L102
+P234;Part-Time Satış Danışmanı;119;1;D113;L102
+P234;Part-Time Satış Danışmanı;120;1;D113;L102
+P234;Part-Time Satış Danışmanı;122;1;D113;L102
+P234;Part-Time Satış Danışmanı;123;1;D113;L102
+P234;Part-Time Satış Danışmanı;125;1;D113;L102
+P234;Part-Time Satış Danışmanı;126;1;D113;L102
+P234;Part-Time Satış Danışmanı;127;1;D113;L102
+P234;Part-Time Satış Danışmanı;129;1;D113;L102
+P234;Part-Time Satış Danışmanı;130;1;D113;L102
+P234;Part-Time Satış Danışmanı;131;1;D113;L102
+P234;Part-Time Satış Danışmanı;132;1;D113;L102
+P234;Part-Time Satış Danışmanı;134;1;D113;L102
+P234;Part-Time Satış Danışmanı;136;1;D113;L102
+P234;Part-Time Satış Danışmanı;138;1;D113;L102
+P234;Part-Time Satış Danışmanı;139;1;D113;L102
+P234;Part-Time Satış Danışmanı;140;1;D113;L102
+P234;Part-Time Satış Danışmanı;141;1;D113;L102
+P234;Part-Time Satış Danışmanı;142;1;D113;L102
+P234;Part-Time Satış Danışmanı;144;1;D113;L102
+P234;Part-Time Satış Danışmanı;145;1;D113;L102
+P234;Part-Time Satış Danışmanı;147;1;D113;L102
+P234;Part-Time Satış Danışmanı;148;1;D113;L102
+P234;Part-Time Satış Danışmanı;149;1;D113;L102
+P234;Part-Time Satış Danışmanı;150;1;D113;L102
+P234;Part-Time Satış Danışmanı;152;1;D113;L102
+P234;Part-Time Satış Danışmanı;153;1;D113;L102
+P234;Part-Time Satış Danışmanı;154;1;D113;L102
+P234;Part-Time Satış Danışmanı;157;1;D113;L102
+P234;Part-Time Satış Danışmanı;158;1;D113;L102
+P234;Part-Time Satış Danışmanı;160;1;D113;L102
+P234;Part-Time Satış Danışmanı;161;1;D113;L102
+P234;Part-Time Satış Danışmanı;162;1;D113;L102
+P234;Part-Time Satış Danışmanı;163;1;D113;L102
+P234;Part-Time Satış Danışmanı;201;2;D113;L102
+P234;Part-Time Satış Danışmanı;202;2;D113;L102
+P234;Part-Time Satış Danışmanı;203;2;D113;L102
+P234;Part-Time Satış Danışmanı;204;2;D113;L102
+P234;Part-Time Satış Danışmanı;205;2;D113;L102
+P234;Part-Time Satış Danışmanı;206;2;D113;L102
+P234;Part-Time Satış Danışmanı;208;2;D113;L102
+P234;Part-Time Satış Danışmanı;209;2;D113;L102
+P234;Part-Time Satış Danışmanı;302;3;D113;L102
+P235;Pazarlama Direktörü;100;1;D115;L104
+P236;Pazarlama İletişim Yöneticisi;400;4;D115;L116
+P237;Pazarlama Müdürü;100;1;D115;L110
+P237;Pazarlama Müdürü;500;5;D115;L110
+P238;Pazarlama Uzman Yardımcısı;100;1;D115;L115
+P238;Pazarlama Uzman Yardımcısı;200;2;D116;L115
+P239;Pazarlama Uzmanı;200;2;D116;L113
+P240;Pazaryeri Yöneticisi;100;1;D108;L116
+P241;Perakende Satış Direktörü;100;1;D117;L104
+P242;Perakende Satış Müdürü;100;1;D117;L110
+P243;Perakende Satış Operasyon Kıdemli Uzmanı;100;1;D117;L107
+P244;Perakende Satış Operasyon Kıdemli Yöneticisi;100;1;D117;L108
+P245;Perakende Satış Operasyon Yöneticisi;100;1;D117;L116
+P246;Perakende Satış Yöneticisi;200;2;D117;L116
+P247;Perakende Ürün Uzmanı;100;1;D124;L113
+P248;Perakende Ürün Yöneticisi;100;1;D124;L116
+P249;Performans Pazarlama Yöneticisi;100;1;D108;L116
+P249;Performans Pazarlama Yöneticisi;200;2;D107;L116
+P250;PR Yöneticisi;100;1;D115;L116
+P251;Raporlama ve Operasyon Yöneticisi;200;2;D121;L116
+P252;Reachtruck Operatörü;100;1;D104;L109
+P253;Resepsiyonist;100;1;D110;L103
+P254;Saha Bayiler Kıdemli Satış Müdürü;100;1;D122;L106
+P255;Saha Bayiler Kıdemli Satış Yöneticisi;100;1;D122;L108
+P256;Saha Bayiler Satış Yöneticisi;100;1;D122;L116
+P257;Saha İnsan Kaynakları Müdürü;100;1;D111;L110
+P258;Saha Operasyon Görevlisi;136;1;D113;L102
+P258;Saha Operasyon Görevlisi;138;1;D113;L102
+P259;Saha Satış Yöneticisi;200;2;D122;L116
+P259;Saha Satış Yöneticisi;400;4;D122;L116
+P260;Satın Alma Müdürü;100;1;D119;L110
+P261;Satış Danışmanı;100;1;D102;L102
+P261;Satış Danışmanı;100;1;D113;L102
+P261;Satış Danışmanı;101;1;D113;L102
+P261;Satış Danışmanı;102;1;D113;L102
+P261;Satış Danışmanı;103;1;D113;L102
+P261;Satış Danışmanı;104;1;D113;L102
+P261;Satış Danışmanı;105;1;D113;L102
+P261;Satış Danışmanı;106;1;D113;L102
+P261;Satış Danışmanı;107;1;D113;L102
+P261;Satış Danışmanı;108;1;D113;L102
+P261;Satış Danışmanı;109;1;D113;L102
+P261;Satış Danışmanı;110;1;D113;L102
+P261;Satış Danışmanı;111;1;D113;L102
+P261;Satış Danışmanı;112;1;D113;L102
+P261;Satış Danışmanı;113;1;D113;L102
+P261;Satış Danışmanı;114;1;D113;L102
+P261;Satış Danışmanı;115;1;D113;L102
+P261;Satış Danışmanı;116;1;D113;L102
+P261;Satış Danışmanı;117;1;D113;L102
+P261;Satış Danışmanı;118;1;D113;L102
+P261;Satış Danışmanı;119;1;D113;L102
+P261;Satış Danışmanı;120;1;D113;L102
+P261;Satış Danışmanı;121;1;D113;L102
+P261;Satış Danışmanı;122;1;D113;L102
+P261;Satış Danışmanı;123;1;D113;L102
+P261;Satış Danışmanı;124;1;D113;L102
+P261;Satış Danışmanı;125;1;D113;L102
+P261;Satış Danışmanı;126;1;D113;L102
+P261;Satış Danışmanı;127;1;D113;L102
+P261;Satış Danışmanı;128;1;D113;L102
+P261;Satış Danışmanı;129;1;D113;L102
+P261;Satış Danışmanı;130;1;D113;L102
+P261;Satış Danışmanı;131;1;D113;L102
+P261;Satış Danışmanı;132;1;D113;L102
+P261;Satış Danışmanı;133;1;D113;L102
+P261;Satış Danışmanı;134;1;D113;L102
+P261;Satış Danışmanı;135;1;D113;L102
+P261;Satış Danışmanı;136;1;D113;L102
+P261;Satış Danışmanı;137;1;D113;L102
+P261;Satış Danışmanı;138;1;D113;L102
+P261;Satış Danışmanı;139;1;D113;L102
+P261;Satış Danışmanı;140;1;D113;L102
+P261;Satış Danışmanı;141;1;D113;L102
+P261;Satış Danışmanı;142;1;D113;L102
+P261;Satış Danışmanı;143;1;D113;L102
+P261;Satış Danışmanı;144;1;D113;L102
+P261;Satış Danışmanı;145;1;D113;L102
+P261;Satış Danışmanı;146;1;D113;L102
+P261;Satış Danışmanı;147;1;D113;L102
+P261;Satış Danışmanı;148;1;D113;L102
+P261;Satış Danışmanı;149;1;D113;L102
+P261;Satış Danışmanı;150;1;D113;L102
+P261;Satış Danışmanı;151;1;D113;L102
+P261;Satış Danışmanı;152;1;D113;L102
+P261;Satış Danışmanı;153;1;D113;L102
+P261;Satış Danışmanı;154;1;D113;L102
+P261;Satış Danışmanı;155;1;D113;L102
+P261;Satış Danışmanı;156;1;D113;L102
+P261;Satış Danışmanı;157;1;D113;L102
+P261;Satış Danışmanı;158;1;D113;L102
+P261;Satış Danışmanı;159;1;D113;L102
+P261;Satış Danışmanı;160;1;D113;L102
+P261;Satış Danışmanı;161;1;D113;L102
+P261;Satış Danışmanı;162;1;D113;L102
+P261;Satış Danışmanı;163;1;D113;L102
+P261;Satış Danışmanı;200;2;D102;L102
+P261;Satış Danışmanı;201;2;D113;L102
+P261;Satış Danışmanı;202;2;D113;L102
+P261;Satış Danışmanı;203;2;D113;L102
+P261;Satış Danışmanı;204;2;D113;L102
+P261;Satış Danışmanı;205;2;D113;L102
+P261;Satış Danışmanı;206;2;D113;L102
+P261;Satış Danışmanı;207;2;D113;L102
+P261;Satış Danışmanı;208;2;D113;L102
+P261;Satış Danışmanı;209;2;D113;L102
+P261;Satış Danışmanı;301;3;D113;L102
+P261;Satış Danışmanı;302;3;D113;L102
+P262;Satış Geliştirme Yöneticisi;100;1;D117;L116
+P263;Satış Operasyon ve Raporlama Uzmanı;100;1;D122;L113
+P264;Satış Yöneticisi;200;2;D122;L116
+P265;Sevkiyat Operatörü;100;1;D104;L109
+P266;Showroom Uzmanı;100;1;D124;L113
+P267;Sistem Destek Uzmanı;100;1;D101;L113
+P268;Sistem Operatörü;100;1;D104;L109
+P269;Sports ve Influencer Pazarlama Müdürü;100;1;D115;L110
+P270;Sports ve Influencer Pazarlama Yöneticisi;200;2;D116;L116
+P271;Stajyer;100;1;D103;L112
+P271;Stajyer;100;1;D106;L112
+P271;Stajyer;100;1;D108;L112
+P271;Stajyer;100;1;D113;L112
+P271;Stajyer;100;1;D115;L112
+P271;Stajyer;100;1;D121;L112
+P271;Stajyer;123;1;D113;L112
+P271;Stajyer;124;1;D113;L112
+P271;Stajyer;136;1;D113;L112
+P271;Stajyer;137;1;D113;L112
+P271;Stajyer;200;2;D116;L112
+P271;Stajyer;500;5;D124;L112
+P272;Stok Kontrol Uzman Yardımcısı;100;1;D120;L115
+P273;Stok Kontrol Uzmanı;100;1;D120;L113
+P274;Stok Kontrol Yöneticisi;100;1;D120;L116
+P275;Stratejik Bayiler Satış Yöneticisi;100;1;D122;L116
+P276;Şoför;100;1;D125;L113
+P277;Teknik Destek;100;1;D110;L103
+P277;Teknik Destek;100;1;D110;L113
+P278;Ticari Operasyon ve Raporlama Yöneticisi;100;1;D121;L116
+P279;Ticari Pazarlama Uzmanı;100;1;D115;L113
+P280;Ticari Pazarlama ve Görsel Sunum Müdürü;100;1;D115;L110
+P281;Ticari Planlama Müdürü;100;1;D121;L110
+P282;Toptan Satış Direktörü;100;1;D122;L104
+P283;Toptan Satış Geliştirme Kıdemli Yöneticisi;100;1;D122;L108
+P284;Toptan Satış Müdürü (On);500;5;D122;L110
+P285;Uluslararası Satış Müdürü;100;1;D121;L110
+P286;Uzman Depo Görevlisi;100;1;D104;L109
+P287;Uzman Satış Danışmanı;100;1;D113;L114
+P287;Uzman Satış Danışmanı;101;1;D113;L114
+P287;Uzman Satış Danışmanı;102;1;D113;L114
+P287;Uzman Satış Danışmanı;103;1;D113;L114
+P287;Uzman Satış Danışmanı;104;1;D113;L114
+P287;Uzman Satış Danışmanı;105;1;D113;L114
+P287;Uzman Satış Danışmanı;106;1;D113;L114
+P287;Uzman Satış Danışmanı;107;1;D113;L114
+P287;Uzman Satış Danışmanı;108;1;D113;L114
+P287;Uzman Satış Danışmanı;115;1;D113;L114
+P287;Uzman Satış Danışmanı;116;1;D113;L114
+P287;Uzman Satış Danışmanı;117;1;D113;L114
+P287;Uzman Satış Danışmanı;120;1;D113;L114
+P287;Uzman Satış Danışmanı;121;1;D113;L114
+P287;Uzman Satış Danışmanı;122;1;D113;L114
+P287;Uzman Satış Danışmanı;123;1;D113;L114
+P287;Uzman Satış Danışmanı;125;1;D113;L114
+P287;Uzman Satış Danışmanı;126;1;D113;L114
+P287;Uzman Satış Danışmanı;127;1;D113;L114
+P287;Uzman Satış Danışmanı;128;1;D113;L114
+P287;Uzman Satış Danışmanı;130;1;D113;L114
+P287;Uzman Satış Danışmanı;131;1;D113;L114
+P287;Uzman Satış Danışmanı;132;1;D113;L114
+P287;Uzman Satış Danışmanı;134;1;D113;L114
+P287;Uzman Satış Danışmanı;139;1;D113;L114
+P287;Uzman Satış Danışmanı;140;1;D113;L114
+P287;Uzman Satış Danışmanı;142;1;D113;L114
+P287;Uzman Satış Danışmanı;143;1;D113;L114
+P287;Uzman Satış Danışmanı;146;1;D113;L114
+P287;Uzman Satış Danışmanı;147;1;D113;L114
+P287;Uzman Satış Danışmanı;150;1;D113;L114
+P287;Uzman Satış Danışmanı;151;1;D113;L114
+P287;Uzman Satış Danışmanı;152;1;D113;L114
+P287;Uzman Satış Danışmanı;153;1;D113;L114
+P287;Uzman Satış Danışmanı;154;1;D113;L114
+P287;Uzman Satış Danışmanı;155;1;D113;L114
+P287;Uzman Satış Danışmanı;156;1;D113;L114
+P287;Uzman Satış Danışmanı;158;1;D113;L114
+P287;Uzman Satış Danışmanı;160;1;D113;L114
+P287;Uzman Satış Danışmanı;162;1;D113;L114
+P287;Uzman Satış Danışmanı;163;1;D113;L114
+P287;Uzman Satış Danışmanı;201;2;D113;L114
+P287;Uzman Satış Danışmanı;202;2;D113;L114
+P287;Uzman Satış Danışmanı;206;2;D113;L114
+P287;Uzman Satış Danışmanı;207;2;D113;L114
+P287;Uzman Satış Danışmanı;209;2;D113;L114
+P288;Ürün Direktörü;100;1;D124;L104
+P289;Ürün Eğitim Uzman Yardımcısı;100;1;D124;L115
+P290;Ürün Eğitim Yöneticisi (Asics);200;2;D124;L116
+P291;Ürün İnceleme Uzman Yardımcısı;100;1;D123;L115
+P292;Ürün İnceleme Uzmanı;100;1;D123;L113
+P293;Ürün Müdürü;500;5;D124;L110
+P294;Ürün Operasyon Müdürü;100;1;D124;L110
+P295;Ürün Operasyon Uzman Yardımcısı;100;1;D124;L115
+P296;Ürün Planlama Yöneticisi;100;1;D124;L116
+P297;Ürün Uzman Yardımcısı;200;2;D124;L115
+P298;Ürün Uzmanı;100;1;D124;L113
+P299;Ürün Yöneticisi;100;1;D124;L116
+P299;Ürün Yöneticisi;400;4;D124;L116
+P300;Ürün Yöneticisi (Tekstil & Aksesuar);100;1;D124;L116
+P301;WMS Uygulama Yöneticisi;100;1;D101;L116
+P302;Yazılım Geliştirme Uzmanı;100;1;D101;L113
+P303;Yazılım Geliştirme Yöneticisi;100;1;D101;L116
+P304;Yazılım Uzmanı;100;1;D101;L113
+P305;Yönetici Asistanı;100;1;D125;L116
+P306;Zincir Mağazalar Satış Müdürü;100;1;D122;L110
+P307;Zincir Mağazalar Satış Yöneticisi;100;1;D122;L116
