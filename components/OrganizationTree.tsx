@@ -27,7 +27,7 @@ interface OrganizationTreeProps {
 
 export default function OrganizationTree({ employees, highlightId, levelColors = {}, levelOrders = {} }: OrganizationTreeProps) {
   const svgRef = useRef<SVGSVGElement>(null)
-  const svgSelRef = useRef<d3.Selection<SVGSVGElement | null, unknown, null, undefined> | null>(null)
+  const svgSelRef = useRef<d3.Selection<SVGSVGElement, unknown, null, undefined> | null>(null)
   const zoomRef = useRef<d3.ZoomBehavior<Element, unknown> | null>(null)
   const lastTransformRef = useRef(d3.zoomIdentity)
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
@@ -372,8 +372,6 @@ export default function OrganizationTree({ employees, highlightId, levelColors =
     if (!svgRef.current || !data) return
 
     console.log('🎨 OrganizationTree: data değişti, D3 chart çiziliyor...', data)
-    
-    if (!svgRef.current) return
     
     const svg = d3.select(svgRef.current)
     svg.selectAll("*").remove()
