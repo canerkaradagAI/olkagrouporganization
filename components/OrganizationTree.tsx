@@ -373,6 +373,8 @@ export default function OrganizationTree({ employees, highlightId, levelColors =
 
     console.log('🎨 OrganizationTree: data değişti, D3 chart çiziliyor...', data)
     
+    if (!svgRef.current) return
+    
     const svg = d3.select(svgRef.current)
     svg.selectAll("*").remove()
     svgSelRef.current = svg
