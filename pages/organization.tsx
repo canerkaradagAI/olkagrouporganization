@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Layout from '../components/Layout'
@@ -32,8 +31,6 @@ interface FilterOptions {
 }
 
 export default function OrganizationPageV2() {
-  const sessionResult = useSession()
-  const { data: session, status } = sessionResult || {}
   const router = useRouter()
   
   const [viewMode, setViewMode] = useState<'tree'>('tree')
@@ -111,13 +108,8 @@ export default function OrganizationPageV2() {
   const [levelOrders, setLevelOrders] = useState<Record<string, number>>({})
 
   useEffect(() => {
-    if (status === 'loading') return
-    if (!session) {
-      router.push('/auth/signin')
-      return
-    }
     fetchData()
-  }, [session, status, router])
+  }, [])
 
   const fetchData = async () => {
     try {
@@ -313,7 +305,7 @@ export default function OrganizationPageV2() {
     return match?.currAccCode
   })()
 
-  if (status === 'loading' || loading) {
+  if (loading) {
     return (
       <Layout>
         <div className="flex items-center justify-center min-h-[400px]">
