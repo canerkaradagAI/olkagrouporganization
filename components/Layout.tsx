@@ -2,7 +2,6 @@
 import { ReactNode } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useSession, signOut } from 'next-auth/react'
 import { Toaster } from 'react-hot-toast'
 import { 
   HomeIcon, 
@@ -65,12 +64,6 @@ const navigation: NavItem[] = [
 
 export default function Layout({ children }: LayoutProps) {
   const router = useRouter()
-  const sessionResult = useSession()
-  const { data: session, status } = sessionResult || {}
-
-  const handleSignOut = async () => {
-    await signOut({ callbackUrl: '/auth/signin' })
-  }
 
   const getInitials = (name: string) => {
     return name
@@ -79,18 +72,6 @@ export default function Layout({ children }: LayoutProps) {
       .join('')
       .toUpperCase()
       .slice(0, 2)
-  }
-
-  if (status === 'loading') {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-      </div>
-    )
-  }
-
-  if (!session) {
-    return <>{children}</>
   }
 
   return (
@@ -163,18 +144,17 @@ export default function Layout({ children }: LayoutProps) {
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                     <Avatar className="h-8 w-8">
-                      <AvatarImage src={session.user?.image || ''} alt={session.user?.name || ''} />
                       <AvatarFallback>
-                        {getInitials(session.user?.name || session.user?.email || 'U')}
+                        OG
                       </AvatarFallback>
                     </Avatar>
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56" align="end" forceMount>
                   <div className="flex flex-col space-y-1 p-2">
-                    <p className="text-sm font-medium leading-none">{session.user?.name}</p>
+                    <p className="text-sm font-medium leading-none">Olka Group</p>
                     <p className="text-xs leading-none text-gray-600">
-                      {session.user?.email}
+                      Organizasyon Portalı
                     </p>
                   </div>
                   <DropdownMenuSeparator />
@@ -183,7 +163,7 @@ export default function Layout({ children }: LayoutProps) {
                     <span>Profil Ayarları</span>
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={handleSignOut}>
+                  <DropdownMenuItem>
                     <LogOutIcon className="mr-2 h-4 w-4" />
                     <span>Çıkış Yap</span>
                   </DropdownMenuItem>

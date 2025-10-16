@@ -1,5 +1,4 @@
 
-import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
@@ -27,8 +26,6 @@ interface DashboardStats {
 }
 
 export default function HomePage() {
-  const sessionResult = useSession()
-  const { data: session, status } = sessionResult || {}
   const router = useRouter()
   
   const [stats, setStats] = useState<DashboardStats>({
@@ -40,17 +37,8 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    if (status === 'loading') return
-    
-    if (status === 'unauthenticated') {
-      router.push('/auth/signin')
-      return
-    }
-    
-    if (session) {
-      fetchDashboardData()
-    }
-  }, [session, status, router])
+    fetchDashboardData()
+  }, [])
 
   const fetchDashboardData = async () => {
     try {
@@ -74,7 +62,7 @@ export default function HomePage() {
     }
   }
 
-  if (status === 'loading' || loading) {
+  if (loading) {
     return (
       <Layout>
         <div className="flex items-center justify-center min-h-[400px]">
@@ -126,7 +114,7 @@ export default function HomePage() {
         {/* Welcome Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Merhaba, {session?.user?.name || 'Kullanıcı'}! 👋
+            Merhaba! 👋
           </h1>
           <p className="text-gray-600">
             Olka Group Organizasyon Portalına hoş geldiniz. Aşağıdan hızlı erişim sağlayabilirsiniz.
