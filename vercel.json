@@ -1,14 +1,14 @@
-# Vercel Build Configuration
-# Bu dosya Vercel'in projeyi nasıl build edeceğini belirler
-
-# Build komutu
-buildCommand = "npm run build"
-
-# Output dizini
-outputDirectory = ".next"
-
-# Install komutu
-installCommand = "npm install"
-
-# Node.js versiyonu
-nodeVersion = "18.x"
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

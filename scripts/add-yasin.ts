@@ -51,9 +51,6 @@ async function main() {
     create: {
       positionName: 'Yönetim Kurulu Başkanı',
       departmentId: department.departmentId,
-      locationId: location.locationId,
-      brandId: brand.brandId,
-      levelId: level.levelId,
     },
   }).catch(async () => {
     // If upsert fails due to where, try find by unique-ish combination
@@ -61,7 +58,6 @@ async function main() {
       where: {
         positionName: 'Yönetim Kurulu Başkanı',
         departmentId: department.departmentId,
-        brandId: brand.brandId,
       },
     })
     if (existing) return existing
@@ -69,9 +65,6 @@ async function main() {
       data: {
         positionName: 'Yönetim Kurulu Başkanı',
         departmentId: department.departmentId,
-        locationId: location.locationId,
-        brandId: brand.brandId,
-        levelId: level.levelId,
       },
     })
   })

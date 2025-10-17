@@ -41,14 +41,12 @@ async function checkData() {
     // Positions
     const positions = await prisma.position.findMany({
       include: {
-        location: true,
-        brand: true,
         department: true
       }
     })
     console.log('\n💼 Pozisyonlar:')
     positions.forEach(position => {
-      console.log(`  - ${position.positionId}: ${position.positionName} (${position.location.locationName}, ${position.brand.brandName}, ${position.department.departmentName})`)
+      console.log(`  - ${position.positionId}: ${position.positionName} (${position.department?.departmentName || 'No Department'})`)
     })
 
     // Employees

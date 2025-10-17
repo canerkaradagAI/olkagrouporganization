@@ -105,7 +105,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           await prisma.jobTitleLevel.create({
             data: {
               levelName,
-              levelOrder: levelOrder > 0 ? levelOrder : undefined,
+              levelOrder: levelOrder > 0 ? levelOrder : 1,
               description: description || `${levelName} seviyesi`
             }
           })

@@ -166,13 +166,9 @@ async function main() {
     const brId = brandIdMap.get(p.brandKey || '') || brandIdMap.get(String(p.brandKey || '').trim())
       || (await prisma.brand.create({ data: { brandName: (String(p.brandKey || 'Genel')), companyId: company.companyId } })).brandId
     const lvlId = levelDbMap.get(p.levelKey || '') || levelDbMap.get(String(p.levelName || '').trim()) || undefined
-    const created = await prisma.position.create({ data: { positionName: p.name, departmentId: depId, locationId: locId, brandId: brId, levelId: lvlId } })
+    const created = await prisma.position.create({ data: { positionName: p.name, departmentId: depId } })
     if (p.id) posIdMap.set(p.id, created.positionId)
     posIdMap.set(p.name, created.positionId)
-    if (created.levelId != null) {
-      const lname = p.levelName || (created.levelId ? levelIdToName.get(created.levelId) : undefined)
-      if (lname) posLevelNameMap.set(created.positionId, lname)
-    }
   }
 
   // Employees (2 aşama)

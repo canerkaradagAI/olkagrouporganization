@@ -34,8 +34,8 @@ async function readExcelAndUpdateManagers() {
     let notFound = 0
     
     for (const row of data) {
-      const currAccCode = row['CurrAccCode']
-      let managerId = row['ManagerId'] || row['managerId'] || row['Manager ID']
+      const currAccCode = (row as any)['CurrAccCode']
+      let managerId = (row as any)['ManagerId'] || (row as any)['managerId'] || (row as any)['Manager ID']
       
       if (!currAccCode) continue
       

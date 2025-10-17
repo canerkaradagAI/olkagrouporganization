@@ -35,7 +35,10 @@ async function checkDepartmentConnections() {
     // Sedat Çakırca'yı bul
     const sedatCakirca = await prisma.employee.findFirst({
       where: { firstLastName: { contains: 'Sedat' } },
-      include: { subordinates: { include: { department: true } } }
+      include: { 
+        subordinates: { include: { department: true } },
+        position: true
+      }
     })
 
     if (sedatCakirca) {

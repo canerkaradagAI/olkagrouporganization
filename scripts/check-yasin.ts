@@ -6,10 +6,11 @@ async function checkYasin() {
   const yasin = await prisma.employee.findFirst({
     where: { firstLastName: { contains: 'Yasin' } },
     include: { 
+      position: true,
       subordinates: { 
         include: { 
           department: true,
-          position: true 
+          position: true
         } 
       } 
     }

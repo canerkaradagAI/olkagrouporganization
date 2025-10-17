@@ -27,40 +27,30 @@ async function seedEmployees() {
       prisma.position.create({
         data: {
           positionName: 'Genel Müdür',
-          locationId: locations[0].locationId,
-          brandId: brands[0].brandId, // Skechers
           departmentId: departments[0].departmentId, // İnsan Kaynakları
         }
       }),
       prisma.position.create({
         data: {
           positionName: 'Satış Müdürü',
-          locationId: locations[0].locationId,
-          brandId: brands[1].brandId, // Asics
           departmentId: departments[6].departmentId, // Satış ve Pazarlama
         }
       }),
       prisma.position.create({
         data: {
           positionName: 'Lojistik Uzmanı',
-          locationId: locations[1].locationId,
-          brandId: brands[2].brandId, // Klaud
           departmentId: departments[1].departmentId, // Lojistik
         }
       }),
       prisma.position.create({
         data: {
           positionName: 'Muhasebe Uzmanı',
-          locationId: locations[2].locationId,
-          brandId: brands[3].brandId, // Brooks
           departmentId: departments[3].departmentId, // Muhasebe ve Finans
         }
       }),
       prisma.position.create({
         data: {
           positionName: 'IT Uzmanı',
-          locationId: locations[0].locationId,
-          brandId: brands[4].brandId, // On
           departmentId: departments[2].departmentId, // Bilgi İşlem
         }
       }),

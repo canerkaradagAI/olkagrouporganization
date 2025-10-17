@@ -27,6 +27,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const file = files.file?.[0]
     const selectedTable = fields.table?.[0] as string || 'employee'
+    let filePath: string | undefined
 
     if (!file) {
       return res.status(400).json({ message: 'Dosya bulunamadı' })
@@ -37,7 +38,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       console.log('Selected table:', selectedTable)
       console.log('File path:', file.filepath)
 
-      const filePath = file.filepath
+      filePath = file.filepath
       const workbook = XLSX.readFile(filePath)
       const sheetName = workbook.SheetNames[0]
       const sheet = workbook.Sheets[sheetName]
@@ -109,7 +110,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             await prisma.jobTitleLevel.create({
               data: {
                 levelName,
-                levelOrder: levelOrder > 0 ? levelOrder : undefined,
+                levelOrder: levelOrder > 0 ? levelOrder : 1,
                 description: description || `${levelName} seviyesi`
               }
             })
@@ -130,7 +131,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       console.error('Excel import hatası:', error)
       res.status(500).json({ message: 'Import hatası: ' + error.message })
     } finally {
-      if (fs.existsSync(filePath)) {
+      if (filePath && fs.existsSync(filePath)) {
         fs.unlinkSync(filePath) // Clean up the uploaded file
       }
       await prisma.$disconnect()

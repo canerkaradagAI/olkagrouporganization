@@ -7,7 +7,10 @@ async function checkYasinFiltered() {
     where: { firstLastName: { contains: 'Yasin' } },
     include: { 
       subordinates: { 
-        include: { department: true } 
+        include: { 
+          department: true,
+          position: true
+        } 
       } 
     }
   })

@@ -451,7 +451,7 @@ export default function OrganizationTree({ employees, highlightId, levelColors =
     svg.on('dblclick.zoom', null as any)
     // Önceki transformu yeniden uygula ki ekran kaymasın
     ;(zoom as any).transform(svg as any, lastTransformRef.current)
-    zoomRef.current = zoom
+    zoomRef.current = zoom as any
 
     // Links (orthogonal/elbow) - bus/omurga yok, klasik bağlantılar
     const linkGenerator = (d: any) => {
@@ -1116,7 +1116,7 @@ export default function OrganizationTree({ employees, highlightId, levelColors =
     } catch (error) {
       console.error('❌ Kaydetme hatası:', error)
       // Hata durumunda kullanıcıya bilgi ver
-      alert('Kaydetme sırasında hata oluştu: ' + error.message)
+      alert('Kaydetme sırasında hata oluştu: ' + (error instanceof Error ? error.message : String(error)))
     } finally {
       setIsLoading(false)
     }
@@ -1134,6 +1134,8 @@ export default function OrganizationTree({ employees, highlightId, levelColors =
     if (!svgSelRef.current || !zoomRef.current) return
     // Tüm şemayı gösterecek şekilde zoom yap
     const scale = 0.3
+    const width = 2400
+    const height = 1600
     const translateX = width / 2 - (width * scale) / 2
     const translateY = height / 2 - (height * scale) / 2
     const transform = d3.zoomIdentity.translate(translateX, translateY).scale(scale)

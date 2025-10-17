@@ -2,9 +2,10 @@ import { useState } from 'react'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/router'
 import Layout from '../components/Layout'
+import dynamic from 'next/dynamic'
 
-export default function ExcelImport() {
-  const { data: session, status } = useSession()
+function ExcelImport() {
+  const { data: session, status } = useSession() || {}
   const router = useRouter()
   const [file, setFile] = useState<File | null>(null)
   const [uploading, setUploading] = useState(false)
@@ -52,7 +53,7 @@ export default function ExcelImport() {
         setMessage(`❌ Hata: ${result.message}`)
       }
     } catch (error) {
-      setMessage(`❌ Hata: ${error.message}`)
+      setMessage(`❌ Hata: ${error instanceof Error ? error.message : String(error)}`)
     } finally {
       setUploading(false)
     }
@@ -197,3 +198,5 @@ export default function ExcelImport() {
     </Layout>
   )
 }
+
+export default dynamic(() => Promise.resolve(ExcelImport), { ssr: false })

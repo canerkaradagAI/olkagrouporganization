@@ -41,7 +41,7 @@ interface Employee {
 interface Assignment {
   employeeId: string
   positionId: string
-  assignmentType: 'permanent' | 'deputy'
+  assignmentType: 'permanent' | 'temporary' | 'deputy' | 'project'
   startDate: string
   endDate?: string
 }

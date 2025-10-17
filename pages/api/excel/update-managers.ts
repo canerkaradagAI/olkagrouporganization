@@ -19,6 +19,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const form = formidable({ multiples: false })
 
+  let filePath: string | undefined
+
   try {
     const [fields, files] = await form.parse(req)
     
@@ -30,7 +32,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     console.log('🔄 ManagerId güncelleme başlıyor...')
 
-    const filePath = file.filepath
+    filePath = file.filepath
     const workbook = XLSX.readFile(filePath)
     const sheetName = workbook.SheetNames[0]
     const sheet = workbook.Sheets[sheetName]
@@ -83,7 +85,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     console.error('ManagerId güncelleme hatası:', error)
     res.status(500).json({ message: 'Güncelleme hatası: ' + error.message })
   } finally {
-    if (fs.existsSync(filePath)) {
+    if (filePath && fs.existsSync(filePath)) {
       fs.unlinkSync(filePath)
     }
     await prisma.$disconnect()

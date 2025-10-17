@@ -185,8 +185,6 @@ async function importCSV() {
       const position = await prisma.position.create({
         data: {
           positionName: emp.positionName,
-          locationId: locationMap.get(emp.locationName)!,
-          brandId: brand.brandId,
           departmentId: departmentMap.get(emp.departmentName)!
         }
       })

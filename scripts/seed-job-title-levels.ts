@@ -83,19 +83,8 @@ async function seedJobTitleLevels() {
       'IT Uzmanı': 9
     }
     
-    for (const position of positions) {
-      const levelOrder = positionLevelMap[position.positionName as keyof typeof positionLevelMap]
-      if (levelOrder) {
-        const level = levels.find(l => l.levelOrder === levelOrder)
-        if (level) {
-          await prisma.position.update({
-            where: { positionId: position.positionId },
-            data: { levelId: level.levelId }
-          })
-          console.log(`✓ ${position.positionName} → ${level.levelName} seviyesine atandı`)
-        }
-      }
-    }
+    // Position modelinde levelId bulunmuyor, bu kısmı kaldırıyoruz
+    console.log('⚠️ Position modelinde levelId bulunmuyor, pozisyon seviye ataması yapılamıyor')
 
     console.log('\n🎉 İş unvan seviyeleri sistemi tamamlandı!')
   } catch (error) {

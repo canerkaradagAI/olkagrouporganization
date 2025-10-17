@@ -84,7 +84,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       console.log('Data rows:', data.length)
       // Import Companies
       for (const row of data) {
-        const companyName = (row.CompanyName || row.companyName || '').toString().trim()
+        const companyName = ((row as any).CompanyName || (row as any).companyName || '').toString().trim()
         console.log('Processing company:', companyName)
         if (companyName) {
           await prisma.company.create({ data: { companyName } })
@@ -109,11 +109,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     // İlk geçiş: Unique değerleri topla
     console.log('📊 Unique değerler toplanıyor...')
     for (const row of data) {
-      const brandName = (row.BrandName || row.brandName || '').toString().trim()
-      const locationName = (row.LocationName || row.locationName || '').toString().trim()
-      const departmentName = (row.DepartmentName || row.departmentName || '').toString().trim()
-      const positionName = (row.PositionName || row.positionName || '').toString().trim()
-      const levelName = (row.LevelName || row.levelName || '').toString().trim()
+      const brandName = ((row as any).BrandName || (row as any).brandName || '').toString().trim()
+      const locationName = ((row as any).LocationName || (row as any).locationName || '').toString().trim()
+      const departmentName = ((row as any).DepartmentName || (row as any).departmentName || '').toString().trim()
+      const positionName = ((row as any).PositionName || (row as any).positionName || '').toString().trim()
+      const levelName = ((row as any).LevelName || (row as any).levelName || '').toString().trim()
 
       if (brandName && !uniqueBrands.has(brandName)) {
         uniqueBrands.set(brandName, brandCounter++)
@@ -200,15 +200,15 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     console.log('👥 Employee\'ler oluşturuluyor...')
     for (const row of data) {
       try {
-        const currAccCode = (row.CurrAccCode || row.currAccCode || '').toString().trim()
-        const nameSurname = (row.NameSurname || row.nameSurname || '').toString().trim()
-        const brandName = (row.BrandName || row.brandName || '').toString().trim()
-        const locationName = (row.LocationName || row.locationName || '').toString().trim()
-        const departmentName = (row.DepartmentName || row.departmentName || '').toString().trim()
-        const positionName = (row.PositionName || row.positionName || '').toString().trim()
-        const managerId = (row.ManagerId || row.managerId || '').toString().trim() || null
-        const levelName = (row.LevelName || row.levelName || '').toString().trim() || null
-        const isManager = String(row.IsManager || row.isManager || '').toLowerCase() === 'true'
+        const currAccCode = ((row as any).CurrAccCode || (row as any).currAccCode || '').toString().trim()
+        const nameSurname = ((row as any).NameSurname || (row as any).nameSurname || '').toString().trim()
+        const brandName = ((row as any).BrandName || (row as any).brandName || '').toString().trim()
+        const locationName = ((row as any).LocationName || (row as any).locationName || '').toString().trim()
+        const departmentName = ((row as any).DepartmentName || (row as any).departmentName || '').toString().trim()
+        const positionName = ((row as any).PositionName || (row as any).positionName || '').toString().trim()
+        const managerId = ((row as any).ManagerId || (row as any).managerId || '').toString().trim() || null
+        const levelName = ((row as any).LevelName || (row as any).levelName || '').toString().trim() || null
+        const isManager = String((row as any).IsManager || (row as any).isManager || '').toLowerCase() === 'true'
 
         if (!currAccCode || !nameSurname) {
           errors.push(`Satır ${importedCount + 1}: CurrAccCode veya NameSurname boş`)
@@ -254,7 +254,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         create: { companyName: 'Olka Group' },
       })
       for (const row of data) {
-        const brandName = (row.BrandName || row.brandName || '').toString().trim()
+        const brandName = ((row as any).BrandName || (row as any).brandName || '').toString().trim()
         if (brandName) {
           await prisma.brand.create({ data: { brandName, companyId: company.companyId } })
           importedCount++
@@ -263,7 +263,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     } else if (selectedTable === 'location') {
       // Import Locations
       for (const row of data) {
-        const locationName = (row.LocationName || row.locationName || '').toString().trim()
+        const locationName = ((row as any).LocationName || (row as any).locationName || '').toString().trim()
         if (locationName) {
           await prisma.location.create({ data: { locationName } })
           importedCount++
@@ -272,7 +272,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     } else if (selectedTable === 'department') {
       // Import Departments
       for (const row of data) {
-        const departmentName = (row.DepartmentName || row.departmentName || '').toString().trim()
+        const departmentName = ((row as any).DepartmentName || (row as any).departmentName || '').toString().trim()
         if (departmentName) {
           await prisma.department.create({ data: { departmentName } })
           importedCount++
@@ -281,7 +281,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     } else if (selectedTable === 'position') {
       // Import Positions
       for (const row of data) {
-        const positionName = (row.PositionName || row.positionName || '').toString().trim()
+        const positionName = ((row as any).PositionName || (row as any).positionName || '').toString().trim()
         if (positionName) {
           await prisma.position.create({
             data: { positionName }
@@ -292,14 +292,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     } else if (selectedTable === 'jobtitlelevel') {
       // Import JobTitleLevels
       for (const row of data) {
-        const levelName = (row.LevelName || row.levelName || '').toString().trim()
-        const levelOrder = parseInt(row.LevelOrder || row.levelOrder || '0')
-        const description = (row.Description || row.description || '').toString().trim()
+        const levelName = ((row as any).LevelName || (row as any).levelName || '').toString().trim()
+        const levelOrder = parseInt((row as any).LevelOrder || (row as any).levelOrder || '0')
+        const description = ((row as any).Description || (row as any).description || '').toString().trim()
         if (levelName) {
           await prisma.jobTitleLevel.create({
             data: {
               levelName,
-              levelOrder: levelOrder > 0 ? levelOrder : undefined,
+              levelOrder: levelOrder > 0 ? levelOrder : 1,
               description: description || `${levelName} seviyesi`
             }
           })

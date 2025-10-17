@@ -56,7 +56,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     console.error('❌ Organization save API hatası:', error)
     res.status(500).json({ 
       message: 'Organizasyon değişiklikleri kaydedilirken hata oluştu',
-      error: error.message 
+      error: error instanceof Error ? error.message : String(error) 
     })
   } finally {
     await prisma.$disconnect()
