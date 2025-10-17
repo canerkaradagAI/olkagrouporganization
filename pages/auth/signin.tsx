@@ -1,31 +1,48 @@
 
-import { GetServerSideProps } from 'next'
-import { getServerSession } from 'next-auth/next'
+import { useState, useEffect } from 'react'
 import { signIn, getProviders, ClientSafeProvider } from 'next-auth/react'
-import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { authOptions } from '../../lib/auth'
+import { useSession } from 'next-auth/react'
 import { Button } from '../../components/ui/button'
 import { Input } from '../../components/ui/input'
 import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card'
 import { Alert, AlertDescription } from '../../components/ui/alert'
 import { Checkbox } from '../../components/ui/checkbox'
 import { EyeIcon, EyeOffIcon, Network } from 'lucide-react'
+import dynamic from 'next/dynamic'
 
 interface SignInProps {
   providers: Record<string, ClientSafeProvider>
 }
 
-export default function SignIn({ providers }: SignInProps) {
+function SignInPage() {
   const router = useRouter()
+  const { data: session, status } = useSession()
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [showPassword, setShowPassword] = useState(false)
   const [rememberMe, setRememberMe] = useState(false)
+  const [providers, setProviders] = useState<Record<string, ClientSafeProvider>>({})
+
+  useEffect(() => {
+    // If user is already logged in, redirect to home
+    if (session) {
+      router.push('/')
+    }
+  }, [session, router])
+
+  useEffect(() => {
+    // Load providers
+    const loadProviders = async () => {
+      const providers = await getProviders()
+      setProviders(providers ?? {})
+    }
+    loadProviders()
+  }, [])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -176,24 +193,4 @@ export default function SignIn({ providers }: SignInProps) {
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const session = await getServerSession(context.req, context.res, authOptions)
-
-  // If user is already logged in, redirect to home
-  if (session) {
-    return {
-      redirect: {
-        destination: '/',
-        permanent: false,
-      },
-    }
-  }
-
-  const providers = await getProviders()
-
-  return {
-    props: {
-      providers: providers ?? {},
-    },
-  }
-}
+export default dynamic(() => Promise.resolve(SignInPage), { ssr: false })
