@@ -1,35 +1,60 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import React from 'react'
-import { GetServerSideProps } from 'next'
-import { prisma } from '../lib/db'
-import { Employee, Department, Position, Brand, Location } from '@prisma/client'
 import Layout from '../components/Layout'
 import Head from 'next/head'
 import { toast } from 'react-hot-toast'
+import dynamic from 'next/dynamic'
 
-interface EmployeeWithRelations extends Employee {
-  position?: Position | null
-  department?: Department | null
-  brand?: Brand | null
-  location?: Location | null
+interface Employee {
+  currAccCode: string
+  firstLastName: string
+  organization?: string | null
+  positionId?: number | null
+  locationId?: number | null
+  isBlocked: boolean
+  isManager: boolean
+  managerId?: string | null
+  brandId?: number | null
+  levelName?: string | null
+  position?: {
+    positionId: number
+    positionName: string
+  } | null
+  department?: {
+    departmentId: number
+    departmentName: string
+  } | null
+  brand?: {
+    brandId: number
+    brandName: string
+  } | null
+  location?: {
+    locationId: number
+    locationName: string
+  } | null
   manager?: Employee | null
-  subordinates?: EmployeeWithRelations[]
+  subordinates?: Employee[]
+}
+
+interface Department {
+  departmentId: number
+  departmentName: string
 }
 
 interface ManagementLevel {
   levelName: string
-  employees: EmployeeWithRelations[]
+  employees: Employee[]
   departments: Department[]
 }
 
 interface ManagementProps {
   managementLevels: ManagementLevel[]
   cLevelWithDepartments: Array<{
-    employee: EmployeeWithRelations
+    employee: Employee
     departments: Department[]
   }>
   yasinDirectDepartments: Array<{
-    employee: EmployeeWithRelations
+    employee: Employee
     departments: Department[]
   }>
   allDepartments: Department[]
@@ -37,20 +62,66 @@ interface ManagementProps {
   brands: string[]
 }
 
-export default function ManagementPage({ managementLevels, cLevelWithDepartments, yasinDirectDepartments, allDepartments, companies, brands }: ManagementProps) {
-  const [selectedEmployee, setSelectedEmployee] = useState<EmployeeWithRelations | null>(null)
+function ManagementPage() {
+  const [selectedEmployee, setSelectedEmployee] = useState<Employee | null>(null)
   const [zoomLevel, setZoomLevel] = useState(1)
   const [draggedDepartment, setDraggedDepartment] = useState<Department | null>(null)
   const [dragOverEmployee, setDragOverEmployee] = useState<string | null>(null)
   const [selectedCompany, setSelectedCompany] = useState<string>('all')
   const [selectedBrand, setSelectedBrand] = useState<string>('all')
+  const [loading, setLoading] = useState(true)
+  
+  // Data states
+  const [managementLevels, setManagementLevels] = useState<ManagementLevel[]>([])
+  const [cLevelWithDepartments, setCLevelWithDepartments] = useState<Array<{
+    employee: Employee
+    departments: Department[]
+  }>>([])
+  const [yasinDirectDepartments, setYasinDirectDepartments] = useState<Array<{
+    employee: Employee
+    departments: Department[]
+  }>>([])
+  const [allDepartments, setAllDepartments] = useState<Department[]>([])
+  const [companies, setCompanies] = useState<string[]>([])
+  const [brands, setBrands] = useState<string[]>([])
+  
   const [filteredData, setFilteredData] = useState({
-    managementLevels,
-    cLevelWithDepartments,
-    yasinDirectDepartments,
-    allDepartments
+    managementLevels: [] as ManagementLevel[],
+    cLevelWithDepartments: [] as Array<{ employee: Employee; departments: Department[] }>,
+    yasinDirectDepartments: [] as Array<{ employee: Employee; departments: Department[] }>,
+    allDepartments: [] as Department[]
   })
   const orgChartRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/management/data')
+        const data = await response.json()
+        
+        setManagementLevels(data.managementLevels || [])
+        setCLevelWithDepartments(data.cLevelWithDepartments || [])
+        setYasinDirectDepartments(data.yasinDirectDepartments || [])
+        setAllDepartments(data.allDepartments || [])
+        setCompanies(data.companies || [])
+        setBrands(data.brands || [])
+        
+        setFilteredData({
+          managementLevels: data.managementLevels || [],
+          cLevelWithDepartments: data.cLevelWithDepartments || [],
+          yasinDirectDepartments: data.yasinDirectDepartments || [],
+          allDepartments: data.allDepartments || []
+        })
+      } catch (error) {
+        console.error('Error fetching management data:', error)
+        toast.error('Veri yüklenirken hata oluştu')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchData()
+  }, [])
 
   // Filtreleme fonksiyonu
   const applyFilters = () => {
@@ -143,7 +214,7 @@ export default function ManagementPage({ managementLevels, cLevelWithDepartments
     setDragOverEmployee(null)
   }
 
-  const handleDrop = async (e: React.DragEvent, targetEmployee: EmployeeWithRelations) => {
+  const handleDrop = async (e: React.DragEvent, targetEmployee: Employee) => {
     e.preventDefault()
     setDragOverEmployee(null)
     
@@ -404,13 +475,22 @@ export default function ManagementPage({ managementLevels, cLevelWithDepartments
         </div>
 
         {/* Content */}
-        {renderOrgChart()}
-        
-        {/* Tüm Departmanlar */}
-        {renderAllDepartments()}
-        
-        {/* Departman-Yönetici Bağlantıları */}
-        {renderDepartmentConnections()}
+        {loading ? (
+          <div className="text-center py-8">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
+            <p className="text-gray-500 mt-2">Veriler yükleniyor...</p>
+          </div>
+        ) : (
+          <>
+            {renderOrgChart()}
+            
+            {/* Tüm Departmanlar */}
+            {renderAllDepartments()}
+            
+            {/* Departman-Yönetici Bağlantıları */}
+            {renderDepartmentConnections()}
+          </>
+        )}
         
         {/* Employee Details Modal */}
         {selectedEmployee && (
@@ -455,145 +535,4 @@ export default function ManagementPage({ managementLevels, cLevelWithDepartments
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  try {
-    // Yönetim Kurulu, Genel Müdür ve C Level çalışanları getir
-    const topLevelEmployees = await prisma.employee.findMany({
-      where: {
-        levelName: {
-          in: ['Yönetim Kurulu', 'Genel Müdür', 'C Level']
-        }
-      },
-      include: {
-        position: true,
-        department: true,
-        brand: true,
-        location: true,
-        manager: true,
-        subordinates: {
-          include: {
-            position: true,
-            department: true,
-            brand: true,
-            location: true
-          }
-        }
-      },
-      orderBy: [
-        { levelName: 'asc' },
-        { firstLastName: 'asc' }
-      ]
-    })
-
-    // Yasin Kavşak'ı bul ve direkt departmanlarını getir
-    const yasinKavsak = await prisma.employee.findFirst({
-      where: { firstLastName: { contains: 'Yasin' } },
-      include: {
-        subordinates: {
-          include: { department: true }
-        }
-      }
-    })
-
-    const yasinDirectDepartments = yasinKavsak ? [{
-      employee: yasinKavsak,
-      departments: yasinKavsak.subordinates
-        .filter(sub => sub.department?.departmentName === 'İç Denetim')
-        .map(sub => sub.department!)
-        .filter((dept, index, arr) => arr.findIndex(d => d.departmentId === dept.departmentId) === index) // Unique departments
-    }] : []
-
-    // C Level çalışanları ve onların departmanlarını getir
-    const cLevelEmployees = topLevelEmployees.filter(emp => emp.levelName === 'C Level' || emp.levelName === 'Genel Müdür')
-    
-    const cLevelWithDepartments = await Promise.all(
-      cLevelEmployees.map(async (employee) => {
-        // Bu C Level'a bağlı departmanları bul - gerçek bağlantıları kullan
-        const subordinateDepartments = new Set<number>()
-        
-        // Alt çalışanlarının departmanlarını topla
-        employee.subordinates.forEach(sub => {
-          if (sub.departmentId) {
-            subordinateDepartments.add(sub.departmentId)
-          }
-        })
-        
-        // Kendi departmanını da ekle
-        if (employee.departmentId) {
-          subordinateDepartments.add(employee.departmentId)
-        }
-        
-        // Departman bilgilerini getir
-        const departments = await prisma.department.findMany({
-          where: {
-            departmentId: {
-              in: Array.from(subordinateDepartments)
-            }
-          },
-          orderBy: { departmentName: 'asc' }
-        })
-        
-        return {
-          employee,
-          departments
-        }
-      })
-    )
-
-    // Seviyelere göre grupla
-    const managementLevels = [
-      'Yönetim Kurulu',
-      'Genel Müdür', 
-      'C Level'
-    ].map(levelName => {
-      const employees = topLevelEmployees.filter(emp => emp.levelName === levelName)
-      const departments: Department[] = [] // Bu seviyeler için departman yok
-      
-      return {
-        levelName,
-        employees,
-        departments
-      }
-    })
-
-    // Şirket ve marka listelerini getir
-    const companies = await prisma.employee.findMany({
-      where: { organization: { not: null } },
-      select: { organization: true },
-      distinct: ['organization']
-    }).then(emps => emps.map(emp => emp.organization).filter(Boolean))
-
-    const brands = await prisma.brand.findMany({
-      select: { brandName: true },
-      orderBy: { brandName: 'asc' }
-    }).then(brands => brands.map(brand => brand.brandName))
-
-    // Tüm departmanları getir
-    const allDepartments = await prisma.department.findMany({
-      orderBy: { departmentName: 'asc' }
-    })
-
-    return {
-      props: {
-        managementLevels,
-        cLevelWithDepartments,
-        yasinDirectDepartments,
-        allDepartments,
-        companies,
-        brands
-      }
-    }
-  } catch (error) {
-    console.error('Management page data fetch error:', error)
-    return {
-      props: {
-        managementLevels: [],
-        cLevelWithDepartments: [],
-        yasinDirectDepartments: [],
-        allDepartments: [],
-        companies: [],
-        brands: []
-      }
-    }
-  }
-}
+export default dynamic(() => Promise.resolve(ManagementPage), { ssr: false })
