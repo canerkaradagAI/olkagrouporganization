@@ -1,37 +1,87 @@
 import { useState, useRef, useEffect } from 'react'
 import React from 'react'
-import { GetServerSideProps } from 'next'
-import { prisma } from '../lib/db'
-import { Employee, Department, Position, Brand, Location } from '@prisma/client'
 import Layout from '../components/Layout'
 import Head from 'next/head'
+import dynamic from 'next/dynamic'
 
-interface EmployeeWithRelations extends Employee {
-  position?: Position | null
-  department?: Department | null
-  brand?: Brand | null
-  manager?: EmployeeWithRelations | null
-  subordinates?: EmployeeWithRelations[]
-  location?: Location | null
+interface Employee {
+  currAccCode: string
+  firstLastName: string
+  organization?: string | null
+  positionId?: number | null
+  locationId?: number | null
+  isBlocked: boolean
+  isManager: boolean
+  managerId?: string | null
+  brandId?: number | null
+  levelName?: string | null
+  position?: {
+    positionId: number
+    positionName: string
+  } | null
+  department?: {
+    departmentId: number
+    departmentName: string
+  } | null
+  brand?: {
+    brandId: number
+    brandName: string
+  } | null
+  manager?: Employee | null
+  subordinates?: Employee[]
+  location?: {
+    locationId: number
+    locationName: string
+  } | null
 }
 
 interface TreeViewProps {
-  employees: EmployeeWithRelations[]
+  employees: Employee[]
   companies: string[]
   brands: string[]
 }
 
-export default function TreeViewPage({ employees, companies, brands }: TreeViewProps) {
+function TreeViewPage() {
+  const [employees, setEmployees] = useState<Employee[]>([])
+  const [companies, setCompanies] = useState<string[]>([])
+  const [brands, setBrands] = useState<string[]>([])
+  const [loading, setLoading] = useState(true)
   const [selectedCompany, setSelectedCompany] = useState<string>('all')
   const [selectedBrand, setSelectedBrand] = useState<string>('all')
   const [selectedEmployee, setSelectedEmployee] = useState<string>('all')
   const [expandedNodes, setExpandedNodes] = useState<Set<string>>(new Set())
-  const [filteredEmployees, setFilteredEmployees] = useState(employees)
+  const [filteredEmployees, setFilteredEmployees] = useState<Employee[]>([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/organization/list')
+        const data = await response.json()
+        setEmployees(data)
+        setFilteredEmployees(data)
+        
+        // Companies ve brands'i çıkar
+        const uniqueCompanies = [...new Set(data.map((emp: Employee) => emp.organization).filter(Boolean))]
+        const uniqueBrands = [...new Set(data.map((emp: Employee) => emp.brand?.brandName).filter(Boolean))]
+        
+        setCompanies(uniqueCompanies as string[])
+        setBrands(uniqueBrands as string[])
+      } catch (error) {
+        console.error('Error fetching data:', error)
+        setEmployees([])
+        setFilteredEmployees([])
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchData()
+  }, [])
 
   // Ağaç yapısını oluştur - Basit managerId bağlantıları
-  const buildTree = (employees: EmployeeWithRelations[]) => {
-    const employeeMap = new Map<string, EmployeeWithRelations>()
-    const rootEmployees: EmployeeWithRelations[] = []
+  const buildTree = (employees: Employee[]) => {
+    const employeeMap = new Map<string, Employee>()
+    const rootEmployees: Employee[] = []
 
     // Tüm çalışanları map'e ekle
     employees.forEach(emp => {
@@ -359,7 +409,12 @@ export default function TreeViewPage({ employees, companies, brands }: TreeViewP
 
         {/* Ağaç Görünümü */}
         <div className="bg-white rounded-lg shadow-sm border p-6">
-          {treeData.length === 0 ? (
+          {loading ? (
+            <div className="text-center py-8">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
+              <p className="text-gray-500 mt-2">Veriler yükleniyor...</p>
+            </div>
+          ) : treeData.length === 0 ? (
             <p className="text-gray-500 text-center py-8">
               Gösterilecek çalışan bulunamadı.
             </p>
@@ -374,44 +429,4 @@ export default function TreeViewPage({ employees, companies, brands }: TreeViewP
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  try {
-    const employees = await prisma.employee.findMany({
-      include: {
-        position: true,
-        department: true,
-        brand: true,
-        manager: true,
-        subordinates: true,
-        location: true,
-      },
-      orderBy: { firstLastName: 'asc' }
-    })
-
-    const companies = await prisma.employee.findMany({
-      select: { organization: true },
-      distinct: ['organization']
-    }).then(results => results.map(r => r.organization).filter(Boolean) as string[])
-
-    const brands = await prisma.brand.findMany({
-      select: { brandName: true }
-    }).then(results => results.map(r => r.brandName))
-
-    return {
-      props: {
-        employees,
-        companies,
-        brands,
-      },
-    }
-  } catch (error) {
-    console.error('Error fetching data:', error)
-    return {
-      props: {
-        employees: [],
-        companies: [],
-        brands: [],
-      },
-    }
-  }
-}
+export default dynamic(() => Promise.resolve(TreeViewPage), { ssr: false })
