@@ -275,7 +275,7 @@ function TreeViewPage() {
       .slice(0, 2)
   }
 
-  const getLevelClass = (levelName: string | null) => {
+  const getLevelClass = (levelName: string | null | undefined) => {
     if (!levelName) return ''
     
     const level = levelName.toLowerCase()
