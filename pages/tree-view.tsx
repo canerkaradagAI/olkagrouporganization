@@ -147,7 +147,7 @@ function TreeViewPage() {
   // Tüm düğümleri açık yap
   useEffect(() => {
     const allNodeIds = new Set<string>()
-    const addAllNodes = (employees: EmployeeWithRelations[]) => {
+    const addAllNodes = (employees: Employee[]) => {
       employees.forEach(emp => {
         allNodeIds.add(emp.currAccCode)
         if (emp.subordinates && emp.subordinates.length > 0) {
@@ -170,13 +170,13 @@ function TreeViewPage() {
 
     if (selectedBrand !== 'all') {
       const brandFilteredEmployees = filtered.filter(emp => emp.brand?.brandName === selectedBrand)
-      const allRelevantEmployees = new Set<EmployeeWithRelations>()
+      const allRelevantEmployees = new Set<Employee>()
 
       // Seçilen markadaki tüm çalışanları ekle
       brandFilteredEmployees.forEach(emp => allRelevantEmployees.add(emp))
 
       // Her çalışanın yöneticilerini yukarı doğru ekle
-      const addManagers = (emp: EmployeeWithRelations) => {
+      const addManagers = (emp: Employee) => {
         if (emp.managerId) {
           const manager = employees.find(e => e.currAccCode === emp.managerId)
           if (manager && !allRelevantEmployees.has(manager)) {
@@ -193,13 +193,13 @@ function TreeViewPage() {
     if (selectedEmployee !== 'all') {
       const selectedEmp = employees.find(emp => emp.currAccCode === selectedEmployee)
       if (selectedEmp) {
-        const allRelevantEmployees = new Set<EmployeeWithRelations>()
+        const allRelevantEmployees = new Set<Employee>()
         
         // Seçilen çalışanı ekle
         allRelevantEmployees.add(selectedEmp)
         
         // Alt çalışanları ekle (recursive)
-        const addSubordinates = (emp: EmployeeWithRelations) => {
+        const addSubordinates = (emp: Employee) => {
           const subordinates = employees.filter(e => e.managerId === emp.currAccCode)
           subordinates.forEach(sub => {
             if (!allRelevantEmployees.has(sub)) {
@@ -210,7 +210,7 @@ function TreeViewPage() {
         }
         
         // Üst yöneticileri ekle (recursive)
-        const addManagers = (emp: EmployeeWithRelations) => {
+        const addManagers = (emp: Employee) => {
           if (emp.managerId) {
             const manager = employees.find(e => e.currAccCode === emp.managerId)
             if (manager && !allRelevantEmployees.has(manager)) {
@@ -248,7 +248,7 @@ function TreeViewPage() {
   // Tümünü genişlet
   const expandAll = () => {
     const allIds = new Set<string>()
-    const collectIds = (employees: EmployeeWithRelations[]) => {
+    const collectIds = (employees: Employee[]) => {
       employees.forEach(emp => {
         allIds.add(emp.currAccCode)
         if (emp.subordinates && emp.subordinates.length > 0) {
@@ -288,7 +288,7 @@ function TreeViewPage() {
   }
 
   // Çalışan kartını render et
-  const renderEmployee = (employee: EmployeeWithRelations, level: number = 0) => {
+  const renderEmployee = (employee: Employee, level: number = 0) => {
     const isExpanded = expandedNodes.has(employee.currAccCode)
     const hasSubordinates = employee.subordinates && employee.subordinates.length > 0
     const isResigned = employee.isBlocked // İşten ayrılmış olanlar için
