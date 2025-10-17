@@ -103,7 +103,7 @@ function TreeViewPage() {
     })
 
     // Alt çalışanları seviye bazlı sırala
-    const sortSubordinates = (emp: EmployeeWithRelations) => {
+    const sortSubordinates = (emp: Employee) => {
       if (emp.subordinates && emp.subordinates.length > 0) {
         emp.subordinates.sort((a, b) => {
           // Önce seviyeye göre, sonra isme göre sırala
