@@ -1,4 +1,4 @@
-# Olka Group Organizasyon Portalı
+# Olka Group Organizasyon Portal
 
 Modern organizasyon yönetim sistemi - Next.js, Prisma, SQLite ile geliştirilmiştir.
 
