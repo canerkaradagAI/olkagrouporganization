@@ -7,32 +7,21 @@ import dynamic from 'next/dynamic'
 interface Employee {
   currAccCode: string
   firstLastName: string
-  organization?: string | null
-  positionId?: number | null
+  positionName?: string
+  departmentName?: string
+  departmentId?: number | null
+  managerName?: string
+  locationName?: string
   locationId?: number | null
-  isBlocked: boolean
-  isManager: boolean
-  managerId?: string | null
+  brandName?: string
   brandId?: number | null
+  companyName?: string
+  companyId?: number | null
+  organization?: string
+  isManager: boolean
+  isBlocked?: boolean
   levelName?: string | null
-  position?: {
-    positionId: number
-    positionName: string
-  } | null
-  department?: {
-    departmentId: number
-    departmentName: string
-  } | null
-  brand?: {
-    brandId: number
-    brandName: string
-  } | null
-  manager?: Employee | null
   subordinates?: Employee[]
-  location?: {
-    locationId: number
-    locationName: string
-  } | null
 }
 
 interface TreeViewProps {
@@ -61,8 +50,8 @@ function TreeViewPage() {
         setFilteredEmployees(data)
         
         // Companies ve brands'i çıkar
-        const uniqueCompanies = [...new Set(data.map((emp: Employee) => emp.organization).filter(Boolean))]
-        const uniqueBrands = [...new Set(data.map((emp: Employee) => emp.brand?.brandName).filter(Boolean))]
+        const uniqueCompanies = [...new Set(data.map((emp: Employee) => emp.companyName).filter(Boolean))]
+        const uniqueBrands = [...new Set(data.map((emp: Employee) => emp.brandName).filter(Boolean))]
         
         setCompanies(uniqueCompanies as string[])
         setBrands(uniqueBrands as string[])
@@ -78,7 +67,7 @@ function TreeViewPage() {
     fetchData()
   }, [])
 
-  // Ağaç yapısını oluştur - Basit managerId bağlantıları
+  // Ağaç yapısını oluştur - Yasin Kavşak'tan başlayarak hiyerarşi
   const buildTree = (employees: Employee[]) => {
     const employeeMap = new Map<string, Employee>()
     const rootEmployees: Employee[] = []
@@ -88,17 +77,40 @@ function TreeViewPage() {
       employeeMap.set(emp.currAccCode, { ...emp, subordinates: [] })
     })
 
-    // Hiyerarşiyi oluştur - direkt managerId bağlantıları
+    // Yasin Kavşak'ı root olarak bul
+    const yasinKavsak = employees.find(emp => emp.firstLastName === 'Yasin Kavşak')
+    if (yasinKavsak) {
+      const yasinEmployee = employeeMap.get(yasinKavsak.currAccCode)!
+      rootEmployees.push(yasinEmployee)
+    }
+
+    // Hiyerarşiyi oluştur - managerName bağlantıları
     employees.forEach(emp => {
       const employee = employeeMap.get(emp.currAccCode)!
       
-      if (emp.managerId && employeeMap.has(emp.managerId)) {
-        const manager = employeeMap.get(emp.managerId)!
-        if (!manager.subordinates) manager.subordinates = []
-        manager.subordinates.push(employee)
+      // Yasin Kavşak'ı atla, zaten root olarak eklendi
+      if (emp.firstLastName === 'Yasin Kavşak') return
+      
+      if (emp.managerName && emp.managerName.trim() !== '') {
+        const manager = Array.from(employeeMap.values()).find(mgr => mgr.firstLastName === emp.managerName)
+        if (manager) {
+          if (!manager.subordinates) manager.subordinates = []
+          manager.subordinates.push(employee)
+        } else {
+          // Manager bulunamazsa Yasin'e bağla
+          if (yasinKavsak) {
+            const yasinEmployee = employeeMap.get(yasinKavsak.currAccCode)!
+            if (!yasinEmployee.subordinates) yasinEmployee.subordinates = []
+            yasinEmployee.subordinates.push(employee)
+          }
+        }
       } else {
-        // Root employee (yöneticisi yok veya yöneticisi listede yok)
-        rootEmployees.push(employee)
+        // Manager yoksa Yasin'e bağla
+        if (yasinKavsak) {
+          const yasinEmployee = employeeMap.get(yasinKavsak.currAccCode)!
+          if (!yasinEmployee.subordinates) yasinEmployee.subordinates = []
+          yasinEmployee.subordinates.push(employee)
+        }
       }
     })
 
@@ -124,8 +136,12 @@ function TreeViewPage() {
       }
     }
 
-    // Root çalışanları sırala
+    // Root çalışanları sırala (Yasin Kavşak her zaman ilk sırada)
     rootEmployees.sort((a, b) => {
+      // Yasin Kavşak her zaman ilk sırada
+      if (a.firstLastName === 'Yasin Kavşak') return -1
+      if (b.firstLastName === 'Yasin Kavşak') return 1
+      
       const levelOrder = [
         'Yönetim Kurulu', 'Genel Müdür', 'C Level', 'Direktör', 
         'Kıdemli Müdür', 'Müdür', 'Kıdemli Yönetici', 'Yönetici',
@@ -165,11 +181,11 @@ function TreeViewPage() {
     let filtered = employees
 
     if (selectedCompany !== 'all') {
-      filtered = filtered.filter(emp => emp.organization === selectedCompany)
+      filtered = filtered.filter(emp => emp.companyName === selectedCompany)
     }
 
     if (selectedBrand !== 'all') {
-      const brandFilteredEmployees = filtered.filter(emp => emp.brand?.brandName === selectedBrand)
+      const brandFilteredEmployees = filtered.filter(emp => emp.brandName === selectedBrand)
       const allRelevantEmployees = new Set<Employee>()
 
       // Seçilen markadaki tüm çalışanları ekle
@@ -177,8 +193,8 @@ function TreeViewPage() {
 
       // Her çalışanın yöneticilerini yukarı doğru ekle
       const addManagers = (emp: Employee) => {
-        if (emp.managerId) {
-          const manager = employees.find(e => e.currAccCode === emp.managerId)
+        if (emp.managerName && emp.managerName.trim() !== '') {
+          const manager = employees.find(e => e.firstLastName === emp.managerName)
           if (manager && !allRelevantEmployees.has(manager)) {
             allRelevantEmployees.add(manager)
             addManagers(manager)
@@ -200,7 +216,7 @@ function TreeViewPage() {
         
         // Alt çalışanları ekle (recursive)
         const addSubordinates = (emp: Employee) => {
-          const subordinates = employees.filter(e => e.managerId === emp.currAccCode)
+          const subordinates = employees.filter(e => e.managerName === emp.firstLastName)
           subordinates.forEach(sub => {
             if (!allRelevantEmployees.has(sub)) {
               allRelevantEmployees.add(sub)
@@ -211,8 +227,8 @@ function TreeViewPage() {
         
         // Üst yöneticileri ekle (recursive)
         const addManagers = (emp: Employee) => {
-          if (emp.managerId) {
-            const manager = employees.find(e => e.currAccCode === emp.managerId)
+          if (emp.managerName && emp.managerName.trim() !== '') {
+            const manager = employees.find(e => e.firstLastName === emp.managerName)
             if (manager && !allRelevantEmployees.has(manager)) {
               allRelevantEmployees.add(manager)
               addManagers(manager)
@@ -275,6 +291,20 @@ function TreeViewPage() {
       .slice(0, 2)
   }
 
+  // Tüm seviyelerdeki alt çalışan sayısını recursive olarak hesapla
+  const getTotalSubordinatesCount = (employee: Employee): number => {
+    if (!employee.subordinates || employee.subordinates.length === 0) {
+      return 0
+    }
+    
+    let totalCount = employee.subordinates.length
+    employee.subordinates.forEach(sub => {
+      totalCount += getTotalSubordinatesCount(sub)
+    })
+    
+    return totalCount
+  }
+
   const getLevelClass = (levelName: string | null | undefined) => {
     if (!levelName) return ''
     
@@ -291,6 +321,7 @@ function TreeViewPage() {
   const renderEmployee = (employee: Employee, level: number = 0) => {
     const isExpanded = expandedNodes.has(employee.currAccCode)
     const hasSubordinates = employee.subordinates && employee.subordinates.length > 0
+    const totalSubordinatesCount = getTotalSubordinatesCount(employee)
     const isResigned = employee.isBlocked // İşten ayrılmış olanlar için
 
     return (
@@ -308,7 +339,10 @@ function TreeViewPage() {
                 {getInitials(employee.firstLastName)}
               </span>
               <span className="name-part">{employee.firstLastName}</span>
-              <span className="details-part"> - {employee.position?.positionName} ({employee.department?.departmentName})</span>
+              <span className="details-part"> - {employee.positionName} ({employee.departmentName})</span>
+              {totalSubordinatesCount > 0 && (
+                <span className="subordinates-count"> - ({totalSubordinatesCount})</span>
+              )}
             </div>
           </div>
         </div>
@@ -383,7 +417,7 @@ function TreeViewPage() {
                 <option value="all">Tümü</option>
                 {employees.map(employee => (
                   <option key={employee.currAccCode} value={employee.currAccCode}>
-                    {employee.firstLastName} - {employee.position?.positionName}
+                    {employee.firstLastName} - {employee.positionName}
                   </option>
                 ))}
               </select>

@@ -67,11 +67,11 @@ model Company {
 }
 
 model Department {
-  departmentId   Int         @id @default(autoincrement())
-  departmentName String      @unique
+  departmentId   Int        @id @default(autoincrement())
+  departmentName String     @unique
   employees      Employee[]
   positions      Position[]
-  
+
   @@map("departments")
 }
 
@@ -118,7 +118,7 @@ model Position {
   employees    Employee[]
   assignments  PositionAssignment[]
   department   Department?          @relation(fields: [departmentId], references: [departmentId])
-  
+
   @@map("positions")
 }
 

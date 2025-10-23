@@ -1354,6 +1354,12 @@ body {
   font-size: 16px;
 }
 
+.employee-name .subordinates-count {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .expand-indicator {
   margin-left: auto;
   font-size: 12px;

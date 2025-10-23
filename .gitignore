@@ -68,3 +68,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+.vercel
+
+# Scripts (not needed in production)
+scripts/
+.env*.local
