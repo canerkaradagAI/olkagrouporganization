@@ -1,10 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { PrismaClient } from '@prisma/client'
+import { prisma } from '../../../lib/db'
 import formidable from 'formidable'
 import * as XLSX from 'xlsx'
 import fs from 'fs'
-
-const prisma = new PrismaClient()
 
 export const config = {
   api: {
@@ -88,7 +86,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (filePath && fs.existsSync(filePath)) {
       fs.unlinkSync(filePath)
     }
-    await prisma.$disconnect()
   }
 }
 

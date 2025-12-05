@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Head from 'next/head'
 import { toast } from 'react-hot-toast'
 import dynamic from 'next/dynamic'
+import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 
 interface Employee {
   currAccCode: string
@@ -267,11 +268,11 @@ function ManagementPage() {
                  <div className="flex justify-center items-center gap-8 mb-8">
                    {/* Yasin Kavşak */}
         <div className="bg-yellow-100 border border-yellow-300 rounded-lg p-3 text-center">
-          <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
-            <span className="text-white font-bold text-sm">
+          <Avatar className="w-12 h-12 mx-auto mb-2">
+            <AvatarFallback className="bg-blue-600 text-white font-bold text-sm">
               {filteredData.managementLevels[0]?.employees[0]?.firstLastName.split(' ').map(n => n[0]).join('')}
-            </span>
-          </div>
+            </AvatarFallback>
+          </Avatar>
           <div className="text-yellow-800 font-medium text-sm">Yönetim Kurulu</div>
           <div className="font-semibold text-gray-900 text-base">{filteredData.managementLevels[0]?.employees[0]?.firstLastName}</div>
           <div className="text-sm text-gray-600">{filteredData.managementLevels[0]?.employees[0]?.position?.positionName}</div>
@@ -285,9 +286,9 @@ function ManagementPage() {
                        {/* İç Denetim */}
                        {filteredData.yasinDirectDepartments[0]?.departments.map(department => (
                        <div key={department.departmentId} className="bg-purple-50 border border-purple-200 rounded-lg p-3 text-center">
-                         <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                           <span className="text-white font-semibold text-sm">İD</span>
-                         </div>
+                         <Avatar className="w-12 h-12 mx-auto mb-2">
+                           <AvatarFallback className="bg-purple-600 text-white font-semibold text-sm">İD</AvatarFallback>
+                         </Avatar>
                          <div className="text-purple-800 font-medium text-sm">{department.departmentName}</div>
                          <div className="text-sm text-purple-600 mt-1">Direkt Bağlı</div>
                        </div>
@@ -319,11 +320,11 @@ function ManagementPage() {
                        onDragLeave={handleDragLeave}
                        onDrop={(e) => handleDrop(e, employee)}
                      >
-                       <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                         <span className="text-white font-semibold text-sm">
+                       <Avatar className="w-12 h-12 mx-auto mb-2">
+                         <AvatarFallback className="bg-blue-600 text-white font-bold text-sm">
                            {employee.firstLastName.split(' ').map(n => n[0]).join('')}
-                         </span>
-                       </div>
+                         </AvatarFallback>
+                       </Avatar>
                        <div className="text-blue-800 font-medium text-sm">{employee.department?.departmentName}</div>
                        <div className="font-semibold text-gray-900 text-base">{employee.firstLastName}</div>
                        <div className="text-sm text-gray-600">{employee.position?.positionName}</div>
@@ -390,11 +391,11 @@ function ManagementPage() {
           {filteredData.cLevelWithDepartments.map(({ employee, departments }) => (
             <div key={employee.currAccCode} className="border rounded-lg p-4">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-semibold text-sm">
+                <Avatar className="w-10 h-10">
+                  <AvatarFallback className="bg-blue-600 text-white font-semibold text-sm">
                     {employee.firstLastName.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
+                  </AvatarFallback>
+                </Avatar>
                 <div>
                   <h3 className="font-semibold text-gray-900">{employee.firstLastName}</h3>
                   <p className="text-sm text-gray-600">{employee.position?.positionName}</p>

@@ -1261,31 +1261,13 @@ body {
   min-height: 50px;
 }
 
-/* Seviye bazlı border renkleri */
-.employee-card.level-yonetim-kurulu {
-  border-color: #7c2d12; /* Bordo */
+/* Yönetici bazlı border renkleri */
+.employee-card.is-manager {
+  border-color: #3b82f6; /* Mavi - Yöneticiler */
 }
 
-.employee-card.level-c-level,
-.employee-card.level-genel-mudur {
-  border-color: #ea580c; /* Koyu turuncu */
-}
-
-.employee-card.level-direktor,
-.employee-card.level-kidemli-mudur,
-.employee-card.level-mudur,
-.employee-card.level-kidemli-yonetici,
-.employee-card.level-yonetici {
-  border-color: #3b82f6; /* Mavi */
-}
-
-.employee-card.level-kidemli-uzman,
-.employee-card.level-uzman,
-.employee-card.level-uzman-yardimcisi,
-.employee-card.level-mavi-yaka,
-.employee-card.level-destek,
-.employee-card.level-stajyer {
-  border-color: #6b7280; /* Gri */
+.employee-card:not(.is-manager) {
+  border-color: #6b7280; /* Gri - Diğerleri */
 }
 
 .employee-card:hover {
@@ -1448,4 +1430,35 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+}
+
+/* Select Dropdown Scrollbar Stilleri */
+.select-viewport {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select-viewport::-webkit-scrollbar {
+  width: 8px;
+}
+
+.select-viewport::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.select-viewport::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.select-viewport::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* Firefox için scrollbar stilleri */
+.select-viewport {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e0 #f1f1f1;
 }

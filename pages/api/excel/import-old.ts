@@ -1,8 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { PrismaClient } from '@prisma/client'
+import { prisma } from '../../../lib/db'
 import * as XLSX from 'xlsx'
-
-const prisma = new PrismaClient()
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
@@ -319,8 +317,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   } catch (error: any) {
     console.error('Excel import hatası:', error)
     res.status(500).json({ message: 'Import hatası: ' + error.message })
-  } finally {
-    await prisma.$disconnect()
   }
 }
 

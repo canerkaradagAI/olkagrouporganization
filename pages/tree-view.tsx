@@ -11,6 +11,7 @@ interface Employee {
   departmentName?: string
   departmentId?: number | null
   managerName?: string
+  managerId?: string | null
   locationName?: string
   locationId?: number | null
   brandName?: string
@@ -84,33 +85,53 @@ function TreeViewPage() {
       rootEmployees.push(yasinEmployee)
     }
 
-    // Hiyerarşiyi oluştur - managerName bağlantıları
+    // Hiyerarşiyi oluştur - managerId bağlantıları (daha güvenilir)
     employees.forEach(emp => {
       const employee = employeeMap.get(emp.currAccCode)!
       
       // Yasin Kavşak'ı atla, zaten root olarak eklendi
       if (emp.firstLastName === 'Yasin Kavşak') return
       
+      // Önce managerId ile eşleştirmeyi dene (daha güvenilir)
+      if (emp.managerId && emp.managerId.trim() !== '') {
+        const manager = employeeMap.get(emp.managerId)
+        if (manager) {
+          if (!manager.subordinates) manager.subordinates = []
+          manager.subordinates.push(employee)
+          return
+        }
+      }
+      
+      // managerId yoksa veya bulunamazsa, managerName ile dene
       if (emp.managerName && emp.managerName.trim() !== '') {
         const manager = Array.from(employeeMap.values()).find(mgr => mgr.firstLastName === emp.managerName)
         if (manager) {
           if (!manager.subordinates) manager.subordinates = []
           manager.subordinates.push(employee)
-        } else {
-          // Manager bulunamazsa Yasin'e bağla
-          if (yasinKavsak) {
-            const yasinEmployee = employeeMap.get(yasinKavsak.currAccCode)!
-            if (!yasinEmployee.subordinates) yasinEmployee.subordinates = []
-            yasinEmployee.subordinates.push(employee)
-          }
+          return
         }
-      } else {
-        // Manager yoksa Yasin'e bağla
+      }
+      
+      // C Level veya Genel Müdür seviyesindeki çalışanları Yasin'e bağla
+      // (Eğer managerId'si yoksa veya manager bulunamazsa)
+      const topLevelNames = ['C Level', 'Genel Müdür', 'Yönetim Kurulu']
+      if (emp.levelName && topLevelNames.includes(emp.levelName)) {
+        // C Level çalışanların managerId'si Yasin'in currAccCode'u olmalı
+        // Eğer managerId yoksa veya manager bulunamazsa, direkt Yasin'e bağla
         if (yasinKavsak) {
           const yasinEmployee = employeeMap.get(yasinKavsak.currAccCode)!
           if (!yasinEmployee.subordinates) yasinEmployee.subordinates = []
           yasinEmployee.subordinates.push(employee)
+          return
         }
+      }
+      
+      // Manager bulunamazsa, yine de Yasin'e bağla (hiyerarşiye dahil etmek için)
+      // Bu çalışanların manager ilişkisi eksik olabilir, ama görünür olmalılar
+      if (yasinKavsak) {
+        const yasinEmployee = employeeMap.get(yasinKavsak.currAccCode)!
+        if (!yasinEmployee.subordinates) yasinEmployee.subordinates = []
+        yasinEmployee.subordinates.push(employee)
       }
     })
 
@@ -291,37 +312,38 @@ function TreeViewPage() {
       .slice(0, 2)
   }
 
-  // Tüm seviyelerdeki alt çalışan sayısını recursive olarak hesapla
-  const getTotalSubordinatesCount = (employee: Employee): number => {
+  // Yönetici ve personel sayılarını ayrı ayrı hesapla
+  const getSubordinatesBreakdown = (employee: Employee): { managers: number; personnel: number } => {
     if (!employee.subordinates || employee.subordinates.length === 0) {
-      return 0
+      return { managers: 0, personnel: 0 }
     }
     
-    let totalCount = employee.subordinates.length
+    let managers = 0
+    let personnel = 0
+    
     employee.subordinates.forEach(sub => {
-      totalCount += getTotalSubordinatesCount(sub)
+      if (sub.isManager) {
+        managers++
+      } else {
+        personnel++
+      }
+      
+      // Recursive olarak alt çalışanları da say
+      const subBreakdown = getSubordinatesBreakdown(sub)
+      managers += subBreakdown.managers
+      personnel += subBreakdown.personnel
     })
     
-    return totalCount
+    return { managers, personnel }
   }
 
-  const getLevelClass = (levelName: string | null | undefined) => {
-    if (!levelName) return ''
-    
-    const level = levelName.toLowerCase()
-      .replace(/\s+/g, '-')
-      .replace(/&/g, '')
-      .replace(/\(/g, '')
-      .replace(/\)/g, '')
-    
-    return `level-${level}`
-  }
+  // Seviye class'ı artık kullanılmıyor, sadece yönetici kontrolü yapılıyor
 
   // Çalışan kartını render et
   const renderEmployee = (employee: Employee, level: number = 0) => {
     const isExpanded = expandedNodes.has(employee.currAccCode)
     const hasSubordinates = employee.subordinates && employee.subordinates.length > 0
-    const totalSubordinatesCount = getTotalSubordinatesCount(employee)
+    const breakdown = getSubordinatesBreakdown(employee)
     const isResigned = employee.isBlocked // İşten ayrılmış olanlar için
 
     return (
@@ -329,7 +351,7 @@ function TreeViewPage() {
         <div 
           className={`employee-card ${hasSubordinates ? 'has-subordinates' : ''} ${
             isResigned ? 'opacity-60' : ''
-          } ${getLevelClass(employee.levelName)}`}
+          } ${employee.isManager ? 'is-manager' : ''}`}
           onClick={() => hasSubordinates && toggleNode(employee.currAccCode)}
         >
           {/* Çalışan Detayları - Avatar ile birlikte tek satırda */}
@@ -340,8 +362,13 @@ function TreeViewPage() {
               </span>
               <span className="name-part">{employee.firstLastName}</span>
               <span className="details-part"> - {employee.positionName} ({employee.departmentName})</span>
-              {totalSubordinatesCount > 0 && (
-                <span className="subordinates-count"> - ({totalSubordinatesCount})</span>
+              {(breakdown.managers > 0 || breakdown.personnel > 0) && (
+                <span className="subordinates-count">
+                  {' '}
+                  {breakdown.managers > 0 && `Yönetici: ${breakdown.managers} kişi`}
+                  {breakdown.managers > 0 && breakdown.personnel > 0 && ', '}
+                  {breakdown.personnel > 0 && `Personel: ${breakdown.personnel} kişi`}
+                </span>
               )}
             </div>
           </div>

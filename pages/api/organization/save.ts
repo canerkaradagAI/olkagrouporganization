@@ -1,7 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
+import { prisma } from '../../../lib/db'
 
 interface OrganizationChange {
   currAccCode: string
@@ -58,7 +56,5 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       message: 'Organizasyon değişiklikleri kaydedilirken hata oluştu',
       error: error instanceof Error ? error.message : String(error) 
     })
-  } finally {
-    await prisma.$disconnect()
   }
 }

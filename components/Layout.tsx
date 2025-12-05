@@ -49,6 +49,12 @@ const navigation: NavItem[] = [
     description: 'Çalışan hiyerarşisi liste görünümü'
   },
   {
+    name: 'Personel Listesi',
+    href: '/personnel-list',
+    icon: UsersIcon,
+    description: 'Tüm personel listesi ve detayları'
+  },
+  {
     name: 'Raporlar',
     href: '/reports',
     icon: ChartBarIcon,
@@ -91,14 +97,14 @@ export default function Layout({ children }: LayoutProps) {
               </Link>
 
               {/* Desktop Navigation */}
-              <nav className="hidden md:flex space-x-8">
-                {navigation.slice(0, 3).map((item) => {
+              <nav className="hidden md:flex space-x-4">
+                {navigation.map((item) => {
                   const isActive = router.pathname === item.href
                   return (
                     <Link
                       key={item.name}
                       href={item.href}
-                      className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                      className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
                         isActive
                           ? 'bg-blue-100 text-blue-700'
                           : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
@@ -114,31 +120,6 @@ export default function Layout({ children }: LayoutProps) {
 
             {/* Right side */}
             <div className="flex items-center gap-4">
-              {/* More Menu */}
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm" className="hidden md:flex items-center gap-2">
-                    <MenuIcon className="h-4 w-4" />
-                    Daha Fazla
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-56">
-                  {navigation.slice(3).map((item) => (
-                    <DropdownMenuItem key={item.name} asChild>
-                      <Link href={item.href} className="flex items-center gap-2 w-full">
-                        <item.icon className="h-4 w-4" />
-                        <div>
-                          <div className="font-medium">{item.name}</div>
-                          {item.description && (
-                            <div className="text-xs text-gray-500">{item.description}</div>
-                          )}
-                        </div>
-                      </Link>
-                    </DropdownMenuItem>
-                  ))}
-                </DropdownMenuContent>
-              </DropdownMenu>
-
               {/* User Menu */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -175,21 +156,21 @@ export default function Layout({ children }: LayoutProps) {
 
         {/* Mobile Navigation */}
         <div className="md:hidden border-t">
-          <div className="flex overflow-x-auto px-4 py-2 space-x-4">
-            {navigation.slice(0, 3).map((item) => {
+          <div className="flex overflow-x-auto px-4 py-2 space-x-2">
+            {navigation.map((item) => {
               const isActive = router.pathname === item.href
               return (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`flex flex-col items-center gap-1 px-3 py-2 rounded-md whitespace-nowrap text-xs font-medium transition-colors ${
+                  className={`flex flex-col items-center gap-1 px-2 py-2 rounded-md whitespace-nowrap text-xs font-medium transition-colors ${
                     isActive
                       ? 'bg-blue-100 text-blue-700'
                       : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
                   }`}
                 >
                   <item.icon className="h-4 w-4" />
-                  {item.name}
+                  <span className="text-[10px]">{item.name}</span>
                 </Link>
               )
             })}

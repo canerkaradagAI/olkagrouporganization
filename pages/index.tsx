@@ -94,13 +94,6 @@ export default function HomePage() {
       href: '/test-dashboard',
       icon: ChartBarIcon,
       color: 'bg-purple-500'
-    },
-    {
-      title: 'Sürükle-Bırak Test',
-      description: 'Organizasyon yönetimi',
-      href: '/test-drag-drop',
-      icon: PlusIcon,
-      color: 'bg-orange-500'
     }
   ]
 

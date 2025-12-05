@@ -1,10 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { PrismaClient } from '@prisma/client'
+import { prisma } from '../../../lib/db'
 import formidable from 'formidable'
 import * as XLSX from 'xlsx'
 import fs from 'fs'
-
-const prisma = new PrismaClient()
 
 export const config = {
   api: {
@@ -412,7 +410,5 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   } catch (error: any) {
     console.error('Excel import hatası:', error)
     res.status(500).json({ message: 'Import hatası: ' + error.message })
-  } finally {
-    await prisma.$disconnect()
   }
 }

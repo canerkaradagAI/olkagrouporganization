@@ -9,7 +9,7 @@ export default function TestPage() {
           Next.js sunucusu başarıyla çalışıyor.
         </p>
         <div className="space-y-2">
-          <p className="text-sm text-gray-500">• Database: SQLite</p>
+          <p className="text-sm text-gray-500">• Database: PostgreSQL (Prisma Accelerate)</p>
           <p className="text-sm text-gray-500">• Port: 3000</p>
           <p className="text-sm text-gray-500">• Status: Aktif</p>
         </div>

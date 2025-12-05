@@ -123,24 +123,25 @@ model Position {
 }
 
 model Employee {
-  currAccCode   String               @id
-  firstLastName String
-  organization  String?
-  positionId    Int?
-  locationId    Int?
-  departmentId  Int?
-  isBlocked     Boolean              @default(false)
-  isManager     Boolean              @default(false)
-  managerId     String?
-  brandId       Int?
-  levelName     String?
-  manager       Employee?            @relation("EmployeeManager", fields: [managerId], references: [currAccCode])
-  subordinates  Employee[]           @relation("EmployeeManager")
-  brand         Brand?               @relation(fields: [brandId], references: [brandId])
-  department    Department?          @relation(fields: [departmentId], references: [departmentId])
-  location      Location?            @relation(fields: [locationId], references: [locationId])
-  position      Position?            @relation(fields: [positionId], references: [positionId])
-  assignments   PositionAssignment[]
+  currAccCode      String               @id
+  firstLastName    String
+  organization     String?
+  positionId       Int?
+  locationId       Int?
+  departmentId     Int?
+  isBlocked        Boolean              @default(false)
+  isManager        Boolean              @default(false)
+  hideFromChart    Boolean              @default(false)
+  managerId        String?
+  brandId          Int?
+  levelName        String?
+  manager          Employee?            @relation("EmployeeManager", fields: [managerId], references: [currAccCode])
+  subordinates     Employee[]           @relation("EmployeeManager")
+  brand            Brand?               @relation(fields: [brandId], references: [brandId])
+  department       Department?          @relation(fields: [departmentId], references: [departmentId])
+  location         Location?            @relation(fields: [locationId], references: [locationId])
+  position         Position?            @relation(fields: [positionId], references: [positionId])
+  assignments      PositionAssignment[]
 
   @@map("employees")
 }

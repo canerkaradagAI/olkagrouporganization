@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
     ports:
-      - "5433:5432"  # Port 5433 kullanarak sistem PostgreSQL'i etkilemez
+      - "5555:5432"  # Port 5555 kullanarak sistem PostgreSQL'i etkilemez
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped

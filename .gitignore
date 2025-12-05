@@ -73,3 +73,33 @@ Thumbs.db
 # Scripts (not needed in production)
 scripts/
 .env*.local
+
+# Archive folder (old utility scripts)
+archive/
+
+# Backup files
+prisma-backup-*.sql
+*.backup
+*.bak
+
+# Test files
+data/test-*.xlsx
+Kitap1.xlsx
+
+# Old database files (now using PostgreSQL)
+prisma/*.db
+prisma/*_backup_*.db
+
+# Utility scripts (root level - not needed in production)
+check-*.ts
+find-*.ts
+fix-*.ts
+setup-database.ts
+transfer-*.js
+import-*.js
+complete-*.js
+final-*.js
+fixed-*.js
+direct-*.js
+simple-*.js
+clear-*.js

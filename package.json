@@ -3,16 +3,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
+    "postinstall": "prisma generate",
     "backup": "backup_db.bat",
     "safe-dev": "npm run backup && npm run dev",
     "db:sqlite": "copy env.sqlite .env && npx prisma generate && npx prisma db push",
     "db:postgres": "copy env.postgresql .env && npx prisma generate && npx prisma db push",
     "db:start": "docker-compose up -d",
     "db:stop": "docker-compose down",
-    "db:reset": "docker-compose down -v && docker-compose up -d"
+    "db:reset": "docker-compose down -v && docker-compose up -d",
+    "db:export": "docker exec olka-postgres pg_dump -U postgres olkagroup > vercel-backup.sql",
+    "db:migrate": "prisma migrate deploy"
   },
   "prisma": {
     "seed": "tsx --require dotenv/config scripts/seed.ts"
