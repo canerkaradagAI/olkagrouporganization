@@ -8,6 +8,15 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
+    // Veritabanı bağlantısını test et
+    console.log('📊 Dashboard stats API çağrıldı')
+    console.log('📊 DATABASE_URL var mı?', !!process.env.DATABASE_URL)
+    console.log('📊 PRISMA_DATABASE_URL var mı?', !!process.env.PRISMA_DATABASE_URL)
+    
+    // Prisma bağlantısını test et
+    await prisma.$connect()
+    console.log('📊 Prisma bağlantısı başarılı')
+    
     // Gerçek veritabanı verilerini çek
     const [
       totalEmployees,
@@ -40,18 +49,26 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     console.log('📊 Dashboard stats:', stats)
     res.status(200).json(stats)
-  } catch (error) {
-    console.error('Dashboard stats error:', error)
+  } catch (error: any) {
+    console.error('❌ Dashboard stats error:', error)
+    console.error('❌ Error message:', error?.message)
+    console.error('❌ Error stack:', error?.stack)
     
-    // Fallback: Mock data döndür
-    const mockStats = {
-      totalEmployees: 1288,
-      totalDepartments: 26,
-      totalPositions: 608,
-      recentHires: 128
+    // Hata detaylarını response'a ekle (development için)
+    const errorResponse: any = {
+      error: true,
+      message: error?.message || 'Veritabanı bağlantı hatası',
+      totalEmployees: 0,
+      totalDepartments: 0,
+      totalPositions: 0,
+      recentHires: 0
     }
     
-    console.log('📊 Using mock stats:', mockStats)
-    res.status(200).json(mockStats)
+    if (process.env.NODE_ENV === 'development') {
+      errorResponse.details = error?.stack
+    }
+    
+    console.log('📊 Error response:', errorResponse)
+    res.status(500).json(errorResponse)
   }
 }
