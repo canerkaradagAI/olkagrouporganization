@@ -1,7 +1,4 @@
 
-import { useSession } from 'next-auth/react'
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
@@ -10,29 +7,6 @@ import { BarChart3, PieChart, TrendingUp, Download, Calendar, Users } from 'luci
 import Link from 'next/link'
 
 export default function ReportsPage() {
-  const sessionResult = useSession()
-  const { data: session, status } = sessionResult || {}
-  const router = useRouter()
-
-  useEffect(() => {
-    if (status === 'loading') return
-    if (!session) {
-      router.push('/auth/signin')
-      return
-    }
-  }, [session, status, router])
-
-  if (status === 'loading') {
-    return (
-      <Layout>
-        <div className="flex items-center justify-center min-h-[400px]">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-          <span className="ml-2">Yükleniyor...</span>
-        </div>
-      </Layout>
-    )
-  }
-
   return (
     <Layout>
       <Head>

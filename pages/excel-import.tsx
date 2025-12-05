@@ -1,22 +1,12 @@
 import { useState } from 'react'
-import { useSession } from 'next-auth/react'
-import { useRouter } from 'next/router'
 import Layout from '../components/Layout'
 import dynamic from 'next/dynamic'
 
 function ExcelImport() {
-  const { data: session, status } = useSession() || {}
-  const router = useRouter()
   const [file, setFile] = useState<File | null>(null)
   const [uploading, setUploading] = useState(false)
   const [message, setMessage] = useState('')
   const [selectedTable, setSelectedTable] = useState<string>('employee')
-
-  if (status === 'loading') return <div>Yükleniyor...</div>
-  if (!session) {
-    router.push('/auth/signin')
-    return null
-  }
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0]
