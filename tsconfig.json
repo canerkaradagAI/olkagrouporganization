@@ -37,6 +37,20 @@
     ".build/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "scripts/**/*",
+    "archive/**/*",
+    "setup-*.ts",
+    "check-*.ts",
+    "find-*.ts",
+    "fix-*.ts",
+    "transfer-*.js",
+    "import-*.js",
+    "complete-*.js",
+    "direct-*.js",
+    "final-*.js",
+    "fixed-*.js",
+    "simple-*.js",
+    "clear-*.js"
   ]
 }
